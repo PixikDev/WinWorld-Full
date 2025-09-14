@@ -1,0 +1,97 @@
+Name: sharorder
+Cooldown: 0
+Permission: nKits.kits.sharorder
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Шар
+        Порядка"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Регенерация
+        II (00:08)"}],"text":""}'
+      custom-model-data: 5006
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 0df091fc-4ffe-41a2-9579-05e42e4e0f2d
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 20.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 692dab25-9e68-4581-a137-03e340691c24
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.15
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: cd1208e6-3825-45b3-9ffe-cdb863ed32e9
+          operation: 1
+      internal: H4sIAAAAAAAA/02PP1KDQBxGfzo6E9HG3vEMYAxOihROFsky7GIIWQJdAhv5s4sZAupSeBAPYGWZ+zg2nkNKu/fN+5qnAWhwsShbIR7r520uuAZaTzteNznfn8Gg4W9NW/O9BgBHAzhla9FyOHDl6PEq09OVIxKFzX4HC114uNjd4YqpzRSbWPZ+dm+6avzvO2rW4UhEQyeLq3m7kUx3h77gM99I5PIlKrBOUPIadSKnRWR4IStJwXIiaUYCfOMFlhEXfumhJ0XsOIslFRQRRW1WeqF127vcsy2DoKijaNkRlEpcGePtfDIBOIdjnPYhJz/vV/mvPX04uN+X158fXwB/GZHISQoBAAA=
+      PublicBukkitValues:
+        minecraft:order: ORDER
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

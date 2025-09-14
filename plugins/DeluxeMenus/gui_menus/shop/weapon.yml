@@ -1,0 +1,394 @@
+menu_title: '§fꈁꀀꈂꌰꈂꀁ§0ꈃꄅ'
+size: 54
+items:
+  '10':
+    material: TRIDENT
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 13
+    display_name: '&b&lТрезубец Нептуна'
+    lore:
+      - '&7Громовержец'
+      - '&7Пронзание V'
+      - '&7Верность III '
+      - '&7Починка'
+      - '&7Прочность III'
+      - '&7Даёт рывок к цели, при успешном попадании трезубцем на расстоянии'
+      - ''
+      - ''
+      - '&7====================='
+      - ''
+      - '&fЦена: &61999 &fꐃ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1999
+      deny_commands:
+        - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] p take %player_name% 1999'
+      - '[console] xkit neptun %player_name%'
+      - '[console] cashback give %player_name% 1999'
+      - '[refresh]'
+  '11':
+    material: NETHERITE_SWORD
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 20
+    display_name: '&6Фарм Меч'
+    lore:
+      - '&7Добыча V'
+      - '&7Прочность V'
+      - '&cПроклятие утраты '
+      - ''
+      - '&7====================='
+      - ''
+      - '&fЦена: &6222 &fꐃ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 222
+      deny_commands:
+        - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] p take %player_name% 222'
+      - '[console] xkit mech %player_name%'
+      - '[console] cashback give %player_name% 222'
+      - '[refresh]'
+  '22':
+    material: fishing_rod
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 21
+    display_name: "&3&lРыбачок"
+    lore:
+      - "&7Везение моря V"
+      - "&7Приманка V"
+      - "&7Починка "
+      - "&7Прочность III"
+      - "&cПроклятие утраты "
+      - ""
+      - "&7====================="
+      - ""
+      - "&fЦена: &6119 &fꐃ"
+      - ""
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 119
+      deny_commands:
+        - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] p take %player_name% 119'
+      - '[console] xkit ydochka %player_name%'
+      - '[console] cashback give %player_name% 119'
+      - '[refresh]'
+  '33':
+    material: bow
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 22
+    display_name: "&7&lПушечка"
+    lore:
+      - "&7Воспламенение "
+      - "&7Бесконечность "
+      - "&7Починка "
+      - "&7Сила V"
+      - "&7Отбрасывание V"
+      - "&7Прочность II"
+      - ""
+      - "&7====================="
+      - ""
+      - "&fЦена: &6239 &fꐃ"
+      - ""
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 239
+      deny_commands:
+        - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] p take %player_name% 239'
+      - '[console] xkit Pushechka %player_name%'
+      - '[console] cashback give %player_name% 239'
+      - '[refresh]'
+  '44':
+    material: netherite_axe
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 23
+    display_name: "&6&lСекира"
+    lore:
+      - "&7Эффективность X"
+      - "&7Удача III"
+      - "&7Прочность III"
+      - "&cПроклятие утраты "
+      - ""
+      - "&7==================="
+      - ""
+      - "&fЦена: &699 &fꐃ"
+      - ""
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 99
+      deny_commands:
+        - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] p take %player_name% 99'
+      - '[console] xkit sekira %player_name%'
+      - '[console] cashback give %player_name% 99'
+      - '[refresh]'
+  '55':
+    material: NETHERITE_PICKAXE
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 24
+    display_name: "&6Кирка Каменщика"
+    lore:
+      - "&7Эффективность X"
+      - "&7Прочность III"
+      - "&cПроклятие утраты "
+      - ""
+      - "&7==================="
+      - ""
+      - "&fЦена: &6129 &fꐃ"
+      - ""
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 129
+      deny_commands:
+        - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] p take %player_name% 129'
+      - '[console] xkit kamenjik %player_name%'
+      - '[console] cashback give %player_name% 129'
+      - '[refresh]'
+  '66':
+    material: NETHERITE_SWORD
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 29
+    display_name: "&b&lФростморн"
+    lore:
+      - "&7Заговор огня II"
+      - "&7Острота VI"
+      - "&7Прочность III"
+      - "&cПроклятие утраты "
+      - "&9Неразрушаемый"
+      - ""
+      - "&7=================================="
+      - ""
+      - "&fЦена: &62999 &fꐃ"
+      - ""
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 2999
+      deny_commands:
+        - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] p take %player_name% 2999'
+      - '[console] xkit mechok %player_name%'
+      - '[console] cashback give %player_name% 2999'
+      - '[refresh]'
+  '77':
+    material: NETHERITE_SHOVEL
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 30
+    display_name: "&6&lЛопата &8Песочника "
+    lore:
+      - "&7Эффективность VIII"
+      - "&7Удача III"
+      - "&7Прочность III"
+      - "&cПроклятие утраты "
+      - ""
+      - "&7==================="
+      - ""
+      - "&fЦена: &669 &fꐃ"
+      - ""
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 69
+      deny_commands:
+        - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] p take %player_name% 69'
+      - '[console] xkit lapata %player_name%'
+      - '[console] cashback give %player_name% 69'
+      - '[refresh]'
+  '88':
+    material: crossbow
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 31
+    display_name: "&6Арбалет Домера"
+    lore:
+      - "&7Починка "
+      - "&7Тройной выстрел "
+      - "&7Пронзание IV"
+      - "&7Сила V"
+      - "&7Быстрая перезарядка III"
+      - "&7Прочность III"
+      - "&cПроклятие утраты "
+      - ""
+      - "&7====================="
+      - ""
+      - "&fЦена: &6239 &fꐃ"
+      - ""
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 239
+      deny_commands:
+        - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] p take %player_name% 239'
+      - '[console] xkit ARBALET %player_name%'
+      - '[console] cashback give %player_name% 239'
+      - '[refresh]'
+  '99':
+    material: netherite_axe
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 32
+    display_name: "&c&lТопор Кратоса"
+    lore:
+      - "&7Заговор огня II"
+      - "&7Острота VI"
+      - "&7Прочность III"
+      - ""
+      - "&7Когда в руке"
+      - "&cЗамедление II"
+      - ""
+      - "&7====================="
+      - ""
+      - "&fЦена: &6319 &fꐃ"
+      - ""
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 319
+      deny_commands:
+        - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] p take %player_name% 319'
+      - '[console] xkit toporkratos %player_name%'
+      - '[console] cashback give %player_name% 319'
+      - '[refresh]'
+  '919':
+    material: NETHERITE_PICKAXE
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 33
+    display_name: "&5&lВезунчик"
+    lore:
+      - "&7Удача V"
+      - "&7Починка "
+      - "&7Прочность III"
+      - "&cПроклятие утраты "
+      - ""
+      - "&7====================="
+      - ""
+      - "&fЦена: &6259 &fꐃ"
+      - ""
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 259
+      deny_commands:
+        - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] p take %player_name% 259'
+      - '[console] xkit kirka %player_name%'
+      - '[console] cashback give %player_name% 259'
+      - '[refresh]'
+  'информация':
+    material: CLOCK
+    model_data: 10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+      - ''
+      - ' &fВаш баланс: &6%playerpoints_points_formatted% &fꐃ'
+      - ''
+      - '&7Пополнить баланс можно'
+      - '&7на сайте: &6winworld.pw'
+  'назад':
+    material: ARROW
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    click_commands:
+      - '[openguimenu] shop'

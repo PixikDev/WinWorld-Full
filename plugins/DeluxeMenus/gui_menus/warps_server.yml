@@ -1,0 +1,80 @@
+menu_title: '§fꈁꀀꈂꌅꈂꀁ§0ꈃꄂ'
+size: 54
+items:
+  'farm':
+    material: NETHERITE_HOE
+    slot: 1
+    display_name: '&7Варп &8- &6farm'
+    click_commands:
+      - '[player] warp farm'
+      - '[close]'
+  'coliseum':
+    material: BOW
+    slot: 2
+    display_name: '&7Варп &8- &6coliseum'
+    click_commands:
+      - '[player] warp coliseum'
+      - '[close]'
+  'case':
+    material: CHEST_MINECART
+    slot: 3
+    display_name: '&7Варп &8- &6case'
+    click_commands:
+      - '[player] warp case'
+      - '[close]'
+  'auc':
+    material: GOLD_NUGGET
+    slot: 4
+    display_name: '&7Варп &8- &6auc'
+    click_commands:
+      - '[player] warp auc'
+      - '[close]'
+  'pvp':
+    material: DIAMOND_SWORD
+    slot: 5
+    display_name: '&7Варп &8- &6pvp'
+    click_commands:
+      - '[player] warp pvp'
+      - '[close]'
+  'casino':
+    material: SUNFLOWER
+    slot: 6
+    display_name: '&7Варп &8- &6casino'
+    click_commands:
+      - '[player] warp casino'
+      - '[close]'
+  'end':
+    material: END_PORTAL_FRAME
+    slot: 7
+    display_name: '&7Варп &8- &6end'
+    click_commands:
+      - '[player] warp end'
+      - '[close]'
+  'mine':
+    material: GOLDEN_PICKAXE
+    slot: 10
+    display_name: '&7Варп &8- &6mine'
+    click_commands:
+      - '[player] warp mine'
+      - '[close]'
+  'les':
+    material: DIAMOND_AXE
+    slot: 11
+    display_name: '&7Варп &8- &6les'
+    click_commands:
+      - '[player] warp les'
+      - '[close]'
+  'fish':
+    material: FISHING_ROD
+    slot: 12
+    display_name: '&7Варп &8- &6fish'
+    click_commands:
+      - '[player] warp fish'
+      - '[close]'
+  'назад':
+    material: ARROW
+    model_data: 10004
+    slot: 49
+    display_name: '&eВ главное меню'
+    click_commands:
+      - '[openguimenu] warps'

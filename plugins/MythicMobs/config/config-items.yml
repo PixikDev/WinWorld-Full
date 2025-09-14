@@ -1,0 +1,19 @@
+# 
+# Item Configuration Options
+Configuration:
+  ItemUpdating:
+    Enabled: true
+  DefaultItemOptions:
+    PreventEnchanting: false
+    PreventCrafting: modeled
+    PreventAnviling: default
+    PreventSmithing: default
+  ItemSkills:
+    JoinDelay: 20
+  ItemStats:
+    Rounding: 0
+    SaveRatios: false
+  CustomBlocks:
+    SwapIsPickBlock: true
+  Furniture:
+    DefaultType: DISPLAY

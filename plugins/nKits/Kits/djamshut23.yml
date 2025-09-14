@@ -1,0 +1,61 @@
+Name: djamshut23
+Cooldown: 0
+Permission: nKits.kits.djamshut23
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ORANGE_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+1ZbWhbVRg+TdIuSbfaza37UDFGwR+rNdna6orDtku23bibrG2SLhkjnOaeJDe5H+F+rElqccuY4gfux/zhhiCbGw5B6Wajm10riIg//Lh3CMJAGAiK7KfDPwp6btI0MW0322tb0OZHuOfe877v8773vM9zDtcKgBU09TJ8NOXmJFrK+mHcAuoJCbGiFQDwQB0wDTC8BOpA/R5e5iSTGRhoCthYmkNRAcakLsRFE5CTEBWJ8wyFuAhMpxkEpg3ryoZ1JcNHK4a8ALk4iogSxLewNQNFMZKG3IytQYet0QqMEoxbwRqKFtMMzJqByQtZBC6O2FFGEqC96/CIfQgjtnfFICOiVjstQYaOzgxljkICo7mfuSVKAp1CUkLg5Xhi5i4/FJPFKJSqJkZ5hhfsXXatIvZWu4Qj4pFyXplS80pBuW5TxtVjypjyiTKlTCpXlXFlzD56ZGaifdQCTAd4AZnxKzCA95YVsgCzVZDPFXFeVsbUvPqqcgVfF9R8q62I/MPZuMGlFcQ6gUv7kXJVzduUKzZc1UmMt6BM4pKP4SwKNUitYMNBeQhD6pVTKVoKQkZGohlsqSwySoBRnqOpiMTjfgBNrv6ePT4v4Yr4fX43CSxgrbu09lnEScV2mV6oWys+jkKOFhM0F49EZUFEBmBkjjJ4kYKatb2tYlKMFuFjEVyiLLYsL2mTjnaoL7WDLsgWsKFHwq9oSJYQyVN0jEZC0YXBPE0Sa/hYDDunzGDdzMxi0z1S8R5HHBLoaBsUWF7AlcWvmkOiaAQWXxoJUKJ5DrsEjcAUCBAufGXaemf9xYeueybOnn7TdeqVxh/KnezqRyIvC1H0HMoergSA5ci2J233DHukATT0sFpRu1tA6XfPZDbP4/UuKXj//P7Lgd99L7/+S+GZ7/y//lFOoWvRKcwBfDbXnZ/djJIgLwvVXdJ6zobpI4+J4ppGF+pxfH3V5pyX6OpB40hVf36wgkxytsxumEmUKfynpYE5BKdiU4+pJ3A+ha4aPnm3Gu/0bZt9tHW5wW/vaOvA/GxTLhcBT84ivr9V+a2Vq/LuOX41UHFL7acptJeBcVEjGiuwDqRkhvEN41bAg4MCjztOopFoAWbNTBZQmdXqi4wOxlDW4wgfSjioQx4mmiU68dg/4GB8RDL9FMEFs0N7iE6Cxc/393QeyO6qmtshwcEOJrTTkwhzffIQG3Qc2NnPoP39zigbOEom3ZnQIJEL+d0ZMudJ+gb7MuHBUDuZCzIhfzwTdqV2kmww5RsknKEdfe3hff1sONmbIF1U0usPJry5vo4Q62VDO0L4WchJcM5dsb7duzXiMBCURhvPN6DgrcnuhguPpUelztu3Z6nGpgo7aH2PhEgCQapM+g06BGONDlvzYjeLFh1BrTpsG8u2zSXblirSnQPmWh2h1i2lEBuXQrteOrP3mxe+CLT9fLjl5ldvuNuWRLvuCfzhOXxJEoymIhRkYRzdJYFP1R+bn85vq7/x+MbuO/u6W8oJ9C4qgeqgVYmY/mkiD872ycKM1reMlLhLFhMZx80nbpxkfzpj/bgp7wuUs3h2MVlUIlal0DzvPiI5UqsGc28ryjyfRQzDD1fp6dt4N3BcPYlPDxPqa1iSppSCTT2lXFNfVKbm3Q8YwfvLKU4ConTuAJZVS2trvH1HSfbVEyXZV0/UoLuwoug6p9Edr90Q/vuKP75Uiu/bF8qG/IGMN0e2e3OpYa+LzPr8PRkv624P+wmnlyUdoWTASfpTeF4Y7wgIPJcYDvux0iex4rv6hrVn3pz2jMyGWQ9NZj27Yocc1ap/8Z1bn483k5Pnvv7t28+MhvwCVb9JhzrdtzAhbNYRar0O2w06bO9fWIobdYTatHroXj10rx66Vw/dq4fu/8+hu0WHYGxe/Wix+tHiv/XRYouOdti6sK3atsWEAuAvPF2bHgMdAAA=
+      blockMaterial: ORANGE_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

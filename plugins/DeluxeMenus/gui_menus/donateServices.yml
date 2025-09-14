@@ -1,0 +1,40 @@
+menu_title: '§fꈁꀀꈂꌆꈂꀁ§0ꈃꄁ'
+size: 54
+items:
+  'донат_магазин':
+    material: END_CRYSTAL
+    slot: 21
+    display_name: '&6Донат магазин'
+    click_commands:
+      - '[openguimenu] shop'
+  'rwplus':
+    material: SUNFLOWER
+    slot: 23
+    display_name: '&6WW+'
+    click_commands:
+      - '[openguimenu] plus'
+  'прокачка_эндер_честа':
+    material: ENDER_CHEST
+    slot: 30
+    display_name: '&6Прокачка эндер-честа'
+    click_commands:
+      - '[openguimenu] enderchest'
+  'привилегии':
+    material: CHEST
+    slot: 31
+    display_name: '&6Привилегии'
+    click_commands:
+      - '[openguimenu] donate'
+  'кейсы':
+    material: ORANGE_SHULKER_BOX
+    slot: 32
+    display_name: '&6Кейсы'
+    click_commands:
+      - '[player] warp case'
+  'назад':
+    material: ARROW
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    click_commands:
+      - '[openguimenu] guide'

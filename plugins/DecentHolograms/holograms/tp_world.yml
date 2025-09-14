@@ -1,0 +1,14 @@
+location: world_spawn:47.386:63.000:0.476
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&lТелепортация в игровой мир'
+    height: 0.3
+  - content: '%winutils_grief%'
+    height: 0.3
+  actions: {}

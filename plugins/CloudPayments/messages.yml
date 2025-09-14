@@ -1,0 +1,19 @@
+noPerms:
+  - '&cИзвините, но у Вас нет прав'
+
+admin:
+  usage:
+    - '&r &r &r &r &r &6&lCloudPayments'
+    - '&f/cloudpayments reload &8- &eПерезагрузить конфиги'
+    - '&f/cloudpayments debug &8- &eВключить/Выключить режим отладки'
+    - '&f/cloudpayments configure ID_Магазина Уникальный_Ключ ID_Сервера &8- &eОбновить настройки'
+  reloadSuccess:
+    - '&aКонфиги были перезагружены за {time}мс'
+  debugEnable:
+    - '&aРежим отладки включен!'
+  debugDisable:
+    - '&cРежим отладки выключен!'
+  configureUsage:
+    - '&eИспользовать&8: &f/cloudpayments configure ID_Магазина Уникальный_Ключ ID_Сервера'
+  configureSuccess:
+    - '&aНастройки были обновлены'

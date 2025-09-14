@@ -1,0 +1,61 @@
+Name: neaboba2
+Cooldown: 0
+Permission: nKits.kits.neaboba2
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ORANGE_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: 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
+      blockMaterial: ORANGE_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

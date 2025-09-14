@@ -1,0 +1,25 @@
+spawns:
+  default:
+    world: b62b5b19-a8bf-4373-a960-3860d26dedbf
+    world-name: world_spawn
+    x: 0.49075050935122544
+    y: 65.0
+    z: 0.5230341679504894
+    yaw: -89.85006713867188
+    pitch: -1.0496516227722168
+  hero:
+    world: b62b5b19-a8bf-4373-a960-3860d26dedbf
+    world-name: world_spawn
+    x: 0.49075050935122544
+    y: 65.0
+    z: 0.5230341679504894
+    yaw: -89.85006713867188
+    pitch: -1.0496516227722168
+  titan:
+    world: b62b5b19-a8bf-4373-a960-3860d26dedbf
+    world-name: world_spawn
+    x: 0.49075050935122544
+    y: 65.0
+    z: 0.5230341679504894
+    yaw: -89.85006713867188
+    pitch: -1.0496516227722168

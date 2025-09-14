@@ -1,0 +1,61 @@
+Name: djamshut1
+Cooldown: 0
+Permission: nKits.kits.djamshut1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: YELLOW_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+1YXW8TRxQdx05iOwEavgLtAyurlagaUZM0qYiEhBOnYWmw8+kQI2SNd8f24v1wZ2cJTho1JEgVAsRLpUoItaKqRCtVFVCCQsB56g/Y/Qd96gs/Ir1rx/HGSQBXVSJVjh/imT1z5+7MuWeOx4+QH+3vkzUhO6AyieXHcdqHGnlGFN2PEPrAhTxjssaQCzX2a4bK3F7UIInosCKpRKA4xXolqqmJpB0BrYNdtYAb/MjNcNqPmkVJz8k470WeCFYI+n02QK4zigO9l2cDSU0WA70pLOukIyAxLEvCRtNQRUJlmKKC0BmVsoRlqGakMxu9WjJl6AJmDqCgyRoN9AamMxIjgY4Agymhaf5gPrHmzcfmE3PVWoD/Bfg8tu5x1g1rAR4smS/Nx4G5KxsDAnM+5BnSKPHCornQb7uZO4W+SuYPzFXzFSRYKOb90roD326bLzhrEfJeNQscz3ObM0du5DsvieQLGad1SJ/zoqZhjUmaio5Vdg7S0tR0IoMp9KU3+MCVtvhoBcikXI6ICUypNl3eZHcZ7inB2ytwohCKZXEzKTxlUhwcNpKwXn1GNiuxGJYNonvRkcpoQSaYrs/V0j80EBpNhEZHo5NoK5++27onjBq7Q6f7wJdlWP9lc+UNrFnZTdYkYS2dhLe+hQxvAWWWrAXOfGrdMJc4665107oJZFoB1t8G8tsP7LL4o5r9wKG2fkNnmlJiTr89C1pbW6tw6YBzz3Msj6o48RYKNdZIoaaddOXBLvIAf2VgxyJ/DwR4BfV4D5TELlTrlnVnRz640U97yIeH5grkB4pRVLw7tmqcDPZ+Fvy4at/v72mOy7YO75jbr3tZT1AjBaglWD1Q3RfF1Syt5MmebVL1oUPO8hlIpYjAiicwSOe+sYw2PYwpk0DudDhdG3jR5UbesEFxsbSQm3Mhr43iBU0FgC+k5GQpJREKjeaQkpSIymyJ2S5U438XqnVTqBPndgqFnKG2lY5CobDzsbSjlLi2aINd+nomkSsNXNeG5loMircWsK8WsL8qbc7xWqqQwSrwLJEG3hI1gXM5mZQHtlQNbHO+L55WiwtcRLaWka1bRHa7wPtKoulDrQOlBBTYoSIN12c6Xhl/DauSngEvkBAMqpMG5JavyRDIhw6GGFRP0mDkoiYW97scouQlm7VUCoKLXrRvA1mU5hOO7Ai8hSScwoxhIZsQsYLTBBgRzZEyvRBqQZ6JCT4M3zx/X24PfvN88PmPsY8iTx79ebes9n2jRNcMKpAvSf5yJTwuz8t9yr1l0itNqCmk2Gt4zpZl+29vDxUR02xis+n7BczpPFcSRDioO99wqLTMOmRnVz12muL8Jk+0Chr5DPTbfGqu2s5ioXTi2GZ13loEyVzqrZLJR85817vBzXbsdvKfdJ0KcubKhqm2Ft9sqeFHjn8sa8hy1C5OaAxTDYjMJKL7kNceZlBSLpLGos9Fz0j+QjB+KRMUL12QhTzfA+3xsaAc5a/mPufVWD7Zz/fwCjw/H+oZyp9xYLsZnuyWp7ouZOLqiJFUYsGhrlGZnB89LSgT16LhdDA+ns1HwumuqZmprkg42x0dj0mRmWzXxRlRig4OdMcn+eDUzMhMdHwiaPdPjcez8XD8ajwsS5HBmDLVOXE90hlRImHhdDQ80smrp8+kRs6etWsSzgG7Ir9uIrG/Cueafv4wN8d6Xr9G1SrtsPF2KRGayBAslqVof23KdeCdJfG9f6u6bbVo+8FawIdqAR+uG9u6sa0b27qx3cbYHqnxR/LR+j1L/Z5l8z1Le40UOla/v/3/398er8WgvP9OYIT+AeDqK1N8GAAA
+      blockMaterial: YELLOW_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,82 @@
+msg:
+  cooldowns:
+    '*': 15.0
+  aliases:
+  - pm
+  - message
+  - r
+  - reply
+  - m
+  - t
+  - tell
+tpa:
+  cooldowns:
+    '*': 30.0
+  aliases:
+  - call
+report:
+  cooldowns:
+    '*': 180.0
+  aliases: []
+killer:
+  cooldowns:
+    '*': 30.0
+  aliases: []
+broadcast:
+  cooldowns:
+    '*': 900.0
+  aliases:
+  - bc
+heal:
+  cooldowns:
+    '*': 60.0
+  aliases:
+  - feed
+  - essentials:heal
+  - essentials:feed
+nick:
+  cooldowns:
+    '*': 60.0
+  aliases:
+  - nickname
+day:
+  cooldowns:
+    '*': 300.0
+  aliases:
+  - night
+  - sun
+  - rain
+  - time
+fly:
+  cooldowns:
+    '*': 30.0
+  aliases: []
+/wand:
+  cooldowns:
+    '*': 5.0
+  aliases:
+  - wand
+ah :
+  cooldowns:
+    '*': 5.0
+    'sell': 5.5
+  aliases: []
+sw:
+  cooldowns:
+    '*': 10.0
+  aliases: []
+setwarp:
+  cooldowns:
+    '*': 604800.0
+  aliases:
+  - essentials:setwarp  
+p:
+  cooldowns:
+    '*': 10.0
+    give: 10.0
+  aliases: []  
+pay:
+  cooldowns:
+    '*': 5.0
+  aliases:
+  - essentials:pay

@@ -1,0 +1,327 @@
+# Включен ли чат?
+chat: true
+
+# включен ли newbiechat
+newbieChat:
+  enable: true
+
+# Что будет отправлять при clearchat
+clearchat-symbol: "#"
+
+# Формат чатов. Поддерживается PlaceholderAPI
+# <player> - ник игрока
+# <prefix> - префикс игрока (берется из vault api)
+# <suffix> - суффикс игрока (берется из vault api)
+# <dph> - плейсхолдер группы
+format:
+  local: "<spy>&3▣%javascript_example% &r<prefix>&7<player>&7%fmsubscribe_sub%&r &8» &7<suffix><message>"
+  # Радиус распространения локального чата
+  localRadius: 150
+  # Если установлено true - весь чат будет глобальным и не будет требовать символа "!"
+  forceGlobal: false
+  global: "&6▣%javascript_example% &r<prefix>&7<player>&7%fmsubscribe_sub%&r &8» &f<suffix><message>"
+
+  spy: "&6Подслушка &7» "
+
+# Плейсхолделы для донатов по группам
+donatePlaceholders:
+  default: "&7"
+  admin: "&f&l"
+
+# Настройка ховертекста (текст при наведении на сообщение игрока)
+# При включении заменяет логику работы чата, что может сказаться на работе других плагинов, включающих в себя его форматирование.
+# Сообщения будут отправляться игрокам от сервера.
+hoverText:
+  enable: false
+  format: |-
+    &fИнформация об игроке <player>
+    &fРанг: &6%vault_group%
+    &fХП: &6%player_health%
+    &fОпыт: &6%player_exp%
+
+# Настройки кулдауна
+cooldown:
+  # Кулдаун для локального чата в милисекундах
+  localCooldown: 5000
+  # Кулдаун для глобального чата в милисекундах
+  globalCooldown: 5000
+  # Сообщение о кулдауне
+  cooldownMessage: "&6Чат &8» &fПодождите &6&l%time% &fсекунд перед отправкой сообщения."
+
+################ Fork ( TrChat ) ###############
+
+# Сообщения плагина
+msg:
+  empty-prefix: "&6Чат &8» &fВы должны ввести &6префикс&f! Если хотите очистить - &6/setprefix nick clear"
+  success-set: "&6Чат &8» &fУспешно &aустановили &fпрефикс игроку!"
+  success-remove: "&6Чат &8» &fУспешно &cудалили &fпрефикс игроку!"
+  usage: "&6Чат &8» &fИспользуйте: &6/setprefix nick &7<&6prefix &7|&c clear&7>"
+  toggle: "&6Чат &8» &fЧат был %status%"
+  chat-disabled: "&6Чат &8» &cЧат отключен администрацией!"
+  spy-enabled: "&6Чат &8» &fВы &aвключили &fрежим слежки."
+  spy-disabled: "&6Чат &8» &fВы &cотключили &fрежим слежки."
+  no-perm: "&6Чат &8» &cУ вас нет прав!"
+  cleared: "&6Чат &8» &aЧат очищен!"
+
+# Чат новичков
+unblock-time: 60 # Минуты
+block_message: "&6Чат &8» &fВам необходимо отыграть еще &6{time}&f мин., чтобы пользоваться данным чатом."
+block_command_message: "&6Чат &8» &fВам необходимо отыграть еще &6{time}&f мин., чтобы пользоваться данным чатом."
+block-command_list:
+  - 'msg'
+  - 'pm'
+  - 'tell'
+  - 'message'
+  - 'm'
+  - 'bc'
+  - 'broadcast'
+  - 'r'
+  - 'clan chat'
+  - 'cc'
+
+# Авто-Сообщения
+automessage-enable: true
+auto-cd: 300 # секунды
+auto:
+  site:
+    msg:
+    - ' '
+    - ' &#FB5B08ꐁ &#FFFFFFХотите &#FB5B08&lподдержать сервер&#FFFFFF и получить доступ'
+    - ' &#FB5B08ꐁ &#FFFFFFк экслюзивным возможностям?'
+    - ' &#FB5B08ꐁ &#FFFFFFПокупайте донатные услуги на нашем &#FB5B08&lсайте'
+    - ' &#FB5B08ꐀ &#FB5B08https://winworld.pw'
+    hover:
+    - '&#FB8408ꐁ'
+    - '&#FB8408ꐁ &#FFFFFFКликни, для перехода по ссылке!'
+    - '&#FB8408ꐀ'
+    click: https://winworld.pw
+  discordnews:
+    msg:
+    - ' '
+    - ' &#FB5B08ꐁ &#FFFFFFХотите быть в курсе последних новостей'
+    - ' &#FB5B08ꐁ &#FFFFFFи обновлений сервера &#FB5B08&lWinWorld&#FFFFFF?'
+    - ' &#FB5B08ꐁ &#FFFFFFПрисоединяйтесь к нашему каналу в &#FB5B08&lDiscord'
+    - ' &#FB5B08ꐀ &#FB5B08https://discord.gg/winworld'
+    hover:
+    - '&#FB8408ꐁ'
+    - '&#FB8408ꐁ &#FFFFFFКликни, для перехода по ссылке!'
+    - '&#FB8408ꐀ'
+    click: https://discord.gg/winworld
+  privyazka:
+    msg:
+    - ' '
+    - ' &#FB5B08ꐁ &#FB5B08&lВнимание! &#FFFFFFУчастились случаи взломов аккаунтов!'
+    - ' &#FB5B08ꐁ &#FB5B08&lПредостерегаем: &#FFFFFFзащитите свой аккаунт!'
+    - ' &#FB5B08ꐁ &#FFFFFFПодробности о безопасности читайте по команде'
+    - ' &#FB5B08ꐀ &#FB5B08/link'
+    hover:
+    - '&#FFFFFF'
+    click: /link
+  moderation:
+    msg:
+    - ' '
+    - ' &#FB5B08ꐁ &#FFFFFFХочешь наказывать нарушителей и помогать серверу?'
+    - ' &#FB5B08ꐁ &#FFFFFFПрисоединяйся к нашей команде проекта и оставляй'
+    - ' &#FB5B08ꐁ &#FFFFFFсвою заявку на форуме'
+    - ' &#FB5B08ꐀ &#FB5B08https://discord.gg/winworld'
+    hover:
+    - '&#FB8408ꐁ'
+    - '&#FB8408ꐁ &#FFFFFFКликни, для перехода по ссылке!'
+    - '&#FB8408ꐀ'
+    click: https://discord.gg/winworld
+  newstg:
+    msg:
+    - ' '
+    - ' &#FB5B08ꐁ &#FFFFFFХотите быть в курсе последних новостей'
+    - ' &#FB5B08ꐁ &#FFFFFFи обновлений сервера &#FB5B08&lWinWorld&#FFFFFF?'
+    - ' &#FB5B08ꐁ &#FFFFFFПрисоединяйтсь к нашей группе в &#FB5B08&lTelegram'
+    - ' &#FB5B08ꐀ &#FB5B08https://t.me/winworldtg'
+    hover:
+    - '&#FB8408ꐁ'
+    - '&#FB8408ꐁ &#FFFFFFКликни, для перехода по ссылке!'
+    - '&#FB8408ꐀ'
+    click: https://t.me/winworldtg
+  promocode:
+    msg:
+    - ' '
+    - ' &#FB5B08ꐁ &#FFFFFFСкидки на сайте по промокоду! &#FB5B08&lWinWorld&#FFFFFF?'
+    - ' &#FB5B08ꐁ &#FFFFFF12% - &#FB5B08&lSTASO12'
+    - ' &#FB5B08ꐀ &#FB5B08https://winworld.pw'
+    hover:
+    - '&#FB8408ꐁ'
+    - '&#FB8408ꐁ &#FFFFFFКликни, для перехода по ссылке!'
+    - '&#FB8408ꐀ'
+    click: https://winworld.pw
+  bagi:
+    msg:
+    - ' '
+    - ' &#FB5B08ꐁ &#FFFFFFНашли &#FB5B08&lбаг? &#FFFFFFЕсть &#FB5B08&lпроблемы &#FFFFFFс
+      заходом на сервер'
+    - ' &#FB5B08ꐁ &#FFFFFFили же имеется &#FB5B08&lвопрос &#FFFFFFпо технической части?'
+    - ' &#FB5B08ꐁ &#FFFFFFМожете написать техническому администратору'
+    - ' &#FB5B08ꐀ &#FB5B08https://t.me/winworldsupp'
+    hover:
+    - '&#FB8408ꐁ'
+    - '&#FB8408ꐁ &#FFFFFFКликни, для перехода по ссылке!'
+    - '&#FB8408ꐀ'
+    click: https://t.me/winworldsupp
+    #############################################################   WinAntiMat   #############################################################
+forbidden-words:
+  - "сука"
+  - "блять"
+  - "пизда"
+  - "пиздец"
+  - "ебал"
+  - "ебать"
+  - "пидор"
+  - "пидорас"
+  - "гандон"
+  - "гондон"
+  - "гнида"
+  - "шакал"
+  - "дебил"
+  - "дебик"
+  - "дибил"
+  - "конченный"
+  - "конченый"
+  - "курва"
+  - "хуйло"
+  - "хуйня"
+  - "хуй"
+  - "хуесос"
+  - "пидарас"
+  - "уебок"
+  - "уёбок"
+  - "уёбак"
+  - "уебак"
+  - "уебан"
+  - "блядь"
+  - "блядота"
+  - "блядина"
+  - "шлюха"
+  - "шлюх"
+  - "еблан"
+  - "ебланоид"
+  - "ебалай"
+  - "осел"
+  - "осёл"
+  - "даун"
+  - "отец"
+  - "батя"
+  - "отца"
+  - "батю"
+  - "маму"
+  - "мама"
+  - "мамка"
+  - "мамку"
+  - "сученыш"
+  - "сучёныш"
+
+# заменяет слово на звездочки если стоит true
+edit-message: true
+
+messages:
+  detect: "&cНе матерись и не оскорбляй других игроков!"
+  reload: "Reloaded!"
+#############################################################   WinAntiSpam   ##########################################################
+spam-words:
+  - ".ru"
+  - "r!u"
+  - "r.u"
+  - "ru!"
+  - ".play"
+  - "p!lay"
+  - "pl!ay"
+  - "pla!y"
+  - "play!"
+  - "core"
+  - ".core"
+  - "c.ore"
+  - "co.re"
+  - "cor.e"
+  - "core."
+  - "!core"
+  - "c!ore"
+  - "cor!e"
+  - "xyz"
+  - ".xyz"
+  - "x.yz"
+  - "x!yz"
+  - "!xyz"
+  - "xy!z"
+  - ".mc"
+  - "m!c"
+  - "m=c"
+  - "r=u"
+  - "m.c"
+  - ".net"
+  - "n!et"
+  - "ne!t"
+  - "m(c)"
+  - "(m)c"
+  - "r(u)"
+  - "(r)u"
+  - "cube"
+  - "cub!e"
+  - "c!ube"
+  - "grief"
+  - "reallyworld"
+  - "legendsgrief"
+  - "crazyworld"
+  - "funpa"
+  - "фанпе"
+  - "нурсултан"
+  - "nurik"
+  - "нурик"
+  - "celestial"
+  - "expensive"
+  - "экспенсив"
+  - "экспа"
+  - "catlavan"
+  - "катлаван"
+  - "rogalik"
+  - "рогалек"
+  - "рогалик"
+  - "celka"
+  - "boostanull"
+  - "бустанул"
+  - "bostanu"
+  - "193.23.220.222:25614"
+  - "dsc.gg/"
+  - "dsc.gg"
+  - "dsc.g"
+  - "dsc."
+  - "/code coofmen"
+  - "luffire"
+  - "cakeworld"
+  - "rgsquad"
+  - "artygrief"
+  - "slimeworld"
+spam-cmds:
+  - "tempmuteip %nick% 1d &cУпоминание сторонних ресурсов -s"
+affect-cmds:
+  - "/msg"
+  - "/pm"
+  - "/tell"
+  - "/message"
+  - "/m"
+  - "/bc"
+  - "/broadcast"
+  - "/r"
+  - "/cc"
+  - "/clan chat"
+admin-msg: "&8(&6SC&8) &6grief-2 {rank}&7CONSOLE &8» &cНайдено спам слово! &8(&7%name%&8/&7%word%&8)\n&8(&6SC&8) &6grief-2 {rank}&7CONSOLE &8» &c%name%&7: &8%message%"
+#############################################################   SunCoreAnalog   ###########################################################
+BlockCmds:
+  - 'msg'
+  - 'pm'
+  - 'tell'
+  - 'message'
+  - 'm'
+  - 'bc'
+  - 'broadcast'
+  - 'r'
+  - 'clan chat'
+  - 'cc'
+suncore:
+  TextError: '&6WinWorld &8» &cВаше сообщение было заблокировано!'

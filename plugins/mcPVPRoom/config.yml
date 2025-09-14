@@ -1,0 +1,312 @@
+#####################################################################################################
+#                                                                                                   #
+#                                 Студия: https://vk.com/mcdev.store                                #
+#                              Форум Майнкрафт: https://forum-minecraft.ru                          #
+#                              Магазин сборок и плагинов: https://mcdev.su                          #
+#                                                                                                   #
+#                                                                                                   #
+#                           Связь с разработчиком: https://t.me/mcdev_support                       #
+#                                                                                                   #
+#                            Размещение своего сервера: https://mcrating.org                        #
+#                                                                                                   #
+#                                                                                                   #
+#                                                                                                   #
+#                                                                                                   #
+#                       Если ресурс скачен не с forum-minecraft.ru или mcdev.su                     #
+#                   то дальнейшее использование может быть не безопасным, сообщите                  #
+#                               об этом автору https://t.me/mcdev_support                           #
+#                                                                                                   #
+#                                                                                                   #
+#                                                                                                   #
+#                            Удаление данной надписи не избавит вас от                              #
+#                             ответственности, если вы сольете ресурс                               #
+#                                                                                                   #
+#                                                                                                   #
+#                                                                                                   #
+#####################################################################################################
+
+# Плагин: mcPVPRoom (PVP комнаты)
+# Версия: 1.8+
+#
+# Описание:
+# Плагин добавляет регионы (комнаты) которые при наличии в них указанного минимального числа
+# игроков начинают сражения. В начале/конце сражения указанные блоки (дверь) будут появляться/исчезать.
+# Последний игрок считается победителем, ему дается время собрать лут и телепортирует на указанную локацию.
+# Если в момент сражения игрок не принимающий в нем участие попадет в комнату, он будет телепортирован на указанную локацию.
+# Координаты региона (комнаты) можно задать прямо внутри существующего WG региона, например на спавне.
+# Если внутри этого региона выключено PVP, то на момент сражения, PVP в комнате будет работать в любом случае (конфигурируемо).
+#
+# Зависимости: (плагины без которых этот работать не будет)
+# - UtilM https://mvn.vepvep.com/minecraft/me/socrum/minecraft/spigot/plugin/utilm (utilm-x.x.x-jar-with-dependencies.jar)
+
+message:
+  reload_success: '&aПлагин перезагружен!'
+  permission_denied: '&cОтказано в доступе.'
+  room_join: '&6WinWorld &7» &fВы вошли в PVP кабинку!'
+  room_player_quit: '&6WinWorld &7» &fИгрок покинул кабинку!'
+  room_quit: '&6WinWorld &7» &fВы покинули PVP кабинку.'
+  room_busy: '&6WinWorld &7» &fЭта PVP кабинка уже занята!'
+  no_enough_players: '&eНедостаточно игроков, старт отменен.'
+  you_win: '&6WinWorld &7» &fВы выиграли своего аппонента.'
+  you_will_be_teleported_after_win: '&6WinWorld &7» &fУ вас осталось &6%sec% &fсек. чтобы подобрать ресурсы.'
+  room_will_started_soon: ''
+  room_started: '&6WinWorld &7» &fPVP началось!'
+  help:
+    - '&e/pvproom reload &7- перезагрузить плагин'
+    - '&e/pvproom help &7- показать список команд'
+
+permission:
+  reload: pvproom.reload # Разрешение на перезагрузку этого плагина.
+
+# Разрешить урон в комнатах игнорируя WG флаги, например: pvp: deny или invincible: allow?
+# Работает только во время активного сражения, до его начала все работает как обычно.
+absolute_allow_damage_in_pvp_room: false
+
+pvp_room_list:
+  pvp_room_1:
+    region:
+      pos_1: # Позиция 1 (как если бы регион указывался топориком).
+        world: 'world_spawn' # Название мира.
+        x: -32 # Координата блока X.
+        y: 64 # Координата блока Y.
+        z: -21 # Координата блока Z.
+      pos_2:
+        world: 'world_spawn'
+        x: -26
+        y: 69
+        z: -14
+    do_start_pvp_timer: 0.3 # (Сек.) Время до начала сражения если есть достаточное кол-во игроков.
+    end_of_pvp_timer: 15 # (Сек.) Сколько у победителя есть времени на сбор лута если он победил?
+    min_players: 2 # Минимальное число требуемых игроков чтобы PVP комната была запущена.
+    max_players: 2 # Максимальное число игроков которое может войти в PVP комнату для сражения.
+    winner_teleport_location: # Локация куда будет телепортирован игрок в случае победы (после 'end_of_pvp_timer' таймера).
+      world: 'world_spawn'
+      x: -36.5
+      y: 65.5
+      z: 0.5
+      yaw: 0 # Поворот головы (от -180 до 180).
+      pitch: 0 # Наклон головы (от -90 до 90).
+    entered_from_outside_teleport_location: # Локация куда будет телепортирован игрок не принимающий участия в сражении, но попавший в комнату.
+      world: 'world_spawn'
+      x: -36.5
+      y: 65.5
+      z: 0.5
+      yaw: 0 # Поворот головы (от -180 до 180).
+      pitch: 0 # Наклон головы (от -90 до 90).
+    door_block:
+      material: LIGHT_GRAY_STAINED_GLASS # Тип материала который нужно сломать.
+                     # Используйте материалы версии ядра на котором запускаете плагин (по умолничаю: 1.8.8).
+                     # Списки всех материалов для каждой версии:
+                     # https://helpch.at/docs/1.8.8/org/bukkit/Material.html
+                     # https://helpch.at/docs/x.x.x/org/bukkit/Material.html
+                     # ...
+      data: 14 # (Опционально) Дата материала, удалите эту строку и дата учитываться не будет.
+    door_location_list: # Список координат блоков двери которая закроется в момент начала сражений в комнате.
+      door_location_1:
+        world: 'world_spawn'
+        x: -33
+        y: 65
+        z: -18
+      door_location_2:
+        world: 'world_spawn'
+        x: -33
+        y: 65
+        z: -17
+      door_location_3:
+        world: 'world_spawn'
+        x: -33
+        y: 65
+        z: -16
+      door_location_4:
+        world: 'world_spawn'
+        x: -33
+        y: 66
+        z: -16
+      door_location_5:
+        world: 'world_spawn'
+        x: -33
+        y: 66
+        z: -17
+      door_location_6:
+        world: 'world_spawn'
+        x: -33
+        y: 66
+        z: -18
+      door_location_7:
+        world: 'world_spawn'
+        x: -33
+        y: 67
+        z: -17
+      door_location_8:
+        world: 'world_spawn'
+        x: -33
+        y: 67
+        z: -18
+      door_location_9:
+        world: 'world_spawn'
+        x: -33
+        y: 67
+        z: -16
+    # Примечание:
+    # 1. Локация возрождения при смерти зачастую задается такими
+    # плагинами как Essentials и смысла переопределять ее мало.
+    # 2. Награды или команды для победителя исключены преднамеренно,
+    # достаточно войти с 2 аккаунтов чтобы бесконечно побеждать.
+
+  pvp_room_2:
+    region:
+      pos_1:
+        world: 'world_spawn'
+        x: -32
+        y: 64
+        z: -28
+      pos_2:
+        world: 'world_spawn'
+        x: -27
+        y: 69
+        z: -21
+    do_start_pvp_timer: 0.3
+    end_of_pvp_timer: 15
+    min_players: 2
+    max_players: 2
+    winner_teleport_location:
+      world: 'world_spawn'
+      x: -36.5
+      y: 65.5
+      z: 0.5
+      yaw: 0
+      pitch: 0
+    entered_from_outside_teleport_location:
+      world: 'world_spawn'
+      x: -36.5
+      y: 65.5
+      z: 0.5
+      yaw: 0
+      pitch: 0
+    door_block:
+      material: LIGHT_GRAY_STAINED_GLASS
+    door_location_list:
+      door_location_1:
+        world: 'world_spawn'
+        x: -33
+        y: 65
+        z: -25
+      door_location_2:
+        world: 'world_spawn'
+        x: -33
+        y: 65
+        z: -24
+      door_location_3:
+        world: 'world_spawn'
+        x: -33
+        y: 65
+        z: -23
+      door_location_4:
+        world: 'world_spawn'
+        x: -33
+        y: 66
+        z: -25
+      door_location_5:
+        world: 'world_spawn'
+        x: -33
+        y: 66
+        z: -24
+      door_location_6:
+        world: 'world_spawn'
+        x: -33
+        y: 66
+        z: -23
+      door_location_7:
+        world: 'world_spawn'
+        x: -33
+        y: 67
+        z: -23
+      door_location_8:
+        world: 'world_spawn'
+        x: -33
+        y: 67
+        z: -24
+      door_location_9:
+        world: 'world_spawn'
+        x: -33
+        y: 67
+        z: -25
+
+  pvp_room_3:
+    region:
+      pos_1:
+        world: 'world_spawn'
+        x: -32
+        y: 64
+        z: -14
+      pos_2:
+        world: 'world_spawn'
+        x: -27
+        y: 69
+        z: -7
+    do_start_pvp_timer: 0.3
+    end_of_pvp_timer: 15
+    min_players: 2
+    max_players: 2
+    winner_teleport_location:
+      world: 'world_spawn'
+      x: -36.5
+      y: 65.5
+      z: 0.5
+      yaw: 0
+      pitch: 0
+    entered_from_outside_teleport_location:
+      world: 'world_spawn'
+      x: -36.5
+      y: 65.5
+      z: 0.5
+      yaw: 0
+      pitch: 0
+    door_block:
+      material: LIGHT_GRAY_STAINED_GLASS
+    door_location_list:
+      door_location_1:
+        world: 'world_spawn'
+        x: -33
+        y: 67
+        z: -11
+      door_location_2:
+        world: 'world_spawn'
+        x: -33
+        y: 67
+        z: -10
+      door_location_3:
+        world: 'world_spawn'
+        x: -33
+        y: 67
+        z: -9
+      door_location_4:
+        world: 'world_spawn'
+        x: -33
+        y: 66
+        z: -11
+      door_location_5:
+        world: 'world_spawn'
+        x: -33
+        y: 66
+        z: -10
+      door_location_6:
+        world: 'world_spawn'
+        x: -33
+        y: 66
+        z: -9
+      door_location_7:
+        world: 'world_spawn'
+        x: -33
+        y: 65
+        z: -11
+      door_location_8:
+        world: 'world_spawn'
+        x: -33
+        y: 65
+        z: -10
+      door_location_9:
+        world: 'world_spawn'
+        x: -33
+        y: 65
+        z: -9

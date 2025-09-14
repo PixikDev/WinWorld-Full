@@ -1,0 +1,97 @@
+Name: sharair
+Cooldown: 0
+Permission: nKits.kits.sharair
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Шар
+        Воздуха"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Левитация
+        II (00:08)"}],"text":""}'
+      custom-model-data: 5001
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 335c8aaf-f2ab-4314-89d1-2f13df253eab
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.35
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: d35e133a-921d-46bb-8c81-3e558b968711
+          operation: 1
+        GENERIC_ATTACK_KNOCKBACK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_knockback]
+          slot: OFF_HAND
+          uuid: f2c4db7b-fee0-4361-a02a-6d1183bc17b8
+          operation: 0
+      internal: H4sIAAAAAAAA/02PzU6DQBhFP43GCibufA3BWkwXXRiH0CHMjKXtUIguWpjKz0AbCuqwceWD+ArGZ3MtS3fn5tzN0QA0uJgXrZSP9W6bSaGB1tNe1E0mDucwaMR709bioAHA0QBO+Vq2An6Eco1olRrJypWxwla/F3NDMpzv73DF1eYBW7js/fTe8tT433fUrIORDIduGlWzdlNywxv6Ukx9My6Xr2GODYLit7CTGc1DkwW8IDnPSElTssA3bGGbUe4XDL0o4kRpVFJJEVHU4QUL7NveZcyxTYLCjqJlR1BS4socb2eTCYAOxzjpQ0703+Lr6dI7+3y+/mi/9SuAP1M3W30KAQAA
+      PublicBukkitValues:
+        minecraft:air: AIR
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

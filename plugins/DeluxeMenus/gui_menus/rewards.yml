@@ -1,0 +1,1681 @@
+    menu_title: '&fꈁꀀꈂꌗꈂꀁ&0ꈃꄈ'
+    register_command: true
+    open_command:
+    - free
+    size: 54
+    items:
+      'reward1':
+        material: hopper_minecart
+        slot: 10
+        amount: 1
+        priority: 1
+        display_name: ' &e&l«Уровень 1» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 25
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.1'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded1':
+        material: chest_minecart
+        priority: 2
+        amount: 1
+        slot: 10
+        display_name: ' &e&l«Уровень 1» &7(Прогресс:&6 %statistic_minutes_played%&7/&625&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 25 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &61 Кейс с донатом'
+        left_click_commands:
+        - '[console] cases give %player_name% donate 1'
+        - '[console] lp user %player_name% permission set freeleto25.1'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &61 Кейс с донатом'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 25
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward2':
+        material: hopper_minecart
+        slot: 11
+        amount: 2
+        priority: 1
+        display_name: ' &e&l«Уровень 2» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 45
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.2'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded2':
+        material: chest_minecart
+        priority: 2
+        amount: 2
+        slot: 11
+        display_name: ' &e&l«Уровень 2» &7(Прогресс:&6 %statistic_minutes_played%&7/&645&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 45 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &61 Кейс с риликами'
+        left_click_commands:
+        - '[console] cases give %player_name% donate 1'
+        - '[console] cases give %player_name% riliks 1'
+        - '[console] lp user %player_name% permission set freeleto25.2'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &61 Кейс с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 45
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward3':
+        material: hopper_minecart
+        slot: 12
+        amount: 3
+        priority: 1
+        display_name: ' &e&l«Уровень 3» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 90
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.3'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded3':
+        material: chest_minecart
+        priority: 2
+        amount: 3
+        slot: 12
+        display_name: ' &e&l«Уровень 3» &7(Прогресс:&6 %statistic_minutes_played%&7/&690&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 90 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите'
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &e1 Кейс с риликами'
+        left_click_commands:
+        - '[console] cases give %player_name% donate 1'
+        - '[console] cases give %player_name% riliks 1'
+        - '[console] lp user %player_name% permission set freeleto25.3'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &e1 Кейс с рилликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 90
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward4':
+        material: hopper_minecart
+        slot: 13
+        amount: 4
+        priority: 1
+        display_name: ' &e&l«Уровень 4» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 150
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.4'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded4':
+        material: chest_minecart    
+        priority: 2
+        amount: 4
+        slot: 13
+        display_name: ' &e&l«Уровень 4» &7(Прогресс:&6 %statistic_minutes_played%&7/&6150&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 150 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &675 рилликов'
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &e1 Кейс с рилликами'
+        left_click_commands:
+        - '[console] p give %player_name% 75'
+        - '[console] cases give %player_name% donate 1'
+        - '[console] cases give %player_name% riliks 1'
+        - '[console] lp user %player_name% permission set freeleto25.4'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &675 &7рилликов'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &e1 Кейс с рилликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 150
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward5':
+        material: hopper_minecart
+        slot: 14
+        amount: 5
+        priority: 1
+        display_name: ' &e&l«Уровень 5» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 300
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.5'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded5':
+        material: chest_minecart
+        priority: 2
+        amount: 5
+        slot: 14
+        display_name: ' &e&l«Уровень 5» &7(Прогресс:&6 %statistic_minutes_played%&7/&6300&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 300 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6100 рилликов'
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 100'
+        - '[console] cases give %player_name% donate 1'
+        - '[console] cases give %player_name% riliks 2'
+        - '[console] lp user %player_name% permission set freeleto25.5'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6100 рилликов'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 300
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward6':
+        material: hopper_minecart
+        slot: 15
+        amount: 6
+        priority: 1
+        display_name: ' &e&l«Уровень 6» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 7
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.6'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded6':
+        material: chest_minecart
+        priority: 2
+        amount: 6
+        slot: 15
+        display_name: ' &e&l«Уровень 6» &7(Прогресс:&6 %statistic_hours_played%&7/&67&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 7 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6125 рилликов'
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 125'
+        - '[console] crate give %player_name% donate 1'
+        - '[console] cases give %player_name% riliks 2'
+        - '[console] lp user %player_name% permission set freeleto25.6'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6125 рилликов'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 7
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward7':
+        material: hopper_minecart
+        slot: 16
+        amount: 7
+        priority: 1
+        display_name: ' &e&l«Уровень 7» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 9
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.7'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded7':
+        material: chest_minecart
+        priority: 2
+        amount: 7
+        slot: 16
+        display_name: ' &e&l«Уровень 7» &7(Прогресс:&6 %statistic_hours_played%&7/&69&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 9 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6175 рилликов'
+        - '&7| &62 Кейс с привилегиями'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 175'
+        - '[console] crate give %player_name% donate 2'
+        - '[console] cases give %player_name% riliks 2'
+        - '[console] lp user %player_name% permission set freeleto25.7'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6175 рилликов'
+        - '[message] &7Вы получили &62 Кейс с привилегиями'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 9
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward8':
+        material: hopper_minecart
+        slot: 19
+        amount: 8
+        priority: 1
+        display_name: ' &e&l«Уровень 8» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 13
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.8'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded8':
+        material: chest_minecart
+        priority: 2
+        amount: 8
+        slot: 19
+        display_name: ' &e&l«Уровень 8» &7(Прогресс:&6 %statistic_hours_played%&7/&613&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 13 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6300 рилликов'
+        - '&7| &61 Кейс с привилегиями'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 300'
+        - '[console] cases give %player_name% donate 1'
+        - '[console] cases give %player_name% riliks 3'
+        - '[console] lp user %player_name% permission set freeleto25.8'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6300 рилликов'
+        - '[message] &7Вы получили &61 Кейс с привилегиями'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 13
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward9':
+        material: hopper_minecart
+        slot: 20
+        amount: 9
+        priority: 1
+        display_name: ' &e&l«Уровень 9» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 15
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.9'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded9':
+        material: chest_minecart
+        priority: 2
+        amount: 9
+        slot: 20
+        display_name: ' &e&l«Уровень 9» &7(Прогресс:&6 %statistic_hours_played%&7/&615&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 15 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6175 рилликов'
+        - '&7| &62 Кейса с привилегиями'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 175'
+        - '[console] cases give %player_name% donate 2'
+        - '[console] cases give %player_name% riliks 3'
+        - '[console] lp user %player_name% permission set freeleto25.9'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6175 рилликов'
+        - '[message] &7Вы получили &62 Кейса с привилегиями'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 15
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward10':
+        material: hopper_minecart
+        slot: 21
+        amount: 10
+        priority: 1
+        display_name: ' &e&l«Уровень 10» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 17
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.10'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded10':
+        material: chest_minecart
+        priority: 2
+        amount: 10
+        slot: 21
+        display_name: ' &e&l«Уровень 10» &7(Прогресс:&6 %statistic_hours_played%&7/&617&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 17 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6350 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 350'
+        - '[console] cases give %player_name% riliks 3'
+        - '[console] lp user %player_name% permission set freeleto25.10' 
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6350 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 17
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward11':
+        material: hopper_minecart
+        slot: 22
+        amount: 11
+        priority: 1
+        display_name: ' &e&l«Уровень 11» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 22
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.11'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded11':
+        material: chest_minecart
+        priority: 2
+        amount: 11
+        slot: 22
+        display_name: ' &e&l«Уровень 11» &7(Прогресс:&6 %statistic_hours_played%&7/&622&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 22 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6400 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 400'
+        - '[console] cases give %player_name% riliks 3'
+        - '[console] lp user %player_name% permission set freeleto25.11'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6400 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 22
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'freeleto25':
+        material: hopper_minecart
+        slot: 23
+        amount: 12
+        priority: 1
+        display_name: ' &e&l«Уровень 12» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 30
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.12'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded12':
+        material: chest_minecart
+        priority: 2
+        amount: 12
+        slot: 23
+        display_name: ' &e&l«Уровень 12» &7(Прогресс:&6 %statistic_hours_played%&7/&630&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 30 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6250 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 250'
+        - '[console] cases give %player_name% riliks 3'
+        - '[console] lp user %player_name% permission set freeleto25.12'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6250 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 30
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward13':
+        material: hopper_minecart
+        slot: 24
+        amount: 13
+        priority: 1
+        display_name: ' &e&l«Уровень 13» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 39
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.13'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded13':
+        material: chest_minecart
+        priority: 2
+        amount: 13
+        slot: 24
+        display_name: ' &e&l«Уровень 13» &7(Прогресс:&6 %statistic_hours_played%&7/&639&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 39 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6350 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 350'
+        - '[console] cases give %player_name% riliks 3'
+        - '[console] lp user %player_name% permission set freeleto25.13'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6350 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 39
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward14':
+        material: hopper_minecart
+        slot: 25
+        amount: 14
+        priority: 1
+        display_name: ' &e&l«Уровень 14» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 46
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.14'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded14':
+        material: chest_minecart
+        priority: 2
+        amount: 14
+        slot: 25
+        display_name: ' &e&l«Уровень 14» &7(Прогресс:&6 %statistic_hours_played%&7/&646&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 46 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6205 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 205'
+        - '[console] cases give %player_name% riliks 3'
+        - '[console] lp user %player_name% permission set freeleto25.14'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6205 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 46
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward15':
+        material: hopper_minecart
+        slot: 28
+        amount: 15
+        priority: 1
+        display_name: ' &e&l«Уровень 15» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 52
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.15'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded15':
+        material: chest_minecart
+        priority: 2
+        amount: 15
+        slot: 28
+        display_name: ' &e&l«Уровень 15» &7(Прогресс:&6 %statistic_hours_played%&7/&652&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 52 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6250 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 250'
+        - '[console] cases give %player_name% riliks 2'
+        - '[console] lp user %player_name% permission set freeleto25.15'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6250 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 52
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward16':
+        material: hopper_minecart
+        slot: 29
+        amount: 16
+        priority: 1
+        display_name: ' &e&l«Уровень 16» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 61
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.16'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded16':
+        material: chest_minecart
+        priority: 2
+        amount: 16
+        slot: 29
+        display_name: ' &e&l«Уровень 16» &7(Прогресс:&6 %statistic_hours_played%&7/&661&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 61 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &6350 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 350'
+        - '[console] cases give %player_name% riliks 2'
+        - '[console] lp user %player_name% permission set freeleto25.16'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6350 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 61
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward17':
+        material: hopper_minecart
+        slot: 30
+        amount: 17
+        priority: 1
+        display_name: ' &e&l«Уровень 17» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 70
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.17'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded17':
+        material: chest_minecart
+        priority: 2
+        amount: 17
+        slot: 30
+        display_name: ' &e&l«Уровень 17» &7(Прогресс:&6 %statistic_hours_played%&7/&670&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 70 часа'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &62 Кейса с валютой'
+        - '&7| &6300 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 300'
+        - '[console] cases give %player_name% riliks 2'
+        - '[console] cases give %player_name% money 2'
+        - '[console] lp user %player_name% permission set freeleto25.17'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6300 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e2 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 70
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward18':
+        material: hopper_minecart
+        slot: 31
+        amount: 18
+        priority: 1
+        display_name: ' &e&l«Уровень 18» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 78
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.18'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded18':
+        material: chest_minecart
+        priority: 2
+        amount: 18
+        slot: 31
+        display_name: ' &e&l«Уровень 18» &7(Прогресс:&6 %statistic_hours_played%&7/&678&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 78 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &63 Кейса с валютой'
+        - '&7| &6200 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 200'
+        - '[console] cases give %player_name% riliks 3'
+        - '[console] cases give %player_name% money 3'
+        - '[console] lp user %player_name% permission set freeleto25.18'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6200 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7Вы получили &e3 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 78
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward19':
+        material: hopper_minecart
+        slot: 32
+        amount: 19
+        priority: 1
+        display_name: ' &e&l«Уровень 19» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 85
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.19'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded19':
+        material: chest_minecart
+        priority: 2
+        amount: 19
+        slot: 32
+        display_name: ' &e&l«Уровень 19» &7(Прогресс:&6 %statistic_hours_played%&7/&685&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 85 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &63 Кейса с валютой'
+        - '&7| &6400 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 400'
+        - '[console] cases give %player_name% riliks 4'
+        - '[console] cases give %player_name% money 3'
+        - '[console] lp user %player_name% permission set freeleto25.19'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6400 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e3 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 85
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward20':
+        material: hopper_minecart
+        slot: 33
+        amount: 20
+        priority: 1
+        display_name: ' &e&l«Уровень 20» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 95
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.20'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded20':
+        material: chest_minecart
+        priority: 2
+        amount: 20
+        slot: 33
+        display_name: ' &e&l«Уровень 20» &7(Прогресс:&6 %statistic_hours_played%&7/&695&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 95 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &62 Кейса с валютой'
+        - '&7| &6200 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 200'
+        - '[console] cases give %player_name% riliks 2'
+        - '[console] cases give %player_name% money 2'
+        - '[console] lp user %player_name% permission set freeleto25.20'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6200 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e2 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 95
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward21':
+        material: hopper_minecart
+        slot: 34
+        amount: 20
+        priority: 1
+        display_name: ' &e&l«Уровень 21» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 101
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.21'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded21':
+        material: chest_minecart
+        priority: 2
+        amount: 21
+        slot: 34
+        display_name: ' &e&l«Уровень 21» &7(Прогресс:&6 %statistic_hours_played%&7/&6101&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 101 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &63 Кейса с валютой'
+        - '&7| &6250 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 250'
+        - '[console] cases give %player_name% riliks 3'
+        - '[console] cases give %player_name% money 3'
+        - '[console] lp user %player_name% permission set freeleto25.21'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6250 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7Вы получили &e3 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 101
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward22':
+        material: hopper_minecart
+        slot: 37
+        amount: 22
+        priority: 1
+        display_name: ' &e&l«Уровень 22» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 111
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.22'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded22':
+        material: chest_minecart
+        priority: 2
+        amount: 22
+        slot: 37
+        display_name: ' &e&l«Уровень 22» &7(Прогресс:&6 %statistic_hours_played%&7/&6111&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 111 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &63 Кейса с валютой'
+        - '&7| &6250 рилликов'
+        - '&7| &e4 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 250'
+        - '[console] cases give %player_name% riliks 4'
+        - '[console] cases give %player_name% money 3'
+        - '[console] lp user %player_name% permission set freeleto25.22'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6250 рилликов'
+        - '[message] &7Вы получили &e4 Кейса с риликами'
+        - '[message] &7Вы получили &e3 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 111
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward23':
+        material: hopper_minecart
+        slot: 38
+        amount: 23
+        priority: 1
+        display_name: ' &e&l«Уровень 23» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 121
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.23'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded23':
+        material: chest_minecart
+        priority: 2
+        amount: 23
+        slot: 38
+        display_name: ' &e&l«Уровень 23» &7(Прогресс:&6 %statistic_hours_played%&7/&6121&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 121 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &63 Кейса с валютой'
+        - '&7| &675 рилликов'
+        - '&7| &e3 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 75'
+        - '[console] cases give %player_name% riliks 3'
+        - '[console] cases give %player_name% money 3'
+        - '[console] lp user %player_name% permission set freeleto25.23'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &675 рилликов'
+        - '[message] &7Вы получили &e3 Кейса с риликами'
+        - '[message] &7Вы получили &e3 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 121
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward24':
+        material: hopper_minecart
+        slot: 39
+        amount: 24
+        priority: 1
+        display_name: ' &e&l«Уровень 24» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 130
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.24'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded24':
+        material: chest_minecart
+        priority: 2
+        amount: 24
+        slot: 39
+        display_name: ' &e&l«Уровень 24» &7(Прогресс:&6 %statistic_hours_played%&7/&6130&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 130 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &62 Кейса с валютой'
+        - '&7| &650 рилликов'
+        - '&7| &e4 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 50'
+        - '[console] cases give %player_name% riliks 4'
+        - '[console] cases give %player_name% money 2'
+        - '[console] lp user %player_name% permission set freeleto25.24'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &650 рилликов'
+        - '[message] &7Вы получили &e4 Кейса с риликами'
+        - '[message] &7Вы получили &e2 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 130
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward25':
+        material: hopper_minecart
+        slot: 40
+        amount: 25
+        priority: 1
+        display_name: ' &e&l«Уровень 25» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 140
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.25'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded25':
+        material: chest_minecart
+        priority: 2
+        amount: 25
+        slot: 40
+        display_name: ' &e&l«Уровень 25» &7(Прогресс:&6 %statistic_hours_played%&7/&6140&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 140 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &61 Кейса с валютой'
+        - '&7| &630 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 30'
+        - '[console] cases give %player_name% riliks 2'
+        - '[console] cases give %player_name% money 1'
+        - '[console] lp user %player_name% permission set freeleto25.25'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &630 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e1 Кейс с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 140
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward26':
+        material: hopper_minecart
+        slot: 41
+        amount: 26
+        priority: 1
+        display_name: ' &e&l«Уровень 26» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 152
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.26'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded26':
+        material: chest_minecart
+        priority: 2
+        amount: 26
+        slot: 41
+        display_name: ' &e&l«Уровень 26» &7(Прогресс:&6 %statistic_hours_played%&7/&6152&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 152 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &62 Кейса с валютой'
+        - '&7| &6450 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 450'
+        - '[console] cases give %player_name% riliks 2'
+        - '[console] cases give %player_name% money 2'
+        - '[console] lp user %player_name% permission set freeleto25.26'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6450 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e2 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 152
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward27':
+        material: hopper_minecart
+        slot: 42
+        amount: 27
+        priority: 1
+        display_name: ' &e&l«Уровень 27» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 162
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.27'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded27':
+        material: chest_minecart
+        priority: 2
+        amount: 27
+        slot: 42
+        display_name: ' &e&l«Уровень 27» &7(Прогресс:&6 %statistic_hours_played%&7/&6162&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 162 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &62 Кейса с валютой'
+        - '&7| &6500 рилликов'
+        - '&7| &e2 Кейса с риликами'
+        left_click_commands:
+        - '[console] points give %player_name% 500'
+        - '[console] cases give %player_name% riliks 2'
+        - '[console] cases give %player_name% money 2'
+        - '[console] lp user %player_name% permission set freeleto25.27'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6500 рилликов'
+        - '[message] &7Вы получили &e2 Кейса с риликами'
+        - '[message] &7Вы получили &e2 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 162
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward28':
+        material: hopper_minecart
+        slot: 43
+        amount: 28
+        priority: 1
+        display_name: ' &e&l«Уровень 28» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 250
+            hasperm:
+              type: has permission
+              permission: 'freeleto25.28'
+        left_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &6Награды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded28':
+        material: chest_minecart
+        priority: 2
+        amount: 28
+        slot: 43
+        display_name: ' &e&l«Уровень 28» &7(Прогресс:&6 %statistic_hours_played%&7/&6250&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 250 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &64 Кейса с валютой'
+        - '&7| &6400 рилликов'
+        - '&7| &eПривилегия "BULL"'
+        left_click_commands:
+        - '[console] points give %player_name% 400'
+        - '[console] lp user %player_name% parent add bull'
+        - '[console] cases give %player_name% money 4'
+        - '[console] lp user %player_name% permission set freeleto25.28'
+        - '[message] &7================================='
+        - '[message] &7Успешно!'
+        - '[message] &7Вы получили &6400 рилликов'
+        - '[message] &7Вы получили &eпривилегию "BULL"'
+        - '[message] &7Вы получили &e4 Кейса с валютой'
+        - '[message] &7================================='
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 250
+          deny_commands:
+          - '[message] &6Награды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'          

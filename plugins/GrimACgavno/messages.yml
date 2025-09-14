@@ -1,0 +1,44 @@
+# \u00BB is » (double >>), ANSI and UTF-8 interpret this differently... you may even see ? due to this
+prefix: "§x§F§F§7§2§0§0А§x§F§F§7§A§0§0н§x§F§F§8§2§0§0т§x§F§E§8§A§0§0и§x§F§E§9§2§0§0-§x§F§E§9§9§0§0ч§x§F§E§A§1§0§0и§x§F§D§A§9§0§0т §x§F§D§B§9§0§0∫"
+
+alerts-enabled: "%prefix% &fОповещения &x&0&E&F&F&0&0Включены"
+alerts-disabled: "%prefix% &fОповещения &x&F&F&0&0&0&0Отключены"
+client-brand-format: "%prefix% &7%player% &fприсоединился с использованием &x&F&F&6&7&0&0%brand%"
+console-specify-target: "%prefix% &fВам нужно указать цель, при выполнении команды от консоли!"
+player-not-found: "%prefix% &fИгрок не найден!"
+player-not-this-server: "%prefix% &fИгрок не находится на сервере!"
+spectate-return: "\n%prefix% &fНажмите, чтобы вернуться на прошлую локацию\n"
+cannot-spectate-return: "%prefix% &fВы можете сделать это только после наблюдения за игроком"
+cannot-run-on-self: "%prefix% &fВы не можете использовать эту команду на себя!"
+upload-log: "%prefix% &fДебаг выгружен по ссылке: %url%"
+upload-log-start: "%prefix% &fВыгружаем лог... подождите немного"
+upload-log-not-found: "%prefix% &fНе выходит найти этот лог"
+upload-log-upload-failure: "%prefix% &fЧто-то пошло не так при выгрузке этого лога, см. консоль для получения дополнительной информации"
+
+# Valid placeholders:
+# %prefix%
+# %player%
+# %check_name%
+# %vl% - violations
+# %verbose% - extra information from the check such as offsets, not all checks will add information
+alerts-format: "%prefix% &7%player% &fпровалил &x&F&F&6&7&0&0%check_name%(%verbose%) &7[%vl%VL]"
+
+profile:
+  - "%prefix% &fПрофиль игрока &7%player%"
+  - " &fПинг: &7%ping%"
+  - " &fВерсия: &7%version%"
+  - " &fКлиент: &7%brand%"
+  - " &fГоризонтальная чувствительность: &7%h_sensitivity%%"
+  - " &fВертикальная чувствительность: &7%v_sensitivity%%"
+  - " &fFastMath включен: &7%fast_math%"
+help:
+  - "%prefix% &fПомощь:"
+  - " §x§F§F§7§2§0§0/grim alerts &7- &fВкл/Выкл оповещения"
+  - " §x§F§F§7§2§0§0/grim profile [Игрок] &7- &fПосмотреть информацию об игроке"
+  - " §x§F§F§7§2§0§0/grim help &7- &fПросмотр этого сообщения"
+  - " §x§F§F§7§2§0§0/grim debug [Игрок] &7- &fВывод прогноза разработчика (дебаг)"
+  - " §x§F§F§7§2§0§0/grim perf &7- &fDeveloper ms/prediction"
+  - " §x§F§F§7§2§0§0/grim reload &7- &fПерезагрузить конфиг"
+  - " §x§F§F§7§2§0§0/grim spectate [Игрок] &7- &fНаблюдать за игроком"
+  - " §x§F§F§7§2§0§0/grim verbose &7- &fПоказывает вам каждый флаг без буферов (доп.информация от античита)"
+  - " §x§F§F§7§2§0§0/grim log [0-255] &7- &fЗагружает дебаг лог для флагов прогнозирования" # что бы это не значило

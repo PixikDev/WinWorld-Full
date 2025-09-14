@@ -1,0 +1,249 @@
+menu_title: '&fꈁꀀꈂꍀꈂꀁ&0ꈃꄑ'
+open_command:
+- kit_hydra
+size: 54
+items: 
+  'arrow':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    left_click_commands:
+    - '[close]' 
+    - '[player] kits'
+    right_click_commands:
+    - '[close]' 
+    - '[player] kits'
+  'receive':
+    material: slime_block
+    slot: 53
+    display_name: '&a&lПолучить набор'
+    lore:
+    - '&f'
+    - '&fНажмите, чтобы &6получить'
+    - '&fданный набор'
+    - '&f'
+    - '&fЗадержка: &630 дней'
+    - '&fДоступен: &x&1&4&6&C&0&0&lH&x&0&F&7&7&0&4&lY&x&0&A&8&2&0&8&lD&x&0&5&8&D&0&C&lR&x&0&0&9&8&1&0&lA'
+    left_click_commands:
+    - '[close]' 
+    - '[player] kit hydra'
+    right_click_commands:
+    - '[close]' 
+    - '[player] kit hydra'
+  'item1':
+    material: netherite_helmet
+    slot: 2
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовый шлем'
+    lore:
+    - '&7Подводник'
+    - '&7Защита IV'
+    - '&7Подводное дыхание III'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item2':
+    material: netherite_chestplate
+    slot: 3
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовый нагрудник'
+    lore:
+    - '&7Защита IV'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item3':
+    material: netherite_leggings
+    slot: 4
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовые поножи'
+    lore:
+    - '&7Защита IV'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item4':
+    material: netherite_boots
+    slot: 5
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовые ботинки'
+    lore:
+    - '&7Подводная ходьба III'
+    - '&7Невесомость II'
+    - '&7Защита IV'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item5':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg5ZTgwNWJkNmYxNmVjYzI0NTJhZGQxOGU4Zjg2YTIxN2RlNjZmYjRiY2U0MTkwNDZmMWI5NjExYWJkOGYifX19
+    slot: 6
+    display_name: '&a&lГолова Гидры'
+    lore:
+    - '&cПроклятие утраты'
+    - '&f'
+    - '&7Когда во второстепенной руке:'
+    - '&9+20% Скорость'
+    - '&9+5 Броня'
+    - '&9+10 Максимальное здоровье'
+    hide_enchantments: true
+  'item6':
+    material: netherite_sword
+    slot: 9
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовый меч'
+    lore:
+    - '&7Заговор огня II'
+    - '&7Острота V'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item7':
+    material: bow
+    slot: 10
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bЛук'
+    lore:
+    - '&7Воспламенение'
+    - '&7Бесконечность'
+    - '&7Починка'
+    - '&7Сила V'
+    - '&7Откидывание II'
+    - '&7Прочность II'
+    hide_enchantments: true
+  'item8':
+    material: golden_apple
+    slot: 22
+    amount: 32
+    display_name: '&bЗолотое яблоко'
+  'item9':
+    material: golden_carrot
+    slot: 21
+    amount: 64
+  'item10':
+    material: netherite_pickaxe
+    slot: 11
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовая кирка'
+    lore:
+    - '&7Эффективность V'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item11':
+    material: netherite_axe
+    slot: 12
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовый топор'
+    lore:
+    - '&7Эффективность V'
+    - '&7Острота V'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item12':
+    material: netherite_shovel
+    slot: 13
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовая лопата'
+    lore:
+    - '&7Эффективность IV'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item13':
+    material: totem_of_undying
+    slot: 14
+    display_name: '&eТотем бессмертия'
+  'item14':
+    material: ender_pearl
+    slot: 15
+    amount: 16
+  'item15':
+    material: enchanted_golden_apple
+    slot: 16
+    amount: 2
+  'item16':
+    material: end_crystal
+    slot: 17
+    amount: 12
+  'item17':
+    material: ender_pearl
+    slot: 18
+    amount: 16
+  'item18':
+    material: ender_pearl
+    slot: 19
+    amount: 16
+  'item19':
+    material: ender_pearl
+    slot: 20
+    amount: 16
+  'item20':
+    material: obsidian
+    slot: 23
+    amount: 32
+  'item21':
+    material: lapis_block
+    slot: 24
+    amount: 15
+  'item22':
+    material: tipped_arrow
+    hide_attributes: true
+    hide_effects: true
+    nbt_int: CustomPotionColor:16262179
+    potion_effects:
+    - "ABSORPTION;1;1"
+    slot: 25
+    amount: 16
+    display_name: '&fСтрела исцеления'
+    lore:
+    - '&9Исцеление II'
+  'item23':
+    material: arrow
+    slot: 26
+    amount: 64
+  'item24':
+    material: totem_of_undying
+    slot: 27
+    display_name: '&eТотем бессмертия'
+  'item25':
+    material: totem_of_undying
+    slot: 28
+    display_name: '&eТотем бессмертия'
+  'item26':
+    material: totem_of_undying
+    slot: 29
+    display_name: '&eТотем бессмертия'
+  'item27':
+    material: gold_block
+    slot: 30
+    amount: 21
+  'item28':
+    material: iron_block
+    slot: 31
+    amount: 21
+  'item29':
+    material: diamond_block
+    slot: 32
+    amount: 15
+  'item30':
+    material: chorus_fruit
+    slot: 33
+    amount: 64
+  'item31':
+    material: tipped_arrow
+    hide_attributes: true
+    hide_effects: true
+    nbt_int: CustomPotionColor:13565951
+    potion_effects:
+    - "ABSORPTION;1;1"
+    slot: 34
+    amount: 16
+    display_name: '&fСтрела плавного падения'
+    lore:
+    - '&9Плавное падение (0:11)'
+  'item32':
+    material: lime_shulker_box
+    slot: 35

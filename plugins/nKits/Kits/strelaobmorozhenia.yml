@@ -1,0 +1,92 @@
+Name: strelaobmorozhenia
+Cooldown: 0
+Permission: nKits.kits.strelaobmorozhenia
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Стрела
+        обморожения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Слепота
+        (0:04)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Стан
+        (0:04)"}],"text":""}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4E4sKsovj08ryi8uYQAAmGEvYh4AAAA=
+      PublicBukkitValues:
+        reallyworld:uuid: f3112810-8488-43a4-bc9c-bc2261cd3e11
+        reallyworld:owner: nemnogoznaal
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 64
+        amplifier: 127
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 64
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

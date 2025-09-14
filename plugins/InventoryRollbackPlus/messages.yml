@@ -1,0 +1,64 @@
+general:
+  prefix: '&6WinWorld &7» '
+
+commands:
+  no-permission: '&cУ вас нет прав!'
+  error: '&cПроизошла ошибка!'
+  enable: '&2Плагин был включен.'
+  disable: '&2Плагин был выключен.'
+  reload: '&2Плагин был успешно перезагружен.'
+  player-only: '&cКоманда может быть использована только игроком!'
+  import: '&aSuccessfully imported all backup data from the old plugin.'
+
+backup:
+  no-backup: 'There is currently no backups for %NAME%.'
+  not-online: '%NAME% is not currently online.'
+  force-saved-player: '%NAME%''s inventory has been force saved.'
+  force-saved-all: 'All online player inventories have been force saved.'
+  not-forced-saved: 'There was an issue with saving %NAME%''s inventory.'
+
+attribute-restore:
+  main-inventory:
+    restored: '&fИнвентарь успешно восстановлен для игрока &a%NAME% '
+    restored-player: '&fВаш инвентарь был возвращен &cадминистратором&f.'
+    not-online: 'Игрок %NAME% сейчас не в сети.'
+    button-name: '&cВосстановить инвентарь'
+    button-disabled: '&cSingle click restore is disabled\n&cin the config.yml file!'
+  ender-chest:
+    restored: '%NAME%''s ender chest has been restored.'
+    restored-player: 'Your ender chest has been restored by %NAME% from backup.'
+    not-online: 'You can''t restore %NAME%''s ender chest while they are offline.'
+    button-name: '&dВосстановить Эндер-Сундук'
+  health:
+    restored: '%NAME%''s health has been restored.'
+    restored-player: 'Your health has been restored by %NAME% from backup.'
+    not-online: 'You can''t restore %NAME%''s health while they are offline.'
+    button-name: '&aВосстановить здоровье'
+  hunger:
+    restored: '%NAME%''s hunger has been restored.'
+    restored-player: 'Your hunger has been restored by %NAME% from backup.'
+    not-online: 'You can''t restore %NAME%''s hunger while they are offline.'
+    button-name: '&cВосстановить голод'
+  experience:
+    restored: '%NAME%''s XP has been set to level %XP%.'
+    restored-player: 'Your XP has been restored to level %XP% by %NAME% from backup.'
+    not-online: 'You can''t restore %NAME%''s experience while they are offline.'
+    button-name: '&2Востановить EXP игрока'
+    button-lore: '&rLevel %XP%'
+
+death-location:  
+  world: '&6Мир: &f%WORLD%'
+  x: '&6X: &f%X%'
+  y: '&6Y: &f%Y%'
+  z: '&6Z: &f%Z%'
+  reason: '&6Причина смерти: &f%REASON%'
+  time: '&6Время: &f%TIME%'
+  teleport-to: '&3Телепортация на место смерти'
+  teleport: 'Вы были телепортированы на: %LOCATION%'
+  invalid-world: 'Мира %WORLD% сейчас нет на сервере!'
+
+menu-buttons:
+  main-menu: '&fГлавное меню'
+  next-page: '&fСледующая страница'
+  previous-page: '&fПрошлая страница'
+  back-page: '&fВернуться'

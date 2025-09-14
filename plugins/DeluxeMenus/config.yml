@@ -1,0 +1,104 @@
+# DeluxeMenus 1.14.0-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: HIGHEST
+check_updates: false
+gui_menus:
+  menu:
+    file: menu.yml
+  links:
+    file: links.yml
+  jobs:
+    file: jobs.yml
+  donate:
+    file: donate.yml
+  donateServices:
+    file: donateServices.yml
+  cases:
+    file: cases.yml
+  rewards:
+    file: rewards.yml
+  events:
+    file: events.yml
+  kitpreview_START:
+    file: kits/kit_start.yml
+  kitpreview_HERO:
+    file: kits/kit_hero.yml
+  kitpreview_TITAN:
+    file: kits/kit_titan.yml
+  kitpreview_AVENGER:
+    file: kits/kit_avenger.yml
+  kitpreview_OVERLORD:
+    file: kits/kit_overlord.yml
+  kitpreview_RABBIT:
+    file: kits/kit_rabbit.yml
+  kitpreview_DRACULA:
+    file: kits/kit_dracula.yml
+  kitpreview_Dhelper:
+    file: kits/kit_dhelper.yml
+  kitpreview_BUNNY:
+    file: kits/kit_bunny.yml
+  kitpreview_HYDRA:
+    file: kits/kit_hydra.yml
+  kitpreview_TIGER:
+    file: kits/kit_tiger.yml
+  kitpreview_WINNER:
+    file: kits/kit_winner.yml
+  kits:
+    file: kits/kits.yml
+  shop:
+    file: shop.yml
+  shop_aura:
+    file: shop/aura.yml
+  shop_boosters:
+    file: shop/boosters.yml
+  shop_balls:
+    file: shop/balls.yml
+  shop_furnace:
+    file: shop/furnace.yml
+  shop_potions:
+    file: shop/potions.yml
+  shop_grief:
+    file: shop/grief.yml
+  shop_mage:
+    file: shop/mage.yml
+  shop_trident:
+    file: shop/trident.yml
+  shop_spawners:
+    file: shop/spawners.yml
+  shop_kitsbuy:
+    file: shop/kitsbuy.yml
+  shop_weapon:
+    file: shop/weapon.yml
+  plus:
+    file: wwplus/plus.yml
+  plus2:
+    file: wwplus/plus2.yml
+  plus_buy_1:
+    file: wwplus/plus_buy_1.yml
+  plus_buy_2:
+    file: wwplus/plus_buy_2.yml
+  plus_buy_3:
+    file: wwplus/plus_buy_3.yml
+  huckster:
+    file: npc/huckster.yml
+  torg:
+    file: npc/torg.yml
+  enderchest:
+    file: enderchest.yml
+  guide:
+    file: guide.yml
+  contracts:
+    file: contracts.yml
+  rtp:
+    file: rtp.yml
+  warps:
+    file: warps.yml
+  warps_server:
+    file: warps_server.yml
+  code:
+    file: code.yml
+  main_ec:
+    file: enderchest/main_ec.yml

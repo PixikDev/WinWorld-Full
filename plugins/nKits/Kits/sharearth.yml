@@ -1,0 +1,97 @@
+Name: sharearth
+Cooldown: 0
+Permission: nKits.kits.sharearth
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Шар
+        Земли"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Спешка
+        II (00:08)"}],"text":""}'
+      custom-model-data: 5002
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: e0c03974-5d3a-4e5a-8dcb-5b9b044d3298
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+          slot: OFF_HAND
+          uuid: 5aa65d4e-e343-4a44-a0f3-3f00ad51e0b3
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+          slot: OFF_HAND
+          uuid: f48507d9-42a3-4d33-93a2-1801873ca91d
+          operation: 0
+      internal: H4sIAAAAAAAA/02PT06DQBxGfxpNKrrTrSdwM4jFdNGF6RAY0hkspUMhcdHCVP4M2FBQhxt4Hk28ipcxkaW79+V9m6cBaHCxLDspH5uXXS6FBtpAe9G0uTicwagV723XiIMGAEcjOOUb2Qn4EspF8TpD6dqViSLmsIMlkh4p9vek5mo7IyapBu88mHM1+fcdt5twLCPDzeJ60W0rjuaGL4Xj60m1eo0KgihO3qJe5qyIdC/kJS14TiuW0YDceoGlx4VfevhZUTvO4opJhqliNi+90LobXO7Zlk5x1DO86ilOK1Lrk91iOgU4h2OSDiEn38S4+nXcnw80e7q8+bwG+AMsxB8tCgEAAA==
+      PublicBukkitValues:
+        minecraft:earth: EARTH
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

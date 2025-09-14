@@ -1,0 +1,16 @@
+location: world_spawn:5.801:67.901:-7.197
+enabled: true
+display-range: 24
+update-range: 24
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&lВнимание!'
+    height: 0.6
+  - content: '&aНа сервере доступен голосовой чат!'
+    height: 0.3
+  - content: '&aПолучить ссылку на мод: &b/voice'
+    height: 0.3
+  actions: {}

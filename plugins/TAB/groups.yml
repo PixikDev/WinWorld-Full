@@ -1,0 +1,310 @@
+#Owner:
+#  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+#  tagprefix: "&2&lOwner &a"
+Player:
+  tabprefix: '&0&l[&7&lPlayer&0&l] &3'
+  tagprefix: '&2&lPlayer &3'
+example_group:
+  header:
+  - This is an example of per-group header/footer
+  footer:
+  - applied to a group
+coder:
+  tabprefix: ' %condition:check_voice% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+gpt:
+  tabprefix: ' %condition:check_voice% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+developer:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+curator:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+donadmin:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+donadminnomoder:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+mediaadm:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+mladminkp:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+mladmin:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+assistant:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+offassistant:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+admin:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+glmoder:
+  tabprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+stmoder:
+  tabprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+moder:
+  tabprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+offsthelper:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+offhelper:
+  tabprefix: ' %condition:check_voice% &2&r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &2&r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+offmoder:
+  tabprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+offstmoder:
+  tabprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+offglmoder:
+  tabprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+moderplus:
+  tabprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+offmoderplus:
+  tabprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+offmlmoder:
+  tabprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+mlmoder:
+  tabprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &rꔀ %vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+dracula:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+cobra:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+hydra:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+sponsornemoder:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+mediaplus:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+media:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+sthelper:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+helper:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+sponsor:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+winner:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+aurora:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+ghost:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+bunny:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+dhelper:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+tiger:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+rabbit:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+bull:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+dragon:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+imperator:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+magister:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+overlord:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+avenger:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+titan:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+Hero:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+default:
+  tabprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %condition:check_voice% &r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  tagsuffix: '%fmsubscribe_sub% %nclans_clan_name%'
+  belowname: '%health% &c❤'
+per-world:
+  world1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'

@@ -1,0 +1,64 @@
+menu_title: '                 &x&C&6&B&3&1&5&lВ&x&B&C&B&E&5&1&lА&x&9&6&9&8&3&C&lЙ&x&6&A&6&E&1&9&lП'
+open_command: 
+- vipe
+- vaip
+size: 53
+items:
+  'vk':
+    material: GOLD_NUGGET
+    slot: 20
+    display_name: '    &f&l〻 &6&l&n/code vipe &f&l〻'
+    lore:
+      - ''
+      - '     &6✎ Нажмите, &fчтобы'
+      - '&f  получить &6риллики'
+      - ''
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_BANJO'
+    - '[player] code vipe'
+    right_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_BANJO'
+    - '[player] code vipe'
+  'telegram':
+    material: netherite_sword
+    hide_attributes: true
+    slot: 24
+    display_name: '         &f&l〻 &6&l&n/kit vipe &f&l〻'
+    lore:
+      - ''
+      - '        &6✎ Нажмите, &fчтобы'
+      - '&f  получить &6кит'
+      - ''
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_BANJO'
+    - '[player] kit vipe'
+    right_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_BANJO'
+    - '[player] kit vipe'
+  'orange':
+    material: PURPLE_STAINED_GLASS_PANE
+    data: 15
+    display_name: '&6&l<3'
+    hide_enchantments: true
+    slots:
+    - 0
+    - 9
+    - 46
+    - 7
+    - 53
+    - 44
+  'WHITE':
+    material: WHITE_STAINED_GLASS_PANE
+    data: 15
+    display_name: '&6&l<3'
+    hide_enchantments: true
+    slots:
+    - 1
+    - 8
+    - 17
+    - 36
+    - 45
+    - 52
+
+
+

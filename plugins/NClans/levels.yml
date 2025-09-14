@@ -1,0 +1,402 @@
+levels:
+  1:
+    exp: 0 # Количество опыта для повышения уровня, на первом уровне ВСЕГДА 0
+    max_members: 10 # Максимальное кол-во участников
+    # типы: BLACK, DARK_GREEN, DARK_RED, GOLD, DARK_GRAY, GREEN, RED, YELLOW, DARK_BLUE, DARK_AQUA, DARK_PURPLE, GRAY, BLUE, AQUA, LIGHT_PURPLE, WHITE
+    color: "&8"
+  2:
+    exp: 1000
+    max_members: 12
+    color: "&8"
+  3:
+    exp: 2000
+    max_members: 14
+    color: "&8"
+  4:
+    exp: 3000
+    max_members: 16
+    color: "&8"
+  5:
+    exp: 4000
+    max_members: 18
+    color: "&8"
+  6:
+    exp: 5000
+    max_members: 20
+    color: "&7"
+  7:
+    exp: 6000
+    max_members: 22
+    color: "&7"
+  8:
+    exp: 7000
+    max_members: 24
+    color: "&7"
+  9:
+    exp: 8000
+    max_members: 26
+    color: "&7"
+  10:
+    exp: 9000
+    max_members: 28
+    color: "&7"
+  11:
+    exp: 10000
+    max_members: 30
+    color: "&x&6&E&C&7&D&E"
+  12:
+    exp: 11000
+    max_members: 31
+    color: "&x&6&E&C&7&D&E"
+  13:
+    exp: 12000
+    max_members: 32
+    color: "&x&6&E&C&7&D&E"
+  14:
+    exp: 13000
+    max_members: 33
+    color: "&x&6&E&C&7&D&E"
+  15:
+    exp: 14000
+    max_members: 34
+    color: "&x&6&E&C&7&D&E"
+  16:
+    exp: 15000
+    max_members: 35
+    color: "&x&3&F&D&8&F&F"
+  17:
+    exp: 16000
+    max_members: 36
+    color: "&x&3&F&D&8&F&F"
+  18:
+    exp: 17000
+    max_members: 37
+    color: "&x&3&F&D&8&F&F"
+  19:
+    exp: 18000
+    max_members: 38
+    color: "&x&3&F&D&8&F&F"
+  20:
+    exp: 19000
+    max_members: 39
+    color: "&x&3&F&D&8&F&F"
+  21:
+    exp: 20000
+    max_members: 40
+    color: "&x&3&F&F&F&C&9"
+  22:
+    exp: 21000
+    max_members: 41
+    color: "&x&3&F&F&F&C&9"
+  23:
+    exp: 22000
+    max_members: 42
+    color: "&x&3&F&F&F&C&9"
+  24:
+    exp: 23000
+    max_members: 43
+    color: "&x&3&F&F&F&C&9"
+  25:
+    exp: 24000
+    max_members: 44
+    color: "&x&3&F&F&F&C&9"
+  26:
+    exp: 25000
+    max_members: 45
+    color: "&x&6&A&F&F&8&0"
+  27:
+    exp: 26000
+    max_members: 45
+    color: "&x&6&A&F&F&8&0"
+  28:
+    exp: 27000
+    max_members: 45
+    color: "&x&6&A&F&F&8&0"
+  29:
+    exp: 28000
+    max_members: 45
+    color: "&x&6&A&F&F&8&0"
+  30:
+    exp: 29000
+    max_members: 45
+    color: "&x&6&A&F&F&8&0"
+  31:
+    exp: 30000
+    max_members: 45
+    color: "&x&0&8&4&C&F&B"
+  32:
+    exp: 31000
+    max_members: 45
+    color: "&x&0&8&4&C&F&B"
+  33:
+    exp: 32000
+    max_members: 45
+    color: "&x&0&8&4&C&F&B"
+  34:
+    exp: 33000
+    max_members: 45
+    color: "&x&0&8&4&C&F&B"
+  35:
+    exp: 34000
+    max_members: 45
+    color: "&x&0&8&4&C&F&B"
+  36:
+    exp: 35000
+    max_members: 45
+    color: "&x&3&D&1&4&B&5"
+  37:
+    exp: 36000
+    max_members: 45
+    color: "&x&3&D&1&4&B&5"
+  38:
+    exp: 37000
+    max_members: 45
+    color: "&x&3&D&1&4&B&5"
+  39:
+    exp: 38000
+    max_members: 45
+    color: "&x&3&D&1&4&B&5"
+  40:
+    exp: 39000
+    max_members: 45
+    color: "&x&3&D&1&4&B&5"
+  41:
+    exp: 40000
+    max_members: 45
+    color: "&x&7&8&1&4&B&5"
+  42:
+    exp: 41000
+    max_members: 45
+    color: "&x&7&8&1&4&B&5"
+  43:
+    exp: 42000
+    max_members: 45
+    color: "&x&7&8&1&4&B&5"
+  44:
+    exp: 43000
+    max_members: 45
+    color: "&x&7&8&1&4&B&5"
+  45:
+    exp: 44000
+    max_members: 45
+    color: "&x&7&8&1&4&B&5"
+  46:
+    exp: 45000
+    max_members: 45
+    color: "&x&B&5&1&4&8&9"
+  47:
+    exp: 46000
+    max_members: 45
+    color: "&x&B&5&1&4&8&9"
+  48:
+    exp: 47000
+    max_members: 45
+    color: "&x&B&5&1&4&8&9"
+  49:
+    exp: 48000
+    max_members: 45
+    color: "&x&B&5&1&4&8&9"
+  50:
+    exp: 49000
+    max_members: 45
+    color: "&x&B&5&1&4&8&9"
+  51:
+    exp: 50000
+    max_members: 45
+    color: "&x&9&9&B&5&1&4"
+  52:
+    exp: 52000
+    max_members: 45
+    color: "&x&9&9&B&5&1&4"
+  53:
+    exp: 54000
+    max_members: 45
+    color: "&x&9&9&B&5&1&4"
+  54:
+    exp: 56000
+    max_members: 45
+    color: "&x&9&9&B&5&1&4"
+  55:
+    exp: 58000
+    max_members: 45
+    color: "&x&9&9&B&5&1&4"
+  56:
+    exp: 60000
+    max_members: 45
+    color: "&x&B&5&9&0&1&4"
+  57:
+    exp: 62000
+    max_members: 45
+    color: "&x&B&5&9&0&1&4"
+  58:
+    exp: 64000
+    max_members: 45
+    color: "&x&B&5&9&0&1&4"
+  59:
+    exp: 66000
+    max_members: 45
+    color: "&x&B&5&9&0&1&4"
+  60:
+    exp: 68000
+    max_members: 45
+    color: "&x&B&5&9&0&1&4"
+  61:
+    exp: 70000
+    max_members: 45
+    color: "&x&B&5&6&9&1&4"
+  62:
+    exp: 72000
+    max_members: 45
+    color: "&x&B&5&6&9&1&4"
+  63:
+    exp: 74000
+    max_members: 45
+    color: "&x&B&5&6&9&1&4"
+  64:
+    exp: 76000
+    max_members: 45
+    color: "&x&B&5&6&9&1&4"
+  65:
+    exp: 78000
+    max_members: 45
+    color: "&x&B&5&6&9&1&4"
+  66:
+    exp: 80000
+    max_members: 45
+    color: "&x&B&5&4&F&1&4"
+  67:
+    exp: 82000
+    max_members: 45
+    color: "&x&B&5&4&F&1&4"
+  68:
+    exp: 84000
+    max_members: 45
+    color: "&x&B&5&4&F&1&4"
+  69:
+    exp: 86000
+    max_members: 45
+    color: "&x&B&5&4&F&1&4"
+  70:
+    exp: 88000
+    max_members: 45
+    color: "&x&B&5&4&F&1&4"
+  71:
+    exp: 90000
+    max_members: 45
+    color: "&x&1&4&B&5&9&4"
+  72:
+    exp: 92000
+    max_members: 45
+    color: "&x&1&4&B&5&9&4"
+  73:
+    exp: 94000
+    max_members: 45
+    color: "&x&1&4&B&5&9&4"
+  74:
+    exp: 96000
+    max_members: 45
+    color: "&x&1&4&B&5&9&4"
+  75:
+    exp: 98000
+    max_members: 45
+    color: "&x&1&4&B&5&9&4"
+  76:
+    exp: 100000
+    max_members: 45
+    color: "&x&2&2&A&2&2&B"
+  77:
+    exp: 102000
+    max_members: 45
+    color: "&x&2&2&A&2&2&B"
+  78:
+    exp: 104000
+    max_members: 45
+    color: "&x&2&2&A&2&2&B"
+  79:
+    exp: 106000
+    max_members: 45
+    color: "&x&2&2&A&2&2&B"
+  80:
+    exp: 108000
+    max_members: 45
+    color: "&x&2&2&A&2&2&B"
+  81:
+    exp: 110000
+    max_members: 45
+    color: "&x&B&5&2&E&2&E"
+  82:
+    exp: 112000
+    max_members: 45
+    color: "&x&B&5&2&E&2&E"
+  83:
+    exp: 114000
+    max_members: 45
+    color: "&x&B&5&2&E&2&E"
+  84:
+    exp: 116000
+    max_members: 45
+    color: "&x&B&5&2&E&2&E"
+  85:
+    exp: 118000
+    max_members: 45
+    color: "&x&B&5&2&E&2&E"
+  86:
+    exp: 120000
+    max_members: 45
+    color: "&c&l"
+  87:
+    exp: 122000
+    max_members: 45
+    color: "&c&l"
+  88:
+    exp: 124000
+    max_members: 45
+    color: "&c&l"
+  89:
+    exp: 126000
+    max_members: 45
+    color: "&c&l"
+  90:
+    exp: 128000
+    max_members: 45
+    color: "&c&l"
+  91:
+    exp: 130000
+    max_members: 45
+    color: "&4&l"
+  92:
+    exp: 132000
+    max_members: 45
+    color: "&4&l"
+  93:
+    exp: 134000
+    max_members: 45
+    color: "&4&l"
+  94:
+    exp: 136000
+    max_members: 45
+    color: "&4&l"
+  95:
+    exp: 138000
+    max_members: 45
+    color: "&4&l"
+  96:
+    exp: 140000
+    max_members: 45
+    color: "&4&l&o&n"
+  97:
+    exp: 142000
+    max_members: 45
+    color: "&4&l&o&n"
+  98:
+    exp: 144000
+    max_members: 45
+    color: "&4&l&o&n"
+  99:
+    exp: 146000
+    max_members: 45
+    color: "&4&l&o&n"
+  100:
+    exp: 150000
+    max_members: 45
+    color: "&4&l&o&n"

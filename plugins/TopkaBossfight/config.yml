@@ -1,0 +1,80 @@
+messages:
+  notFound: "&6Битва с боссом &8» &cИвент не найден, выключать нечего!"
+  noPerm: "&6Битва с боссом &8» &cУ вас нет прав для выполнения этой команды!"
+  lootSaved: "&6Битва с боссом &8» &aЛут успешно сохранен!"
+  admUsage: "&6Битва с боссом &8» &c/nBossfight reload/start/stop/edit"
+  usage: "&6Битва с боссом &8» &c/boss join/leave"
+  edit: "&6Битва с боссом &8» &cВы начали редактировать лут..."
+  start: "&6Битва с боссом &8» &aИвент успешно запущен!"
+  stop: "&6Битва с боссом &8» &cИвент успешно завершён!"
+  reload: "&6Битва с боссом &8» &aКонфиг перезагружен"
+  needArmor: "&6Битва с боссом &8» &cДля входа на арену у вас должен быть минимум &bАлмазный сет&c!"
+  notEvent: "&6Битва с боссом &8» &cДождитесь начала ивента!"
+
+hour: 17
+minute: 30
+
+clan-exp: 50
+clan-points: 50
+start-broadcast: 
+  - "&6Битва с боссом &8» &fНачался ивент &6&lБитва с боссом! &6/boss join"
+  - "&6Битва с боссом &8» &fОдолейте &6&lБосса&f, чтобы получить награду"
+  - "&6Битва с боссом &8» &fКаждый игрок получит награду!"
+  - "&6Битва с боссом &8» &cТоп 1 клан получит клановые &bКоины &cи &bОпыт"
+
+xItemVelocity: 6.0
+yItemVelocity: 6.0
+zItemVelocity: 6.0
+
+bossStrength: 3
+bossResistance: 3
+
+bossfight:
+  glowItems: true
+  throwPower: 3
+  throwChance: 0.4
+  playersForStart: 70
+  timeForJoin: 180
+  endTime: 120
+  damageToPoints: 350
+  defaultMoney: 250000
+  defaultPoints: 0
+  pointsReward:
+    - "&6Битва с боссом &8» &eБитва с боссом завершена!"
+    - "&6Битва с боссом &8» &fВаша награда:"
+    - "&6Битва с боссом &8» &6250.000 &7игровой валюты"
+  moneyReward:
+    - "&6Битва с боссом &8» &eБитва с боссом завершена!"
+    - "&6Битва с боссом &8» &fВаша награда:"
+    - "&6Битва с боссом &8» &6250.000 &7игровой валюты"
+spawnLoc:
+  world: "world_spawn"
+  x: 0.000
+  y: 52
+  z: 0.000
+playerTpLoc:
+  world: "world_boss"
+  x: -1.500
+  y: 64
+  z: 1041.500
+bosses:
+  ravager:
+    health: 1000
+    location:
+      world: "world_boss"
+      x: 0.802
+      y: 64
+      z: 1001.667
+bossbar:
+  waiting:
+    name: "&6&lБитва с Боссом &8| &bНабор игроков  &8(&6%players%&7/&670&8) &7/boss join &c(Осталось &4%time% &cсек)"
+    style: SOLID
+    color: YELLOW
+  fighting:
+    name: "&6&lБитва с Боссом &8| &cОдолейте босса"
+    style: SOLID
+    color: YELLOW
+  ended:
+    name: "&6&lБитва с Боссом &8| &eБосс убит!"
+    style: SEGMENTED_20
+    color: YELLOW

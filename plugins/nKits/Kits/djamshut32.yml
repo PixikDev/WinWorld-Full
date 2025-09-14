@@ -1,0 +1,72 @@
+Name: djamshut32
+Cooldown: 0
+Permission: nKits.kits.djamshut32
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"§5§lВезунчик"}'
+      enchants:
+        LOOT_BONUS_BLOCKS: 5
+        MENDING: 1
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PURPLE_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: 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
+      blockMaterial: PURPLE_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

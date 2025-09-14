@@ -1,0 +1,96 @@
+# Плагин: WinAfkZone (Находись в комнате, чтобы получить бонус)
+# Версия: 1.8+
+need-check-dw: false
+message:
+  reload_success: '&aПлагин перезагружен!'
+  permission_denied: '&cОтказано в доступе.'
+  help:
+  - '&e/ar reload &7- перезагрузить плагин'
+  - '&e/ar help &7- показать список команд'
+  private_room: '&6Премиум Афк зона &7» &cПокупка на сайте - &7winworld.pw'
+permission:
+  reload: actionroom.reload
+progress:
+  enable: true
+  string: '&fНаграда через: &6%timer%'
+room_action_list:
+  pool:
+    display_name: '&6Афк зона'
+    timer: 900
+    message:
+      complete: '&6Афк зона &7» &aНаграда успешно получена. Спасибо за игру на сервере!'
+    command_list:
+    - p give %player% 15
+  privateroom:
+    display_name: '&6Премиум Афк зона'
+    timer: 900
+    message:
+      complete: '&6Премиум Афк зона &7» &aНаграда успешно получена. Спасибо за игру
+        на сервере!'
+    command_list:
+    - p give %player% 60
+room_list:
+  pool:
+    display_name: '&6Афк зона'
+    message:
+      join: '&6Афк зона &7» &aВы успешно вошли в афк зону.'
+      quit:
+      - '&6Афк зона &7» &cВы успешно вышли из афк зоны.'
+      no_permission: '&6Афк зона &7» &aВы сосали.'
+    title:
+      join:
+        title: '&6Афк зона'
+        subtitle: '&aВы успешно вошли в афк зону.'
+        in: 20
+        stay: 20
+        out: 20
+      quit:
+        title: '&6Афк зона'
+        subtitle: '&cВы успешно вышли из афк зоны.'
+        in: 20
+        stay: 20
+        out: 20
+    pos_1:
+      world: world_spawn
+      x: 23
+      y: 59
+      z: -31
+    pos_2:
+      world: world_spawn
+      x: 31
+      y: 57
+      z: -36
+    room_action_list:
+    - pool
+  privateroom:
+    display_name: '&6Премиум Афк зона'
+    message:
+      join: '&6Премиум Афк зона &7» &aВы успешно вошли в афк зону.'
+      quit:
+      - '&6Премиум Афк зона &7» &cВы успешно вышли из афк зоны.'
+      no_permission: '&6Премиум Афк зона &7» &aВы сосали.'
+    title:
+      join:
+        title: '&6Премиум Афк зона'
+        subtitle: '&aВы успешно вошли в афк зону.'
+        in: 20
+        stay: 20
+        out: 20
+      quit:
+        title: '&6Премиум Афк зона'
+        subtitle: '&cВы успешно вышли из афк зоны.'
+        in: 20
+        stay: 20
+        out: 20
+    pos_1:
+      world: world_spawn
+      x: 17
+      y: 59
+      z: -24
+    pos_2:
+      world: world_spawn
+      x: 23
+      y: 57
+      z: -30
+    room_action_list:
+    - privateroom

@@ -1,0 +1,85 @@
+Name: new3
+Cooldown: 0
+Permission: nKits.kits.new3
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§b§lГолова Римуру Темпеста"}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 7.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+          slot: HAND
+          uuid: 44e5aa3a-4bc3-4364-98c3-a370865bef2d
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.2
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: HAND
+          uuid: f28e4778-029b-4cef-a6b9-6f2f96cd4423
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 7.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: HAND
+          uuid: 3fb29864-2fc6-4ed7-af91-103a8d6579c7
+          operation: 0
+      internal: H4sIAAAAAAAA/02PT07CQByFfxolOHoMDzC0toaFiQ2YMg0zVejf2QEdoNMpNqU1TqO38QhuvYt7LmGX7t773rd5CADBzbJolXquX7e5EghQnypRN7k4XsGwEe9NW4sjAoCzIVxGK9UK+BbawzzZ4yzx1EYTu+/BEiufyOqeHCK9nhCblP0+c+y5Hv9zrWYVWyo1vT0/vLTrMsJzc6HEbDHalOEbmzoWlaGRdqGVyp1mMStoV2A2DbHv8oIFWZ4Ghem7LOfx0yiVjuayZ51jUIOafrDrWOAYvkssHnuKdvSOTrzxNsEPANdwTrL+yMXHQES/P4+Dr9vqs7FPJ4A/hRn9bAoBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

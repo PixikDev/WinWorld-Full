@@ -1,0 +1,4526 @@
+LEGENDARY:
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GRAY_GLAZED_TERRACOTTA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Блок
+        Дамагер"}],"text":""}'
+      lore:
+      - '{"extra":[{"text":" "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Бьет
+        мобов в радиусе 2х2х2"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:wdblock: ahhshit
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 32
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Обработанная
+        стрела"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Моментальный
+        урон II "}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:strong_harming
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Стрела
+        обморожения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Слепота
+        (0:04)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Стан
+        (0:04)"}],"text":""}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4E4sKsovj08ryi8uYQAAmGEvYh4AAAA=
+      PublicBukkitValues:
+        reallyworld:uuid: f3112810-8488-43a4-bc9c-bc2261cd3e11
+        reallyworld:owner: nemnogoznaal
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 64
+        amplifier: 127
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 64
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Гравитационная
+        стрела"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 234
+        BLUE: 240
+        GREEN: 235
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Клирик"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Очищает
+        все эффекты с врага"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:clear_arrow: CLEAR_ARROW
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WHITE_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты от Падения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Уменьшает
+        входящий урон от падения на "},{"italic":false,"color":"gold","text":"80%"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:fall: FALL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GHAST_TEAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты от Кристаллов"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        урон от кристаллов на "},{"italic":false,"color":"gold","text":"40%"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:crystal: CRYSTAL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLD_NUGGET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Богача"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Умножает
+        деньги с мобов на "},{"italic":false,"color":"gold","text":"2.0"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:richaura: RICH_AURA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CLAY_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Твёрдости Брони"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        входящий урон от игрока"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:armor: ARMOR
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Зелье
+        Разлома"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4C1KrMrJz40vyC/JzM9jAADz3/v9IAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 810f6218-cf12-4933-9a22-30db00a95e04
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 12
+        duration: 12000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 14
+        duration: 4800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 17
+        duration: 600
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Флакон
+        Раздора"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4C1KrErJL4ovyC/JzM9jAAAWs0E0IAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 81777f30-0e12-49f2-91d3-64d1d608add6
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 301
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Бездны"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4E1KrUrJS4wvyC/JzM9jAABm8MXoIAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 0ceeabb6-93d9-413e-bcd0-04fdaa3e9fd4
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 900
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 900
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 19
+        duration: 900
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Зелье
+        Целителя"}],"text":""}'
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 171
+        BLUE: 171
+        GREEN: 171
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 300
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Зелье
+        Гармонии"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4EtPLMrNz6uML8gvyczPYwAAnrNq7CEAAAA=
+      PublicBukkitValues:
+        reallyworld:uuid: ba4734e3-8d12-440d-8c5a-c20f9ce79a40
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 350
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 350
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 11
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 28
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Рандомное
+        зелье"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"blue","text":"Рандомное
+        зелье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Дает
+        3 случайных эффекта"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:random_potion: RANDOM_POTION
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        RIPTIDE: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Цыганский
+        щит"}],"text":""}'
+      enchants:
+        THORNS: 10
+        VANISHING_CURSE: 1
+      Unbreakable: true
+      blockMaterial: SHIELD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        Драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        Драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 6
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Кирка
+        Каменщика"}],"text":""}'
+      enchants:
+        DIG_SPEED: 10
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TRIDENT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 4
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 4
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Арбалет
+        Домера"}],"text":""}'
+      enchants:
+        MENDING: 1
+        MULTISHOT: 1
+        PIERCING: 4
+        ARROW_DAMAGE: 5
+        QUICK_CHARGE: 3
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+      charged: false
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WITHER_SKELETON_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: RABBIT_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COW_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POPPED_CHORUS_FRUIT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Аура
+        Телепортации"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Увеличивает
+        радиус"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"телепортации
+        хоруса"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"до
+        "},{"italic":false,"color":"gold","text":"16 блоков"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:chorus: CHORUS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPAWNER
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WITCH_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Лесоруб"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:woodcutter: WOODCUTTER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Телепатия
+        (Перемещает сломанные блоки в инвентарь)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:telepation: TELEPATION_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Грабитель
+        (Крадет часть денег убитого игрока)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:stealer: STEALER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Светлячок
+        (Подсвечивает игрока при ударе)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:lightner: LIGHTNER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Бур
+        (Копает 3x3)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:drill: DRILL_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Мудрец"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:wisdom: WISDOM_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Спонсора"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 218
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Спонсора"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 218
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: END_CRYSTAL
+    amount: 14
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: AIR
+    amount: 0
+MYTHIC:
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GRAY_GLAZED_TERRACOTTA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Блок
+        Дамагер"}],"text":""}'
+      lore:
+      - '{"extra":[{"text":" "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Бьет
+        мобов в радиусе 2х2х2"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:wdblock: ahhshit
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 32
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Обработанная
+        стрела"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Моментальный
+        урон II "}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:strong_harming
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Стрела
+        обморожения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Слепота
+        (0:04)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Стан
+        (0:04)"}],"text":""}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4E4sKsovj08ryi8uYQAAmGEvYh4AAAA=
+      PublicBukkitValues:
+        reallyworld:uuid: f3112810-8488-43a4-bc9c-bc2261cd3e11
+        reallyworld:owner: nemnogoznaal
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 64
+        amplifier: 127
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 64
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Гравитационная
+        стрела"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 234
+        BLUE: 240
+        GREEN: 235
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Клирик"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Очищает
+        все эффекты с врага"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:clear_arrow: CLEAR_ARROW
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WHITE_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты от Падения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Уменьшает
+        входящий урон от падения на "},{"italic":false,"color":"gold","text":"80%"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:fall: FALL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GHAST_TEAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты от Кристаллов"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        урон от кристаллов на "},{"italic":false,"color":"gold","text":"40%"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:crystal: CRYSTAL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLD_NUGGET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Богача"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Умножает
+        деньги с мобов на "},{"italic":false,"color":"gold","text":"2.0"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:richaura: RICH_AURA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CLAY_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Твёрдости Брони"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        входящий урон от игрока"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:armor: ARMOR
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Зелье
+        Разлома"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4C1KrMrJz40vyC/JzM9jAADz3/v9IAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 810f6218-cf12-4933-9a22-30db00a95e04
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 12
+        duration: 12000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 14
+        duration: 4800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 17
+        duration: 600
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Флакон
+        Раздора"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4C1KrErJL4ovyC/JzM9jAAAWs0E0IAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 81777f30-0e12-49f2-91d3-64d1d608add6
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 301
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Бездны"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4E1KrUrJS4wvyC/JzM9jAABm8MXoIAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 0ceeabb6-93d9-413e-bcd0-04fdaa3e9fd4
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 900
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 900
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 19
+        duration: 900
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Зелье
+        Целителя"}],"text":""}'
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 171
+        BLUE: 171
+        GREEN: 171
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 300
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Зелье
+        Гармонии"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4EtPLMrNz6uML8gvyczPYwAAnrNq7CEAAAA=
+      PublicBukkitValues:
+        reallyworld:uuid: ba4734e3-8d12-440d-8c5a-c20f9ce79a40
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 350
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 350
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 11
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 28
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Рандомное
+        зелье"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"blue","text":"Рандомное
+        зелье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Дает
+        3 случайных эффекта"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:random_potion: RANDOM_POTION
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        RIPTIDE: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Цыганский
+        щит"}],"text":""}'
+      enchants:
+        THORNS: 10
+        VANISHING_CURSE: 1
+      Unbreakable: true
+      blockMaterial: SHIELD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        Драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        Драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 6
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Кирка
+        Каменщика"}],"text":""}'
+      enchants:
+        DIG_SPEED: 10
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TRIDENT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 4
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 4
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Арбалет
+        Домера"}],"text":""}'
+      enchants:
+        MENDING: 1
+        MULTISHOT: 1
+        PIERCING: 4
+        ARROW_DAMAGE: 5
+        QUICK_CHARGE: 3
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+      charged: false
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WITHER_SKELETON_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: RABBIT_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COW_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POPPED_CHORUS_FRUIT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Аура
+        Телепортации"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Увеличивает
+        радиус"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"телепортации
+        хоруса"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"до
+        "},{"italic":false,"color":"gold","text":"16 блоков"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:chorus: CHORUS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPAWNER
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WITCH_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Лесоруб"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:woodcutter: WOODCUTTER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Телепатия
+        (Перемещает сломанные блоки в инвентарь)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:telepation: TELEPATION_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Грабитель
+        (Крадет часть денег убитого игрока)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:stealer: STEALER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Светлячок
+        (Подсвечивает игрока при ударе)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:lightner: LIGHTNER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Бур
+        (Копает 3x3)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:drill: DRILL_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Мудрец"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:wisdom: WISDOM_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Спонсора"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 218
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Спонсора"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 218
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+EPIC:
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GRAY_GLAZED_TERRACOTTA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Блок
+        Дамагер"}],"text":""}'
+      lore:
+      - '{"extra":[{"text":" "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Бьет
+        мобов в радиусе 2х2х2"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:wdblock: ahhshit
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 32
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Обработанная
+        стрела"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Моментальный
+        урон II "}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:strong_harming
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Стрела
+        обморожения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Слепота
+        (0:04)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Стан
+        (0:04)"}],"text":""}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4E4sKsovj08ryi8uYQAAmGEvYh4AAAA=
+      PublicBukkitValues:
+        reallyworld:uuid: f3112810-8488-43a4-bc9c-bc2261cd3e11
+        reallyworld:owner: nemnogoznaal
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 64
+        amplifier: 127
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 64
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Гравитационная
+        стрела"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 234
+        BLUE: 240
+        GREEN: 235
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Клирик"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Очищает
+        все эффекты с врага"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:clear_arrow: CLEAR_ARROW
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WHITE_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты от Падения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Уменьшает
+        входящий урон от падения на "},{"italic":false,"color":"gold","text":"80%"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:fall: FALL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GHAST_TEAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты от Кристаллов"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        урон от кристаллов на "},{"italic":false,"color":"gold","text":"40%"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:crystal: CRYSTAL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLD_NUGGET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Богача"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Умножает
+        деньги с мобов на "},{"italic":false,"color":"gold","text":"2.0"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:richaura: RICH_AURA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CLAY_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Твёрдости Брони"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        входящий урон от игрока"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:armor: ARMOR
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Зелье
+        Разлома"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4C1KrMrJz40vyC/JzM9jAADz3/v9IAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 810f6218-cf12-4933-9a22-30db00a95e04
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 12
+        duration: 12000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 14
+        duration: 4800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 17
+        duration: 600
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Флакон
+        Раздора"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4C1KrErJL4ovyC/JzM9jAAAWs0E0IAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 81777f30-0e12-49f2-91d3-64d1d608add6
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 301
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Бездны"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4E1KrUrJS4wvyC/JzM9jAABm8MXoIAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 0ceeabb6-93d9-413e-bcd0-04fdaa3e9fd4
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 900
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 900
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 19
+        duration: 900
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Зелье
+        Целителя"}],"text":""}'
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 171
+        BLUE: 171
+        GREEN: 171
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 300
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Зелье
+        Гармонии"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4EtPLMrNz6uML8gvyczPYwAAnrNq7CEAAAA=
+      PublicBukkitValues:
+        reallyworld:uuid: ba4734e3-8d12-440d-8c5a-c20f9ce79a40
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 350
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 350
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 11
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 28
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Рандомное
+        зелье"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"blue","text":"Рандомное
+        зелье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Дает
+        3 случайных эффекта"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:random_potion: RANDOM_POTION
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        RIPTIDE: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Цыганский
+        щит"}],"text":""}'
+      enchants:
+        THORNS: 10
+        VANISHING_CURSE: 1
+      Unbreakable: true
+      blockMaterial: SHIELD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        Драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        Драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 6
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Кирка
+        Каменщика"}],"text":""}'
+      enchants:
+        DIG_SPEED: 10
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TRIDENT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 4
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 4
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Арбалет
+        Домера"}],"text":""}'
+      enchants:
+        MENDING: 1
+        MULTISHOT: 1
+        PIERCING: 4
+        ARROW_DAMAGE: 5
+        QUICK_CHARGE: 3
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+      charged: false
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WITHER_SKELETON_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: RABBIT_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COW_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POPPED_CHORUS_FRUIT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Аура
+        Телепортации"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Увеличивает
+        радиус"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"телепортации
+        хоруса"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"до
+        "},{"italic":false,"color":"gold","text":"16 блоков"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:chorus: CHORUS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPAWNER
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WITCH_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Лесоруб"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:woodcutter: WOODCUTTER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Телепатия
+        (Перемещает сломанные блоки в инвентарь)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:telepation: TELEPATION_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Грабитель
+        (Крадет часть денег убитого игрока)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:stealer: STEALER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Светлячок
+        (Подсвечивает игрока при ударе)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:lightner: LIGHTNER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Бур
+        (Копает 3x3)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:drill: DRILL_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Мудрец"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:wisdom: WISDOM_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Спонсора"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 218
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Спонсора"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 218
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+RARE:
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GRAY_GLAZED_TERRACOTTA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Блок
+        Дамагер"}],"text":""}'
+      lore:
+      - '{"extra":[{"text":" "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Бьет
+        мобов в радиусе 2х2х2"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:wdblock: ahhshit
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 32
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Обработанная
+        стрела"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Моментальный
+        урон II "}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:strong_harming
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Стрела
+        обморожения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Слепота
+        (0:04)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Стан
+        (0:04)"}],"text":""}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4E4sKsovj08ryi8uYQAAmGEvYh4AAAA=
+      PublicBukkitValues:
+        reallyworld:uuid: f3112810-8488-43a4-bc9c-bc2261cd3e11
+        reallyworld:owner: nemnogoznaal
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 64
+        amplifier: 127
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 64
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Гравитационная
+        стрела"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 234
+        BLUE: 240
+        GREEN: 235
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Клирик"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Очищает
+        все эффекты с врага"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:clear_arrow: CLEAR_ARROW
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WHITE_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты от Падения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Уменьшает
+        входящий урон от падения на "},{"italic":false,"color":"gold","text":"80%"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:fall: FALL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GHAST_TEAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты от Кристаллов"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        урон от кристаллов на "},{"italic":false,"color":"gold","text":"40%"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:crystal: CRYSTAL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLD_NUGGET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Богача"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Умножает
+        деньги с мобов на "},{"italic":false,"color":"gold","text":"2.0"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:richaura: RICH_AURA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CLAY_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Твёрдости Брони"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        входящий урон от игрока"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:armor: ARMOR
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Зелье
+        Разлома"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4C1KrMrJz40vyC/JzM9jAADz3/v9IAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 810f6218-cf12-4933-9a22-30db00a95e04
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 12
+        duration: 12000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 14
+        duration: 4800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 17
+        duration: 600
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Флакон
+        Раздора"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4C1KrErJL4ovyC/JzM9jAAAWs0E0IAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 81777f30-0e12-49f2-91d3-64d1d608add6
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 301
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Бездны"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4E1KrUrJS4wvyC/JzM9jAABm8MXoIAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 0ceeabb6-93d9-413e-bcd0-04fdaa3e9fd4
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 900
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 900
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 19
+        duration: 900
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Зелье
+        Целителя"}],"text":""}'
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 171
+        BLUE: 171
+        GREEN: 171
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 300
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Зелье
+        Гармонии"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4EtPLMrNz6uML8gvyczPYwAAnrNq7CEAAAA=
+      PublicBukkitValues:
+        reallyworld:uuid: ba4734e3-8d12-440d-8c5a-c20f9ce79a40
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 350
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 350
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 11
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 28
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Рандомное
+        зелье"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"blue","text":"Рандомное
+        зелье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Дает
+        3 случайных эффекта"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:random_potion: RANDOM_POTION
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        RIPTIDE: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Цыганский
+        щит"}],"text":""}'
+      enchants:
+        THORNS: 10
+        VANISHING_CURSE: 1
+      Unbreakable: true
+      blockMaterial: SHIELD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        Драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        Драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 6
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Кирка
+        Каменщика"}],"text":""}'
+      enchants:
+        DIG_SPEED: 10
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TRIDENT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 4
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 4
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Арбалет
+        Домера"}],"text":""}'
+      enchants:
+        MENDING: 1
+        MULTISHOT: 1
+        PIERCING: 4
+        ARROW_DAMAGE: 5
+        QUICK_CHARGE: 3
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+      charged: false
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WITHER_SKELETON_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: RABBIT_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COW_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POPPED_CHORUS_FRUIT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Аура
+        Телепортации"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Увеличивает
+        радиус"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"телепортации
+        хоруса"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"до
+        "},{"italic":false,"color":"gold","text":"16 блоков"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:chorus: CHORUS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPAWNER
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WITCH_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Лесоруб"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:woodcutter: WOODCUTTER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Телепатия
+        (Перемещает сломанные блоки в инвентарь)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:telepation: TELEPATION_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Грабитель
+        (Крадет часть денег убитого игрока)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:stealer: STEALER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Светлячок
+        (Подсвечивает игрока при ударе)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:lightner: LIGHTNER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Бур
+        (Копает 3x3)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:drill: DRILL_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Мудрец"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:wisdom: WISDOM_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Спонсора"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 218
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Спонсора"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 218
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+COMMON:
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GRAY_GLAZED_TERRACOTTA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Блок
+        Дамагер"}],"text":""}'
+      lore:
+      - '{"extra":[{"text":" "}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Бьет
+        мобов в радиусе 2х2х2"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:wdblock: ahhshit
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 32
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Обработанная
+        стрела"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Моментальный
+        урон II "}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:strong_harming
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Стрела
+        обморожения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Слепота
+        (0:04)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Стан
+        (0:04)"}],"text":""}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4E4sKsovj08ryi8uYQAAmGEvYh4AAAA=
+      PublicBukkitValues:
+        reallyworld:uuid: f3112810-8488-43a4-bc9c-bc2261cd3e11
+        reallyworld:owner: nemnogoznaal
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 64
+        amplifier: 127
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 64
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Гравитационная
+        стрела"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      custom-color:
+        ==: Color
+        RED: 234
+        BLUE: 240
+        GREEN: 235
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Клирик"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Очищает
+        все эффекты с врага"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:clear_arrow: CLEAR_ARROW
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WHITE_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты от Падения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Уменьшает
+        входящий урон от падения на "},{"italic":false,"color":"gold","text":"80%"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:fall: FALL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GHAST_TEAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты от Кристаллов"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        урон от кристаллов на "},{"italic":false,"color":"gold","text":"40%"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:crystal: CRYSTAL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLD_NUGGET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Богача"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Умножает
+        деньги с мобов на "},{"italic":false,"color":"gold","text":"2.0"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:richaura: RICH_AURA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CLAY_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Твёрдости Брони"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        входящий урон от игрока"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:armor: ARMOR
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Зелье
+        Разлома"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4C1KrMrJz40vyC/JzM9jAADz3/v9IAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 810f6218-cf12-4933-9a22-30db00a95e04
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 12
+        duration: 12000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 14
+        duration: 4800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 17
+        duration: 600
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Флакон
+        Раздора"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4C1KrErJL4ovyC/JzM9jAAAWs0E0IAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 81777f30-0e12-49f2-91d3-64d1d608add6
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 1800
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 301
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Бездны"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4E1KrUrJS4wvyC/JzM9jAABm8MXoIAAAAA==
+      PublicBukkitValues:
+        reallyworld:uuid: 0ceeabb6-93d9-413e-bcd0-04fdaa3e9fd4
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 900
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 900
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 19
+        duration: 900
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Зелье
+        Целителя"}],"text":""}'
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 171
+        BLUE: 171
+        GREEN: 171
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 600
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 300
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 300
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Зелье
+        Гармонии"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4Coqj88sSc21ykxh4EtPLMrNz6uML8gvyczPYwAAnrNq7CEAAAA=
+      PublicBukkitValues:
+        reallyworld:uuid: ba4734e3-8d12-440d-8c5a-c20f9ce79a40
+        reallyworld:owner: fudzunazxc
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 21
+        duration: 350
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 350
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 11
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 28
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Рандомное
+        зелье"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"blue","text":"Рандомное
+        зелье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Дает
+        3 случайных эффекта"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:random_potion: RANDOM_POTION
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        RIPTIDE: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Цыганский
+        щит"}],"text":""}'
+      enchants:
+        THORNS: 10
+        VANISHING_CURSE: 1
+      Unbreakable: true
+      blockMaterial: SHIELD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        Драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        Драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 6
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Кирка
+        Каменщика"}],"text":""}'
+      enchants:
+        DIG_SPEED: 10
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TRIDENT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 4
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 4
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Арбалет
+        Домера"}],"text":""}'
+      enchants:
+        MENDING: 1
+        MULTISHOT: 1
+        PIERCING: 4
+        ARROW_DAMAGE: 5
+        QUICK_CHARGE: 3
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+      charged: false
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WITHER_SKELETON_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: RABBIT_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COW_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POPPED_CHORUS_FRUIT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Аура
+        Телепортации"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Увеличивает
+        радиус"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"телепортации
+        хоруса"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"до
+        "},{"italic":false,"color":"gold","text":"16 блоков"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Одновременно
+        работает только одна аура!"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        minecraft:chorus: CHORUS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPAWNER
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WITCH_SPAWN_EGG
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Лесоруб"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:woodcutter: WOODCUTTER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Телепатия
+        (Перемещает сломанные блоки в инвентарь)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:telepation: TELEPATION_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Грабитель
+        (Крадет часть денег убитого игрока)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:stealer: STEALER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Светлячок
+        (Подсвечивает игрока при ударе)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:lightner: LIGHTNER_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Бур
+        (Копает 3x3)"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:drill: DRILL_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Чародейская
+        книга"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Мудрец"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:wisdom: WISDOM_BOOK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Спонсора"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 218
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Зелье
+        Спонсора"}],"text":""}'
+      custom-color:
+        ==: Color
+        RED: 0
+        BLUE: 218
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 3600
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 9600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true

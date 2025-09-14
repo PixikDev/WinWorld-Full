@@ -1,0 +1,246 @@
+# %time% - плэйсхолдер для ножниц!
+spawnWorld: "world_spawn"
+notFoundItem: "&cПредмет не найден!"
+usage: "&cИспользование [Предмет] [Игрок]"
+
+# Наименование предметов в плагине
+neptunName: "&b&lТрезубец Нептуна"
+neptunLore:
+  - "&7Даёт рывок к цели, при успешном попадании трезубцем"
+neptun-multiplier: 1.5
+
+chaosName: "&5&lШар Хаоса"
+chaosLore:
+  - ""
+  - "&7Когда во второй руке"
+  - "&7При нажатии SHIFT:"
+  - "&7В радиусе 8 блоков"
+  - "&7Слабость II (00:10)"
+chaoscd: 60 # В секундах
+chaos-use: "&5Шар Хаоса &8» &fВы использовали Шар Хаоса"
+chaoscd-message: "&5Шар Хаоса &8» &fПерезарядка &b%remain% &fсек"
+chaos-data: 5007
+chaosTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ=="
+
+airName: "&f&lШар Воздуха"
+airLore:
+  - ""
+  - "&7Когда во второй руке"
+  - "&7При нажатии SHIFT:"
+  - "&7Левитация II (00:08)"
+aircd: 60 # В секундах
+air-use: "&fШар Воздуха &8» &fВы использовали Шар Воздуха"
+aircd-message: "&fШар Воздуха &8» &fПерезарядка &b%remain% &fсек"
+air-data: 5001
+airTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ=="
+
+lightName: "&e&lШар Света"
+lightLore:
+  - ""
+  - "&7Когда во второй руке"
+  - "&7При нажатии SHIFT:"
+  - "&7В радиусе 16 блоков"
+  - "&7Светлячок (01:00)"
+lightcd: 60 # В секундах
+light-use: "&eШар Света &8» &fВы использовали Шар Света"
+lightcd-message: "&eШар Света &8» &fПерезарядка &b%remain% &fсек"
+light-data: 5004
+lightTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ=="
+
+orderName: "&d&lШар Порядка"
+orderLore:
+  - ""
+  - "&7Когда во второй руке"
+  - "&7При нажатии SHIFT:"
+  - "&7Регенерация II (00:08)"
+ordercd: 60 # В секундах
+order-use: "&dШар Порядка &8» &fВы использовали Шар Порядка"
+ordercd-message: "&dШар Порядка &8» &fПерезарядка &b%remain% &fсек"
+order-data: 5006
+orderTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ=="
+
+earthName: "&6&lШар Земли"
+earthLore:
+  - ""
+  - "&7Когда во второй руке"
+  - "&7При нажатии SHIFT:"
+  - "&7Спешка II (00:08)"
+earthcd: 60 # В секундах
+earth-use: "&6Шар Земли &8» &fВы использовали Шар Земли"
+earthcd-message: "&6Шар Земли &8» &fПерезарядка &b%remain% &fсек"
+earth-data: 5002
+earthTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ=="
+
+waterName: "&9&lШар Воды"
+waterLore:
+  - ""
+  - "&7Когда во второй руке"
+  - "&7При нажатии SHIFT:"
+  - "&7Подводное дыхание (01:00)"
+  - "&7Грация дельфина (00:10)"
+watercd: 60 # В секундах
+water-use: "&9Шар Воды &8» &fВы использовали Шар Воды"
+watercd-message: "&9Шар Воды &8» &fПерезарядка &b%remain% &fсек"
+water-data: 5005
+waterTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ=="
+
+chorusName: "&5&lАура Телепортации"
+chorusLore:
+  - "&7Увеличивает радиус"
+  - "&7телепортации хоруса"
+  - "&7до &616 блоков"
+  - ""
+  - "&8Одновременно работает только одна аура!"
+
+hunterName: "&e&lАура Охотника"
+hunter-enable: true
+hunterLore:
+  - "&7Увеличивает кол-во"
+  - "&7ресурсов с убитого моба"
+  - ""
+  - "&8Одновременно работает только одна аура!"  
+
+fallName: "&bАура Защиты от Падения"
+fallLore:
+  - "&fУменьшает входящий урон от падения на &680%"
+  - ""
+  - "&8Одновременно работает только одна аура!"
+
+crystalName: "&bАура Защиты от Кристаллов"
+crystalLore:
+  - "&7Уменьшает урон от кристаллов на &640%"
+  - ""
+  - "&8Одновременно работает только одна аура!"
+
+armorName: "&bАура Твёрдости Брони"
+armorLore:
+  - "&7Уменьшает входящий урон от игрока"
+  - ""
+  - "&8Одновременно работает только одна аура!"
+  
+richAuraName: "&bАура Богача"
+richAuraLore:
+  - "&7Умножает деньги с мобов на &62.0"  
+  - ""
+  - "&8Одновременно работает только одна аура!"
+  
+draculaName: "&4Голова Дракулы"
+
+snadobjeName: "&6Волшебное Снадобье"
+snadobjeLore:
+  - "&9Очищает негативные эффекты"
+
+cobraName: "&a&lГолова Кобры"
+cobraLore:
+  - " "
+  - "&9Эффект отравления при каждом ударе"
+cobraTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRhMjgxM2Q0ZjVhY2Q2OWVkNTkwYzFkOGE0NDJiNTk1NTE5ZGNiYzBlMTcxOThhZGZhYWFhZjE1Zjg5YjAifX19"
+poison-sec: 3
+
+elytraName: "&5Анти Полет"
+elytraLore:
+  - " "
+  - " &7Когда во второй руке:"
+  - " &7При нажатии SHIFT"
+  - " &9Запрещает полеты в радиусе 16 блоков"
+flycd-message: "&5Анти Полет &8» &fПерезарядка &b%remain% &fсек"
+fly-use-message: "&5Анти Полет &8» &aВы успешно активировали анти полет!"
+flyTitle: "&5Анти Полет &8» &cЗапрещено летать в этой зоне!"
+flySubTitle: "&cANTIFLY"
+flycd: 120 # Кд на юз в секундах
+
+expName: "&eСвиток опыта"
+expLore:
+  - ""
+  - "  %progress_exp%"
+  - "  &7%exp% &fꐇ"
+  - ""
+  - "&9Когда во второй руке:"
+  - "  &eСобирает в себя весь опыт"
+  - ""
+  - "&9Когда в основной руке:"
+  - "&9При нажатии ПКМ:"
+  - "  &eДает вам 5 опыта"
+  - ""
+maxExp: 3000 # Макс опыт
+exp-for-use: 5 # Опыт за использование
+exp_bars: 120 # Кол-во палок опыта
+exp_per_bar: 25 # Колво опыта на 1 палку
+give_exp: ""
+expNo: "&cУ Вас недостаточно опыта в свитке!"
+full-exp-svitok: "&cСвиток полностью заполнен! (3000/3000)"
+
+regenName: "&7&lШар Регенерации"
+regenLore:
+  - ""
+  - "&7Когда во второй руке:"
+  - "&7При нажатии SHIFT"
+  - "&9Регенерация II (00:25)"
+regencd: 120 # В секундах
+regen-use: "&7Шар регенерации &8» &fВы использовали шар регенерации" #использование регена
+regencd-message: "&7Шар регенерации &8» &fПерезарядка &b%remain% &fсек"
+regenTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ=="
+
+# Наименование предметов в плагине
+hydraName: "&cСердце гидры"
+farmName: "&aШар огородника" # Название предмета-шара огородника
+witchName: "&5Тотем ведьмы" # Название предмета-тотема ведьмы
+draconidName: "&6Тотем Драконида" # Название предмета-тотема драконида
+randomPotName: "&b&lРандомное зелье" # Название предмета-рандомного зелья
+shearsName: "&6&lСупер Ножницы" # Название предмета-ножниц
+randomEggName: "&b&lРандомное яйцо" # Название предмета-рандомного яйца
+clearName: "&f&lКлирик"
+region: "&4Регион!"
+clearLore:
+  - "&9Очищает все эффекты с врага"
+draconidLore:
+  - "&7Срабатывает, когда"
+  - "&7лежит в инвентаре"
+witchLore:
+  - "&7Сохраняет эффекты"
+randomPotLore:
+  - "&9&kРандомное зелье"
+  - "&9Дает 3 случайных эффекта"
+randomEggLore:
+  - ""
+  - " &9Призывает: &kрандомного моба в спавнере"
+  - ""
+farmBallLore:
+  - "&cПроклятье утраты"
+  - "&7Удача III (На растения)"
+  - ""
+  - "&7Когда во второй руке:"
+  - "&7При нажатии SHIFT:"
+  - "&9Выращивает растения вокруг вас"
+  - ""
+shearsLore:
+  - "&7Использований: &63" # Важная строка, вместо 3 ставить количество использований
+hydraLore:
+  - " "
+  - "&7Когда вы умираете, вы мгновенно возраждаетесь"
+  - "&7на спавне, сохраняя весь ваш инвентарь"  
+
+# Параметры для шара огородника
+farmRadius: 15 # Радиус действия шара огородника
+farmCooldown: 30 # Время перезарядки шара огородника
+farmTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmMzI4Yzg3YjA2ODUwOWFjYTk4MzRlZmFjZTE5NzcwNWZlNWQ0ZjA4NzE3MzFiN2IyMWNkOTliOWZkZGMifX19" # Текстура шара огородника
+farmBallCooldown: "&aШар огородника &8» &fПерезарядка &b%time% &fсек"
+
+# Сообщения для действий с ножницами
+items:
+  shears:
+    inRegion: "&6&lСупер Ножницы &8» &cТы находишься в регионе, действие невозможно" # Сообщение для случая, когда игрок не может разрушить спаунер ножницами из-за региональных ограничений
+    isBreaked: "&6&lСупер Ножницы &8» &fПодождите &6%time% &fсек." # Сообщение о необходимости подождать определенное время перед повторным использованием ножниц
+    cantBreak: "&6&lСупер Ножницы &8» &cДействие невозможно, недостаточно использований" # Сообщение о невозможности разрушения спаунера ножницами из-за отсутствия использований
+    breakMessage: "&6&lСупер Ножницы &8» &cНожницы сломались!" # Сообщение об успешном разрушении спаунера ножницами
+
+notification: # Оповещение игрока о шаре огородника
+
+  sound: true # Звук при оповещении игрока
+  soundType: "ENTITY_EXPERIENCE_ORB_PICKUP" # Тип звука при оповещении
+
+  message: true # В виде сообщения в чат
+  messageText: "&aШар огородника &8» &fВы использовали шар огородника"
+
+  title: false # В виде сообщения на весь экран
+  titleText: "Успешно, 1 выращены!"

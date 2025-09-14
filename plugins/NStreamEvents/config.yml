@@ -1,0 +1,12 @@
+streamerName: "Fudzuna"
+commands:
+  reset:
+    trigger: "!reset"
+    action: "minecraft:fill -102 6 -177 -102 254 -177 air"
+    cooldown: 30
+    message: "Зритель %user% сбросил постройку!"
+  jump:
+    trigger: "!jump"
+    action: "minecraft:effect give Fudzuna minecraft:jump_boost 1 10"
+    cooldown: 15
+    message: "Зритель %user% выдал прыгучесть!"

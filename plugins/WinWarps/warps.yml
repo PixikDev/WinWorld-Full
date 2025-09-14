@@ -1,0 +1,356 @@
+warps:
+  default:
+    material: CHEST
+    name: '&6/warp default'
+  dota3:
+    material: CHEST
+    name: '&7Варп &8- &6dota3'
+    lore:
+    - ' §7Владелец: §6Arbuzclient_bost'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp dota3'
+  NewEra:
+    material: CHEST
+    name: '&7Варп &8- &6NewEra'
+    lore:
+    - ' §7Владелец: §6qqhutao'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp NewEra'
+  troli:
+    material: CHEST
+    name: '&7Варп &8- &6troli'
+    lore:
+    - ' §7Владелец: §6XdeadForFanatik'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp troli'
+  Crazy:
+    material: CHEST
+    name: '&7Варп &8- &6Crazy'
+    lore:
+    - ' §7Владелец: §6an_Isoo_ber'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp Crazy'
+  mak:
+    material: CHEST
+    name: '&7Варп &8- &6mak'
+    lore:
+    - ' §7Владелец: §6ae_kirusha'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp mak'
+  Tisti:
+    material: CHEST
+    name: '&7Варп &8- &6Tisti'
+    lore:
+    - ' §7Владелец: §6Target17765'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp Tisti'
+  +ww+:
+    material: CHEST
+    name: '&7Варп &8- &6+ww+'
+    lore:
+    - ' §7Владелец: §6kevych'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp +ww+'
+  redq:
+    material: CHEST
+    name: '&7Варп &8- &6redq'
+    lore:
+    - ' §7Владелец: §6redzek1'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp redq'
+  z4pvp:
+    material: CHEST
+    name: '&7Варп &8- &6z4pvp'
+    lore:
+    - ' §7Владелец: §6ggTFHFHT1488'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp z4pvp'
+  everey:
+    material: CHEST
+    name: '&7Варп &8- &6everey'
+    lore:
+    - ' §7Владелец: §6BELKI_B_TRYSAX'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp everey'
+  pigeverey:
+    material: CHEST
+    name: '&7Варп &8- &6pigeverey'
+    lore:
+    - ' §7Владелец: §6Rogue4'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp pigeverey'
+  xaliava:
+    material: CHEST
+    name: '&7Варп &8- &6xaliava'
+    lore:
+    - ' §7Владелец: §6Alm258'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp xaliava'
+  -ezz:
+    material: CHEST
+    name: '&7Варп &8- &6-ezz'
+    lore:
+    - ' §7Владелец: §6fakelof'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp -ezz'
+  27fps:
+    material: CHEST
+    name: '&7Варп &8- &627fps'
+    lore:
+    - ' §7Владелец: §6XdeadForKolosik'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp 27fps'
+  exe:
+    material: CHEST
+    name: '&7Варп &8- &6exe'
+    lore:
+    - ' §7Владелец: §6Tube_YT'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp exe'
+  SraySlox:
+    material: CHEST
+    name: '&7Варп &8- &6SraySlox'
+    lore:
+    - ' §7Владелец: §6daniil13let1231'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp SraySlox'
+  pvpezzzz1:
+    material: CHEST
+    name: '&7Варп &8- &6pvpezzzz1'
+    lore:
+    - ' §7Владелец: §6funskan'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp pvpezzzz1'
+  idy:
+    material: CHEST
+    name: '&7Варп &8- &6idy'
+    lore:
+    - ' §7Владелец: §6idyidy'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp idy'
+  xzxz:
+    material: CHEST
+    name: '&7Варп &8- &6xzxz'
+    lore:
+    - ' §7Владелец: §6SferaJlyHbl'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp xzxz'
+  riba:
+    material: CHEST
+    name: '&7Варп &8- &6riba'
+    lore:
+    - ' §7Владелец: §6ScarLightWT'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp riba'
+  d:
+    material: CHEST
+    name: '&7Варп &8- &6d'
+    lore:
+    - ' §7Владелец: §6HvMART'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp d'
+  Melon:
+    material: CHEST
+    name: '&7Варп &8- &6Melon'
+    lore:
+    - ' §7Владелец: §6duda_ma_cruta'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp Melon'
+  goog:
+    material: CHEST
+    name: '&7Варп &8- &6goog'
+    lore:
+    - ' §7Владелец: §6Hoker_456'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp goog'
+  VANQ:
+    material: CHEST
+    name: '&7Варп &8- &6VANQ'
+    lore:
+    - ' §7Владелец: §6B1ba_zxc'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp VANQ'
+  CTPAX:
+    material: CHEST
+    name: '&7Варп &8- &6CTPAX'
+    lore:
+    - ' §7Владелец: §6fadasdfas'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp CTPAX'
+  mega:
+    material: CHEST
+    name: '&7Варп &8- &6mega'
+    lore:
+    - ' §7Владелец: §6sutet'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp mega'
+  ezz:
+    material: CHEST
+    name: '&7Варп &8- &6ezz'
+    lore:
+    - ' §7Владелец: §6xkemp1qez'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp ezz'
+  krai:
+    material: CHEST
+    name: '&7Варп &8- &6krai'
+    lore:
+    - ' §7Владелец: §6RobinZON33'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp krai'
+  52fps:
+    material: CHEST
+    name: '&7Варп &8- &652fps'
+    lore:
+    - ' §7Владелец: §6TFHFHT'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp 52fps'
+  server_farm:
+    material: CHEST
+    name: '&7Варп &8- &6server_farm'
+    lore:
+    - ' §7Владелец: §6Kot_Lap2'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp server_farm'
+  o:
+    material: CHEST
+    name: '&7Варп &8- &6o'
+    lore:
+    - ' §7Владелец: §6Skanter'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp o'
+  Guard:
+    material: CHEST
+    name: '&7Варп &8- &6Guard'
+    lore:
+    - ' §7Владелец: §6Nqisik'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp Guard'
+  69fps:
+    material: CHEST
+    name: '&7Варп &8- &669fps'
+    lore:
+    - ' §7Владелец: §6kot10'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp 69fps'
+  42fps:
+    material: CHEST
+    name: '&7Варп &8- &642fps'
+    lore:
+    - ' §7Владелец: §6JustGhost'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp 42fps'
+  nubiki:
+    material: CHEST
+    name: '&7Варп &8- &6nubiki'
+    lore:
+    - ' §7Владелец: §6Pidoridze'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp nubiki'
+  rzrpvp:
+    material: CHEST
+    name: '&7Варп &8- &6rzrpvp'
+    lore:
+    - ' §7Владелец: §6vasya_5555'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp rzrpvp'
+  Guardx_pvp:
+    material: CHEST
+    name: '&7Варп &8- &6Guardx_pvp'
+    lore:
+    - ' §7Владелец: §6Someron1'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp Guardx_pvp'
+  EzzKv:
+    material: CHEST
+    name: '&7Варп &8- &6EzzKv'
+    lore:
+    - ' §7Владелец: §6Motiga14'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp EzzKv'
+  kv:
+    material: CHEST
+    name: '&7Варп &8- &6kv'
+    lore:
+    - ' §7Владелец: §6Nqisik'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp kv'
+  www:
+    material: CHEST
+    name: '&7Варп &8- &6www'
+    lore:
+    - ' §7Владелец: §6misaaaaa432'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp www'
+  mine2:
+    material: CHEST
+    name: '&7Варп &8- &6mine2'
+    lore:
+    - ' §7Владелец: §6kapoyr2065'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp mine2'
+  pvptop:
+    material: CHEST
+    name: '&7Варп &8- &6pvptop'
+    lore:
+    - ' §7Владелец: §6kTo_I_XE'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp pvptop'
+  Harem:
+    material: CHEST
+    name: '&7Варп &8- &6Harem'
+    lore:
+    - ' §7Владелец: §6Motiga14'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp Harem'
+  parkur:
+    material: CHEST
+    name: '&7Варп &8- &6parkur'
+    lore:
+    - ' §7Владелец: §6vasya_5555'
+    - ' §7Истекает через: §6%time%'
+    - ' '
+    - ' §7Нажмите, чтобы перейти на §6/warp parkur'

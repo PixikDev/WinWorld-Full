@@ -1,0 +1,30 @@
+location: world_spawn:4.422:69.000:0.475
+enabled: true
+display-range: 24
+update-range: 24
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <#FDBE00>&lWINWORLD</#FB5B29>
+    height: 0.5
+  - content: '&fЗдравствуй, &6%player_name%&f!'
+    height: 0.3
+  - content: '&fМы приветствуем &6тебя &fна режиме %winutils_grief%'
+    height: 0.5
+  - content: '&6♥ &fДонаты сервера - &6/donate'
+    height: 0.3
+  - content: '&6♥ &fМагазин сервера - &6/shop'
+    height: 0.3
+  - content: '&6♥ &fБесплатный донат - &6/free'
+    height: 0.3
+  - content: '&6♥ &fСкупщик ресурсов - &6/buyer'
+    height: 0.5
+  - content: '&fНаш ДС: &6dsc.gg/winworld'
+    height: 0.3
+  - content: '&fНаш сайт: &6WinWorld.pw'
+    height: 0.3
+  - content: '&fПоследний вайп был: &622.06.2025'
+    height: 0.3
+  actions: {}

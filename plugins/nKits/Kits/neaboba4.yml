@@ -1,0 +1,61 @@
+Name: neaboba4
+Cooldown: 0
+Permission: nKits.kits.neaboba4
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: YELLOW_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+2WW08TQRTHTy+UtiA3AQET06yvfII+KZdEErlEiD4Ys5nuTrebTnc2s7NgQ0gMwSc1fgaNJupTRTAEKZ9h9sXP42xv27Sgwgokhn1pdnbOOf/5z2/ONA2QhoEZQrXivMVNXl5DRgp6FjguOWkAuB2B+CqhHCLQM0tdi0eSEDV1uFsyLawxlOfZMiaEbqgOR3JIVw2CHEe1kYWhERtpxt5LQ4wjIwmJFcpNasFEkMXhjFqGWkBMjhlQrzIefOembcvsiDG60UwcDSEq1oxN1GMng1gL8wJmJseqVFJbei0iHqJaz5mrJUJU670ow5MhRKVasXVRaejVTccmqJyE+BIqYfi4qeDnnCEl+3RTyVGiK1nOXDytmBwRU1OyeUQc+epaOmbEL9Makosxi9JIRl2j0BqlubzraIi3TdQooUzJKjpiRdV2mU2wMq1wWVcOivfi2NsW++IoI3blz573Whx5r5StZ60pylYK4g8pw0l5OCLwuVtyo9AFaDYYKreJfSfFvvReiIqoem/Fvred8d54O96OFH7obXfKlsd8ZMXNSU0zbrFo8seIuNhJwliwhRsm1woqp/LsQ9+ThbXZB+ra8tr8IqSgf97SCsjiJWzxWl+IdHG8jizTKUiUVM1lDo5CjKwTaVGDrKk2svwKKs2r0pSyz16DkHSTkHg9JBOE4Hp5HyxpMrZUZMudawb2daAV8H6ni3fuMk6wWkIOx6yhbSiYZdfjGon7OxKnYGSVy83XT7FjOEhEaBkRXm7YEGvaMHHSmnKUFpslb3SUjEFiDpWQgcF/uspIhqQdra4xcEbBo0Em/7uFJaJG59b9UfNgl+bBWdfhtLRIdUzmEEcA8Z//bFeGzsvJ8HULum5Bv21BI38k5MMlEuIzfDIaezXTD8WxqIoDsScqpwIShS9XCUhN51dR8WmQQFd8SKYzNeXfunXDpyvU+kNa+10cSIjFbka6Wq0dwKq0vCJXsf93LLf1Sp0hjVqm3sB5YO7R/dnlpYW5yyX6Zoi/bKMXda+OhRA1fv47mZk2l9flme/kWyHkTlzu3TgZQurUdfO7bn7/R/MD+AWEU9tN2RAAAA==
+      blockMaterial: YELLOW_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

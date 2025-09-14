@@ -1,0 +1,153 @@
+menu_title: '&fꈁꀀꈂꍀꈂꀁ&0ꈃꄑ'
+open_command: kit_titan
+size: 53
+items:
+  '2':
+    display_name: ''
+    slot: 2
+    material: chainmail_helmet
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+  '3':
+    display_name: '&r&r'
+    slot: 3
+    material: iron_chestplate
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+  '4':
+    display_name: '&r&r'
+    slot: 4
+    material: iron_leggings
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+  '5':
+    display_name: '&r&r'
+    slot: 5
+    material: chainmail_boots
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+  '6':
+    display_name: '&r&r'
+    slot: 6
+    material: shield
+  '9':
+    display_name: '&r&r'
+    slot: 9
+    material: iron_sword
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+  '10':
+    display_name: '&r&r'
+    slot: 10
+    material: bow
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+  '11':
+    display_name: '&r&r'
+    slot: 11
+    material: iron_pickaxe
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+  '12':
+    display_name: '&r&r'
+    slot: 12
+    material: iron_shovel
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+  '13':
+    display_name: '&r&r'
+    slot: 13
+    material: golden_apple
+    amount: 3
+    hide_attributes: true
+  '14':
+    display_name: '&r&r'
+    slot: 14
+    material: cooked_porkchop
+    amount: 28
+  '15':
+    display_name: '&r&r'
+    slot: 15
+    material: birch_log
+    amount: 32
+  '16':
+    display_name: '&r&r'
+    slot: 16
+    material: iron_ingot
+    amount: 20
+    hide_attributes: true
+  '17':
+    display_name: '&r&r'
+    slot: 17
+    material: torch
+    amount: 16
+  '18':
+    display_name: '&r&r'
+    slot: 18
+    material: yellow_stained_glass
+    amount: 32
+  '19':
+    display_name: '&r&r'
+    slot: 19
+    material: oak_sign
+    amount: 2
+  '20':
+    display_name: '&r&r'
+    slot: 20
+    material: oak_log
+    amount: 64
+  '21':
+    display_name: '&r&r'
+    slot: 21
+    material: wheat_seeds
+    amount: 12
+  '22':
+    display_name: '&r&r'
+    slot: 22
+    material: chest
+  '23':
+    display_name: '&r&r'
+    slot: 23
+    material: yellow_wool
+    amount: 32
+  '24':
+    display_name: '&r&r'
+    slot: 24
+    material: coal
+    amount: 32
+  '25':
+    display_name: '&r&r'
+    slot: 25
+    material: arrow
+    amount: 32
+  '45':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    left_click_commands:
+    - '[close]' 
+    - '[player] kits'
+    right_click_commands:
+    - '[close]' 
+    - '[player] kits'
+  '53':
+    display_name: '&a&lПолучить набор'
+    slot: 53
+    material: slime_block
+    lore:
+    - '&f'
+    - '&fНажмите, чтобы &6получить'
+    - '&fданный набор'
+    - '&f'
+    - '&fЗадержка: &61 день'
+    - '&fДоступен: &x&F&F&E&2&0&0&lT&x&F&F&E&8&0&0&lI&x&F&F&E&D&0&0&lT&x&F&F&F&3&0&0&lA&x&F&F&F&8&0&0&lN'
+    hide_attributes: true

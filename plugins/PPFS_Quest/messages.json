@@ -1,0 +1,158 @@
+{
+  "menu_name": "§fꈁꀀꈂꍁꈂꀁ§0ꈃꄒ",
+  "ready_to_complete": {
+    "message": [
+      "<gold>┏",
+      "<gold>┃ <bold>ЗАДАНИЕ ВЫПОЛНЕНО",
+      "<gold>┃ <white>Следующее задание разблокировано",
+      "<gold>┗"  
+    ]
+  },
+  "quests_no_ready": {
+    "message": [
+      "<gold>Квесты <gray>» <red>Ты ещё не готов к этим квестам."
+    ]
+  },
+  "not_number": {
+    "message": [
+      "<red>Вы ввели не число"
+    ]
+  },
+  "full_inventory": {
+    "message": [
+      "<red>У Вас полный инвентарь"
+    ]
+  },
+  "successful_reward": {
+    "message": [
+      "<gold>Джамшут <gray>» <green>Ваша награда была выдана. Спасибо за прохождение этапа."
+    ]
+  },
+  "quest_type_not_found": {
+    "message": [
+      "<red>Квест не найден"
+    ]
+  },
+  "error": {
+    "message": [
+      "<red>Извините, возникла непредвиденная ошибка."
+    ]
+  },
+  "left_hand": {
+    "message": [
+      "<red>Не найден предмет в левой руке"
+    ]
+  },
+  "right_hand": {
+    "message": [
+      "<red>Не найден предмет в правой руке"
+    ]
+  },
+  "entity_not_found": {
+    "message": [
+      "<red>Сущность не найдена"
+    ]
+  },
+  "reward_not_ready": {
+    "message": [
+      "<reset><red>Пройдите этап, чтобы забрать награду</reset>"
+    ]
+  },
+  "reward_name": {
+    "message": [
+      "<bold><aqua>Награда:</bold>"
+    ]
+  },
+  "reward_not_shulker_box": {
+    "message": [
+      "<red>Награда не является шалкером"
+    ]
+  },
+  "quest_added": {
+    "message": [
+      "<green>Квест успешно добавлен"
+    ]
+  },
+  "reward_ready": {
+    "message": [
+      "<reset><green>Нажмите, чтобы забрать свою награду</reset>"
+    ]
+  },
+  "reward_taken": {
+    "message": [
+      "<red>Вы уже забрали награду"
+    ]
+  },
+  "reward_created": {
+    "message": [
+      "<green>Награда создана"
+    ]
+  },
+  "quest_title": {
+    "message": [
+      "<gold><quest_title>"
+    ]
+  },
+  "quest_completed_description": {
+    "message": [
+      "",
+      "<reset></reset>",  
+      "<reset><gray>Для выполнения данного квеста</reset>",
+      "<reset><gray>Вам нужно <quest_type>:</reset>",
+      "<reset><gold><quest_target></reset>",
+      "<reset><gray><enchantments></reset>",
+      "<reset><gray>Прогресс: <gold><quest_requirement><gray>/<gold><quest_requirement></reset>",
+      "<reset><gray>Статус: <green>Выполнено</reset>",
+      "<reset></reset>", 
+      "<reset><gray>Вы можете пропустить квест с помощью <gold>WW+</reset>",
+      "<reset><gold>Вы уже прошли квест</reset>", 
+      ""
+    ]
+  },
+  "quest_not_completed_description": {
+    "message": [
+      "",
+      "<reset></reset>",    
+      "<reset><gray>Для выполнения данного квеста</reset>",
+      "<reset><gray>Вам нужно <quest_type>:</reset>",
+      "<reset><gold><quest_target></reset>",
+      "<reset><gray><enchantments></reset>",
+      "<reset><gray>Прогресс: <gold><quest_progress><gray>/<gold><quest_requirement></reset>",
+      "<reset><gray>Статус: <red>Не выполнено</reset>",
+      "<reset></reset>",    
+      "<reset><gray>Вы можете пропустить квест с помощью <gold>WW+</reset>",
+      "<reset><gold>/skipquest <gray>(Осталось <quest_skip> раз)</reset>",      
+      ""
+    ]
+  },
+  "quest_not_opened": {
+    "message": [
+      "<reset><red>Для начала выполните</reset>",
+      "<reset><red>предыдущие задания</reset>"
+    ]
+  },
+  "quest_not_opened_title": {
+    "message": [
+      "<bold><red>НЕДОСТУПНО</bold>"
+    ]
+  },
+  "quest_skipped": {
+    "message": [
+      "<gold>┏",
+      "<gold>┃ <bold>ЗАДАНИЕ ВЫПОЛНЕНО",
+      "<gold>┃ <white>Следующее задание разблокировано",
+      "<gold>┗",    
+      "<gold>Квесты <gray>» <green>Квест пропущен."
+    ]
+  },
+  "quest_no_skips": {
+    "message": [
+      "<gold>Квесты <gray>» <red>Вы уже 3 раза пропустили квест!"
+    ]
+  },
+  "no_permission_skip": {
+    "message": [
+      "<gold>Квесты <gray>» <red>Необходимо приобрести WW+ для пропуска квестов!"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+clock:
+  creator: SPO102
+  world: world_spawn
+  x: 85
+  y: 83
+  z: -8
+  x2: 82
+  y2: 83
+  z2: -8
+  depth: 1
+  direction: NORTH
+  material: QUARTZ_BLOCK
+  data: 0
+  filling: AIR
+  fdata: 0
+  add: 0
+  seconds: false
+  blinking: true
+  changer: false
+  ampm: false
+  cdt: 0
+  swt: 0
+  mode: NORMAL

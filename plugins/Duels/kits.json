@@ -1,0 +1,4232 @@
+{
+  "shield": {
+    "name": "shield",
+    "displayed": {
+      "item": {
+        "==": "org.bukkit.inventory.ItemStack",
+        "v": 2586,
+        "type": "SHIELD",
+        "meta": {
+          "==": "ItemMeta",
+          "meta-type": "TILE_ENTITY",
+          "display-name": "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Щит\"}],\"text\":\"\"}",
+          "lore": [ ],
+          "blockMaterial": "SHIELD"
+        }
+      }
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "characteristics": [ ],
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_SWORD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "FIRE_ASPECT": 2,
+                "DAMAGE_ALL": 5,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CROSSBOW",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "CROSSBOW",
+              "enchants": {
+                "ARROW_INFINITE": 1,
+                "MULTISHOT": 1,
+                "QUICK_CHARGE": 3
+              },
+              "repair-cost": 7,
+              "charged": false
+            }
+          }
+        },
+        "33": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "COOKED_BEEF",
+            "amount": 64
+          }
+        },
+        "34": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:long_fire_resistance"
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "GOLDEN_APPLE",
+            "amount": 64
+          }
+        },
+        "35": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_swiftness"
+            }
+          }
+        },
+        "36": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "5": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_strength"
+            }
+          }
+        },
+        "37": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        },
+        "6": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "38": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        },
+        "39": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "40": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SHIELD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "TILE_ENTITY",
+              "enchants": {
+                "DURABILITY": 3
+              },
+              "repair-cost": 1,
+              "blockMaterial": "SHIELD"
+            }
+          }
+        },
+        "18": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ARROW",
+            "amount": 64
+          }
+        },
+        "26": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "27": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_AXE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "DAMAGE_ALL": 5,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        }
+      }
+    }
+  },
+  "shipi": {
+    "name": "shipi",
+    "displayed": {
+      "item": {
+        "==": "org.bukkit.inventory.ItemStack",
+        "v": 2586,
+        "type": "NETHERITE_CHESTPLATE",
+        "meta": {
+          "==": "ItemMeta",
+          "meta-type": "UNSPECIFIC",
+          "display-name": "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Шипы 3\"}],\"text\":\"\"}",
+          "lore": [ ]
+        }
+      }
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "characteristics": [ ],
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_SWORD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "FIRE_ASPECT": 2,
+                "DAMAGE_ALL": 5,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "32": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CROSSBOW",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "CROSSBOW",
+              "enchants": {
+                "ARROW_INFINITE": 1,
+                "MULTISHOT": 1,
+                "QUICK_CHARGE": 3
+              },
+              "repair-cost": 7,
+              "charged": false
+            }
+          }
+        },
+        "33": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "COOKED_BEEF",
+            "amount": 64
+          }
+        },
+        "34": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "GOLDEN_APPLE",
+            "amount": 16
+          }
+        },
+        "35": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_strength"
+            }
+          }
+        },
+        "36": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "THORNS": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 15
+            }
+          }
+        },
+        "5": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_swiftness"
+            }
+          }
+        },
+        "37": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "THORNS": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "6": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "38": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "THORNS": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "7": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:long_fire_resistance"
+            }
+          }
+        },
+        "39": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "THORNS": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 15
+            }
+          }
+        },
+        "8": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "15": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "18": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ARROW",
+            "amount": 64
+          }
+        },
+        "23": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "24": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "25": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "THORNS": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 15
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "THORNS": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "THORNS": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "THORNS": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 15
+            }
+          }
+        }
+      }
+    }
+  },
+  "bow": {
+    "name": "bow",
+    "displayed": {
+      "item": {
+        "==": "org.bukkit.inventory.ItemStack",
+        "v": 2586,
+        "type": "BOW",
+        "meta": {
+          "==": "ItemMeta",
+          "meta-type": "UNSPECIFIC",
+          "display-name": "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Лук\"}],\"text\":\"\"}",
+          "lore": [ ]
+        }
+      }
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "characteristics": [ ],
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "BOW",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "ARROW_INFINITE": 1,
+                "ARROW_DAMAGE": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        },
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ARROW"
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "GOLDEN_APPLE",
+            "amount": 3
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "COOKED_PORKCHOP",
+            "amount": 10
+          }
+        },
+        "36": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CHAINMAIL_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 1
+              },
+              "repair-cost": 1
+            }
+          }
+        },
+        "37": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CHAINMAIL_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 1
+              },
+              "repair-cost": 1
+            }
+          }
+        },
+        "38": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CHAINMAIL_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 1
+              },
+              "repair-cost": 1
+            }
+          }
+        },
+        "39": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CHAINMAIL_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 1
+              },
+              "repair-cost": 1
+            }
+          }
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CHAINMAIL_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 1
+              },
+              "repair-cost": 1
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CHAINMAIL_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 1
+              },
+              "repair-cost": 1
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CHAINMAIL_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 1
+              },
+              "repair-cost": 1
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CHAINMAIL_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 1
+              },
+              "repair-cost": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "totem": {
+    "name": "totem",
+    "displayed": {
+      "item": {
+        "==": "org.bukkit.inventory.ItemStack",
+        "v": 2586,
+        "type": "TOTEM_OF_UNDYING",
+        "meta": {
+          "==": "ItemMeta",
+          "meta-type": "UNSPECIFIC",
+          "display-name": "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Тотемы\"}],\"text\":\"\"}",
+          "lore": [ ]
+        }
+      }
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "characteristics": [ ],
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_SWORD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "FIRE_ASPECT": 2,
+                "DAMAGE_ALL": 5,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "32": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CROSSBOW",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "CROSSBOW",
+              "enchants": {
+                "ARROW_INFINITE": 1,
+                "MULTISHOT": 1,
+                "QUICK_CHARGE": 3
+              },
+              "repair-cost": 7,
+              "charged": false
+            }
+          }
+        },
+        "33": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "COOKED_BEEF",
+            "amount": 64
+          }
+        },
+        "34": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "GOLDEN_APPLE",
+            "amount": 16
+          }
+        },
+        "35": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_strength"
+            }
+          }
+        },
+        "36": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "5": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_swiftness"
+            }
+          }
+        },
+        "37": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        },
+        "6": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "38": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        },
+        "7": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:long_fire_resistance"
+            }
+          }
+        },
+        "39": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "8": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "9": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ARROW",
+            "amount": 64
+          }
+        },
+        "14": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "15": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "16": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "23": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "24": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "25": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 7
+            }
+          }
+        }
+      }
+    }
+  },
+  "nodebuff": {
+    "name": "nodebuff",
+    "displayed": {
+      "item": {
+        "==": "org.bukkit.inventory.ItemStack",
+        "v": 2586,
+        "type": "SPLASH_POTION",
+        "meta": {
+          "==": "ItemMeta",
+          "meta-type": "POTION",
+          "display-name": "{\"text\":\"§7nodebuff\"}",
+          "potion-type": "minecraft:strong_healing"
+        }
+      }
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "characteristics": [ ],
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_SWORD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "DURABILITY": 3
+              },
+              "repair-cost": 1
+            }
+          }
+        },
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "5": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "6": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "7": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "8": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "9": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "10": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "11": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "12": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "13": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "14": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "15": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "16": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "17": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "18": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "19": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "20": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "21": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "22": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "23": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "24": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "25": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "26": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "27": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "28": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "29": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "30": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "31": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "32": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "33": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "34": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "35": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_healing"
+            }
+          }
+        },
+        "36": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 2,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "37": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 2,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "38": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 2,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "39": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 2,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "40": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "COOKED_BEEF",
+            "amount": 64
+          }
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 2,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 2,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 2,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 2,
+                "DURABILITY": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "shari": {
+    "name": "shari",
+    "displayed": {
+      "item": {
+        "==": "org.bukkit.inventory.ItemStack",
+        "v": 2586,
+        "type": "PLAYER_HEAD",
+        "meta": {
+          "==": "ItemMeta",
+          "meta-type": "SKULL",
+          "display-name": "{\"text\":\"§7Шары\"}",
+          "enchants": {
+            "VANISHING_CURSE": 1
+          },
+          "ItemFlags": [
+            "HIDE_ENCHANTS"
+          ],
+          "internal": "H4sIAAAAAAAA/02PT1KDMBxGfzo6U9EDeAxiLU4XXTiGoWGaxFIaCrsWUvkTsFKoho1n0IV3cOFOL+DJZOnuffO+zTMADLhYFK1S9/XjNlPSAKOnnaybTO7PYNDIl6at5d4AgKMBnIq1aiV8S+2a0So1k5WrYk2sfvsLU3GS725IJfTmjlik7P301prp8b/vqFkHIxUO3TSq5u2mFOZs6Ck59VBcLg9hTkyK4+ewUxnLQ8QDUdBcZLRkKfXJFfdtFOVewfGDpk6URiVTDFPNHFHwwL7uXcYdG1EcdgwvO4qTklRovJ1PJgDncEySPuTk84tepq/k/ecXPb19MAfgDwhIX8AKAQAA",
+          "PublicBukkitValues": {
+            "minecraft:regen": "REGEN"
+          }
+        }
+      }
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "characteristics": [ ],
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_SWORD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "FIRE_ASPECT": 2,
+                "DAMAGE_ALL": 5,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CROSSBOW",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "CROSSBOW",
+              "enchants": {
+                "ARROW_INFINITE": 1,
+                "MULTISHOT": 1,
+                "QUICK_CHARGE": 3
+              },
+              "repair-cost": 7,
+              "charged": false
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_strength"
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_swiftness"
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:long_fire_resistance"
+            }
+          }
+        },
+        "5": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "6": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "7": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "GOLDEN_APPLE",
+            "amount": 32
+          }
+        },
+        "8": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "COOKED_BEEF",
+            "amount": 64
+          }
+        },
+        "9": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ARROW"
+          }
+        },
+        "10": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TIPPED_ARROW",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_harming"
+            }
+          }
+        },
+        "11": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TIPPED_ARROW",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_harming"
+            }
+          }
+        },
+        "15": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "16": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "17": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "24": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "25": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "26": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "27": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_aqua\",\"text\":\"Шар Посейдона 2\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"+20% к скорости\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"+25% к скорости плаванья\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"+9 к здоровью\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_MAX_HEALTH": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 18.0,
+                    "name": "e5286b01-71ca-4bf3-9025-355e26a5d503",
+                    "uuid": "e5286b01-71ca-4bf3-9025-355e26a5d503",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_MOVEMENT_SPEED": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 0.2,
+                    "name": "296488ce-8dc0-4589-b60c-d80af5b14316",
+                    "slot": "OFF_HAND",
+                    "uuid": "296488ce-8dc0-4589-b60c-d80af5b14316",
+                    "operation": 1
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ATTRIBUTES"
+              ]
+            }
+          }
+        },
+        "28": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"Шар Геркулеса 2\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"Регенерация\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"+2.5 к силе\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"+0.3 к скорости атаки\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_ATTACK_DAMAGE": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 2.5,
+                    "name": "fa0ab748-7f6a-424b-8d88-b1ecf7ca6c08",
+                    "slot": "OFF_HAND",
+                    "uuid": "fa0ab748-7f6a-424b-8d88-b1ecf7ca6c08",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_ATTACK_SPEED": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 0.3,
+                    "name": "e5be4f8b-77e7-419e-a3f6-4e748afcd0ca",
+                    "slot": "OFF_HAND",
+                    "uuid": "e5be4f8b-77e7-419e-a3f6-4e748afcd0ca",
+                    "operation": 0
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ATTRIBUTES"
+              ]
+            }
+          }
+        },
+        "29": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Шар Броненосца 2\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_gray\",\"text\":\"+4.5 к стойкости\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_gray\",\"text\":\"+9 к здоровью\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_ARMOR": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 4.5,
+                    "name": "13461f0f-4214-487a-9620-b3f5950dea58",
+                    "slot": "OFF_HAND",
+                    "uuid": "13461f0f-4214-487a-9620-b3f5950dea58",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_MAX_HEALTH": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 9.0,
+                    "name": "8600fa25-4452-45be-af67-1c374ccc73ec",
+                    "slot": "OFF_HAND",
+                    "uuid": "8600fa25-4452-45be-af67-1c374ccc73ec",
+                    "operation": 0
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ATTRIBUTES"
+              ]
+            }
+          }
+        },
+        "30": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Шар Кратоса 2\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Шипы 5\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"+4 сопротивление к отдаче\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "THORNS": 5,
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_KNOCKBACK_RESISTANCE": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 0.05,
+                    "name": "bdfa3048-0452-4a57-947e-c5ed04dd4994",
+                    "slot": "OFF_HAND",
+                    "uuid": "bdfa3048-0452-4a57-947e-c5ed04dd4994",
+                    "operation": 0
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ENCHANTS",
+                "HIDE_ATTRIBUTES"
+              ]
+            }
+          }
+        },
+        "31": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_red\",\"text\":\"Шар Ахиллеса 2\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"+2.5 к силе\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"+3 к здоровью\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_MAX_HEALTH": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 5.0,
+                    "name": "9f23615b-9ac1-44dc-86ff-2bd8627b7e32",
+                    "slot": "OFF_HAND",
+                    "uuid": "9f23615b-9ac1-44dc-86ff-2bd8627b7e32",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_ATTACK_DAMAGE": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 2.5,
+                    "name": "301ea7f2-bae2-41de-b096-44bdda055a9e",
+                    "slot": "OFF_HAND",
+                    "uuid": "301ea7f2-bae2-41de-b096-44bdda055a9e",
+                    "operation": 0
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ATTRIBUTES"
+              ]
+            }
+          }
+        },
+        "32": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"Шар Геракла 2\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_gray\",\"text\":\"+2 к силе\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_gray\",\"text\":\"+20% к скорости\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_MOVEMENT_SPEED": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 0.2,
+                    "name": "6712cbed-e1ea-48a0-9201-81612d422bca",
+                    "slot": "OFF_HAND",
+                    "uuid": "6712cbed-e1ea-48a0-9201-81612d422bca",
+                    "operation": 1
+                  }
+                ],
+                "GENERIC_ATTACK_DAMAGE": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 2.0,
+                    "name": "5b1e241a-b653-4f43-b4c5-18d595f2d1ce",
+                    "slot": "OFF_HAND",
+                    "uuid": "5b1e241a-b653-4f43-b4c5-18d595f2d1ce",
+                    "operation": 0
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ATTRIBUTES"
+              ]
+            }
+          }
+        },
+        "33": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "34": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "35": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "36": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "37": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "38": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "39": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "40": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"Шар Аида 2\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"+5 к стойкости\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"+15% к скорости\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_MOVEMENT_SPEED": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 0.15,
+                    "name": "82a8ef38-ad1f-4194-a912-48284b12ec5f",
+                    "slot": "OFF_HAND",
+                    "uuid": "82a8ef38-ad1f-4194-a912-48284b12ec5f",
+                    "operation": 1
+                  }
+                ],
+                "GENERIC_ARMOR": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 5.0,
+                    "name": "d6ca9b98-6b91-431d-9439-c9badddfac30",
+                    "slot": "OFF_HAND",
+                    "uuid": "d6ca9b98-6b91-431d-9439-c9badddfac30",
+                    "operation": 0
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ATTRIBUTES"
+              ]
+            }
+          }
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "classic": {
+    "name": "classic",
+    "displayed": {
+      "item": {
+        "==": "org.bukkit.inventory.ItemStack",
+        "v": 2586,
+        "type": "DIAMOND_SWORD",
+        "meta": {
+          "==": "ItemMeta",
+          "meta-type": "UNSPECIFIC",
+          "display-name": "{\"text\":\"§7Классик\"}"
+        }
+      }
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "characteristics": [ ],
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_SWORD"
+          }
+        },
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "COOKED_BEEF",
+            "amount": 8
+          }
+        },
+        "36": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS"
+          }
+        },
+        "37": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS"
+          }
+        },
+        "38": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE"
+          }
+        },
+        "39": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET"
+          }
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET"
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE"
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS"
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS"
+          }
+        }
+      }
+    }
+  },
+  "chiterskii rai": {
+    "name": "chiterskii rai",
+    "displayed": {
+      "item": {
+        "==": "org.bukkit.inventory.ItemStack",
+        "v": 2586,
+        "type": "ENCHANTED_GOLDEN_APPLE",
+        "meta": {
+          "==": "ItemMeta",
+          "meta-type": "UNSPECIFIC",
+          "display-name": "{\"text\":\"§7Читерский-Рай\"}"
+        }
+      }
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "characteristics": [ ],
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_SWORD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "FIRE_ASPECT": 2,
+                "DAMAGE_ALL": 5,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CROSSBOW",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "CROSSBOW",
+              "enchants": {
+                "ARROW_INFINITE": 1,
+                "MULTISHOT": 1,
+                "QUICK_CHARGE": 3
+              },
+              "charged": false
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "COOKED_BEEF",
+            "amount": 64
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENCHANTED_GOLDEN_APPLE",
+            "amount": 2
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_swiftness"
+            }
+          }
+        },
+        "5": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_strength"
+            }
+          }
+        },
+        "6": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "7": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:long_fire_resistance"
+            }
+          }
+        },
+        "8": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "9": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TIPPED_ARROW",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_harming"
+            }
+          }
+        },
+        "10": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TIPPED_ARROW",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_harming"
+            }
+          }
+        },
+        "14": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "15": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "16": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "23": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "24": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "25": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "27": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_AXE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "DAMAGE_ALL": 5,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "29": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "GOLDEN_APPLE",
+            "amount": 32
+          }
+        },
+        "32": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "33": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "34": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "35": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "36": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "37": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "38": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "39": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "40": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SHIELD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "TILE_ENTITY",
+              "enchants": {
+                "DURABILITY": 3
+              },
+              "blockMaterial": "SHIELD"
+            }
+          }
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "nezerka": {
+    "name": "nezerka",
+    "displayed": {
+      "item": {
+        "==": "org.bukkit.inventory.ItemStack",
+        "v": 2586,
+        "type": "NETHERITE_SWORD",
+        "meta": {
+          "==": "ItemMeta",
+          "meta-type": "UNSPECIFIC",
+          "display-name": "{\"text\":\"§7Незерка\"}"
+        }
+      }
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "characteristics": [ ],
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_SWORD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "FIRE_ASPECT": 2,
+                "DAMAGE_ALL": 5,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CROSSBOW",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "CROSSBOW",
+              "enchants": {
+                "ARROW_INFINITE": 1,
+                "MULTISHOT": 1,
+                "QUICK_CHARGE": 3
+              },
+              "charged": false
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "COOKED_BEEF",
+            "amount": 64
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "GOLDEN_APPLE",
+            "amount": 8
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:long_fire_resistance"
+            }
+          }
+        },
+        "36": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "5": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_swiftness"
+            }
+          }
+        },
+        "37": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "6": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_strength"
+            }
+          }
+        },
+        "38": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "39": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "8": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 8
+          }
+        },
+        "9": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ARROW",
+            "amount": 64
+          }
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_FALL": 4,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "megakit": {
+    "name": "megakit",
+    "displayed": {
+      "item": {
+        "==": "org.bukkit.inventory.ItemStack",
+        "v": 2586,
+        "type": "SPLASH_POTION",
+        "meta": {
+          "==": "ItemMeta",
+          "meta-type": "POTION",
+          "display-name": "{\"text\":\"§7МегаКит\"}",
+          "lore": [
+            "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"Скорость II (0:40)\"}],\"text\":\"\"}",
+            "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"Сила II (0:40)\"}],\"text\":\"\"}",
+            "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"Огнестойкость (6:40)\"}],\"text\":\"\"}"
+          ],
+          "ItemFlags": [
+            "HIDE_POTION_EFFECTS"
+          ],
+          "custom-color": {
+            "==": "Color",
+            "RED": 189,
+            "BLUE": 189,
+            "GREEN": 189
+          },
+          "custom-effects": [
+            {
+              "==": "PotionEffect",
+              "effect": 1,
+              "duration": 800,
+              "amplifier": 0,
+              "ambient": false,
+              "has-particles": true,
+              "has-icon": true
+            },
+            {
+              "==": "PotionEffect",
+              "effect": 5,
+              "duration": 800,
+              "amplifier": 0,
+              "ambient": false,
+              "has-particles": true,
+              "has-icon": true
+            },
+            {
+              "==": "PotionEffect",
+              "effect": 12,
+              "duration": 8000,
+              "amplifier": 0,
+              "ambient": false,
+              "has-particles": true,
+              "has-icon": true
+            }
+          ]
+        }
+      }
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "characteristics": [ ],
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_SWORD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "display-name": "{\"text\":\"§b§lФростморн\"}",
+              "lore": [
+                "{\"text\":\"§7Заговор Огня X\"}",
+                "{\"text\":\"§7Острота VI\"}",
+                "{\"text\":\"§7Прочность III\"}",
+                "{\"text\":\"§cПроклятье утраты\"}",
+                "{\"text\":\"§6Неразрушимый\"}"
+              ],
+              "enchants": {
+                "FIRE_ASPECT": 10,
+                "DAMAGE_ALL": 6,
+                "DURABILITY": 3,
+                "VANISHING_CURSE": 1
+              },
+              "repair-cost": 1,
+              "ItemFlags": [
+                "HIDE_ENCHANTS",
+                "HIDE_UNBREAKABLE"
+              ],
+              "Unbreakable": true
+            }
+          }
+        },
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "BOW",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "ARROW_FIRE": 1,
+                "ARROW_INFINITE": 1,
+                "MENDING": 1,
+                "ARROW_DAMAGE": 5,
+                "DURABILITY": 2
+              },
+              "repair-cost": 7
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 32,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"Зимняя Мощь\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"Скорость II (0:40)\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"Сила II (0:40)\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"Огнестойкость (6:40)\"}],\"text\":\"\"}"
+              ],
+              "ItemFlags": [
+                "HIDE_POTION_EFFECTS"
+              ],
+              "custom-color": {
+                "==": "Color",
+                "RED": 189,
+                "BLUE": 189,
+                "GREEN": 189
+              },
+              "custom-effects": [
+                {
+                  "==": "PotionEffect",
+                  "effect": 1,
+                  "duration": 800,
+                  "amplifier": 1,
+                  "ambient": false,
+                  "has-particles": true,
+                  "has-icon": true
+                },
+                {
+                  "==": "PotionEffect",
+                  "effect": 5,
+                  "duration": 800,
+                  "amplifier": 1,
+                  "ambient": false,
+                  "has-particles": true,
+                  "has-icon": true
+                },
+                {
+                  "==": "PotionEffect",
+                  "effect": 12,
+                  "duration": 8000,
+                  "amplifier": 1,
+                  "ambient": false,
+                  "has-particles": true,
+                  "has-icon": true
+                }
+              ]
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "GOLDEN_APPLE",
+            "amount": 32
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "GOLDEN_CARROT",
+            "amount": 64
+          }
+        },
+        "5": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "6": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "CHORUS_FRUIT",
+            "amount": 64
+          }
+        },
+        "14": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "15": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "16": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "17": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "23": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "24": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "25": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "26": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "28": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TIPPED_ARROW",
+            "amount": 64,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_harming"
+            }
+          }
+        },
+        "29": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "SPLASH_POTION",
+            "amount": 32,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_harming"
+            }
+          }
+        },
+        "30": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENCHANTED_GOLDEN_APPLE",
+            "amount": 3
+          }
+        },
+        "32": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "33": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"Шар Д.Хелпера\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"+7.0 к здоровью\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"+0.6 к скорости атаки\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"+3 к стойкости\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_ATTACK_SPEED": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 0.599,
+                    "name": "generic.attackSpeed",
+                    "slot": "OFF_HAND",
+                    "uuid": "0d9066bf-b90a-4143-b18f-0b7fcd406f40",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_MAX_HEALTH": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 7.0,
+                    "name": "ResourceKey[minecraft:attribute / minecraft:generic.max_health]",
+                    "slot": "OFF_HAND",
+                    "uuid": "e2acdfbe-d656-441e-b5f5-8f12fec0ecd6",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_ARMOR": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 3.0,
+                    "name": "ResourceKey[minecraft:attribute / minecraft:generic.armor]",
+                    "slot": "OFF_HAND",
+                    "uuid": "26ed3cd9-3459-46f4-a1d0-089aae1a010c",
+                    "operation": 0
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ATTRIBUTES"
+              ],
+              "internal": "H4sIAAAAAAAA/1VUSa6jVhSloor06yfKCjKLMmJgwMY2impAY+Bhmg9+YPNmBgMGHs2nh3VkCRlmBdlBhllFlhBllPhXSokyutJtzjn3XOk+E8Qz8fUp7zF+aao4xdET8d68FhHxTYCrqbi2XdQwFEU9E8+PhjpqujRqPxBPXTR1fRO1zwRBvHsiPpzSpLy+Zb742bwCvnbPYNh7m/uanZt4d0LXIutpu7uGQDKRW10jxnrtqIgaSlf2VluVL9rI7ouJh6KrcsPBYNssM2691nZLMziyzW57snBd5oUp7Pxma4f+ulUuCHJcgosttcrDQM4X3ww1aoxvJboKjBKHeL8gBahYlotTiPZkbO498mR3d6rejlZju1wJX7F+iKt5hwq2edHJsfZSbrN4e0qal9y4xgycnLVbUkCPVXa3iaFC8d64sLJqy7WpdSvoHupoBnsLHnySe5X3YUMjrfLSvUuXGyvQ87mNBZJKQ7jaFabU91SQZdrrBJTUE85Zf4H7EtaCKE44coa93F32Bm0D4ISn82Xm8OFYATNydFscLreMCvaCUNbHeEUP0HMgeVz1Nctcsjt31EgqPMTrJeSHRDcCE1+wwjfLRPOTa7Evi2NaYhtYczBsgjQtBXY4SpmzbTpOyNO4SxoUt6xRO8XrHla51ZfjblVpXOA6yiWdKv517Uz9SBsnmvETiOc7d0FpIvucy6+9+DDRWiDvvF69WdGuPpCNvIEG69FwgmgjtuTtDLAk+dIx2Paizikv5HxKxmDn+ihwQCYo+hEntGWfwIIQHNhS96cmimdR0so8WzQsJe0Zh2XKFuVUuEnF+kC4bWQRjYkxXeY18+J2WWdVbbuGRtu0Aua07VHWw6geyLFR9aYhg0a8L+eRlgP74xPxpXfFffTup2isEiBq1PVM43Dt3IMLnwKpSgzo0xZMWAPas5n5k5GORyDyaahqAypwi1ycg5TfPmaxAQGFsoRC58PkMz7lL0LhZ+5sQXc0zmaBoD+bi7FBImjFlE9AKcwBg+pA8Sz/wfsZJw0UbhOc5eWmeLOR8aPxb79ZI4a931RvRp6Gw4tXh4X3D7/qzLez+xnXwZHq0I/a8glTbd80v+0HTxS2/p970+HNgQgSK+XTq+pQoVQN+vo/DL2g66DwsrCQi5vI9uhiDw9tm086TlxuSD7tZzZrwnBtMtrdkuwZSWBGinl/eLYgiAtzyRkD3nJL0XLrDFhLMnNTevgFDQYp9hpJOWssPOUXh9mE/AYkb/fgk9h+RJU6xvbHjwTxFfEFuD1ezvsfvzuuf/v2B/qXP3798/vf/2oJ4m9JAz2cywQAAA==",
+              "skull-owner": "bloxmaster2000"
+            }
+          }
+        },
+        "34": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"Голова Гидры\"}],\"text\":\"\"}",
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_ARMOR": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 5.0,
+                    "name": "ResourceKey[minecraft:attribute / minecraft:generic.armor]",
+                    "slot": "OFF_HAND",
+                    "uuid": "66bf69d9-09d5-463c-8573-a629d30d802e",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_MAX_HEALTH": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 10.0,
+                    "name": "ResourceKey[minecraft:attribute / minecraft:generic.max_health]",
+                    "slot": "OFF_HAND",
+                    "uuid": "5d4dc5b9-bba3-474b-ad43-7ae5db1715b6",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_MOVEMENT_SPEED": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 0.2,
+                    "name": "ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]",
+                    "slot": "OFF_HAND",
+                    "uuid": "9830deb7-a414-49cf-a6e4-e6f4e8742a80",
+                    "operation": 1
+                  }
+                ]
+              },
+              "internal": "H4sIAAAAAAAA/02PvU7DMBzE/yCQimHnEVjdlAQ6IkCpo9ahab7srR9uG8cuVZpQh1fhCdh4AR6lGxsbEyMeGU660/100iEABBeTslHqqXpeFkogQNZtRVUXYncGnVqYuqnEDgHAUQdO06lqBHyINsA8X+NFHqh5Szyb4wlWIZHbG7JJ29k98Yi2/eDOG7b9f6xbTzNXsV6w5ptxM9MpHvYiJQZRd66TFx6vXKs9zYKSamaoTiV7JZjGlvfHJvSTay5XDouJoU6kqOSayahgToJHcbmnD1yPMuJS+WiY3Qh9Vizzbh/gHI7Jwp44uToQIS5vv95+fr8/37MDwB9ArQc0BgEAAA=="
+            }
+          }
+        },
+        "35": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_green\",\"text\":\"Голова Кобры\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"+3.5 к Урону\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"+20% к Скорости атаки\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"+2.5 к Стойкости\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"Отравляет врагов ядом\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_ATTACK_DAMAGE": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 3.5,
+                    "name": "ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]",
+                    "slot": "OFF_HAND",
+                    "uuid": "e5ea1c3d-e2b8-48a9-95c4-f451f6e7f875",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_ARMOR_TOUGHNESS": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 2.5,
+                    "name": "ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]",
+                    "slot": "OFF_HAND",
+                    "uuid": "0ee20dd0-7a89-459c-aa66-d293310224f1",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_ARMOR": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 2.5,
+                    "name": "ResourceKey[minecraft:attribute / minecraft:generic.armor]",
+                    "slot": "OFF_HAND",
+                    "uuid": "964f133e-0c25-4e22-a120-4ee99131ae1b",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_ATTACK_SPEED": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 0.2,
+                    "name": "ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]",
+                    "slot": "OFF_HAND",
+                    "uuid": "7a036215-d578-4d49-b4dc-e8af24bf1f96",
+                    "operation": 2
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ATTRIBUTES"
+              ],
+              "internal": "H4sIAAAAAAAA/02PT06DQBxGfxpNKnqYgQa0Ji6qAh3CH6EIzOxaOu0wDLVpQaHGxJ1ncOcRXHkZ117BtSzdvZf3bT4FQIGzadlIebd9WBaSKaD0tGHbumC7ExjUrK2bLdspAHAwgONkJhsGn6xzEM04WmSOzDts9B5PkQyw2JzjddLNb7CBq75Pxobbjf5t9XqW6pIMHU7XYTOvEuQOI8kmkZpX949BGnFPrFpPCxEVCSdaqAVpUvpx+UT2VhnYJvJvnaJ31Y9Nndp+QfbX0ovzNog5pzblJLU4FaZKxUonYlwsM3UEcAqHeNGfOLp6eb94/bKe3z5+3N/Lbw/gD40GsJgGAQAA",
+              "PublicBukkitValues": {
+                "minecraft:cobra": "COBRA"
+              }
+            }
+          }
+        },
+        "36": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "DEPTH_STRIDER": 3,
+                "PROTECTION_FALL": 2,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        },
+        "37": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "38": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "39": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "OXYGEN": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 1
+            }
+          }
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "OXYGEN": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 1
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "DEPTH_STRIDER": 3,
+                "PROTECTION_FALL": 2,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        }
+      }
+    }
+  },
+  "SilniyPolet": {
+    "name": "SilniyPolet",
+    "displayed": {
+      "item": {
+        "==": "org.bukkit.inventory.ItemStack",
+        "v": 2586,
+        "type": "ELYTRA",
+        "meta": {
+          "==": "ItemMeta",
+          "meta-type": "UNSPECIFIC",
+          "display-name": "{\"text\":\"§7СильныйПолет\"}"
+        }
+      }
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "characteristics": [ ],
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_SWORD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "FIRE_ASPECT": 2,
+                "DAMAGE_ALL": 5,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "32": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "GOLDEN_APPLE",
+            "amount": 16
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "GOLDEN_CARROT",
+            "amount": 56
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENDER_PEARL",
+            "amount": 16
+          }
+        },
+        "35": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ELYTRA"
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "ENCHANTED_GOLDEN_APPLE",
+            "amount": 3
+          }
+        },
+        "36": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "DEPTH_STRIDER": 3,
+                "PROTECTION_FALL": 2,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        },
+        "5": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "POTION",
+            "amount": 8,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_strength"
+            }
+          }
+        },
+        "37": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "6": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "POTION",
+            "amount": 8,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:strong_swiftness"
+            }
+          }
+        },
+        "38": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "7": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "POTION",
+            "amount": 4,
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "POTION",
+              "potion-type": "minecraft:long_fire_resistance"
+            }
+          }
+        },
+        "39": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "OXYGEN": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 1
+            }
+          }
+        },
+        "8": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "FIREWORK_ROCKET",
+            "amount": 4
+          }
+        },
+        "14": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "22": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "23": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "24": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "TOTEM_OF_UNDYING"
+          }
+        },
+        "27": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_red\",\"text\":\"Шар Силы 2\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"text\":\" \"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"+3.0 к урону\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_ATTACK_DAMAGE": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 3.0,
+                    "name": "ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]",
+                    "slot": "OFF_HAND",
+                    "uuid": "e65b1730-7fb6-47b6-9f56-254eb1a7c48d",
+                    "operation": 0
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ATTRIBUTES"
+              ],
+              "internal": "H4sIAAAAAAAA/02PQU6DQBiFf402LXoMDzBAwHTRROOYdkidKS1MO7NrYdpSBiQUTCF6G4/g1ru47yXEnbv3vvdtngFgwO0irbWela/bRCsDjC4VqqwSdRxAv1Knqi7V0QCAiz5c87WuFXypxkNytUfxytNRQ9yuBwukGTkU9yTnzeaJuCTr9smjO22G/1ynWi8dLWxvL3O/3mQcTe25VpO5GWXhG8M7JIO0oXhni1bYFKcOC3hC29R+aeOEjZ8duSRItH7LghD9cRHIVGJ5kFgndMwzYYUnatGM4shk2LdIbg63/mgEcAOXJO6OXL33FP/5fuh93hUflXs+A/wC8ybpDgoBAAA="
+            }
+          }
+        },
+        "28": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_aqua\",\"text\":\"Шар Скорости 2\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\" +30% к скорости\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_MOVEMENT_SPEED": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 0.3,
+                    "name": "ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]",
+                    "slot": "OFF_HAND",
+                    "uuid": "24b88ddf-6e2a-4a27-a863-bdd3866d224e",
+                    "operation": 1
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ATTRIBUTES"
+              ],
+              "internal": "H4sIAAAAAAAA/02PT1KDMBxGfzraqegxPEAoFqc7Hcu0YZogFAlk1z+pQJPKUHAaRm/TA/QC3sV9L2GW7t4379s8C8CCu/m2lfK1/tgUUlhgGapE3RRifwP9RhyathZ7CwAu+nCdLGQr4CS0j3iao3Xqy5XGrtnxHMkAl9Uj3iV6+YJdrIyfPrszPfr3HTYLNpSZ4+d8F7ZLlaCZE0kxjeyVevskMR7wmCBa4gc68DRhUcEVzSnDdjAhBzr2t8EktGnn6UxFZTCOlHEOZSEinYc4C3UWv3dZiTVRieLKKzapPQK4hUu8NhFXXz2R/P489Y731Xfjns8Afw0A6wIGAQAA"
+            }
+          }
+        },
+        "29": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"Голова Дракулы\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Вампиризм\"}],\"text\":\"\"}",
+                "{\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Когда во второстепенной руке\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"+8 Максимальное здоровье\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"+4 Броня\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"+1.5 Урон\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "VANISHING_CURSE": 1
+              },
+              "attribute-modifiers": {
+                "GENERIC_MAX_HEALTH": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 8.0,
+                    "name": "minecraft:generic.max_health",
+                    "slot": "OFF_HAND",
+                    "uuid": "ed500020-d55e-43b0-a5d5-a81e8a6ab1d7",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_ATTACK_DAMAGE": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 1.5,
+                    "name": "minecraft:generic.attack_damage",
+                    "slot": "OFF_HAND",
+                    "uuid": "90eb5738-1b91-43ff-85d5-dbea64233353",
+                    "operation": 0
+                  }
+                ],
+                "GENERIC_ARMOR": [
+                  {
+                    "==": "org.bukkit.attribute.AttributeModifier",
+                    "amount": 4.0,
+                    "name": "minecraft:generic.armor",
+                    "slot": "OFF_HAND",
+                    "uuid": "905f2f5d-5745-4e93-a845-ee6530eac03d",
+                    "operation": 0
+                  }
+                ]
+              },
+              "ItemFlags": [
+                "HIDE_ATTRIBUTES"
+              ],
+              "internal": "H4sIAAAAAAAA/1WRUY7TMBCGXWCl3cABeOGBGzTbFiHBIrlJN3F3Y5PUzW78gpLUTZ3YTdUkbeID8MwbJ+AQcAmuRAJCiKcZzfz6ZvT/BgBPwcuYf+L7dBfva8X39buOV3V5lGULABgZ4MWqaKT8eCy3QnIDGH134Mda8OoKXNa8rZsjr4xBewkuwlg2fHTg5zJD1nIcP5gynQS75BEKZJeZR6NrrOEZ00Xr2cXUs853yIIidZcnpmTF1rJAAr5BFjKjPO0itZ55DhNRno2JgwWxbwWjeOc5ocQKS+KsNbNQZQmYof28S67ZIXFCEvV3/3CWbjJZNmz1VxNI7gZmqkL9e+9Ww/3hV7oaS/L/bGCGXWKhjAgoYjcYp3Z5up/8Y9wr85CoME/VrdpYs4Y9+qeNE043btix1duOUbmL9DyPNDRZvu6IDU2PzhWhi94H1DI7nRIbzTANc5xn2qNBTuyixXpeMJpp/OBrZnstzv0zzqHueQJlg7cw2/p9dcd3W//mBoDn4Ana9CE8S7///PBl9P7Vt9efk6+LH3Uf8EUly7oaEgK/AOBSldLxAQAA"
+            }
+          }
+        },
+        "30": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "PLAYER_HEAD",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "SKULL",
+              "display-name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_green\",\"text\":\"Шар Шипов 2\"}],\"text\":\"\"}",
+              "lore": [
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"Проклятье утраты\"}],\"text\":\"\"}",
+                "{\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Когда во второй руке:\"}],\"text\":\"\"}",
+                "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\" Шипы V\"}],\"text\":\"\"}"
+              ],
+              "enchants": {
+                "THORNS": 5,
+                "VANISHING_CURSE": 1
+              },
+              "ItemFlags": [
+                "HIDE_ENCHANTS",
+                "HIDE_ATTRIBUTES"
+              ],
+              "internal": "H4sIAAAAAAAA/02PTU6DQBiGP402LXoMD8CPYLpoonFsO6QzCC1QZtfSqfzMIKFQIam38QhuvYv7XkKW7p4nz7t5FQAFbpd5I8Rr9b5PBVdA6ankVZ3ywwiGNW/rpuIHBQAuhnAdbETD4Zt3tsrWibpb2yLusNX7aqkKB2flAy6CbvuMLSz7Pn+yFt3439asN6EpIsNOWOE2WxmoC8MTfO5psfSPNPRVB0UtDT1JJTbYzJNEn+YU5RpBbuugWGcob2kmUjYjpoNoQnSW9J4QOc2i1csH1f17lmGNhJFBszcDF9p4704mADdwiXf9kavTgAe/P4+Dr7vys7bOZ4A/8r9cvQoBAAA="
+            }
+          }
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_HELMET",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "WATER_WORKER": 1,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "OXYGEN": 3,
+                "DURABILITY": 3
+              },
+              "repair-cost": 1
+            }
+          }
+        },
+        "2": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_CHESTPLATE",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "3": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_LEGGINGS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              }
+            }
+          }
+        },
+        "4": {
+          "item": {
+            "==": "org.bukkit.inventory.ItemStack",
+            "v": 2586,
+            "type": "NETHERITE_BOOTS",
+            "meta": {
+              "==": "ItemMeta",
+              "meta-type": "UNSPECIFIC",
+              "enchants": {
+                "DEPTH_STRIDER": 3,
+                "PROTECTION_FALL": 2,
+                "PROTECTION_ENVIRONMENTAL": 4,
+                "DURABILITY": 3
+              },
+              "repair-cost": 3
+            }
+          }
+        }
+      }
+    }
+  }
+}

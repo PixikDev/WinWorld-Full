@@ -1,0 +1,9 @@
+rewards:
+  5:
+    - "lp user <player> permission set quest.open.2 server=grief-2"
+    - "cases give <player> zhamshut 1"
+  10:
+    - "lp user <player> permission set quest.open.3 server=grief-2"
+    - "cases give <player> zhamshut 1"
+  15:
+    - "cases give <player> zhamshut 1"

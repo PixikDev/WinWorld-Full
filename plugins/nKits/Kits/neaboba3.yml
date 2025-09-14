@@ -1,0 +1,61 @@
+Name: neaboba3
+Cooldown: 0
+Permission: nKits.kits.neaboba3
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: MAGENTA_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+1Yz2sTQRR+ySZtE1utWq1VkbAiKPRQwYPkprViQETUm8gy2cxuhs7urLOz1lIEf1w8ePKiIAjFk7eCFKqlnvW2+S/8L+pbN9lNm/RHjNhLAnvI8L73ffNm9n15KQIU4fB1Lsz5OVcxtfiA2AXIVxR1/CIAnMlA7j4XCjKQnxWBqzIjkGU1OO8wl5qSWKrsBdLj1PAVwaWaYXPi+4ZHXApNbKaFLcXYqRRrMUkXhJw3JAqgqoXI9sGmtbBajC2lWOqadeKqCCZ4jboG8TBXC5hLSIugKWJrULxHPcLkrPAVliJTgNG5OINDXfWnPLmYYzLlII8DYhDLYi4WMwsaf8KRIA6baNuGFIqaigm3GZNrxpxIYyT1PSZJW5DWmShwq5KSeebaSYwGQzeIQ2wK0SdGnE4RLlV1KpmiRp1yJy16vrX/8RhyMoV0K9dQH2c03PONGOmDrdAzW7EPtkPbrlERhmvM9zhZHIHcHeJQWF7S6VMliV5+uKRXsbR62SLcp9M6U4QzM/kauDUqecSTLPlKMhRalyKw68mqqFqBbxLVFmgKLqRe1qP7qE/rChnxW/guXA3XG2/C1VL4NlwLv+GzEX4JV/Rnj5Ig/VkBcreFpCPRDYdP/1NulQe0Te4yKvzeeI7Pi8bLxptSpVIpXZwpX5m5tFUwfDhQkWvheriys7jPByjuI57uRrga1S/8Hn79U8+4lhevlmc6pP78n1IlrqVK36OuF41Xjdd4RTewpKtRMS9HCqeXtrN3zbBtKwU4Phv4Sjh3RdRC5ywLG27ctTMwdr8uFu4SqZjJqY8Ola3U8thebwRxwwXQSti2o6iKKVwMKFxzPM4sRiW60/A1p8rQBNAVuqbK/LtUo1tSXXi+UyrYO9XEllTwY1+pNDjaXsbZqPKwuflLg8ItVqM3ObF9TIa9dSiOgCNpt1zAc5dNCxpva6JxYLNjjnYYb5t/dTHd7P7ddHejbAad7eaNnNo2xvotkWO7iezcIeWL+Ba1wIcPeIfnuu3QrFNfoS+pxLqODKxrYF0D6xpY18C69mld430MCkd7HkuO9cF2vIXNd7ClloDWIRK2iT7YTvQ2S57cY/TW9jV616in6kb0KuP7vW1ibi8uJdF+DXwfeeqV2R5m9N7H767Vrgqhkt8Xk3/7t8WpPo5pqudLcfpv2AB+AysZzcdnEgAA
+      blockMaterial: MAGENTA_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,218 @@
+[
+  {
+    "id": 0,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNjYzOTk3NTA3NywKICAicHJvZmlsZUlkIiA6ICJkOGQ1YTkyMzdiMjA0M2Q4ODgzYjExNTAxNDhkNjk1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjY2QyMjNkMjM5ZWYzOWZkMmRjM2E1MjFlYzkxNWRmNjU1MjQwYjZiNDFiMTZkYTNhZmUyZjg0MGE4OTA4NTEiCiAgICB9CiAgfQp9",
+    "signature": "pB+cVPgZrqlFsT3RFe67F6UymkCYDFy4vmiJH+oGvgD9d4mCnd0Xe/l6Mz/T7JosTPs2MXZt5EC9DEuuw6IAcFeqygrbz6z9BqWlrra48GfrZmX0JRsJpStQhoW0vTWENiXToWseQVo7HiI+YgY2W3AqTOojFXTP4x7YdXAb5S4OV0O6dACCfDmQGIljLsQyLLBpk5Q+uQ/yfvqRCwWjEFx315nZLztcfepgc9OkoODCQqJQgECEWC6QFSwgPRT7+xS3fiEs2tvWPnO4HNO29GG6DLUt9ZXGvMABloh9VgHESmluLm++IcIFtYfe4FKY/jYokX2cTXc9dfc0wA5s9LZATYYIE1twcxLL1m3UZPAlih8vl1O9GAkpKbDkRFSy0ZDjMGWY+OwWTLQYH2g9Sr+pOtfoSL9Fd8ureaO64hqESxPLLT2MiJLtfotbSpWpDRQrWctnmQIc1zqMs7doZva0q/O+eHiBUxXBcdINnQOqjFqSnyc9u9Bm4+V3cBJXLIhk/xl+NvHXHsYi+AVGXIviiU91ijk3TCweIS6SPqNRyThY58ObbD2uPUXACZYPFTFjQLlEAq0Lq+0xlDC4eXUxGvus8dWmYDIvn0DInovmCY5dor1IlbcyyMs1weaP3kpRGqlfRoiPKx1Nd7tzjGXjejRriM99mS58VzIOhps=",
+    "skinName": "Steve",
+    "location": {
+      "world": "world_spawn",
+      "x": 141.5,
+      "y": 63.0,
+      "z": -12.5,
+      "yaw": -0.9969177,
+      "pitch": -1.0046331
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&6&lСТАВКИ ДО 10.000.000"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNTk1MjA0MzUyMSwKICAicHJvZmlsZUlkIiA6ICIzNjViN2I2ODhjM2Y0NjIwODBlNzM0YTk3MTBiZTI2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0dCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZTI4NjNhNmJmODJjYzE0MTc3YzYzMzkyYzRmZGNkZmRlMjkwMDdjYTkzMGI3OWMxNjVkMmY2NTNhZTViNTc3IgogICAgfQogIH0KfQ==",
+    "signature": "KfNM0gZO0NUPsyW4PWl+MYvK2w5mbVyoee6E47zbFfyi8ameb3Rj4wH4aW5Dujh4NBHBMXx5m6f55aS+g4R1cmZ51SuvKxhMm03XtBx0rZg4bM1n/rWxHNGffHTDRP5PkG/dosfO2UqQf3xEh1F7bizSITxzz1GM9+Jr519hyouLsiAGMyfsOA5VgB94eYBqukhZffyrjVZP/b621VKUJqSYHD2MBIJMFW6Cnik8VGRPTjKmaa037y40tl6d29bvR3EcLU4us8q983vXmm9C5D3cHFxDBvZXRSQCqYpy0ao4oTj5/x7eeyQ2Sf0g6RR7/cOf9m4HpO2VyawAs6nK2nWwidoayIPnmmQtGcYQ3mvfUHd5is0RJVOXMDVZX8tBgK1LqfshD97s3vcyI1X0PXwVaAO+zX2J5po8OP/jIQIqaIJO9L16zQYtoeYOj9kDTyubXJ2h1JpRjgVZ/oitfj6ZGktwsloCL1ZwYS3xUH6bJurjIsisqI7F6z6nUIjlbyIiddQb8Osxu9DOKHJhRveppXmoJ225ovW8Wvy42F1J2Gkth/DWhIRbBIkdH1dnygpDdkKhHO67blkbXTzbm8V2p9dWF3pV04TSnKFOMg30W1j2CBlhEtzSZucy5yOIS3FpVOk3XtUidpUtPU1yuuMVIrrl4AFcsqydafPXTfQ=",
+    "skinName": "Steve",
+    "location": {
+      "world": "world_spawn",
+      "x": 152.5,
+      "y": 63.0,
+      "z": -7.5,
+      "yaw": -272.42435,
+      "pitch": -0.903312
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&6&lСТАВКИ ДО 10.000"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 2,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "world_spawn",
+      "x": 147.5,
+      "y": 63.0,
+      "z": -12.5,
+      "yaw": -0.37567976,
+      "pitch": 2.4369988
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&6&lСТАВКИ ДО 1.000.000"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 74827,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "world",
+      "x": 2076.5,
+      "y": 69.0,
+      "z": 1772.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&c&lТАЙНЫЙ ТОРГОВЕЦ"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 57401,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "world",
+      "x": 2867.5,
+      "y": 69.0,
+      "z": 396.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&c&lТАЙНЫЙ ТОРГОВЕЦ"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 364138,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "world",
+      "x": -2233.5,
+      "y": 67.0,
+      "z": -2054.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&c&lТАЙНЫЙ ТОРГОВЕЦ"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 525089,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "world",
+      "x": -2394.5,
+      "y": 80.0,
+      "z": 1189.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&c&lТАЙНЫЙ ТОРГОВЕЦ"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 333061,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "world",
+      "x": 2535.5,
+      "y": 64.0,
+      "z": -2305.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&c&lТАЙНЫЙ ТОРГОВЕЦ"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 868268,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "world",
+      "x": 1762.5,
+      "y": 70.0,
+      "z": -2359.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&c&lТАЙНЫЙ ТОРГОВЕЦ"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  }
+]

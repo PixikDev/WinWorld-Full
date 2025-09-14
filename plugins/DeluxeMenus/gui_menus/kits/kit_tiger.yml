@@ -1,0 +1,232 @@
+menu_title: '&fꈁꀀꈂꍀꈂꀁ&0ꈃꄑ'
+open_command:
+- kit_tiger
+size: 54
+items: 
+  'arrow':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    left_click_commands:
+    - '[close]' 
+    - '[player] kits'
+    right_click_commands:
+    - '[close]' 
+    - '[player] kits'
+  'receive':
+    material: slime_block
+    slot: 53
+    display_name: '&a&lПолучить набор'
+    lore:
+    - '&f'
+    - '&fНажмите, чтобы &6получить'
+    - '&fданный набор'
+    - '&f'
+    - '&fЗадержка: &67 дней'
+    - '&fДоступен: &x&f&b&5&c&0&e&lT&x&f&6&5&f&1&0&lI&x&f&1&6&1&1&1&lG&x&e&b&6&4&1&3&lE&x&e&6&6&6&1&4&lR'
+    left_click_commands:
+    - '[close]' 
+    - '[player] kit tiger'
+    right_click_commands:
+    - '[close]' 
+    - '[player] kit tiger'
+  'item1':
+    material: netherite_helmet
+    slot: 2
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовый шлем'
+    lore:
+    - '&7Подводник'
+    - '&7Защита IV'
+    - '&7Подводное дыхание III'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item2':
+    material: netherite_chestplate
+    slot: 3
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовый нагрудник'
+    lore:
+    - '&7Защита IV'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item3':
+    material: netherite_leggings
+    slot: 4
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовые поножи'
+    lore:
+    - '&7Защита IV'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item4':
+    material: netherite_boots
+    slot: 5
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовые ботинки'
+    lore:
+    - '&7Подводная ходьба III'
+    - '&7Невесомость II'
+    - '&7Защита IV'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item5':
+    material: basehead-ewogICJ0aW1lc3RhbXAiIDogMTY0MDM0NTUwMTk5MSwKICAicHJvZmlsZUlkIiA6ICI2MmJiNjAyZjE0Nzk0NzZiYjlkMmQ0MWZiNDc0NDA1YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb2NpYWxpc21vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJjMTYyYzE2ZTAxNDMzYjNkYTY2NzRkNjQyYzNlYWI0YmU5ZTZkNzFlMjBhMzMyNTU2NGM0ZDAzYTgxMjYwNmEiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+    slot: 6
+    display_name: '&6&lТигринная голова'
+    lore:
+    - '&cПроклятие утраты'
+    - '&f'
+    - '&7Когда во второстепенной руке:'
+    - '&9+2,5 урону'
+    - '&9+25 к скорости'
+    - '&9+1 Максимальное здоровье'
+    hide_enchantments: true
+  'item6':
+    material: netherite_sword
+    slot: 9
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовый меч'
+    lore:
+    - '&7Заговор огня II'
+    - '&7Острота V'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item7':
+    material: bow
+    slot: 10
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bЛук'
+    lore:
+    - '&7Воспламенение'
+    - '&7Бесконечность'
+    - '&7Починка'
+    - '&7Сила V'
+    - '&7Откидывание II'
+    - '&7Прочность II'
+    hide_enchantments: true
+  'item8':
+    material: golden_apple
+    slot: 14
+    amount: 24
+    display_name: '&bЗолотое яблоко'
+  'item9':
+    material: golden_carrot
+    slot: 15
+    amount: 64
+  'item10':
+    material: netherite_pickaxe
+    slot: 11
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовая кирка'
+    lore:
+    - '&7Эффективность V'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item11':
+    material: netherite_axe
+    slot: 12
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовый топор'
+    lore:
+    - '&7Эффективность V'
+    - '&7Острота V'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item12':
+    material: netherite_shovel
+    slot: 13
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовая лопата'
+    lore:
+    - '&7Эффективность IV'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item13':
+    material: ender_pearl
+    slot: 16
+    amount: 16
+  'item14':
+    material: totem_of_undying
+    slot: 17
+    amount: 1
+  'item15':
+    material: ender_pearl
+    slot: 18
+    amount: 16
+  'item16':
+    material: ender_pearl
+    slot: 19
+    amount: 16
+  'item17':
+    material: totem_of_undying
+    slot: 20
+    amount: 1
+  'item18':
+    material: totem_of_undying
+    slot: 21
+    amount: 1
+  'item19':
+    material: totem_of_undying
+    slot: 22
+    amount: 1
+  'item20':
+    material: potion
+    slot: 23
+    amount: 2
+    enchantments:
+    - 'knockback;1'
+    display_name: '&fЗелье черепашьей мощи'
+    lore:
+    - '&cЗамедление VI (0:20)'
+    - '&9Сопротивление IV (0:20)'
+    - '&f'
+    - '&5При применении:'
+    - '&c-90% Скорость'
+    hide_enchantments: true
+  'item21':
+    material: arrow
+    slot: 24
+    amount: 64
+  'item22':
+    material: gold_block
+    slot: 25
+    amount: 25
+  'item23':
+    material: iron_block
+    slot: 26
+    amount: 14
+  'item24':
+    material: ORANGE_STAINED_GLASS
+    slot: 27
+    amount: 64
+  'item25':
+    material: orange_concrete
+    slot: 28
+    amount: 64
+  'item26':
+    material: diamond_block
+    slot: 29
+    amount: 12
+  'item27':
+    material: orange_shulker_box
+    slot: 30
+    amount: 1
+  'item28':
+    material: birch_log
+    slot: 30
+    amount: 64
+  'item29':
+    material: netherite_ingot
+    slot: 30
+    amount: 3

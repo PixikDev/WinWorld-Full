@@ -1,0 +1,159 @@
+menu_title: '&fꈁꀀꈂꌕꈂꀁ&0ꈃꄅ'
+size: 54
+items:
+  'clock':
+    material: structure_void
+    model_data: 10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points_formatted% &fꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6WinWorld.pw'
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    click_commands:
+    - '[openguimenu] shop'
+  'mag1':
+    material: enchanted_book
+    slot: 22
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Бур (Копает 3x3)'
+    - ''
+    - '&fЦена: &6899 &x&F&F&B&A&0&0ꐃ'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 899
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 899'
+      - '[console] WinEnchant DRILL_BOOK %player_name%'
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] cashback give %player_name% 899'
+      - '[refresh]'
+  'mag2':
+    material: enchanted_book
+    slot: 30
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Светлячок (Подсвечивает игрока при ударе)'
+    - ''
+    - '&fЦена: &6159 &x&F&F&B&A&0&0ꐃ'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 159
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 159'
+      - '[console] WinEnchant LIGHTNER_BOOK %player_name%'
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] cashback give %player_name% 159'
+      - '[refresh]'
+  'mag3':
+    material: enchanted_book
+    slot: 31
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Телепатия (Перемещает сломанные блоки в инвентарь)'
+    - ''
+    - '&fЦена: &6299 &x&F&F&B&A&0&0ꐃ'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 299
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 299'
+      - '[console] WinEnchant TELEPATION_BOOK %player_name%'
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] cashback give %player_name% 299'
+      - '[refresh]'
+  'mag4':
+    material: enchanted_book
+    slot: 32
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Грабитель (Крадёт часть денег убитого игрока)'
+    - ''
+    - '&fЦена: &6599 &x&F&F&B&A&0&0ꐃ'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 599
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 599'
+      - '[console] WinEnchant STEALER_BOOK %player_name%'
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] cashback give %player_name% 599'
+      - '[refresh]'
+  'mag5':
+    material: enchanted_book
+    slot: 21
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Мудрец'
+    - ''
+    - '&fЦена: &6749 &x&F&F&B&A&0&0ꐃ'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 749
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 749'
+      - '[console] WinEnchant WISDOM_BOOK %player_name%'
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] cashback give %player_name% 749'
+      - '[refresh]'
+  'mag6':
+    material: enchanted_book
+    slot: 23
+    display_name: '&eЧародейская книга'
+    lore:
+    - '&7Лесник'
+    - ''
+    - '&fЦена: &6999 &x&F&F&B&A&0&0ꐃ'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 999
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw'    
+    left_click_commands:  
+      - '[console] points take %player_name% 999'
+      - '[console] WinEnchant WOODCUTTER_BOOK %player_name%'
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] cashback give %player_name% 999'
+      - '[refresh]'

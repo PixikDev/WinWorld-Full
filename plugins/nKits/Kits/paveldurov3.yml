@@ -1,0 +1,61 @@
+Name: paveldurov3
+Cooldown: 0
+Permission: nKits.kits.paveldurov3
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: MAGENTA_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: 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
+      blockMaterial: MAGENTA_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

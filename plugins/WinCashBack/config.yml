@@ -1,0 +1,18 @@
+settings:
+  cashback-percent: 0.05
+  cashback-receive-permission: 'user.plus'
+
+permissions:
+  give: 'wincashback.give'
+  reload: 'wincashback.reload'
+
+messages:
+  success: '&6Кешбек &7» &fВаш кешбек &6{cashback} &fрилликов'
+  player-not-found: '&6Кешбек &7» &cИгрок не найден!'
+  invalid-number: '&6Кешбек &7» &cНекорректное число!'
+  no-permission: '&6Кешбек &7» &cНедостаточно прав!'
+  insufficient-args: '&6Кешбек &7» &cИспользуйте: &6/cashback give <ник> <сумма>'
+  reloaded: '&6Кешбек &7» &aКонфигурация перезагружена!'
+  target-no-receive-permission:
+    - '&6Кешбек &7» &fУ вас сгорел кешбек в размере &6{cashback} &fрилликов'
+    - '&6Кешбек &7» &fПриобретите подписку &6WW+&f чтобы получать кешбек'

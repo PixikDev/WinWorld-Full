@@ -1,0 +1,32 @@
+location: world_spawn:-11.592:69.000:-18.502
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fТоп боевого пропуска на сервере %winutils_grief%'
+    height: 0.5
+  - content: '&c#1 &f%nBattlePass_top_name_1%  #FF7200%nBattlePass_top_exp_1% &rꐇ'
+    height: 0.3
+  - content: '&c#2 &f%nBattlePass_top_name_2%  #FF7200%nBattlePass_top_exp_2% &rꐇ'
+    height: 0.3
+  - content: '&c#3 &f%nBattlePass_top_name_3%  #FF7200%nBattlePass_top_exp_3% &rꐇ'
+    height: 0.3
+  - content: '&c#4 &f%nBattlePass_top_name_4%  #FF7200%nBattlePass_top_exp_4% &rꐇ'
+    height: 0.3
+  - content: '&c#5 &f%nBattlePass_top_name_5%  #FF7200%nBattlePass_top_exp_5% &rꐇ'
+    height: 0.3
+  - content: '&c#6 &f%nBattlePass_top_name_6%  #FF7200%nBattlePass_top_exp_6% &rꐇ'
+    height: 0.3
+  - content: '&c#7 &f%nBattlePass_top_name_7%  #FF7200%nBattlePass_top_exp_7% &rꐇ'
+    height: 0.3
+  - content: '&c#8 &f%nBattlePass_top_name_8%  #FF7200%nBattlePass_top_exp_8% &rꐇ'
+    height: 0.3
+  - content: '&c#9 &f%nBattlePass_top_name_9%  #FF7200%nBattlePass_top_exp_9% &rꐇ'
+    height: 0.3
+  - content: '&c#10 &f%nBattlePass_top_name_10%  #FF7200%nBattlePass_top_exp_10% &rꐇ'
+    height: 0.3
+  actions: {}

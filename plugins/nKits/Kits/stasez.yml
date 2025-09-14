@@ -1,0 +1,94 @@
+Name: stasez
+Cooldown: 0
+Permission: nKits.kits.stasez
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFE200","text":"Г"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFD500","text":"о"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC700","text":"л"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBA00","text":"о"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAD00","text":"в"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFA000","text":"а"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9200","text":"
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8500","text":"С"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8500","text":"т"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8500","text":"а"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8500","text":"с"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8500","text":"о"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8500","text":"ч"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8500","text":"к"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8500","text":"а"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: GENERIC_ATTACK_DAMAGE
+          slot: OFF_HAND
+          uuid: 60b1ed1e-82f8-4c05-bc81-a0ef683fe8c4
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -1.0
+          name: GENERIC_ARMOR
+          slot: OFF_HAND
+          uuid: 52cd045b-c724-4534-8975-33aab4091705
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.15
+          name: GENERIC_MOVEMENT_SPEED
+          slot: OFF_HAND
+          uuid: 79c52fb0-9d21-4fd1-8cc8-124360befba4
+          operation: 1
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: GENERIC_MAX_HEALTH
+          slot: OFF_HAND
+          uuid: 8137ba78-3834-4930-bc2e-ffc7836ff379
+          operation: 0
+      internal: H4sIAAAAAAAA/1WUy66jRhCGmdFEOnOSLPIcXnA7vi2OFAyYm7sxuMHAjjuY5mKwMfAseYNEeYLZJ1JeIZtI2eQtwplMFGVRaqn+ru+v7pLqmSCeiW9OxR3jY1snOY6fiA/QL2PiqbvmbRtj/Ew8z1ITt7c87j4ST7d4uN3buHsmCOLdE/HxlKeV/5Z5/5Mdw3hr8RoXWnT8wl75YFxswp0xpOhm8P1OcrcI2GFgqIseMcvdKlptQeJvK9Mq9wF72qgKSdfI8adO23F8d4ml/B7Rzp49VKO1wEuly0rbw7YWdW1d5bqbRRVM4pPLcFhbZ1N/Qlvax8PONk0UKWPtPNaHXKqWKSo9P9LvcLs32AUTbEIuTBgQ7lg4Nc0k69dpkYdHFQfXYh3jq7MwfdqM7YocnWnr9O34uEX4kGrCvlIhJS4PRqAGGh2AfnAFRrgvPBlXGR3Ig1LCntTZPZeWI081+RpT9/XSzsQXfNOXxvl0v6CTsz/gPXuljvKC0gz2tCt7ktIQqYw3+jBiVsvp1RS+uOahH5BglXrsUr42JJtzaLbTeCZpi3Tdkj+KoNg4fFlo9TC1GnsVZbepyYeSwIJVeZ7xMRqzfbyRYTNWVJtf/RjeSXHaDlFeGWfcdRan3Uy/UwHC6/qILTVsjoPl8r13Zb0YMcUGIrOygCIOOjrq7COZNiQ4jHqybTmWmyLXwaAyhBLU+Can/KJtrGVqDf7OGhBzzC5tvwL2KhBX12JfeeODMeqgN/SbxkKeBV20Ws9zqhyHpLUVvRaDqAquMRJQ2wRZfDGGgvUCcN91PHuzC4a2UoUnx7gSfAboApSkNirEpGbv10dzPHjFkIukIZHZPhK27ijK3OTT55WirZ0sKaImgYx1WKavT8RXto/v8bsf4kc9I1XKP9M4ZM0scLhcEeoUoHCCUzoBwX0BgkXrp4em8FweymrvlbjzLFwoObeaazFAJvYQvsBJHIBkUECyKPesXnRJvbglnMO8uGdrdHOl43MuVardGDBeE0i27s6+XzhTeMZjWNpdwP97DzYes8wi2R49W8WhYzez/o+vbI7R2frCM3Esm/SsTZ9ZcvfW69u70InC+v9zb/72OHukes7lvmxSoVD3B/Y/xqGkm6C0L2G5LyN+efcco48k++VzH6cN5ZXuAJFaAkF5gRLM4IRzF4EBSuL8X1kBJDMDgl0CxmLAJC4h4y7B2XjRJYWGpTWBizLC86wjjtXRXC+5DyV9mwOXJsZ8ypSWGK+vBPE18V6J5lXz4Q/41y/fffv9nz/++unTb7//vCCIvwE6E9I3vQQAAA==
+      skull-owner: sqirrell
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

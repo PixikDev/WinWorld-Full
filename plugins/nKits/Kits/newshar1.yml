@@ -1,0 +1,87 @@
+Name: newshar1
+Cooldown: 0
+Permission: nKits.kits.newshar1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Шар
+        Стойкости 1"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+5.5
+        к броне"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 5.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+          slot: OFF_HAND
+          uuid: 19f411a5-1dbc-4abb-9a93-98448f8a0bdd
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 5.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 4effd7c8-53fb-4f89-8ee9-b53cd454f3fc
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PT26CQBxGf21aY2mP0QOACI0Lk/7R1CECgnTGmZ3KWIQZShDMQNrb9ABeoHfp3kuUZXfvy/s2TwPQ4G6Z1UIsyo/dXnANtI4KXlZ7friBfsVVVZf8oAHARR+u8VrUHE68cXS2SvR45Yhtg+xuR0td+CgtHlCOm80LspHs/OzJnjejf1+rWhNLUNNJWB7UG4n1uRkKPguNrXw7uulUUYJaGk2V2zqpTwLFCB26LRY0eldskpmuxJlPkEEHwZC9hpKlz4k7iVMvwonXBhaVnqQD2jlqoNwY7YLxGOAWLlHcRVx99jj+/Xnsfd8XX5V9PgP8AY0FSMAGAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

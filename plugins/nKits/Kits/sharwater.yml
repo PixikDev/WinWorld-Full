@@ -1,0 +1,92 @@
+Name: sharwater
+Cooldown: 0
+Permission: nKits.kits.sharwater
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Шар
+        Воды"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Подводное
+        дыхание (01:00)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Грация
+        дельфина (00:10)"}],"text":""}'
+      custom-model-data: 5005
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 2c8efd5e-6edc-4ccf-9c20-058dea2305fb
+          operation: 1
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 12.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 76ebbb7a-9e45-454f-9395-1c87fa009f04
+          operation: 0
+      internal: H4sIAAAAAAAA/02PT06DQBxGfxpNKnoGzwBiMV10oR1Cp2EGS+lQ2LUwlT8z2FCoDt5Dl67dewJv4TFMPIAs3b0v79s8DUCDi0XZCnFfP25zwTXQetrxusn5/gwGDX9u2prvNQA4GsApW4uWwydXMz1eZXq6molEYavfwUIXHi52N7hiajPBFpa9n95arhr9+w6bdTgUkTnL4mrebiTTXdMXfOobiVweogLrBCVPUSdyWkSGF7KSFCwnkmYkwFdeYBtx4ZceelDEibNYUkERUdRhpRfa173LPcc2CIo6ipYdQanElTHazsdjgHM4xmkfcvLy+/om7yZf7+blz/dH6gL8AXGjciQKAQAA
+      PublicBukkitValues:
+        minecraft:water: WATER
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

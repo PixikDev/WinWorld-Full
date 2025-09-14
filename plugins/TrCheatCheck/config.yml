@@ -1,0 +1,24 @@
+logger: false
+prefix: "&6Проверки &8» "
+contact: "&8[&x&F&B&E&B&0&8К&x&F&C&D&E&0&7о&x&F&C&D&0&0&5н&x&F&D&C&3&0&4т&x&F&E&B&6&0&3а&x&F&E&A&8&0&1к&x&F&F&9&B&0&0т&8] "
+check-title: "&cПРОВЕРКА НА ЧИТЫ!"
+check-subtitle: "&cСЛЕДУЙТЕ ИНСТРУКЦИЯМ В &4ЧАТЕ"
+check-msg:
+  - "&cВы были вызваны на проверку читов!"
+  - " "
+  - "&fСледуйте указаниям &bмодератора &fв &aчате!"
+  - "&fДля связи с &bмодератором &fпросто пишите в &aчат!"
+  - "&fЕсли у вас &cмут&f пишите сообщения через команду &a/contact"
+  - "&fЕсли модератор просит AnyDesk (АниДеск), то прочитайте это!"
+  - "&fСсылка - https://winworld.pw/anydesk"
+bar-title: "&x&F&F&9&B&0&0&lП&x&F&F&A&0&0&1&lР&x&F&E&A&6&0&1&lО&x&F&E&A&B&0&2&lВ&x&F&E&B&0&0&2&lЕ&x&F&E&B&6&0&3&lР&x&F&D&B&B&0&3&lК&x&F&D&C&0&0&4&lА &x&F&D&C&B&0&5&lН&x&F&C&D&0&0&5&lА &x&F&C&D&B&0&6&lЧ&x&F&C&E&0&0&7&lИ&x&F&B&E&6&0&7&lТ&x&F&B&E&B&0&8&lЫ"
+
+# Для проверяемого
+toChecker: " &7(&f%nick%&7)"
+fromTarget: " &7(&f%nick%&7)"
+
+# Для проверяющего
+fromAdmin: " &7(&x&F&F&9&B&0&0П&x&F&F&A&3&0&1р&x&F&E&A&B&0&2о&x&F&E&B&3&0&2в&x&F&D&B&B&0&3е&x&F&D&C&3&0&4р&x&F&D&C&B&0&5я&x&F&C&D&3&0&6ю&x&F&C&D&B&0&6щ&x&F&B&E&3&0&7и&x&F&B&E&B&0&8й&7)"
+forAdmin: " &7(&x&F&F&9&B&0&0П&x&F&F&A&3&0&1р&x&F&E&A&B&0&2о&x&F&E&B&3&0&2в&x&F&D&B&B&0&3е&x&F&D&C&3&0&4р&x&F&D&C&B&0&5я&x&F&C&D&3&0&6ю&x&F&C&D&B&0&6щ&x&F&B&E&3&0&7и&x&F&B&E&B&0&8й&7)"
+
+webhook: "https://discord.com/api/webhooks/1343263218201526392/6HjnDr-o4XmLh9PRHDVuQsaeAbfWMV4lBfVwuoa5QOqfLYmt7L-P5IzCcTqkacumMMb-"

@@ -1,0 +1,283 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749884324673,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/uZXgqws2oB"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1749844074377,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/YitcMQXBfn"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749578756134,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/MPeTiPNisk"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Fudzuna",
+      "uniqueId": "5fffad09-5ede-3c6a-8d32-90c6c6440934"
+    },
+    "time": 1749325153012,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/IhX3BAIosM"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749146026926,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/OjAw8LNjKB"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749139384133,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/NZrfO2htpG"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749113360727,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jbdAVj9EFB"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749107911796,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/fjRYaeyzKX"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749053575355,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/JTRyLnD9BE"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749048089878,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nmBmITP5k3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749044263710,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/LoMlSR6IjQ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749043980778,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/hO0hCUimlv"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749042013729,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/sNketF3IPb"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749041792117,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/RiXx08XRuP"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1749041619960,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/m3PRkQIdN1"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1749037571476,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/GxJsOwUneC"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "normalnoznaal",
+      "uniqueId": "aaf43c53-8bc6-330b-9337-cf344afbdaaf"
+    },
+    "time": 1748884136526,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nkaCIXV0dE"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Fudzuna",
+      "uniqueId": "5fffad09-5ede-3c6a-8d32-90c6c6440934"
+    },
+    "time": 1748723564579,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/dVuNLyVU1W"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1747557590749,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ColJSVqJAx"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1747554091876,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/uj7OPwXVrK"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1747402666994,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/xaTViEMl8r"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "YT_STASO4egtr",
+      "uniqueId": "442da567-3514-3669-a666-0a10fa2491c8"
+    },
+    "time": 1747399217301,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3e8FWiXUsS"
+    }
+  }
+]

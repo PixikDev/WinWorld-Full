@@ -1,0 +1,61 @@
+Name: ravshan4
+Cooldown: 0
+Permission: greatkits.kits.ravshan4
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LIGHT_BLUE_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: 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
+      blockMaterial: LIGHT_BLUE_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,33 @@
+menu_title: '§fꈁꀀꈂꌄꈂꀁ§0ꈃꄄ'
+size: 54
+items:
+  'цель':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUxMjYxNmIyNWIyZDc3MzY5Mjc0ZGRiOTFmYTBlNmU2ZWY2YTA1MTVhNDhkYzg0OWQ2MzM3NTZlZmMxM2M2YyJ9fX0=
+    slot: 21
+    display_name: ' '
+    lore:
+      - '&e&l❖ &6Цель для убийства'
+      - ''
+      - '&6➥ &7Последняя цель которую вы взяли '
+      - ''
+    click_commands:
+      - '[player] contract info'
+  'взять_контракт':
+    material: IRON_SWORD
+    slot: 23
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - '&e&l❖ &6Взять контракт'
+      - ''
+      - '&6➥ &7Вознаграждение за &7успешное выполнение: '
+      - '&7   &e2.000 &7монет '
+    click_commands:
+      - '[player] contract get'
+  'назад':
+    material: ARROW
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    click_commands:
+      - '[openguimenu] menu'

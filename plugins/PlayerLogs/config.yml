@@ -1,0 +1,6 @@
+messages:
+  no-args: '/plogs ник дата_1 дата_2'
+  log-is-empty: 'логи игрока %player% пустые'
+  logs-is-empty-with-range: 'логи игрока %player% пустые. доступные промежутки от %from% до %to%'
+  format-date: 'неверный формат даты: 23.04.26.17.07 год.месяц.число.часы.минуты'
+  zip-file-created: 'архив с именем %zip% создан в папке period-logs'

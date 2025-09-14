@@ -1,0 +1,31 @@
+menu_title: '§fꈁꀀꈂꌄꈂꀁ§0ꈃꄆ'
+register_command: true
+open_command:
+  - ec
+size: 54
+items:
+  'открыть':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc0ZWUxNTQyYzQ1NjNmZDZlN2Q3MmRlMjZlNzM3Y2YxOGZiZDA0Y2NhYjFiOGIyODM1M2RhODczNDhlY2ZiIn19fQ==
+    slot: 21
+    display_name: '&fОткрыть &6Эндер-сундук'
+    lore:
+      - ''
+      - '&a➠ Нажмите, чтобы открыть'
+    click_commands:
+      #- '[player] nenderchest open'
+      - '[player] enderchest'
+  'прокачать':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTcxNDUxNmU2NTY1YjgxMmZmNWIzOWVhMzljZDI4N2FmZWM4ZmNjMDZkOGYzMDUyMWNjZDhmMWI0Y2JmZGM2YiJ9fX0=
+    slot: 23
+    display_name: '&fПрокачать &6Эндер-сундук'
+    lore:
+      - ''
+      - '&7 Прокачка размера инвентаря'
+      - '&7 на разную длительность'
+      - '&7 по времени'
+      - ''
+      - '&a➠ Нажмите, чтобы открыть меню прокачки'
+    click_commands:
+      #- '[player] nenderchest buy'
+      - '[message] &6Эндерчест &7» &cВременно недоступно!'
+      - '[message] &6Эндерчест &7» &cПриносим извинения за неудобства'

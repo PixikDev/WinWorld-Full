@@ -1,0 +1,37 @@
+portals:
+  1:
+    command-player: true
+    command: rtp safe
+    world: world_spawn
+    pos1:
+      x: 40
+      y: 59
+      z: -7
+    pos2:
+      x: 54
+      y: 56
+      z: 7
+  2:
+    command-player: false
+    command: execute in minecraft:the_nether run tp %player% 120 51 -130
+    world: world_spawn
+    pos1:
+      x: 61
+      y: 59
+      z: 33
+    pos2:
+      x: 49
+      y: 56
+      z: 21
+  3:
+    command-player: false
+    command: execute in minecraft:the_end run tp %player% -109 59 -15
+    world: world_spawn
+    pos1:
+      x: 61
+      y: 59
+      z: -21
+    pos2:
+      x: 49
+      y: 56
+      z: -33

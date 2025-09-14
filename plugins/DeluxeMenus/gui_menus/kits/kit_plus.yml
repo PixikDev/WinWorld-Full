@@ -1,0 +1,77 @@
+menu_title: '&fꈁꀀꈂꍀꈂꀁ&0ꈃꄑ'
+open_command:
+- kit_plus
+size: 54
+items: 
+  'arrow':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    left_click_commands:
+    - '[close]' 
+    - '[player] kits'
+    right_click_commands:
+    - '[close]' 
+    - '[player] kits'
+  'receive':
+    material: slime_block
+    slot: 53
+    display_name: '&a&lПолучить набор'
+    lore:
+    - '&f'
+    - '&fНажмите, чтобы &6получить'
+    - '&fданный набор'
+    - '&f'
+    - '&fЗадержка: &67 дней'
+    - '&fДоступен: &e&lD.HELPER'
+    left_click_commands:
+    - '[close]' 
+    - '[player] kit dhelper'
+    right_click_commands:
+    - '[close]' 
+    - '[player] kit dhelper'
+  'item1':
+    material: netherite_helmet
+    slot: 2
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовый шлем'
+    lore:
+    - '&7Подводник'
+    - '&7Защита IV'
+    - '&7Подводное дыхание III'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item2':
+    material: netherite_chestplate
+    slot: 3
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовый нагрудник'
+    lore:
+    - '&7Защита IV'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item3':
+    material: netherite_leggings
+    slot: 4
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовые поножи'
+    lore:
+    - '&7Защита IV'
+    - '&7Прочность III'
+    hide_enchantments: true
+  'item4':
+    material: netherite_boots
+    slot: 5
+    enchantments:
+    - 'knockback;1'
+    display_name: '&bНезеритовые ботинки'
+    lore:
+    - '&7Подводная ходьба III'
+    - '&7Невесомость II'
+    - '&7Защита IV'
+    - '&7Прочность III'
+    hide_enchantments: true

@@ -1,0 +1,73 @@
+# \u00BB is » (double >>), ANSI and UTF-8 interpret this differently... you may even see ? due to this
+prefix: "<#0077FF>§x§0§0§7§7§F§FL§x§0§4§6§8§F§Fi§x§0§9§5§9§F§Fg§x§0§D§4§A§F§Fh§x§1§1§3§C§F§Ft§x§1§5§2§D§F§Fn§x§1§A§1§E§F§Fi§x§1§E§0§F§F§Fn§x§2§2§0§0§F§Fg &8\u00BB"
+
+alerts-enabled: "%prefix% &fУведомления &aвключены"
+alerts-disabled: "%prefix% &fУведомления &cвыключены"
+verbose-enabled: "%prefix% &fVerbose &aвключен"
+verbose-disabled: "%prefix% &fVerbose &cвыключен"
+brands-enabled: "%prefix% &fИнформация о клиенте &aвключена"
+brands-disabled: "%prefix% &fИнформация о клиенте &cвыключена"
+client-brand-format: "%prefix% &e%player% &fиспользует клиент &c%brand%"
+console-specify-target: "%prefix% &cНеобходимо указать цель в качестве консоли!"
+reloading: "%prefix% &cПерезагружаю конфигурацию..."
+reloaded: "%prefix% &aКонфигурация успешно перезагружена."
+reload-failed: "%prefix% &cОшибка перезагрузки конфигурации."
+player-not-found: "%prefix% &cНе могу найти такого игрока!"
+player-not-this-server: "%prefix% &cИгрок не в сети!"
+spectate-return: "<click:run_command:/grim stopspectating><hover:show_text:\"/grim stopspectating\">\n%prefix% &fClick here to return to previous location\n</hover></click>"
+cannot-spectate-return: "%prefix% &cЭто можно сделать только после наблюдения за игроком."
+cannot-run-on-self: "%prefix% &cЭту команду нельзя применить к себе!"
+upload-log: "%prefix% &fЗагружено отладочное сообщение: %url%"
+upload-log-start: "%prefix% &fЗагрузка журнала... пожалуйста, подождите"
+upload-log-not-found: "%prefix% &cНе удалось найти этот журнал."
+upload-log-upload-failure: "%prefix% &cПри загрузке этого журнала произошла ошибка. Для получения дополнительной информации см. консоль."
+disconnect:
+    timeout: "<lang:disconnect.timeout>"
+    closed: "<lang:disconnect.closed>"
+    error: "<red>Произошла ошибка при обработке пакетов. Обратитесь к администраторам."
+    blacklisted-forge: "<red>Ваша версия Forge занесена в черный список из-за встроенных хаков.<newline><gold>Затронутые версии: 1.18.2-1.19.3<newline><newline><red>Пожалуйста, посмотрите https://github.com/MinecraftForge/MinecraftForge/issues/9309."
+run-as-player: "%prefix% &cЭту команду могут использовать только игроки.!"
+run-as-player-or-console: "%prefix% &cЭту команду могут использовать только игроки или консоль.!"
+
+# Valid placeholders:
+# %prefix%
+# %player%
+# %check_name%
+# %description%
+# %experimental%
+# %vl% - violations
+# %verbose% - extra information from the check such as offsets, not all checks will add information
+alerts-format: "%prefix% &f%player% &cпровалил &f%check_name%%experimental% &f(x&c%vl%&f) &7%verbose%"
+alerts-format-proxy: "%prefix% &f[&cproxy&f] &f%player% &cпровалил &f%check_name%%experimental% &f(x&c%vl%&f) &7%verbose%"
+experimental-symbol: "*"
+
+profile:
+    - "<#0077FF>======================"
+    - "%prefix% <#0077FF>Информация о &f%player%"
+    - "<#0077FF>Пинг: &f%ping%"
+    - "<#0077FF>Версия: &f%version%"
+    - "<#0077FF>Информация о клиенте: &f%brand%"
+    - "<#0077FF>Горизонтальная чувствительность: &f%h_sensitivity%%"
+    - "<#0077FF>Вертикальная чувствительность: &f%v_sensitivity%%"
+    - "<#0077FF>FastMath включен: &f%fast_math%"
+    - "<#0077FF>======================"
+help:
+    - "<#0077FF>======================"
+    - "/grim alerts &f- &7Включить/выключить алерты"
+    - "/grim brands &f- &7Включить/выключить информацию о клиентах"
+    - "/grim profile <player> &f- &7Посмотреть статистику игрока"
+    - "/grim help &f- &7Данное сообщениее"
+    - "/grim debug <player> &f- &7Developer Prediction output"
+    - "/grim perf &f- &7Developer ms/prediction"
+    - "/grim reload &f- &7Перезагрузка конфига"
+    - "/grim spectate <player> &f- &7Ну будешь спекать за игроком"
+    - "/grim verbose &f- &7Включить/выключить verbose"
+    - "/grim log [0-255] &f- &7Uploads a debug log for prediction flags"
+    - "/grim history <player> [page] &f- &7Shows previous alerts for the player"
+    - "<#0077FF>======================"
+
+grim-history-disabled: "%prefix% &cHistory subsystem is disabled!"
+# Valid placeholders: %prefix% %player% %page% %maxPages%
+grim-history-header: "%prefix% &bShowing logs for &f%player% (&f%page%&b/&f%maxPages%&f)"
+# Valid placeholders: %prefix% %check% %vl% %verbose% %timeago% %server%
+grim-history-entry: "%prefix% &8[&f%server%&8] &bFailed &f%check% (x&c%vl%&f) &7%verbose% (&b%timeago% ago&7)"

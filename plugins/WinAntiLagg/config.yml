@@ -1,0 +1,16 @@
+redstone-ore-limit: 100
+redstone-torch-limit: 100
+redstone-wire-limit: 200
+redstone-lamp-limit: 100
+redstone-block-limit: 100
+repeater-limit: 100
+dispenser-limit: 100
+dropper-limit: 100
+hopper-limit: 100
+piston-limit: 100
+sticky-piston-limit: 100
+command-block-limit: 0
+chain-command-block-limit: 3
+repeating-command-block-limit: 2
+shulker-box-limit: 100
+actionbar-message: ""

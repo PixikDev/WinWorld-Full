@@ -1,0 +1,58 @@
+# default config.yml for ConsoleSpamFix
+# config version 1.10.0
+
+#Add here the messages you want to hide from your console and logs.
+#Each line represents a new message.
+#NOTE! You dont need to add the full message!
+#The plugin will hide all messages that contain the text added below.
+#  EXAMPLE:
+#
+#    Messages-To-Hide-Filter:
+#    - 'No new version available'
+#
+#  All messages that will appear in the server console that contain these words 'WARNING: unlocalizedName' will be hidden and they will not appear on logs or console.
+#  If you have large errors you dont have to type the full error. But the more words you add the more accurate will be and will not hide other messages that may contain the words added in the filter.
+
+Messages-To-Hide-Filter:
+- 'Exception thrown whilst handling event: org.bukkit.event.entity.SlimeSplitEvent'
+- 'java.lang.NoSuchFieldError: BOOLEAN'
+- 'at io.lumine.mythic.bukkit.listeners.MobListeners.lambda$load$1(MobListeners.java:94)'
+- 'at io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)'
+- 'at io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)'
+- 'at co.aikar.timings.TimedEventExecutor.execute(:76)'
+- 'at org.bukkit.plugin.RegisteredListener.callEvent(:70)'
+- 'at org.bukkit.plugin.SimplePluginManager.callEvent(:624)'
+- 'at net.minecraft.server.v1_16_R3.EntitySlime.die(:289)'
+- 'at net.minecraft.server.v1_16_R3.EntityLiving.cU(:572)'
+- 'at net.minecraft.server.v1_16_R3.EntityLiving.entityBaseTick(:447)'
+- 'at net.minecraft.server.v1_16_R3.EntityInsentient.entityBaseTick(:320)'
+- 'at net.minecraft.server.v1_16_R3.Entity.tick(:647)'
+- 'at net.minecraft.server.v1_16_R3.EntityLiving.tick(:2636)'
+- 'at net.minecraft.server.v1_16_R3.EntityInsentient.tick(:408)'
+- 'at net.minecraft.server.v1_16_R3.EntitySlime.tick(:216)'
+- 'at net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(:1566)'
+- 'at net.minecraft.server.v1_16_R3.WorldServer.doTick(:1161)'
+- 'at net.minecraft.server.v1_16_R3.MinecraftServer.b(:1565)'
+- 'at net.minecraft.server.v1_16_R3.DedicatedServer.b(:451)'
+- 'at net.minecraft.server.v1_16_R3.MinecraftServer.a(:1414)'
+- 'at net.minecraft.server.v1_16_R3.MinecraftServer.w(:1140)'
+- 'at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$1(:289)'
+- 'at java.base/java.lang.Thread.run(Thread.java:840)'
+- 'at io.lumine.mythic.bukkit.listeners.MobListeners.lambda$load$4(MobListeners.java:113)'
+- 'at java.base/java.lang.Thread.run(Thread.java:1570)'
+- 'java.lang.NoSuchMethodError:'
+- 'at java.base/java.lang.Thread.run(Thread.java:1583)'
+- 'Entity threw exception'
+- 'java.lang.ArrayIndexOutOfBoundsException:'
+- 'at org.bukkit.craftbukkit.v1_16_R3.CraftChunk.getEntities(:125)'
+- 'at net.minecraft.server.v1_16_R3.EntityLiving.movementTick(:3024)'
+- 'at net.minecraft.server.v1_16_R3.EntityInsentient.movementTick(:654)'
+- 'at net.minecraft.server.v1_16_R3.EntityLiving.tick(:2684)'
+
+
+#Chat messages with color and format codes support.
+#Minecraft Color and Format Codes: http://minecraft.gamepedia.com/Formatting_codes    
+ChatMessages:
+    NoPermission: '&4[System] &cYou don''t have permission!'
+    CmdHelp: '&4[System] &cAvailable commands:&6 /csf reload'
+    CmdReload: '&2[System] &aConfig reload complete!'

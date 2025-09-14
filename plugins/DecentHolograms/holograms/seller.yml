@@ -1,0 +1,12 @@
+location: world_spawn:2.601:67.719:14.544
+enabled: true
+display-range: 24
+update-range: 24
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fДо обновления: &x&F&C&7&0&0&0%nSeller_sellerTime%'
+    height: 0.3
+  actions: {}

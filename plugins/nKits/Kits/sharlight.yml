@@ -1,0 +1,99 @@
+Name: sharlight
+Cooldown: 0
+Permission: nKits.kits.sharlight
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Шар
+        Света"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"В
+        радиусе 16 блоков"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Светлячок
+        (01:00)"}],"text":""}'
+      custom-model-data: 5004
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.luck]
+          slot: OFF_HAND
+          uuid: 21425732-54c0-4dba-b58c-b08b8eee2e60
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 8f57122b-0031-48e1-b0ea-b08e7220a9f7
+          operation: 0
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 91898732-29d0-42dd-9c81-61c4e4148471
+          operation: 0
+      internal: H4sIAAAAAAAA/02PQU6DQBhGf01NKrqqB/AKYC2miy4aITDIzFjaDoVdC1NhmMGGggpXMN7GlYdwZeJ1ZOnufXnf5mkAGlwui0bKx+p5n0uugdbTgVd1zo/nMKz5W91U/KgBwMkQzthWNhw+eevp8SbT040nkxaZ/V4tdUmRONyhkrW7e2Qi1Xt3bvrt9N93Um/DiYzGXhaXi2anmO6PA8ndwEjU+iUSSMdW8hp1MiciMmjICixYjhXJ8Ard0JVtxCIoqPXUYifOYkUksXBLHFbQ0L7tXU4d28BW1BFr3WErVag0pvvFbAZwAaco7UMGo9H3/PrBv/py3z8G4vcH4A/oGmBXCgEAAA==
+      PublicBukkitValues:
+        minecraft:light: LIGHT
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

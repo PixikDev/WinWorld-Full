@@ -1,0 +1,15 @@
+#   __  __          _               _
+#  |  \/  |        | |             | |
+#  | \  / | ___  __| |_   _____  __| |
+#  | |\/| |/ _ \/ _` \ \ / / _ \/ _` |
+#  | |  | |  __/ (_| |\ V /  __/ (_| |
+#  |_|  |_|\___|\__,_| \_/ \___|\__,_|
+#
+# API key for accessing external services.
+api_key: "8ec4f10f-a3f5-447a-9859-2890de5a679c"
+
+# PROXY address (DO NOT change unless you know what you're doing).
+proxy_address: "none"
+
+# This command is run whenever Medved is certain that a player is using cheats.
+punishment: "kick %player% &cИспользование ПО (Medved) --sender-name=grief-2 -s"

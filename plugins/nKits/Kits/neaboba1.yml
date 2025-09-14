@@ -1,0 +1,61 @@
+Name: neaboba1
+Cooldown: 0
+Permission: nKits.kits.neaboba1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LIME_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/91XzWsbRxQffdiRFCdOnO+0lO2eUsihkJtvcaI2osIOjhoKpSyj1UhaNNpVZ2bTmBBw7INbEgilh9JCnaaUlt4cO6JObMX/wiz01nP/j77Z1cdakhtJUAsskNYzfm/m92bf7/fepBBKoZNz1DEraVtYYimHS0k0kRGkylMIoXciKH6HOgJF0MQNx7VFJIGiVgG9X7VsYjJcFLPUqhKDCwwTBaNEMedGDdsENT0jLc9Tgee5jiexC4bJlsCXtqyjI+8Ta3umUEzgUgodK1i8RvFSAsXncZWgPx7o5L5gWJ/9/IGed2hBny1iyslV3QIEltkeunaBMKr2aU9xwawKEWXmuKVye9bJF11uYhEyNB3qMH1WL6n1r+oCdoSR/F1ueMvyjXwp6/KV90i+hvFTDR4NuS235Ib+8Iu2sf4wieJZh5EEvIAI+udQYTO8FIL9C8Ddge8ewF2R2wD5inwm6xBKXe7C8xu5Ab8rGkS0A9HtwrAhG95jWdfkC3/qtdzW5KYGUTbkJng1YB04Cu/JB/tDhjScue3mIZ45t1KxxF1MXcIT6GwnAQShpIaF5dhoOpfOpm9fz2UW5o25hYVPEArS5WI4ucwytiFGI+84lVaWxLuyJIZSi7CoxW44XKjjTqKpdOBZJbbwORAP1r7QWRt/6WIDF4uWDYyJohi9pxI4MAsBrjFHEFMBbtrEUQ8HGOE1i+GQUax3IdfOM4Irll1q28TQ5E1cxSWC1CfwuNzxsOGlE2YJYpQJrRLRin/iqLLkrzGy5LnKbMjrHe+pt6Zy3mcJhAEhqP+sAfrNJlNUIH6MEJsm9+DPbc1bhYhV5PUBSTETVsVSWdiEoRPZzMe3cvPpxeEIMTmy4B4bStgTI++TbHk2eaj1C0klErENXKvRtmNq5C2Ptzw/DDzPdzz7bTTVIyohbvYRlOjgSvHfItA0ercf7ykplcCWt0CeeJvy9UrBD72cEsz9fyilJDVEqV8VR7xHQKpdeC7LxoHUn0DPx0j974HWW8DmTYVSk+swaIBkfdbF4z4neWgQ19Ux+scJlVe7m+mCtj5GaM98WGsg7/679p5omUw3vt8OEx8jhW54INRK1wEcNDXeqn+U0Ax5j7tw/jzGuvmT35JtyD+hsVr1voYasws92KsuhAe3NiHpLlqMGJjXQI2aMpNqqsyZjhEvY1azCedNk8mB1CqwudSxuYdti5fBxDBdxkm7kYqg458G7jhPSWSfnMZQ8pZVIB9RDNKm2N+zakcC+VcOK7T07+SYRfq9fgjNMuECJFe0a8n0cKXn1Mg17vSoZXVm5C3PDNUxnB15n3NHtcn9e4xa/Z2vMC/gEriiLoWg1Vfkj/7cy+AKuAZxBCLuh9aA75ZqbQOXN6pM7ut+B+x1T4dkRxBModWdupNLX88O2+mef0sDFBvo6lcgNVE21GHCCR8sbUWCFccNOFPaEYPoEHfE4a9/fTUQTkC0e8ALR5UY42wBv4WSu6zIAND3mre8a/evDZje06HUYhaFcntzMZPNDpfaF0eWyktDSfLl4fdB6F++AOTWYxQAAA==
+      blockMaterial: LIME_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

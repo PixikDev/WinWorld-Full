@@ -1,0 +1,61 @@
+Name: djamshut22
+Cooldown: 0
+Permission: nKits.kits.djamshut22
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PURPLE_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+2Xz08bRxTHxxgbcH40oUmTND1Y2/ZUmhpIqGKpakhMExNsJwYMJoqs8e54d+3ZXWt3lsShqEAO6SFVpF5aVZHaSD1EPVSUYiUNBan/wex/0HvOvfctxj8wCSpYLarkPdj7Y977vnkz7/N2AwgF0NHL1BALIzpTWWkCyz3IF2VEswIIobMe1DlODYY8yHfFsHXm6UYdqoTe1VSdiCbOsXDRNouUZCyG4ZaUkSm2rEwR6wRt2XoCyMtct4dHdFHBOtOIzja9bzk7U3c2i3XVUlRdzoi2aZEO5KWzFBz1oN5hxkw1azMSMyQ1pxKz6qISYJeRy4FzqRsdqY2MY42gd+reZaITUxXPafhuRiGYMsWLehJFYmKmGjp4Q4dQ5+RkNAJnnWt/PPkKJ0e+ePDXkScPVp78BEKb/j5NEsuwTZFcJ6Vbdd+4Khr8KLib4m0/8g9rbiovCahyBFCXpFpFiktVjadzArnLTCyEb80JWYNKQpiZNukTVIapKgrhHKYWXNq6REzq5r12y4IwCoQppmHLSu2ukc3ZlohZw0DRoIYphAWqygrLVFZR6BMYCMNd/pQvOwtB/g1f5RvOAt/gK85D51FwUJi/XRskzPegzjHDJN0wCx86NFd/gH7eOYUt4X9hDrKJSw2xfwfh/gqBLwf5Ct+AH2dpaxK/BZ0F5z5/wcvh7RNBzw4u3uAHF8+FgvwxX+YvnEX+nP8OZ2vOQ74OEZeD/FnjGvByU+Dbsv744GbxySuOplCh2q6pEvmMYtmCHdMRQIHxgk1p4g5UCVzcMA0oRqYSqwd1u2a2SapV7kthahO0TEqjoZlpJSRNj1KxFB2C64nxEE1E88WPo3qqlL0SHYpq8Pza8NBY6WLD2AsMT12g6cFRZUa/aWe1VGhsMEnJtWS/qE3OJiLyQDw/qqYnhgdjEYUmrt4ciF292R/PxwbiU6l8TBvNxyKXtZn8yGBiYlSLTaQHYveSWvqeHIpPjZyPR+JKIpIszEwMn49NpZT41bSam+6/6DKlIyq5RPncT1J/rl/y//hecZ4NvXyJmql6soGqQANiusyQqhztaBrdgM07KhOVjFXEd/QMkeWqhbcFane2YOtrwda/51l2tftLu7+0+0u7v7T7S0v9pbsFavc02Z6t21qKTQsgtYPbgRb0DlWYH0C9N+ws7LvLdqGgss0ltLzolJ6zTR2LJFw9+ZCSWUIrK/2Kp1n3Awj5xiavXE+j1zeSE/UIbT1rElyATlLrITsxu/xfVouEzcJOzH7Ny/yZc995ALh9FOTf8zWo/RVgwGb9O49ei9sOz7EDJOy3wKgyLztLQWG+b65ZsGbkBlUz6g+F3t919HYoOl9CJtadxSDwetXlOH/uLDkPAeCguwgpW3AWt2fH03WAGfkBov0FML0E/25eAN7LuybHJA25ubCn1GwmfxW2ShlU1t2F2B20vmbQnKoXShZql2W2Cq1avodbKP0jldL3In8Ea1gmm684Tf6O1/1B2iUo46r10RaU32hDpw2dNnT+r9A51kLpH9/H+03vPmze3IfNiRbmdbL67dw7zqAGpdcwqIGn1CjBZ2ZpC0DeHeg9XR9KKs5AOGsYharkW3uWNNUig4Xfv+SpfybZQFr3uU5oI2n3rHq6hXU5s4998PZebBD6G/dQGg37FwAA
+      blockMaterial: PURPLE_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,2191 @@
+clans:
+- owner: Motiga14
+  memberList:
+  - kills: 211
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -114.0
+    name: Motiga14
+    KDA: 0.85
+    deaths: 249
+    status: ONLINE
+    points: -114.0
+  - kills: 20
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - pvp
+      - glow
+      - shop
+      name: Модератор
+    level: -36.0
+    name: BMF1
+    KDA: 0.63
+    deaths: 32
+    status: ONLINE
+    points: -36.0
+  - kills: 30
+    role:
+      permissions:
+      - sethome
+      name: Участник
+    level: -321.0
+    name: MrKostyan
+    KDA: 0.22
+    deaths: 137
+    status: ONLINE
+    points: -321.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: -6.0
+    name: BMF2
+    KDA: 0.33
+    deaths: 3
+    status: ONLINE
+    points: -6.0
+  - kills: 12
+    role:
+      permissions:
+      - kick
+      - sethome
+      - glow
+      - pvp
+      - invite
+      name: Участник
+    level: -57.0
+    name: RobinZON33
+    KDA: 0.39
+    deaths: 31
+    status: ONLINE
+    points: -57.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -12.0
+    name: 213fs
+    KDA: 0.0
+    deaths: 4
+    status: ONLINE
+    points: -12.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: -9.0
+    name: kjf80g8r
+    KDA: 0.25
+    deaths: 4
+    status: ONLINE
+    points: -9.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -30.0
+    name: GUEST666
+    KDA: 0.0
+    deaths: 10
+    status: ONLINE
+    points: -30.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: BMF3
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 5
+    role:
+      permissions: []
+      name: Участник
+    level: -27.0
+    name: MrKostya
+    KDA: 0.36
+    deaths: 14
+    status: ONLINE
+    points: -27.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -6.0
+    name: gjd844d
+    KDA: 0.0
+    deaths: 2
+    status: ONLINE
+    points: -6.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: jg84gtgg
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -3.0
+    name: gh4eff
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: ghlhggh
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 8
+    role:
+      permissions:
+      - kick
+      - pvp
+      - invite
+      - sethome
+      name: Участник
+    level: -81.0
+    name: Nqfarity
+    KDA: 0.23
+    deaths: 35
+    status: ONLINE
+    points: -81.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -3.0
+    name: s1kdw345
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -3.0
+    name: s2kdw345
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: yaqqqw0nder
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: kissesonyourface
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: hahahahaaWWTOP
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -6.0
+    name: Future0222
+    KDA: 0.0
+    deaths: 2
+    status: ONLINE
+    points: -6.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -15.0
+    name: Havrix
+    KDA: 0.0
+    deaths: 5
+    status: ONLINE
+    points: -15.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: Mr_Yarik_ALTO
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 5
+    role:
+      permissions:
+      - sethome
+      name: Участник
+    level: -15.0
+    name: Pr3sT1gnyy
+    KDA: 0.5
+    deaths: 10
+    status: ONLINE
+    points: -15.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -3.0
+    name: FLANER
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  name: Harem
+  pvp: false
+  exp: 79684.31199699784
+  glow: true
+  points: 1422.1700003766953
+  home:
+    world: world
+    x: -7449.5
+    y: 40.0
+    z: -2735.5
+    pitch: -10.383000373840332
+    yaw: 79.25431060791016
+- owner: sw0p
+  memberList:
+  - kills: 115
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 282.0
+    name: sw0p
+    KDA: 5.48
+    deaths: 21
+    status: ONLINE
+    points: 282.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -12.0
+    name: Someron3
+    KDA: 0.0
+    deaths: 4
+    status: ONLINE
+    points: -12.0
+  - kills: 16
+    role:
+      permissions: []
+      name: Участник
+    level: -33.0
+    name: TFHFHT
+    KDA: 0.59
+    deaths: 27
+    status: ONLINE
+    points: -33.0
+  - kills: 43
+    role:
+      permissions:
+      - invite
+      - glow
+      - sethome
+      name: Участник
+    level: 114.0
+    name: JustGhost
+    KDA: 8.6
+    deaths: 5
+    status: ONLINE
+    points: 114.0
+  - kills: 44
+    role:
+      permissions: []
+      name: Участник
+    level: 108.0
+    name: Skanter
+    KDA: 5.5
+    deaths: 8
+    status: ONLINE
+    points: 108.0
+  - kills: 18
+    role:
+      permissions: []
+      name: Участник
+    level: -15.0
+    name: tt_san4x
+    KDA: 0.78
+    deaths: 23
+    status: ONLINE
+    points: -15.0
+  - kills: 80
+    role:
+      permissions: []
+      name: Участник
+    level: 105.0
+    name: Gojo_Satory_
+    KDA: 1.78
+    deaths: 45
+    status: ONLINE
+    points: 105.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: dani4ka_maloi
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 5
+    role:
+      permissions: []
+      name: Участник
+    level: 15.0
+    name: potsosal123
+    KDA: 5.0
+    deaths: 0
+    status: ONLINE
+    points: 15.0
+  - kills: 88
+    role:
+      permissions:
+      - sethome
+      name: Участник
+    level: 180.0
+    name: Someron1
+    KDA: 3.14
+    deaths: 28
+    status: ONLINE
+    points: 180.0
+  - kills: 11
+    role:
+      permissions: []
+      name: Участник
+    level: 9.0
+    name: Milana_star2025
+    KDA: 1.38
+    deaths: 8
+    status: ONLINE
+    points: 9.0
+  - kills: 1
+    role:
+      permissions:
+      - invite
+      name: Участник
+    level: -6.0
+    name: tvinkredzek1
+    KDA: 0.33
+    deaths: 3
+    status: ONLINE
+    points: -6.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: -6.0
+    name: Moskva23
+    KDA: 0.33
+    deaths: 3
+    status: ONLINE
+    points: -6.0
+  - kills: 28
+    role:
+      permissions: []
+      name: Участник
+    level: 45.0
+    name: Someron2
+    KDA: 2.15
+    deaths: 13
+    status: ONLINE
+    points: 45.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -3.0
+    name: Siro_Nagi_
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: xamrevenge
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 12
+    role:
+      permissions: []
+      name: Участник
+    level: -24.0
+    name: Tobak
+    KDA: 0.6
+    deaths: 20
+    status: ONLINE
+    points: -24.0
+  - kills: 3
+    role:
+      permissions: []
+      name: Участник
+    level: -6.0
+    name: Tobak1
+    KDA: 0.6
+    deaths: 5
+    status: ONLINE
+    points: -6.0
+  - kills: 28
+    role:
+      permissions: []
+      name: Участник
+    level: 21.0
+    name: dungeon_pipster9
+    KDA: 1.33
+    deaths: 21
+    status: ONLINE
+    points: 21.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: Gabrielo125
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 6
+    role:
+      permissions:
+      - kick
+      - invite
+      name: Участник
+    level: -60.0
+    name: redzek1
+    KDA: 0.23
+    deaths: 26
+    status: ONLINE
+    points: -60.0
+  - kills: 9
+    role:
+      permissions: []
+      name: Участник
+    level: -132.0
+    name: misaaaaa432
+    KDA: 0.17
+    deaths: 53
+    status: ONLINE
+    points: -132.0
+  - kills: 18
+    role:
+      permissions: []
+      name: Участник
+    level: -57.0
+    name: reveton7
+    KDA: 0.49
+    deaths: 37
+    status: ONLINE
+    points: -57.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: 3.0
+    name: tvink_nqisik
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 3.0
+  - kills: 2
+    role:
+      permissions: []
+      name: Участник
+    level: -21.0
+    name: xBladeKroshik02
+    KDA: 0.22
+    deaths: 9
+    status: ONLINE
+    points: -21.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -21.0
+    name: kr3vetkasss
+    KDA: 0.0
+    deaths: 7
+    status: ONLINE
+    points: -21.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: Nqisik
+    KDA: 1.0
+    deaths: 1
+    status: ONLINE
+    points: 0.0
+  name: GuardX
+  pvp: false
+  exp: 26109.749999158026
+  glow: true
+  points: 12255.040000294426
+  home:
+    world: world
+    x: -7443.300000011921
+    y: 15.1875
+    z: -2754.300000011921
+    pitch: 7.755676746368408
+    yaw: 129.0111541748047
+- owner: tvinkkredzek1
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -27.0
+    name: tvinkkredzek1
+    KDA: 0.0
+    deaths: 9
+    status: ONLINE
+    points: -27.0
+  name: xd1
+  pvp: false
+  exp: 10645.120000186527
+  glow: false
+  points: 1651.1200001533873
+  home:
+    world: world
+    x: 1571.699999988079
+    y: 25.0
+    z: 2359.699999988079
+    pitch: 0.06711412966251373
+    yaw: 270.00079345703125
+- owner: Xemtai4ik
+  memberList:
+  - kills: 31
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 51.0
+    name: Xemtai4ik
+    KDA: 2.21
+    deaths: 14
+    status: ONLINE
+    points: 51.0
+  - kills: 152
+    role:
+      permissions:
+      - glow
+      - pvp
+      - invite
+      - shop
+      - kick
+      - sethome
+      name: Участник
+    level: 255.0
+    name: vasya_5555
+    KDA: 2.27
+    deaths: 67
+    status: ONLINE
+    points: 255.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: kMsPoKyni
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 101
+    role:
+      permissions:
+      - shop
+      - invite
+      - pvp
+      - kick
+      - sethome
+      - glow
+      name: Участник
+    level: 198.0
+    name: podkablukik
+    KDA: 2.89
+    deaths: 35
+    status: ONLINE
+    points: 198.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: Hypnose12
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: 3.0
+    name: loxebani1337xa
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 3.0
+  name: RzRTEAMS
+  pvp: false
+  exp: 10495.301000119105
+  glow: false
+  points: 4383.440000119033
+  home:
+    world: world
+    x: -1656.699999988079
+    y: 41.1875
+    z: 323.30000001192093
+    pitch: 26.750041961669922
+    yaw: -85.40895080566406
+- owner: xBladeKopatich
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: xBladeKopatich
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - pvp
+      - glow
+      - shop
+      name: Модератор
+    level: 0.0
+    name: xBladeKopatich02
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - pvp
+      - glow
+      - shop
+      name: Модератор
+    level: 0.0
+    name: xBladeKopatich01
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  name: space
+  pvp: false
+  exp: 4982.658000062343
+  glow: false
+  points: 4682.840000055633
+  home:
+    world: world
+    x: -1624.0306894161477
+    y: 43.0
+    z: 236.26485079728272
+    pitch: 34.819698333740234
+    yaw: -96.25084686279297
+- owner: Luka_21
+  memberList:
+  - kills: 8
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -135.0
+    name: Luka_21
+    KDA: 0.15
+    deaths: 53
+    status: ONLINE
+    points: -135.0
+  name: ggg
+  pvp: false
+  exp: 1070.9429999991319
+  glow: false
+  points: 384.4999999992748
+  home:
+    world: world
+    x: 2868.699999988079
+    y: 29.0
+    z: 7478.670855837197
+    pitch: 0.5404844880104065
+    yaw: -92.04177856445312
+- owner: AsTRoKENT
+  memberList:
+  - kills: 59
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 96.0
+    name: AsTRoKENT
+    KDA: 2.19
+    deaths: 27
+    status: ONLINE
+    points: 96.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -9.0
+    name: Mr_van4ik11
+    KDA: 0.0
+    deaths: 3
+    status: ONLINE
+    points: -9.0
+  - kills: 13
+    role:
+      permissions:
+      - shop
+      - kick
+      - sethome
+      - glow
+      - pvp
+      - invite
+      name: Участник
+    level: 24.0
+    name: ZxcMystiCC
+    KDA: 2.6
+    deaths: 5
+    status: ONLINE
+    points: 24.0
+  - kills: 2
+    role:
+      permissions: []
+      name: Участник
+    level: -15.0
+    name: MrBortchYT
+    KDA: 0.29
+    deaths: 7
+    status: ONLINE
+    points: -15.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -3.0
+    name: 1zumrud000
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  - kills: 5
+    role:
+      permissions: []
+      name: Участник
+    level: -60.0
+    name: pupusik134576
+    KDA: 0.2
+    deaths: 25
+    status: ONLINE
+    points: -60.0
+  name: sila
+  pvp: false
+  exp: 711.5970000001178
+  glow: true
+  points: 637.2299999999981
+  home: null
+- owner: dum38324945
+  memberList:
+  - kills: 10
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -39.0
+    name: dum38324945
+    KDA: 0.43
+    deaths: 23
+    status: ONLINE
+    points: -39.0
+  - kills: 5
+    role:
+      permissions: []
+      name: Участник
+    level: -15.0
+    name: flowlpipi
+    KDA: 0.5
+    deaths: 10
+    status: ONLINE
+    points: -15.0
+  name: sigma
+  pvp: true
+  exp: 298.3139999999997
+  glow: false
+  points: 298.08000000000004
+  home: null
+- owner: kapoyr2065
+  memberList:
+  - kills: 1
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -48.0
+    name: kapoyr2065
+    KDA: 0.06
+    deaths: 17
+    status: ONLINE
+    points: -48.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -3.0
+    name: nazarik8
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  - kills: 4
+    role:
+      permissions: []
+      name: Участник
+    level: 9.0
+    name: Danil745872
+    KDA: 4.0
+    deaths: 1
+    status: ONLINE
+    points: 9.0
+  - kills: 7
+    role:
+      permissions: []
+      name: Участник
+    level: -78.0
+    name: fredi221
+    KDA: 0.21
+    deaths: 33
+    status: ONLINE
+    points: -78.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: 3.0
+    name: hakoflag
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 3.0
+  name: mon
+  pvp: false
+  exp: 273.6419999999765
+  glow: false
+  points: 261.50999999998214
+  home:
+    world: world
+    x: 1045.0302220553397
+    y: 70.0
+    z: 594.9228012189163
+    pitch: 14.32848072052002
+    yaw: 295.93890380859375
+- owner: kot10
+  memberList:
+  - kills: 9
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 27.0
+    name: kot10
+    KDA: 9.0
+    deaths: 0
+    status: ONLINE
+    points: 27.0
+  - kills: 15
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - pvp
+      - glow
+      name: Модератор
+    level: 33.0
+    name: Boar151
+    KDA: 3.75
+    deaths: 4
+    status: ONLINE
+    points: 33.0
+  name: whyyymeee
+  pvp: false
+  exp: 215.3799999999999
+  glow: false
+  points: 210.78999999999985
+  home: null
+- owner: FDE6666
+  memberList:
+  - kills: 3
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -15.0
+    name: FDE6666
+    KDA: 0.38
+    deaths: 8
+    status: ONLINE
+    points: -15.0
+  name: BUNNY
+  pvp: false
+  exp: 138.12000000000074
+  glow: false
+  points: 138.12000000000074
+  home: null
+- owner: Kot_Lap2
+  memberList:
+  - kills: 2
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -30.0
+    name: Kot_Lap2
+    KDA: 0.17
+    deaths: 12
+    status: ONLINE
+    points: -30.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: -6.0
+    name: adre77
+    KDA: 0.33
+    deaths: 3
+    status: ONLINE
+    points: -6.0
+  name: Flex
+  pvp: false
+  exp: 85.83400000000096
+  glow: false
+  points: 79.03000000000186
+  home: null
+- owner: LolarkaBest
+  memberList:
+  - kills: 1
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: LolarkaBest
+    KDA: 1.0
+    deaths: 1
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: OrineWTF
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  name: PRVS
+  pvp: false
+  exp: 50.065
+  glow: false
+  points: 50.019999999999996
+  home:
+    world: world_spawn
+    x: 36.65354244086453
+    y: 60.619490087521484
+    z: -28.1952473624403
+    pitch: 84.20111083984375
+    yaw: -235.0296630859375
+- owner: 666s3xxyecstancy
+  memberList:
+  - kills: 1
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 3.0
+    name: 666s3xxyecstancy
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 3.0
+  name: s3xy
+  pvp: false
+  exp: 11.322999999999851
+  glow: false
+  points: 8.290000000000667
+  home: null
+- owner: nysk3n
+  memberList:
+  - kills: 2
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -18.0
+    name: nysk3n
+    KDA: 0.25
+    deaths: 8
+    status: ONLINE
+    points: -18.0
+  - kills: 9
+    role:
+      permissions: []
+      name: Участник
+    level: 27.0
+    name: Nness
+    KDA: 9.0
+    deaths: 0
+    status: ONLINE
+    points: 27.0
+  name: DimaPups
+  pvp: false
+  exp: 10.248999999999983
+  glow: false
+  points: 10.149999999999983
+  home: null
+- owner: kTo_I_XE
+  memberList:
+  - kills: 5
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -3.0
+    name: kTo_I_XE
+    KDA: 0.83
+    deaths: 6
+    status: ONLINE
+    points: -3.0
+  name: pvptop
+  pvp: false
+  exp: 8.235999999999812
+  glow: false
+  points: 8.109999999999808
+  home: null
+- owner: ktoto_iz_9090
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: ktoto_iz_9090
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: 3.0
+    name: _zxc_limuzin9090
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 3.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: tosva9090
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  name: '9090'
+  pvp: false
+  exp: 3.199999999999999
+  glow: false
+  points: 3.199999999999999
+  home: null
+- owner: sel1m228
+  memberList:
+  - kills: 1
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 3.0
+    name: sel1m228
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 3.0
+  name: angrebeardssvin
+  pvp: false
+  exp: 3.0
+  glow: false
+  points: 3.0
+  home: null
+- owner: akki666
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: akki666
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions:
+      - glow
+      - sethome
+      name: Участник
+    level: 0.0
+    name: Tube_YT
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  name: proebali
+  pvp: false
+  exp: 0.01
+  glow: false
+  points: 0.01
+  home: null
+- owner: 0toodoo
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: 0toodoo
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: VineWood
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: vivivilka_rol
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  name: 0toodoo_ezz
+  pvp: false
+  exp: 0.0
+  glow: false
+  points: 0.0
+  home: null
+- owner: GUP_3103
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: GUP_3103
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  name: squed
+  pvp: false
+  exp: 0.0
+  glow: false
+  points: 0.0
+  home: null
+- owner: NERTIKON
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: NERTIKON
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  name: NERT
+  pvp: false
+  exp: 0.0
+  glow: false
+  points: 0.0
+  home: null
+- owner: MrFazith
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: MrFazith
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  name: Tnq
+  pvp: false
+  exp: 0.0
+  glow: false
+  points: 0.0
+  home: null
+- owner: Mu4a4o1
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: Mu4a4o1
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  name: NeZeRkI
+  pvp: false
+  exp: 0.0
+  glow: true
+  points: 0.0
+  home: null
+- owner: Krun4H_Pl
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -9.0
+    name: Krun4H_Pl
+    KDA: 0.0
+    deaths: 3
+    status: ONLINE
+    points: -9.0
+  - kills: 3
+    role:
+      permissions: []
+      name: Участник
+    level: 9.0
+    name: paralelepit
+    KDA: 3.0
+    deaths: 0
+    status: ONLINE
+    points: 9.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: -3.0
+    name: dima_lan
+    KDA: 0.5
+    deaths: 2
+    status: ONLINE
+    points: -3.0
+  - kills: 3
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: yrer111darhan
+    KDA: 1.0
+    deaths: 3
+    status: ONLINE
+    points: 0.0
+  name: top1
+  pvp: false
+  exp: -1.3649999999999922
+  glow: false
+  points: -1.8600000000000194
+  home: null
+- owner: Tiram227_zxc
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -3.0
+    name: Tiram227_zxc
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  name: дракошы
+  pvp: false
+  exp: -2.283000000000014
+  glow: false
+  points: -2.400000000000013
+  home: null
+- owner: MrMikrovolnovka
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: MrMikrovolnovka
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -3.0
+    name: M0HuT0p_EYE
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  name: BigSQ
+  pvp: false
+  exp: -2.551000000000006
+  glow: false
+  points: -2.9200000000000017
+  home: null
+- owner: Pidoridze
+  memberList:
+  - kills: 2
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 6.0
+    name: Pidoridze
+    KDA: 2.0
+    deaths: 0
+    status: ONLINE
+    points: 6.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: -6.0
+    name: MMXXX
+    KDA: 0.33
+    deaths: 3
+    status: ONLINE
+    points: -6.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -3.0
+    name: RamilKrytoi228
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  name: SoloSquad
+  pvp: false
+  exp: -2.97
+  glow: false
+  points: -2.97
+  home: null
+- owner: Abadje_YT
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -3.0
+    name: Abadje_YT
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  name: AbajePvp
+  pvp: false
+  exp: -3.0
+  glow: true
+  points: -3.0
+  home: null
+- owner: kakishhhh
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -3.0
+    name: kakishhhh
+    KDA: 0.0
+    deaths: 1
+    status: ONLINE
+    points: -3.0
+  name: clansilatop
+  pvp: false
+  exp: -3.0
+  glow: false
+  points: -3.0
+  home: null
+- owner: nolys
+  memberList:
+  - kills: 7
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -6.0
+    name: nolys
+    KDA: 0.78
+    deaths: 9
+    status: ONLINE
+    points: -6.0
+  name: PvEnolysPvP
+  pvp: false
+  exp: -3.0589999999999877
+  glow: false
+  points: -3.6800000000000193
+  home: null
+- owner: VovNONS1237
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -6.0
+    name: VovNONS1237
+    KDA: 0.0
+    deaths: 2
+    status: ONLINE
+    points: -6.0
+  name: БОГАЧИ
+  pvp: false
+  exp: -5.946000000000001
+  glow: false
+  points: -6.0
+  home: null
+- owner: MrPastess
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -6.0
+    name: MrPastess
+    KDA: 0.0
+    deaths: 2
+    status: ONLINE
+    points: -6.0
+  name: thebergX
+  pvp: false
+  exp: -5.991
+  glow: false
+  points: -6.0
+  home: null
+- owner: TikCatikYTIK
+  memberList:
+  - kills: 1
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -6.0
+    name: TikCatikYTIK
+    KDA: 0.33
+    deaths: 3
+    status: ONLINE
+    points: -6.0
+  name: TikSubs
+  pvp: false
+  exp: -6.0
+  glow: false
+  points: -6.0
+  home: null
+- owner: idoebik
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: idoebik
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: -9.0
+    name: zxc_baumen
+    KDA: 0.0
+    deaths: 3
+    status: ONLINE
+    points: -9.0
+  - kills: 1
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: Nate__
+    KDA: 1.0
+    deaths: 1
+    status: ONLINE
+    points: 0.0
+  name: DragonPan
+  pvp: false
+  exp: -8.540000000000008
+  glow: true
+  points: -8.540000000000008
+  home: null
+- owner: Dead_Banan4ik
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: 0.0
+    name: Dead_Banan4ik
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - pvp
+      - glow
+      name: Модератор
+    level: -9.0
+    name: 1_Topsik_1
+    KDA: 0.0
+    deaths: 3
+    status: ONLINE
+    points: -9.0
+  name: Banan4ikSquad
+  pvp: true
+  exp: -8.846999999999994
+  glow: false
+  points: -9.0
+  home: null
+- owner: GlebikoYT
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -12.0
+    name: GlebikoYT
+    KDA: 0.0
+    deaths: 4
+    status: ONLINE
+    points: -12.0
+  name: GLSQ
+  pvp: false
+  exp: -11.851000000000003
+  glow: false
+  points: -11.860000000000003
+  home:
+    world: world
+    x: -900.5
+    y: 49.0
+    z: 869.5
+    pitch: 25.19987678527832
+    yaw: 191.1001434326172
+- owner: kiosks
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -69.0
+    name: kiosks
+    KDA: 0.0
+    deaths: 23
+    status: ONLINE
+    points: -69.0
+  name: египет
+  pvp: false
+  exp: -18.750000000000043
+  glow: false
+  points: -18.750000000000043
+  home: null
+- owner: Mr_Dinis
+  memberList:
+  - kills: 2
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -24.0
+    name: Mr_Dinis
+    KDA: 0.2
+    deaths: 10
+    status: ONLINE
+    points: -24.0
+  name: WR1
+  pvp: false
+  exp: -23.810999999999993
+  glow: false
+  points: -24.0
+  home:
+    world: world
+    x: 559.6617681424698
+    y: 5.0
+    z: -689.1583044737489
+    pitch: 34.94999313354492
+    yaw: 61.64805603027344
+- owner: GUP_288sa
+  memberList:
+  - kills: 0
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -45.0
+    name: GUP_288sa
+    KDA: 0.0
+    deaths: 15
+    status: ONLINE
+    points: -45.0
+  name: Toerew
+  pvp: false
+  exp: -40.28700000000035
+  glow: false
+  points: -40.44000000000035
+  home: null
+- owner: 3Len52
+  memberList:
+  - kills: 3
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -72.0
+    name: 3Len52
+    KDA: 0.11
+    deaths: 27
+    status: ONLINE
+    points: -72.0
+  name: WR7
+  pvp: false
+  exp: -71.11400000000026
+  glow: false
+  points: -71.60000000000025
+  home: null
+- owner: Misha1232617
+  memberList:
+  - kills: 23
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -612.0
+    name: Misha1232617
+    KDA: 0.1
+    deaths: 227
+    status: ONLINE
+    points: -612.0
+  name: spawn
+  pvp: false
+  exp: -457.4969999999962
+  glow: true
+  points: -460.620000000001
+  home: null
+- owner: Jokoncheld
+  memberList:
+  - kills: 24
+    role:
+      permissions:
+      - sethome
+      - invite
+      - kick
+      - delete
+      - shop
+      - pvp
+      - promote
+      - demote
+      - glow
+      - setleader
+      name: Лидер
+    level: -597.0
+    name: Jokoncheld
+    KDA: 0.11
+    deaths: 223
+    status: ONLINE
+    points: -597.0
+  - kills: 0
+    role:
+      permissions: []
+      name: Участник
+    level: 0.0
+    name: migeldiaz
+    KDA: 1.0
+    deaths: 0
+    status: ONLINE
+    points: 0.0
+  name: Lizard
+  pvp: false
+  exp: -533.0619999999885
+  glow: true
+  points: -543.3400000000033
+  home: null

@@ -1,0 +1,28 @@
+goblin_2:
+  Type: VINDICATOR
+  Display: '&7Гоблин'
+  Health: 500
+  Damage: 32
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    Persistent: false
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    KnockbackResistance: 0.15
+    MovementSpeed: 0.24
+    Collidable: true
+    Silent: false
+    FollowRange: 32
+    PreventSunburn: true
+  Skills:
+  - skill{s=CancelEventSkill;sync=true} @self ~onAttack
+  - model{mid=goblin_2;i=true;step=1;ride=true} @self ~onSpawn
+  - model{mid=goblin_2;i=true;step=1;ride=true} @self ~onLoad
+  - skill{s=goblin_2_attack;sync=true} @target ~onTimer:20
+  - skill{s=goblin_2_death} @self ~onDeath

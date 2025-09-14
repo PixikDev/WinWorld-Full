@@ -1,0 +1,61 @@
+Name: paveldurov1
+Cooldown: 0
+Permission: nKits.kits.paveldurov1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LIME_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: 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
+      blockMaterial: LIME_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

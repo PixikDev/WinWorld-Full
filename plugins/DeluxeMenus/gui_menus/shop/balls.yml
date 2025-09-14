@@ -1,0 +1,423 @@
+menu_title: '&fꈁꀀꈂꌑꈂꀁ&0ꈃꄅ'
+size: 54
+items:  
+  clock:
+    material: structure_void
+    model_data: 10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points_formatted% &fꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6WinWorld.pw'
+  back:
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    click_commands:
+    - '[openguimenu] shop'
+  item-34:
+    amount: 1
+    material: 'white_stained_glass_pane'
+    slot: 42
+  item-35:
+    amount: 1
+    material: 'white_stained_glass_pane'
+    slot: 37
+  'шар_огня':
+    slot: 12
+    material: PLAYER_HEAD
+    model_data: 5003
+    display_name: '&c&lШар Огня'
+    lore:
+      - '&cПроклятие утраты '
+      - ''
+      - '&7Когда в руке'
+      - '&7Огнеупорность'
+      - ''
+      - '&7При экипировке в левой руке:'
+      - '&9 +2.5 Урон атаки'
+      - '&9 +0.3 Скорость атаки'
+      - '&9 +4 Макс. здоровье'
+      - ''
+      - '&7==================='
+      - ''
+      - '&fЦена: &6199 &fꐃ'
+      - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 199
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 199'
+    - '[console] xkit sharfire %player_name%'
+    - '[message] &6Риллики &7» &fУспешная покупка!' 
+    - '[console] cashback give %player_name% 199'
+    - '[refresh]'
+  'шар_воды':
+    slot: 13
+    material: PLAYER_HEAD
+    model_data: 5005
+    display_name: '&9&lШар Воды'
+    lore:
+      - '&cПроклятие утраты '
+      - ''
+      - '&7Когда во второй руке'
+      - '&7При нажатии SHIFT:'
+      - '&7Подводное дыхание (01:00)'
+      - '&7Грация дельфина (00:10)'
+      - ''
+      - '&7При экипировке в левой руке:'
+      - '&9 +30% Скорость передвижения'
+      - '&9 +12 Макс. здоровье'
+      - ''
+      - '&7==================='
+      - ''
+      - '&fЦена: &6219 &fꐃ'
+      - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 219
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 219'
+    - '[console] xkit sharwater %player_name%'
+    - '[message] &6Риллики &7» &fУспешная покупка!' 
+    - '[console] cashback give %player_name% 219'
+    - '[refresh]'
+  'шар_земли':
+    slot: 14
+    material: PLAYER_HEAD
+    model_data: 5002
+    display_name: '&6&lШар Земли'
+    lore:
+      - '&cПроклятие утраты '
+      - ''
+      - '&7Когда во второй руке'
+      - '&7При нажатии SHIFT:'
+      - '&7Спешка II (00:08)'
+      - ''
+      - '&7При экипировке в левой руке:'
+      - '&9 +2 Сопротивление отбрасыванию'
+      - '&9 +4 Прочность брони'
+      - '&9 +4.5 Броня'
+      - ''
+      - '&7==================='
+      - ''
+      - '&fЦена: &6189 &fꐃ'
+      - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 189
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 189'
+    - '[console] xkit sharearth %player_name%'
+    - '[message] &6Риллики &7» &fУспешная покупка!' 
+    - '[console] cashback give %player_name% 189'
+    - '[refresh]'
+  'шар_света':
+    slot: 21
+    material: PLAYER_HEAD
+    model_data: 5004
+    display_name: '&e&lШар Света'
+    lore:
+      - '&cПроклятие утраты '
+      - ''
+      - '&7Когда во второй руке'
+      - '&7При нажатии SHIFT:'
+      - '&7В радиусе 16 блоков'
+      - '&7Светлячок (01:00)'
+      - ''
+      - '&7При экипировке в левой руке:'
+      - '&9 +2 Урон атаки'
+      - '&9 +3.5 Удача'
+      - '&9 +3 Броня'
+      - ''
+      - '&7==================='
+      - ''
+      - '&fЦена: &6189 &fꐃ'
+      - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 189
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 189'
+    - '[console] xkit sharlight %player_name%'
+    - '[message] &6Риллики &7» &fУспешная покупка!' 
+    - '[console] cashback give %player_name% 189'
+    - '[refresh]'
+  'шар_порядка':
+    slot: 22
+    material: PLAYER_HEAD
+    model_data: 5006
+    display_name: '&d&lШар Порядка'
+    lore:
+      - '&cПроклятие утраты '
+      - ''
+      - '&7Когда во второй руке'
+      - '&7При нажатии SHIFT:'
+      - '&7Регенерация II (00:08)'
+      - ''
+      - '&7При экипировке в левой руке:'
+      - '&9 +15% Скорость передвижения'
+      - '&9 +20 Макс. здоровье'
+      - '&9 +2 Броня'
+      - ''
+      - '&7==================='
+      - ''
+      - '&fЦена: &6229 &fꐃ'
+      - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 229
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 229'
+    - '[console] xkit sharorder %player_name%'
+    - '[message] &6Риллики &7» &fУспешная покупка!' 
+    - '[console] cashback give %player_name% 229'
+    - '[refresh]'
+  'шар_хаоса':
+    slot: 23
+    material: PLAYER_HEAD
+    model_data: 5007
+    display_name: '&5&lШар Хаоса'
+    lore:
+      - '&cПроклятие утраты '
+      - ''
+      - '&7Когда во второй руке'
+      - '&7При нажатии SHIFT:'
+      - '&7В радиусе 8 блоков'
+      - '&7Слабость II (00:10)'
+      - ''
+      - '&7При экипировке в левой руке:'
+      - '&9 +3 Урон атаки'
+      - '&9 +0.4 Скорость атаки'
+      - '&9 -10 Макс. здоровье'
+      - '&9 +2.5 Броня'
+      - ''
+      - '&7==================='
+      - ''
+      - '&fЦена: &6249 &fꐃ'
+      - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 249
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 249'
+    - '[console] xkit sharchaos %player_name%'
+    - '[message] &6Риллики &7» &fУспешная покупка!' 
+    - '[console] cashback give %player_name% 249'
+    - '[refresh]'
+  'воздуха':
+    slot: 31
+    material: PLAYER_HEAD
+    model_data: 5001
+    display_name: '&f&lШар Воздуха'
+    lore:
+      - '&cПроклятие утраты '
+      - ''
+      - '&7Когда во второй руке'
+      - '&7При нажатии SHIFT:'
+      - '&7Левитация II (00:08)'
+      - ''
+      - '&7При экипировке в левой руке:'
+      - '&9 +2.3 Урон атаки'
+      - '&9 +35% Скорость передвижения'
+      - '&9 +1.5 Отбрасывание атаки'
+      - ''
+      - '&7==================='
+      - ''
+      - '&fЦена: &6199 &fꐃ'
+      - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 199
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6WinWorld.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 199'
+    - '[console] xkit sharair %player_name%'
+    - '[message] &6Риллики &7» &fУспешная покупка!' 
+    - '[console] cashback give %player_name% 199'
+    - '[refresh]'
+  item-50:
+    amount: 1
+    material: 'basehead-ewogICJ0aW1lc3RhbXAiIDogMTY0MDM0NTUwMTk5MSwKICAicHJvZmlsZUlkIiA6ICI2MmJiNjAyZjE0Nzk0NzZiYjlkMmQ0MWZiNDc0NDA1YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb2NpYWxpc21vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJjMTYyYzE2ZTAxNDMzYjNkYTY2NzRkNjQyYzNlYWI0YmU5ZTZkNzFlMjBhMzMyNTU2NGM0ZDAzYTgxMjYwNmEiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9'
+    slot: 38
+    display_name: '&6&lТигриная голова'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&6  +2.5 к урону'
+    - '&6  +25% к скорости'
+    - '&6  +1 к здоровью'
+    - ''
+    - '&r&#aaaaaa==========================&r'
+    - ''
+    - '&7Доступно в наборе: &6&lTIGER'
+    - ''
+  item-51:
+    amount: 1
+    material: 'basehead-ewogICJ0aW1lc3RhbXAiIDogMTY2NzAwNTExMDk4MCwKICAicHJvZmlsZUlkIiA6ICI1YjcyYmU5MGZiYjg0OGNiODFiZTNhMGVlNmNlOGUzZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb3JuZSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTlhYzBjYzA1ZjUyODA1MTBmOTE2NzIxZDc4ODI5NTVjNjgzMTRjODkxNzBkZTgzNWQzZDMxNjQwNjAzZTliIgogICAgfQogIH0KfQ=='
+    slot: 39
+    display_name: '&c&lШар Дракулы'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&cВампиризм'
+    - '&c  +1.5 Урон'
+    - '&c  +4 Броня'
+    - '&c  +8 Максимальное здоровье'
+    - ''
+    - '&r&#aaaaaa==========================&r'
+    - ''
+    - '&7Доступно в наборе: &4&lDRACULA'
+    - ''
+  item-52:
+    amount: 1
+    material: 'basehead-ewogICJ0aW1lc3RhbXAiIDogMTY1OTg5MTQyNjYxMiwKICAicHJvZmlsZUlkIiA6ICJlMTI0Zjg0ZWExY2Y0YzBmYjUyOTUwMWNmZTYyNzM4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJibG94bWFzdGVyMjAwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMDY1YjQ5NTc3N2JhODQyZDIyZGNhNjYzZTlmNzk2MTdkOGJkOWI5ODNkNDI0ZTM2ZGQ3ZDk5MzA0YmEyNTA4IgogICAgfQogIH0KfQ=='
+    slot: 37
+    display_name: '&6&lШар Д.Хелпера'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&6  +7.0 к здоровью'
+    - '&6  +0.6% к скорости атаки'
+    - '&6  +3 к стойкости'
+    - ''
+    - '&r&#aaaaaa==========================&r'
+    - ''
+    - '&7Доступно в наборе: &6&lDHELPER'
+    - ''
+  item-53:
+    amount: 1
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNhMDNmN2U2Mzg1MTJjNzBhNDRjNDI5OTQyZTc4YzM2YTNkYWY5ZDBhNTMyOThhOWU4NjYyYzJiNjMyZTEyOSJ9fX0='
+    slot: 40
+    display_name: '&8&lШар BUNNY'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&8  +3.9 броня'
+    - '&8  +21% к скорости атаки'
+    - ''
+    - '&r&#aaaaaa==========================&r'
+    - ''
+    - '&7Доступно в наборе: &0&lBUNNY'
+    - ''
+  item-54:
+    amount: 1
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYyYTUxNzM4NzkwNDMyOTAxNmE4ZTI1NmM0YjU1MTkyYTZjOWIxNzIwZTQ5YjVhNDQwMTkyNzZjOWMyZmJiMyJ9fX0='
+    slot: 41
+    display_name: '&e&lПасхальное яйцо'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&e  +2.5 к урону'
+    - '&e  +6.5 к стойкости'
+    - ''
+    - '&r&#aaaaaa==========================&r'
+    - ''
+    - '&7Доступно в наборе: &f&lRABBIT'
+    - ''
+  item-55:
+    amount: 1
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg5ZTgwNWJkNmYxNmVjYzI0NTJhZGQxOGU4Zjg2YTIxN2RlNjZmYjRiY2U0MTkwNDZmMWI5NjExYWJkOGYifX19'
+    slot: 42
+    display_name: '&a&lГолова Гидры'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&2  +10 Максимальное здоровье'
+    - '&2  +5 к Броня'
+    - '&2  +20% Скорость'
+    - ''
+    - '&r&#aaaaaa==========================&r'
+    - ''
+    - '&7Доступно в наборе: &2&lHYDRA'
+    - ''
+  item-56:
+    amount: 1
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRhMjgxM2Q0ZjVhY2Q2OWVkNTkwYzFkOGE0NDJiNTk1NTE5ZGNiYzBlMTcxOThhZGZhYWFhZjE1Zjg5YjAifX19'
+    slot: 43
+    display_name: '&2&lГолова Кобры'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Когда во второй руке:'
+    - '&2  +3.5 к Урону'
+    - '&2  +20% к Скорости'
+    - '&2  +2.5 к Стойкости'
+    - '&2  Отравляет врагов ядом'
+    - ''
+    - '&r&#aaaaaa==========================&r'
+    - ''
+    - '&7Доступно в наборе: &a&lCOBRA'
+    - ''   

@@ -1,0 +1,85 @@
+Name: toporkratos
+Cooldown: 0
+Permission: nKits.kits.toporkratos
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"§c§lТопор Кратоса"}'
+      lore:
+      - '{"text":""}'
+      - '{"text":"§7Когда в руке"}'
+      - '{"text":"§cЗамедление II"}'
+      custom-model-data: 1952
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 6
+        DURABILITY: 3
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: b0ed4ca6-9563-49a3-b9ea-df6e2ce38f51
+          operation: 1
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: HAND
+          uuid: d548f9bb-e54a-4cbe-bff7-66d315955cc9
+          operation: 1
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,256 @@
+# Download it here: https://black-minecraft.com/resources/160/
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
+header-footer:
+  enabled: true
+  header:
+  - ''
+  - '<#FDBE00>&lГРИФЕРСКОЕ ВЫЖИВАНИЕ</#FB5B29>'
+  - ''
+  - '&x&0&0&7&7&F&FВ&x&0&2&7&0&F&Fт&x&0&4&6&9&F&Fо&x&0&6&6&2&F&Fр&x&0&8&5&B&F&Fо&x&0&A&5&4&F&Fй &x&0&E&4&6&F&Fл&x&1&0&3&F&F&Fе&x&1&2&3&8&F&Fт&x&1&4&3&1&F&Fн&x&1&6&2&A&F&Fи&x&1&8&2&3&F&Fй &x&1&C&1&5&F&Fв&x&1&E&0&E&F&Fа&x&2&0&0&7&F&Fй&x&2&2&0&0&F&Fп &fпроизойдет уже &x&0&0&7&7&F&F1&x&0&6&6&3&F&F3 &x&1&1&3&C&F&Fи&x&1&7&2&8&F&Fю&x&1&C&1&4&F&Fл&x&2&2&0&0&F&Fя &x&0&0&7&7&F&Fв &x&0&7&5&F&F&F1&x&0&A&5&3&F&F5&x&0&E&4&7&F&F:&x&1&1&3&C&F&F0&x&1&4&3&0&F&F0 &x&1&B&1&8&F&FМ&x&1&F&0&C&F&FС&x&2&2&0&0&F&FК'
+  - '&fПодарки в честь &x&0&0&7&7&F&Fв&x&0&9&5&9&F&Fа&x&1&1&3&C&F&Fй&x&1&A&1&E&F&Fп&x&2&2&0&0&F&Fа &x&0&0&7&7&F&F/&x&0&3&6&B&F&Fc&x&0&7&5&F&F&Fo&x&0&A&5&3&F&Fd&x&0&E&4&7&F&Fe &x&1&4&3&0&F&Fv&x&1&8&2&4&F&Fi&x&1&B&1&8&F&Fp&x&1&F&0&C&F&Fe &fи &x&0&0&7&7&F&F/&x&0&4&6&8&F&Fk&x&0&9&5&9&F&Fi&x&0&D&4&A&F&Ft &x&1&5&2&D&F&Fv&x&1&A&1&E&F&Fi&x&1&E&0&F&F&Fp&x&2&2&0&0&F&Fe &fбудут доступны &x&0&0&7&7&F&F1&x&0&6&6&3&F&F2 &x&1&1&3&C&F&Fи&x&1&7&2&8&F&Fю&x&1&C&1&4&F&Fл&x&2&2&0&0&F&Fя &x&0&0&7&7&F&Fв &x&0&7&5&F&F&F1&x&0&A&5&3&F&F8&x&0&E&4&7&F&F:&x&1&1&3&C&F&F3&x&1&4&3&0&F&F0 &x&1&B&1&8&F&FМ&x&1&F&0&C&F&FС&x&2&2&0&0&F&FК'
+  - ''
+  footer:
+  - ''
+  - '&fНаш сайт: <#FDBE00>&lWinWorld.pw</#FB5B29>'
+  - '&fНаш дискорд: <#FDBE00>&ldiscord.gg/winworld</#FB5B29>'
+  - ''
+  - '&fОнлайн: {#F89205}%math_0:_{server_online}*1.0% &7(%math_0:_{bungee_total}*1.4%)'
+  - ''
+  disable-condition: '%world%=disabledworld'
+  per-world:
+    world1:
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world2;world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+  per-server:
+    server1:
+      header:
+      - an example of server with custom header
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  anti-override: true
+  sorting-types:
+  - GROUPS:coder,developer,admin,mladminkp,mladmin,assistant,offassistant,mediaadm,curator,mlmoder,offmlmoder,sthelper,offsthelper,helper,offhelper,mediaplus,media,donadmin,donadminnomoder,sponsor,sponsornemoder,aurora,ghost,winner,cobra,dhelper,hydra,rabbit,dracula,bunny,tiger,bull,magic,dragon,imperator,magister,overlord,avenger,titan,hero,glmoder,offglmoder,stmoder,offstmoder,moderplus,offmoderplus,moder,offmoder,mlmoder,offmlmoder,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld'
+  unlimited-nametag-mode:
+    enabled: true
+    disable-on-boats: false
+    disable-condition: ''
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+    space-between-lines: 0.22
+belowname-objective:
+  enabled: true
+  number: '%health%'
+  text: '&c❤'
+  disable-condition: ''
+  fancy-display-default: NPC
+  fancy-display-players: '&c%health%'
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&fWebsite: &bwww.domain.com'
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  scoreboards:
+    scoreboard1:
+      title: '%winutils_grief%'
+      lines:
+      - ' &f'
+      - ' &#FB6100ꐁ &fНик: &#FB6108%player_name% '
+      - ' &#FB6200ꐁ &fРанг: &r%luckperms_prefix%%vault_suffix% '
+      - ' &#FB6900ꐁ &fКлан: %nclans_clan_name_board% '
+      - ' &#FB6900ꐀ &fУ/С: &#FB6B08%statistic_player_kills%&7/&#FB6B08%statistic_deaths% '
+      - ' '
+      - ' &#FB8408ꐁ &fБаланс: &#FB8808%vault_eco_balance_commas% &rꐂ'
+      - ' &#FB8408ꐁ &fРилликов: &#FB8808%playerpoints_points_formatted% &rꐃ'
+      - ' &#FB8408ꐀ &fРомашки: &#FB8808%mobcoinsplus_playerbalance_formatted% &rꐄ'
+      - ' '
+      - ' &#FB8408ꐀ &fПинг: &#FB9C08%player_ping% &rꐅ'
+      - ' '
+      - '    <#fabc00>&lWinWorld.pw</#f85a28> '
+      - '' 
+layout:
+  enabled: false
+  direction: COLUMNS
+  default-skin: mineskin:1753261242
+  enable-remaining-players-text: true
+  remaining-players-text: '... and %s more'
+  empty-slot-ping-value: 1000
+  layouts:
+    staff:
+      condition: permission:tab.staff
+      fixed-slots:
+      - '1|&3RAM&f:'
+      - 2|&b%memory-used%MB / %memory-max%MB
+      - '3|&8&m                       '
+      - '4|&3TPS&f:'
+      - 5|&b%tps%
+      groups:
+        staff:
+          condition: permission:tab.staff
+          slots:
+          - 24-40
+        players:
+          slots:
+          - 44-80
+    default:
+      fixed-slots:
+      - '1|&3Website&f:'
+      - 2|&bmyserver.net
+      - '3|&8&m                       '
+      - '4|&3Name&f:'
+      - 5|&b%player%
+      - '7|&3Rank&f:'
+      - '8|Rank: %group%'
+      - '10|&3World&f:'
+      - 11|&b%world%
+      - '13|&3Time&f:'
+      - 14|&b%time%
+      - '21|&3Teamspeak&f:'
+      - 22|&bts.myserver.net
+      - '23|&8&m                       '
+      - '41|&3Store&f:'
+      - 42|&bshop.myserver.net
+      - '43|&8&m                       '
+      groups:
+        staff:
+          condition: permission:tab.staff
+          slots:
+          - 24-40
+        players:
+          slots:
+          - 44-80
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: false
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%plasmovoice_installed%':
+    'true': ' &a●&f '
+    'false': ' &c●&f '
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%essentials_nickname%'
+conditions:
+  check_voice:
+    conditions:
+      - '%voicechat_disabled%=disabled'
+    yes: "&6●"
+    no: "%condition:voicechat_installed%"
+  voicechat_installed:
+    conditions:
+      - '%voicechat_installed%=true'
+    yes: "&a●"
+    no: "%condition:voicechat_not_installed%"
+  voicechat_not_installed:
+    conditions:
+      - '%voicechat_not_installed%=false'
+    yes: "&c●"
+    no: "&c●"
+  nick:
+    conditions:
+    - '%essentials_nickname%=%player%'
+    true: '%essentials_nickname%'
+    false: ~%player%
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Mod
+- Helper
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  spy-servers:
+  - spyserver1
+  - spyserver2
+  server-groups:
+    lobbies:
+    - lobby1
+    - lobby2
+    group2:
+    - server1
+    - server2
+use-bukkit-permissions-manager: false
+use-online-uuid-in-tablist: true
+ping-spoof:
+  enabled: false
+permission-refresh-interval: 1000
+playerlist-objective:
+  enabled: false
+  value: '%ping%'
+  disable-condition: '%world%=disabledworld'
+  fancy-value: '&7Ping: %ping%'
+

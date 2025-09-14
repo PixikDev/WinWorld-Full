@@ -1,0 +1,118 @@
+ProtocolLib Dump
+Timestamp: 03/08/25 19:10:59
+
+ProtocolLib Version: ProtocolLib v5.0.0
+Bukkit Version: 1.16.5-R0.1-SNAPSHOT
+Server Version: git-Airplane-"21fbcb5" (MC: 1.16.5)
+Java Version: 17.0.14
+
+ProtocolLib: com.comphenix.protocol.ProtocolLib@389847f3[
+  statistics=<null>
+  packetTask=9
+  tickCounter=85629
+  configExpectedMod=1
+  updater=com.comphenix.protocol.updater.SpigotUpdater@2e0f2592
+  redirectHandler=com.comphenix.protocol.ProtocolLib$2@5452487f
+  commandProtocol=com.comphenix.protocol.CommandProtocol@ffb4115
+  commandPacket=com.comphenix.protocol.CommandPacket@3eca8f92
+  commandFilter=com.comphenix.protocol.CommandFilter@693e1e6c
+  packetLogging=com.comphenix.protocol.PacketLogging@2fe9a284
+  skipDisable=false
+  isEnabled=true
+  loader=org.bukkit.plugin.java.JavaPluginLoader@7acfbd85
+  server=CraftServer{serverName=GuardSpigot 1.16.5,serverVersion=git-Airplane-"21fbcb5",minecraftVersion=1.16.5}
+  file=plugins/ProtocolLib.jar
+  description=org.bukkit.plugin.PluginDescriptionFile@9c7aa41
+  dataFolder=plugins/ProtocolLib
+  classLoader=PluginClassLoader{plugin=ProtocolLib v5.0.0, pluginEnabled=true, url=plugins/ProtocolLib.jar}
+  naggable=true
+  newConfig=YamlConfiguration[path='', root='YamlConfiguration']
+  configFile=plugins/ProtocolLib/config.yml
+  logger=com.destroystokyo.paper.utils.PaperPluginLogger@6cfc6f04
+]
+Manager: com.comphenix.protocol.injector.PacketFilterManager@64bda849[
+  plugin=ProtocolLib v5.0.0
+  server=CraftServer{serverName=GuardSpigot 1.16.5,serverVersion=git-Airplane-"21fbcb5",minecraftVersion=1.16.5}
+  reporter=com.comphenix.protocol.ProtocolLib$1@509c933d
+  minecraftVersion=(MC: 1.16.5)
+  asyncFilterManager=com.comphenix.protocol.async.AsyncFilterManager@7dcace6d
+  pluginVerifier=com.comphenix.protocol.injector.PluginVerifier@72c11a9f
+  inboundListeners=com.comphenix.protocol.injector.SortedPacketListenerList@7bb70b6e
+  outboundListeners=com.comphenix.protocol.injector.SortedPacketListenerList@4f866a5e
+  registeredListeners=[PacketAdapter[plugin=AntiRelog, sending=ListeningWhitelist[priority=LOWEST, packets=[SET_COOLDOWN[class=PacketPlayOutSetCooldown, id=21]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=MyCommand, sending=EMPTY_WHITELIST, receiving=ListeningWhitelist[priority=NORMAL, packets=[UPDATE_SIGN[class=PacketPlayInUpdateSign, id=46]], gamephase=PLAYING, options=[]]], PacketAdapter[plugin=WorldGuardExtraFlags, sending=ListeningWhitelist[priority=NORMAL, packets=[REMOVE_ENTITY_EFFECT[class=PacketPlayOutRemoveEntityEffect, id=63]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=NClans, sending=ListeningWhitelist[priority=NORMAL, packets=[ENTITY_EQUIPMENT[class=PacketPlayOutEntityEquipment, id=85]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=LiteBans, sending=ListeningWhitelist[priority=NORMAL, packets=[DISCONNECT[class=PacketLoginOutDisconnect, id=0]], gamephase=PLAYING, options=[ASYNC]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=Alice, sending=ListeningWhitelist[priority=MONITOR, packets=[POSITION[class=PacketPlayOutPosition, id=60], RESOURCE_PACK_SEND[class=PacketPlayOutResourcePackSend, id=64], ABILITIES[class=PacketPlayOutAbilities, id=52], TRANSACTION[class=PacketPlayOutTransaction, id=246], HELD_ITEM_SLOT[class=PacketPlayOutHeldItemSlot, id=77], EXPLOSION[class=PacketPlayOutExplosion, id=29], KEEP_ALIVE[class=PacketPlayOutKeepAlive, id=35], ENTITY_VELOCITY[class=PacketPlayOutEntityVelocity, id=84]], gamephase=PLAYING, options=[]], receiving=ListeningWhitelist[priority=MONITOR, packets=[ENTITY_ACTION[class=PacketPlayInEntityAction, id=30], BLOCK_DIG[class=PacketPlayInBlockDig, id=29], STEER_VEHICLE[class=PacketPlayInSteerVehicle, id=31], ABILITIES[class=PacketPlayInAbilities, id=28], HELD_ITEM_SLOT[class=PacketPlayInHeldItemSlot, id=40], RECIPE_DISPLAYED[class=PacketPlayInRecipeDisplayed, id=34], RECIPE_SETTINGS[class=PacketPlayInRecipeSettings, id=33], SPECTATE[class=PacketPlayInSpectate, id=48], ARM_ANIMATION[class=PacketPlayInArmAnimation, id=47], SET_CREATIVE_SLOT[class=PacketPlayInSetCreativeSlot, id=43], BLOCK_PLACE[class=PacketPlayInBlockPlace, id=50], USE_ITEM[class=PacketPlayInUseItem, id=49], CHAT[class=PacketPlayInChat, id=5], SETTINGS[class=PacketPlayInSettings, id=8], CLIENT_COMMAND[class=PacketPlayInClientCommand, id=7], CUSTOM_PAYLOAD[class=PacketPlayInCustomPayload, id=13], USE_ENTITY[class=PacketPlayInUseEntity, id=16], CLOSE_WINDOW[class=PacketPlayInCloseWindow, id=12], WINDOW_CLICK[class=PacketPlayInWindowClick, id=11], LOOK[class=PacketPlayInLook, id=22], POSITION_LOOK[class=PacketPlayInPositionLook, id=21], VEHICLE_MOVE[class=PacketPlayInVehicleMove, id=24], KEEP_ALIVE[class=PacketPlayInKeepAlive, id=18], JIGSAW_GENERATE[class=PacketPlayInJigsawGenerate, id=17], POSITION[class=PacketPlayInPosition, id=20]], gamephase=PLAYING, options=[]]], PacketAdapter[plugin=RecipeGuiDisabler, sending=ListeningWhitelist[priority=NORMAL, packets=[RECIPES[class=PacketPlayOutRecipes, id=61]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST], PacketAdapter[plugin=LiteBans, sending=EMPTY_WHITELIST, receiving=ListeningWhitelist[priority=NORMAL, packets=[CHAT[class=PacketPlayInChat, id=5]], gamephase=PLAYING, options=[ASYNC]]]]
+  packetInjector=com.comphenix.protocol.injector.netty.manager.NetworkManagerPacketInjector@64946c65
+  playerInjectionHandler=com.comphenix.protocol.injector.netty.manager.NetworkManagerPlayerInjector@1efb978a
+  networkManagerInjector=com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector@5d540340
+  debug=false
+  closed=false
+  injected=true
+]
+
+Listeners:
+ru.leymooo.antirelog.util.ProtocolLibUtils$1@54b20d92[
+  types=[CHORUS, ENDER_PEARL]
+  plugin=AntiRelog v3.0.11
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=LOWEST, packets=[SET_COOLDOWN[class=PacketPlayOutSetCooldown, id=21]], gamephase=PLAYING, options=[]]
+]
+it.emmerrei.mycommand.signmenu.SignMenuFactory$1@6a4e0d8f[
+  plugin=MyCommand v5.7.4
+  connectionSide=CLIENT_SIDE
+  receivingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[UPDATE_SIGN[class=PacketPlayInUpdateSign, id=46]], gamephase=PLAYING, options=[]]
+  sendingWhitelist=EMPTY_WHITELIST
+]
+net.goldtreeservers.worldguardextraflags.protocollib.RemoveEffectPacketListener@33823871[
+  plugin=WorldGuardExtraFlags v4.1.5-SNAPSHOT
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[REMOVE_ENTITY_EFFECT[class=PacketPlayOutRemoveEntityEffect, id=63]], gamephase=PLAYING, options=[]]
+]
+ru.Travka.function.impl.glow.GlowListener@321df8f9[
+  plugin=NClans v1.0
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[ENTITY_EQUIPMENT[class=PacketPlayOutEntityEquipment, id=85]], gamephase=PLAYING, options=[]]
+]
+litebans.fT@23efb927[
+  b=litebans.jo@747b0949
+  e=LiteBans v2.14.1
+  plugin=LiteBans v2.14.1
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[DISCONNECT[class=PacketLoginOutDisconnect, id=0]], gamephase=PLAYING, options=[ASYNC]]
+]
+me.nik.alice.j4@4c2b35e[
+  y5=<null>
+  plugin=Alice v1.1.7
+  plugin=Alice v1.1.7
+  connectionSide=BOTH
+  receivingWhitelist=ListeningWhitelist[priority=MONITOR, packets=[ENTITY_ACTION[class=PacketPlayInEntityAction, id=30], BLOCK_DIG[class=PacketPlayInBlockDig, id=29], STEER_VEHICLE[class=PacketPlayInSteerVehicle, id=31], ABILITIES[class=PacketPlayInAbilities, id=28], HELD_ITEM_SLOT[class=PacketPlayInHeldItemSlot, id=40], RECIPE_DISPLAYED[class=PacketPlayInRecipeDisplayed, id=34], RECIPE_SETTINGS[class=PacketPlayInRecipeSettings, id=33], SPECTATE[class=PacketPlayInSpectate, id=48], ARM_ANIMATION[class=PacketPlayInArmAnimation, id=47], SET_CREATIVE_SLOT[class=PacketPlayInSetCreativeSlot, id=43], BLOCK_PLACE[class=PacketPlayInBlockPlace, id=50], USE_ITEM[class=PacketPlayInUseItem, id=49], CHAT[class=PacketPlayInChat, id=5], SETTINGS[class=PacketPlayInSettings, id=8], CLIENT_COMMAND[class=PacketPlayInClientCommand, id=7], CUSTOM_PAYLOAD[class=PacketPlayInCustomPayload, id=13], USE_ENTITY[class=PacketPlayInUseEntity, id=16], CLOSE_WINDOW[class=PacketPlayInCloseWindow, id=12], WINDOW_CLICK[class=PacketPlayInWindowClick, id=11], LOOK[class=PacketPlayInLook, id=22], POSITION_LOOK[class=PacketPlayInPositionLook, id=21], VEHICLE_MOVE[class=PacketPlayInVehicleMove, id=24], KEEP_ALIVE[class=PacketPlayInKeepAlive, id=18], JIGSAW_GENERATE[class=PacketPlayInJigsawGenerate, id=17], POSITION[class=PacketPlayInPosition, id=20]], gamephase=PLAYING, options=[]]
+  sendingWhitelist=ListeningWhitelist[priority=MONITOR, packets=[POSITION[class=PacketPlayOutPosition, id=60], RESOURCE_PACK_SEND[class=PacketPlayOutResourcePackSend, id=64], ABILITIES[class=PacketPlayOutAbilities, id=52], TRANSACTION[class=PacketPlayOutTransaction, id=246], HELD_ITEM_SLOT[class=PacketPlayOutHeldItemSlot, id=77], EXPLOSION[class=PacketPlayOutExplosion, id=29], KEEP_ALIVE[class=PacketPlayOutKeepAlive, id=35], ENTITY_VELOCITY[class=PacketPlayOutEntityVelocity, id=84]], gamephase=PLAYING, options=[]]
+]
+club.without.dereku.recipeguidisabler.RecipeGuiDisabler$1@467c14a0[
+  plugin=RecipeGuiDisabler v1.0-SNAPSHOT
+  connectionSide=SERVER_SIDE
+  receivingWhitelist=EMPTY_WHITELIST
+  sendingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[RECIPES[class=PacketPlayOutRecipes, id=61]], gamephase=PLAYING, options=[]]
+]
+litebans.jV@7936319a[
+  b=litebans.jh@5876ba31
+  i=litebans.jy@746bc137
+  h=litebans.jo@747b0949
+  c=litebans.kI@583e5c2c
+  f=LiteBans v2.14.1
+  plugin=LiteBans v2.14.1
+  connectionSide=CLIENT_SIDE
+  receivingWhitelist=ListeningWhitelist[priority=NORMAL, packets=[CHAT[class=PacketPlayInChat, id=5]], gamephase=PLAYING, options=[ASYNC]]
+  sendingWhitelist=EMPTY_WHITELIST
+]
+
+Plugins Using ProtocolLib:
+WorldGuardExtraFlags by [isokissa3]
+NClans by [n1zamu && Travka]
+Alice by [Nik]
+RecipeGuiDisabler by [Dereku]
+LiteBans by [Ruan]
+AntiRelog by [Leymooo]
+MyCommand by [emmerrei (ivanfromitaly)]

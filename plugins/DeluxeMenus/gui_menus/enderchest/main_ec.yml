@@ -1,0 +1,118 @@
+menu_title: '§fꈁꀀꈂꌖꈂꀁ§0ꈃꄆ&r'
+size: 54
+items:
+  '1linedef':
+    display_name: '&c1 строка'
+    lore:
+    - '&r &r'
+    - '&f  Данная строка &aразблокирована&r'
+    - '&r &r'
+    - '&f  Истечение: &cНикогда&r'
+    - '&r &r'
+    - '&r&f  Вернитесь в &eЭндер-сундук&f,&r'
+    - '&r&f  чтобы положить туда предметы.&r'
+    - '&r &r'
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_commands:
+     - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'
+  '2linedef':
+    display_name: '&c2 строка'
+    lore:
+    - '&r &r'
+    - '&f  Данная строка &aразблокирована&r'
+    - '&r &r'
+    - '&f  Истечение: &cНикогда&r'
+    - '&r &r'
+    - '&r&f  Вернитесь в &eЭндер-сундук&f,&r'
+    - '&r&f  чтобы положить туда предметы.&r'
+    - '&r &r'
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_commands:
+     - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'     
+  '3linedef':
+    display_name: '&c3 строка'
+    lore:
+    - '&r &r'
+    - '&f  Данная строка &aразблокирована&r'
+    - '&r &r'
+    - '&f  Истечение: &cНикогда&r'
+    - '&r &r'
+    - '&r&f  Вернитесь в &eЭндер-сундук&f,&r'
+    - '&r&f  чтобы положить туда предметы.&r'
+    - '&r &r'
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_commands:
+     - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'     
+  '4unlock':
+    display_name: '&c4 строка'
+    lore:
+    - '&r &r'
+    - '&r&f  Данная строка &r&cзаблокирована&r'
+    - '&r &r'
+    - '&r&f  Цены разблокировки &r&c+9 слотов:&r'
+    - '&r&f  До след. вайпа &r&8- &r&c100 рилликов&r'
+    - '&r&f  Навсегда &r&8- &r&c1000 рилликов&r'
+    - '&r &r'
+    - '&r&f  &r&cНажмите&f, чтобы увеличить&r'
+    - '&r&f  количество строк в сундуке&r'
+    - '&r &r'
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_commands:
+     - '[message] &6Эндерчест &7» &cЭта строка уже разблокирована'    
+     

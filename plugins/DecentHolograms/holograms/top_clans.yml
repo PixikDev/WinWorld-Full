@@ -1,0 +1,34 @@
+location: world_spawn:58.384:64.000:-6.515
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fТоп кланов на сервере %winutils_grief%'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&c#1 &f%nclans_clan_top_name_1%  %nclans_clan_top_exp_1% &eꐆ'
+    height: 0.3
+  - content: '&c#2 &f%nclans_clan_top_name_2%  %nclans_clan_top_exp_2% &eꐆ'
+    height: 0.3
+  - content: '&c#3 &f%nclans_clan_top_name_3%  %nclans_clan_top_exp_3% &eꐆ'
+    height: 0.3
+  - content: '&c#4 &f%nclans_clan_top_name_4%  %nclans_clan_top_exp_4% &eꐆ'
+    height: 0.3
+  - content: '&c#5 &f%nclans_clan_top_name_5%  %nclans_clan_top_exp_5% &eꐆ'
+    height: 0.3
+  - content: '&c#6 &f%nclans_clan_top_name_6%  %nclans_clan_top_exp_6% &eꐆ'
+    height: 0.3
+  - content: '&c#7 &f%nclans_clan_top_name_7%  %nclans_clan_top_exp_7% &eꐆ'
+    height: 0.3
+  - content: '&c#8 &f%nclans_clan_top_name_8%  %nclans_clan_top_exp_8% &eꐆ'
+    height: 0.3
+  - content: '&c#9 &f%nclans_clan_top_name_9%  %nclans_clan_top_exp_9% &eꐆ'
+    height: 0.3
+  - content: '&c#10 &f%nclans_clan_top_name_10%  %nclans_clan_top_exp_10% &eꐆ'
+    height: 0.3
+  actions: {}

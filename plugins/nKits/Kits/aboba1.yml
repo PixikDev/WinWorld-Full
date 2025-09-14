@@ -1,0 +1,61 @@
+Name: aboba1
+Cooldown: 0
+Permission: nKits.kits.aboba1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LIME_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/8VVTXPTMBBdx0lpTCmFfoS0DDP8DY6UHrgCd81WXtuayJKQFIb8+6o0tjOxp0TmgI+at3r73j55M4AMTj9LzVd3ygu/+YHlHGZfPdUuA4CbBKbfpfaQwOxWr5VPjmEicvhYC0XcYuE/SVETcx7DQc5Kic4xg4pgW5nsVV53lV4HGqYLtlb5RqiyKZmMJkvbygxSj2UK2TcyKOytdj7ISeZwcqd4hcrXpPwfidMnkkVHgj/XyLAohAqGTCCVv2QgeIJddDBjQ//cC622mOkWc9lhLDkjLO6A0v5Fa3VvCVfBgRaTwtEXrLEkePx6zinyFVnhiVUka/KN/mmj/6wnqtQyJ8U4Wqtb/Kzn1w7tgFeTw014Xt8W9GFIEq/IeSPRt2M9Gh2IF/HpOx5NNt9zfycHpHLG7SbUygad/bP3FCLKBSnehHQW4/3NkPdG8BX+bhW93FN01csTGiNb+Elk/F49axhZZghta9hp5O2v45o/i5xHevg8zjuMq9AaRc6NGdliaGQ743oTFcC3o4N+Hv+qLkaTXf7nf9T7IdMllWXAuqbJq8hsLv6yqNKDFlVOxlfBOivCY9nbL8sOVhA+9s0KlLITOInYaPHLajnk2r3WvrXs3ehELOPjdx1PBvAAG1Qpqh0JAAA=
+      blockMaterial: LIME_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

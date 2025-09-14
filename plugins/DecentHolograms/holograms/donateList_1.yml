@@ -1,0 +1,40 @@
+location: world_spawn:-9.778:71.000:0.522
+enabled: true
+display-range: 24
+update-range: 24
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fДонат на сервере &6&lWINWORLD'
+    height: 0.6
+  - content: '&7Цены на донат:'
+    height: 0.3
+  - content: '&7[<#FD00E4>&lDRAGON</#C324FB>&7] - &f&l99р'
+    height: 0.3
+  - content: '&7[<#FF5D0E>&lTIGER</#F67D00>&7] - &f&l175р'
+    height: 0.3
+  - content: '&7[<#282828>&lBUNNY</#686868>&7] - &f&l225р'
+    height: 0.3
+  - content: '&7[<#D3D3D3>&lRABBIT</#FFFFFF>&7] - &f&l275р'
+    height: 0.3
+  - content: '&7[&6&lD.HELPER&7] - &f&l700р'
+    height: 0.3
+  - content: '&7[<#0A6C0B>&lHYDRA</#0F9E10>&7] - &f&l500р'
+    height: 0.3
+  - content: '&7[<#00FF00>&lCOBRA</#72FF72>&7] - &f&l800р'
+    height: 0.3
+  - content: '&7[<#FB9C08>&lWINNER</#FBF408>&7] - &f&l1500р'
+    height: 0.3
+  - content: '&7[<#08FB40>&lSPONSOR</#64FB08>&7] - &f&l2800р'
+    height: 0.6
+  - content: '&7[&61 Супер кейс&7] - &f&l136p'
+    height: 0.3
+  - content: '&7[&63 Супер кейса&7] - &f&l190p'
+    height: 0.3
+  - content: '&7[&65 Супер кейсов&7] - &f&l370p'
+    height: 0.6
+  - content: '&7Покупка на сайте: &6&lWINWORLD.PW'
+    height: 0.3
+  actions: {}

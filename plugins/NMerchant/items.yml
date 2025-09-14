@@ -1,0 +1,350 @@
+dragon_breath:
+  item: DRAGON_BREATH
+  enchanted: false
+  name: "&eДраконье дыхание"
+  price: 50000
+  limit: 7
+  count: 16
+  slot: 1
+  page: 1
+  click-commands:
+    - "console;give %player% dragon_breath 16"
+  lore:
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: true
+    enchanted: false
+    potions: true
+diamond_block:
+  item: DIAMOND_BLOCK
+  enchanted: false
+  name: "&fАлмазный блок"
+  price: 150000
+  limit: 5
+  count: 16
+  slot: 2
+  page: 1
+  click-commands:
+    - "console;give %player% diamond_block 16"
+  lore:
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: true
+    enchanted: false
+    potions: true 
+iron_block:
+  item: IRON_BLOCK
+  enchanted: false
+  name: "&fЖелезный блок"
+  price: 50000
+  limit: 5
+  count: 16
+  slot: 3
+  page: 1
+  click-commands:
+    - "console;give %player% iron_block 16"
+  lore:
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: true
+    enchanted: false
+    potions: true      
+gold_block:
+  item: GOLD_BLOCK
+  enchanted: false
+  name: "&fЗолотой блок"
+  price: 20000
+  limit: 3
+  count: 16
+  slot: 4
+  page: 1
+  click-commands:
+    - "console;give %player% gold_block 16"
+  lore:
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: true
+    enchanted: false
+    potions: true
+bow:
+  item: BOW
+  enchanted: true
+  name: "&bЛук"
+  price: 2000000
+  limit: 1
+  count: 1
+  slot: 5
+  page: 1
+  click-commands:
+    - "console;xkit bowtorg %player%"
+  lore:
+    - "&7Откидывание V"
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: true
+    potions: true   
+levitationpotion:
+  item: POTION
+  enchanted: true
+  name: "&f&oБыстрее ветра"
+  customColor: 152,25,255
+  price: 500000
+  limit: 4
+  count: 1
+  slot: 6
+  page: 1
+  click-commands:
+    - "console;xkit potion2 %player%"
+  lore:
+    - "&cЛевитация II (0:12)"
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: true
+    potions: true     
+shield:
+  item: SHIELD
+  enchanted: true
+  name: "&bЩит"
+  price: 800000
+  limit: 1
+  count: 1
+  slot: 7
+  page: 1
+  click-commands:
+    - "console;xkit shieldtorg %player%"
+  lore:
+    - "&7Починка"
+    - "&7Шипы III"
+    - "&7Прочность X"
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: true
+    potions: true        
+spawner:
+  item: SPAWNER
+  enchanted: false
+  name: "&fРассадник"
+  price: 150000
+  limit: 5
+  count: 1
+  slot: 10
+  page: 1
+  click-commands:
+    - "console;give %player% spawner 1"
+  lore:
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: false
+    potions: true       
+firework:
+  item: FIREWORK_ROCKET
+  enchanted: false
+  name: "&fФейерверк"
+  price: 15000
+  limit: 15
+  count: 64
+  slot: 11
+  page: 1
+  click-commands:
+    - "console;give %player% fireworktorg 1"
+  lore:
+    - "&7Длительность полёта: 1"
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: false
+    potions: true     
+knigaproklyatka:
+  item: ENCHANTED_BOOK
+  enchanted: true
+  name: "&eЧародейская книга"
+  price: 20000
+  limit: 5
+  count: 1
+  slot: 12
+  page: 1
+  click-commands:
+    - "console;xkit knigaproklyatka %player%"
+  lore:
+    - "&cПроклятие утраты"
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: true
+    potions: true  
+knigapochinka:
+  item: ENCHANTED_BOOK
+  enchanted: true
+  name: "&eЧародейская книга"
+  price: 50000
+  limit: 5
+  count: 1
+  slot: 13
+  page: 1
+  click-commands:
+    - "console;xkit pochinka %player%"
+  lore:
+    - "&7Починка"
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: true
+    potions: true  
+knigashipi3:
+  item: ENCHANTED_BOOK
+  enchanted: true
+  name: "&eЧародейская книга"
+  price: 50000
+  limit: 5
+  count: 1
+  slot: 14
+  page: 1
+  click-commands:
+    - "console;xkit knigashipi3 %player%"
+  lore:
+    - "&7Шипы III"
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: true
+    potions: true  
+knigashipi1:
+  item: ENCHANTED_BOOK
+  enchanted: true
+  name: "&eЧародейская книга"
+  price: 50000
+  limit: 5
+  count: 1
+  slot: 15
+  page: 1
+  click-commands:
+    - "console;xkit knigashipi1 %player%"
+  lore:
+    - "&7Шипы I"
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: true
+    potions: true    
+beacon:
+  item: BEACON
+  enchanted: false
+  name: "&bМаяк"
+  price: 50000
+  limit: 3
+  count: 1
+  slot: 16
+  page: 1
+  click-commands:
+    - "console;give %player% beacon 1"
+  lore:
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: false
+    potions: true     
+ramka:
+  item: END_PORTAL_FRAME
+  enchanted: false
+  name: "&fРамка портала в Энд"
+  price: 500000
+  limit: 2
+  count: 12
+  slot: 19
+  page: 1
+  click-commands:
+    - "console;give %player% end_portal_frame 12"
+  lore:
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: false
+    potions: true      
+endcrystal:
+  item: END_CRYSTAL
+  enchanted: true
+  name: "&bКристалл Энда"
+  price: 250000
+  limit: 2
+  count: 16
+  slot: 20
+  page: 1
+  click-commands:
+    - "console;give %player% end_crystal 16"
+  lore:
+    - "  &7Цена: &6$%price%"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "&r"
+    - "&6Нажмите, чтобы купить предмет"
+  hide:
+    atributes: false
+    enchanted: true
+    potions: true      
+arrow_two:
+  item: ARROW
+  enchanted: false
+  name: "&fСтрела говна 2"
+  customColor: 152,25,255
+  price: 250000
+  limit: 3
+  slot: 2
+  page: 2
+  count: 16
+  click-commands:
+    - "console;give %player% arrow 16"
+  lore:
+    - "  &7Цена: &6%price%"
+    - "  &7Куплено: &6%current_limit%/%limit%"
+  hide:
+    atributes: false
+    enchanted: false
+    potions: true

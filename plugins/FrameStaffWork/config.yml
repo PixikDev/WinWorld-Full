@@ -1,0 +1,623 @@
+help:
+- ''
+- '&6StaffWork &8» &fПомощь по командам'
+- ' &8&l● &7/sw &8- &fВключить/выключить режим патруля'
+- ' &8&l● &7/sw stats &8- &fВаша статистика'
+- ' &8&l● &7/sw online &8- &fПосмотреть кто на данынй момент работает'
+- ' &8&l● &7/sw chat &8- &fВключить режим стафф чат'
+- ' &8&l● &7/sw alert <сообщение> &8- &fОтправить сообщение всему персоналу'
+- ' &8&l● &7/sw reload &8- &fПерезагрузка конфига'
+- ' &8&l● &7/sw addvk <ник> <айди вк> &8- &fПерезагрузка конфига'
+- ' &8&l● &7/sw delvk <ник> <айди вк> &8- &fУдалить из списка'
+- ' &8&l● &7/sw need set <DAY/WEEK/MONTH> <BAN/MUTES> <число> &8- &fУстановить норму'
+- ' &8&l● &7/sw help &8- &fПомощь по командам'
+- ''
+perms:
+  view: true
+  work: true
+  admin: true
+permission_message: '&6StaffWork &8» &cУ вас недосточно прав.'
+permissions:
+  work: staffwork.use
+  view: staffwork.view
+  admin: staffwork.admin
+database:
+  mode: mysql
+  mysql-settings:
+    host: 46.174.52.192
+    database: s3_staffwork
+    user: u3_8Nbhm78sIE
+    password: KW^xSgSWzwHXFLfkVNC^D9xK
+    port: 3306
+staffwork:
+  enabled: '&6StaffWork &8» &fРежим работы - &aвключен&f.'
+  disbaled: '&6StaffWork &8» &fРежим работы - &cвыключен&f.'
+  enabled_message: ''
+  disabled_message: ''
+stats:
+  load: '&eПодсчитываем статистику...'
+  not_user: '&cТакого пользователя не существует!'
+  usage: '§x§F§B§0§8§0§8§lS§x§F§B§1§C§0§B§lt§x§F§C§3§1§0§E§la§x§F§C§4§5§1§1§lf§x§F§D§5§A§1§4§lf§x§F§D§6§E§1§8§lW§x§F§E§8§3§1§B§lo§x§F§E§9§7§1§E§lr§x§F§F§A§C§2§1§ll§x§F§F§C§0§2§4§lk:
+    &fДоступно: &7DAY/WEEK/MONTH'
+  all:
+    title: '&fСтатистика: &6&lВСЁ ВРЕМЯ'
+    lore:
+    - ''
+    - '&fВремя в режиме патруля: &d{$played}'
+    - '&fБанов: &c{$bans}'
+    - '&fМутов: &9{$mutes}'
+    - '&fКиков: &e{$kicks}'
+    - '&fРазбанов: &a{$unbans}'
+    - '&fРазмутов: &b{$unmutes}'
+    - ''
+  month:
+    title: '&fСтатистика: &6&lМЕСЯЦ'
+    lore:
+    - ''
+    - '&eНорма за месяц: &fБанов: &c%framestaffwork_need_month_bans% &8&l| &fМутов:
+      &9%framestaffwork_need_month_mutes%'
+    - '&fНорма: %framestaffwork_need_month_complete%'
+    - ''
+    - '&fВремя в режиме патруля: &d{$played}'
+    - '&fБанов: &c{$bans}'
+    - '&fМутов: &9{$mutes}'
+    - '&fКиков: &e{$kicks}'
+    - '&fРазбанов: &a{$unbans}'
+    - '&fРазмутов: &b{$unmutes}'
+    - ''
+  week:
+    title: '&fСтатистика: &6&lНЕДЕЛЮ'
+    lore:
+    - ''
+    - '&eНорма за неделю: &fБанов: &c%framestaffwork_need_week_bans% &8&l| &fМутов:
+      &9%framestaffwork_need_week_mutes%'
+    - '&fНорма: %framestaffwork_need_week_complete%'
+    - '&fВремя в режиме патруля: &d{$played}'
+    - '&fБанов: &c{$bans}'
+    - '&fМутов: &9{$mutes}'
+    - '&fКиков: &e{$kicks}'
+    - '&fРазбанов: &a{$unbans}'
+    - '&fРазмутов: &b{$unmutes}'
+    - ''
+  day:
+    title: '&fСтатистика: &6&lДЕНЬ'
+    lore:
+    - ''
+    - '&eНорма за день: &fБанов: &c%framestaffwork_need_day_bans% &8&l| &fМутов: &9%framestaffwork_need_day_mutes%'
+    - '&fНорма: %framestaffwork_need_day_complete%'
+    - '&fВремя в режиме патруля: &d{$played}'
+    - '&fБанов: &c{$bans}'
+    - '&fМутов: &9{$mutes}'
+    - '&fКиков: &e{$kicks}'
+    - '&fРазбанов: &a{$unbans}'
+    - '&fРазмутов: &b{$unmutes}'
+    - ''
+  banlist:
+    title: '&cБанлист'
+    lore:
+    - ''
+    - ' &fНажмите, чтобы просмотреть'
+    - ' &fсписок наказаний'
+    - ''
+    - '&eНажмите, чтобы открыть'
+online:
+  title: Работающие на данный момент в патруле
+  player_item:
+    title: '%vault_prefix% %player_name%'
+    lore:
+    - ''
+    - '&eСтатистика за этот период:'
+    - ' &fОтработал: &e{$played}'
+    - ' &fБанов: &e{$bans}'
+    - ' &fМутов: &e{$mutes}'
+    - ' &fКиков: &e{$kicks}'
+    - ' &fРазбанов: &e{$unbans}'
+    - ' &fРазмутов: &e{$unmutes}'
+    - ''
+  not_online:
+    title: '&cУпс...'
+    lore:
+    - ''
+    - ' &fНа данный момент никто'
+    - ' &fне работает'
+    - ''
+chats:
+  only: '&6StaffChat &8» &fЧтобы включить StaffChat вы должны войти в режим работы!'
+  enabled: '&6StaffChat &8» &fВы включили чат для администрации.'
+  disabled: '&6StaffChat &8» &fВы выключили чат для администрации.'
+  chat: '&8(&6SC&8) &6grief-1 %vault_prefix%{$name}&8: &a{$message}'
+  visible-groups:
+  - xui
+  - xuiii
+alert:
+  usage: '§x§F§B§0§8§0§8§lS§x§F§B§1§C§0§B§lt§x§F§C§3§1§0§E§la§x§F§C§4§5§1§1§lf§x§F§D§5§A§1§4§lf§x§F§D§6§E§1§8§lW§x§F§E§8§3§1§B§lo§x§F§E§9§7§1§E§lr§x§F§F§A§C§2§1§ll§x§F§F§C§0§2§4§lk:
+    &fОшибка, пишите - &7/sw alert <сообщение>'
+  actions:
+  - '[MESSAGE] %vault_prefix% {$name} отправил вам ВАЖНОЕ СООБЩЕНИЕ: {$message}'
+  - '[TITLE] ПОСМОТРИ В ЧАТ'
+  - '[ACTIONBAR] ПОСМОТРИ В ЧАТ'
+  visible-groups:
+  - helper
+  - offhelper
+  - sthelper
+  - offsthelper
+  - mlmoder
+  - offmlmoder
+  - moder
+  - offmoder
+  - moderplus
+  - offmoderplus
+  - stmoder
+  - offstmoder
+  - glmoder
+  - offglmoder
+  - offassistant
+  - assistant
+  - ytadmin
+  - mladmin
+  - mladminkp
+  - developer
+  - admin
+worker-groups:
+  offhelper:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name} parent add helper
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove helper
+  offsthelper:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name} parent add sthelper
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove sthelper
+  offmlmoder:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name} parent add mlmoder
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove mlmoder
+  offmoder:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name} parent add moder
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove moder
+  offmoderplus:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name} parent add moderplus
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove moderplus
+  offstmoder:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name} parent add stmoder
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove stmoder
+  offglmoder:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name} parent add glmoder
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove glmoder
+  offassistant:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name} parent add assistant
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove assistant
+  offmladmin:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  offmladminkp:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  offdeveloper:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name} parent
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  offadmin:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name} parent
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  offsponsor:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name} parent
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  helper:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove helper
+  sthelper:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove sthelper
+  mediaadmin:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  mlmoder:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove mlmoder
+  moder:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove moder
+  moderplus:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove moderplus
+  stmoder:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove stmoder
+  glmoder:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove glmoder
+  assistant:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name} parent remove assistant
+  mladmin:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  mladminkp:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  admin:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  coder:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  sponsor:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  donadmin:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  ghost:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  developer:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+  winner:
+    enable:
+      prefix: ''
+      switch-commands-in-enable:
+      - lp user {$name}
+    disable:
+      prefix: ''
+      switch-commands-in-disable:
+      - lp user {$name}
+need:
+  command:
+    usage: '§x§F§B§0§8§0§8§lS§x§F§B§1§C§0§B§lt§x§F§C§3§1§0§E§la§x§F§C§4§5§1§1§lf§x§F§D§5§A§1§4§lf§x§F§D§6§E§1§8§lW§x§F§E§8§3§1§B§lo§x§F§E§9§7§1§E§lr§x§F§F§A§C§2§1§ll§x§F§F§C§0§2§4§lk:
+      &fОшибка, пишите - &7/sw need set <DAY/WEEK/MONTH> <BANS/MUTES> <число>'
+    not_number: '&cВведите число!'
+    success: '§x§F§B§0§8§0§8§lS§x§F§B§1§C§0§B§lt§x§F§C§3§1§0§E§la§x§F§C§4§5§1§1§lf§x§F§D§5§A§1§4§lf§x§F§D§6§E§1§8§lW§x§F§E§8§3§1§B§lo§x§F§E§9§7§1§E§lr§x§F§F§A§C§2§1§ll§x§F§F§C§0§2§4§lk:
+      &fВы успешно поменяли значение!'
+  month:
+    bans: 775
+    mutes: 620
+    placeholder:
+      success: '&aВыполнена норма'
+      cancel: '&cНе выполнена.'
+  week:
+    bans: 175
+    mutes: 140
+    placeholder:
+      success: '&aВыполнена норма'
+      cancel: '&cНе выполнена.'
+  day:
+    bans: 25
+    mutes: 20
+    placeholder:
+      success: '&aВыполнена норма'
+      cancel: '&cНе выполнена.'
+reload: '&6StaffWork &8» &fКонфигурация &aуспешно &fперезагружена!'
+addvk:
+  usage: '§x§F§B§0§8§0§8§lS§x§F§B§1§C§0§B§lt§x§F§C§3§1§0§E§la§x§F§C§4§5§1§1§lf§x§F§D§5§A§1§4§lf§x§F§D§6§E§1§8§lW§x§F§E§8§3§1§B§lo§x§F§E§9§7§1§E§lr§x§F§F§A§C§2§1§ll§x§F§F§C§0§2§4§lk:
+    &fОшибка, пишите - &7/sw addvk <ник> <айди вк>'
+  not_number: '&cВведите цифровое айди!'
+  already: '&cДанный пользователь уже добавлен!'
+  success: '§x§F§B§0§8§0§8§lS§x§F§B§1§C§0§B§lt§x§F§C§3§1§0§E§la§x§F§C§4§5§1§1§lf§x§F§D§5§A§1§4§lf§x§F§D§6§E§1§8§lW§x§F§E§8§3§1§B§lo§x§F§E§9§7§1§E§lr§x§F§F§A§C§2§1§ll§x§F§F§C§0§2§4§lk:
+    &fВы успешно добавили пользователя'
+delvk:
+  usage: '§x§F§B§0§8§0§8§lS§x§F§B§1§C§0§B§lt§x§F§C§3§1§0§E§la§x§F§C§4§5§1§1§lf§x§F§D§5§A§1§4§lf§x§F§D§6§E§1§8§lW§x§F§E§8§3§1§B§lo§x§F§E§9§7§1§E§lr§x§F§F§A§C§2§1§ll§x§F§F§C§0§2§4§lk:
+    &fОшибка, пишите - &7/sw delvk <ник>'
+  not_number: '&cВведите цифровое айди!'
+  not_have: '&cПользователь не найден!'
+  success: '§x§F§B§0§8§0§8§lS§x§F§B§1§C§0§B§lt§x§F§C§3§1§0§E§la§x§F§C§4§5§1§1§lf§x§F§D§5§A§1§4§lf§x§F§D§6§E§1§8§lW§x§F§E§8§3§1§B§lo§x§F§E§9§7§1§E§lr§x§F§F§A§C§2§1§ll§x§F§F§C§0§2§4§lk:
+    &fВы успешно добавили пользователя'
+banlist:
+  title: Банлист
+  item:
+    title: '&cДействие #{$number}'
+    lore:
+    - ''
+    - ' &fТип наказания: &a{$type}'
+    - ' &fВремя наказания: &a{$time}'
+    - ' &fПричина: &a{$reason}'
+    - ''
+  not_bans:
+    title: '&cУпс...'
+    lore:
+    - ''
+    - ' &fНа данный момент нет'
+    - ' &fнаказаний'
+    - ''
+vk:
+  use: false
+  users:
+    nicknames:
+      funnylegend: 583540391
+      zaktasi: 590228020
+      normalnoznaal: 777678119
+      yt_staso4egtr: 266741347
+    ids:
+    - 583540391
+    - 590228020
+    - 777678119
+    - 266741347
+  admins:
+  - 583540391
+  - 590228020
+  kick:
+    usage: 🚫 Ошибка, пишите - .kick <ник>
+    success: ✅ Вы успешно очистили данные пользователя
+  need:
+    usage: 🚫 Ошибка, пишите - .need set <DAY/WEEK/MONTH> <BANS/MUTES> <число>
+    not_number: ❗Введите число!
+    success: ✅ Вы успешно поменяли значение!
+  online: 👥 На данный момент работает {$players} игроков
+  alert:
+    usage: ❗Ошибка, пишите - .alert <сообщение>
+    success: ✅ Сообщение успешно отправлено на сервер!
+    actions:
+    - '[MESSAGE] &6&lSTAFF-ALERT: &3VK &fотправил вам &f&nВАЖНОЕ СООБЩЕНИЕ: {$message}'
+    - '[TITLE] &3VK: &r{$message}'
+    - '[ACTIONBAR] &3VK: &r{$message}'
+    visible-groups:
+    - admin
+    - helper
+    - moder
+  delvk:
+    usage: ❗Ошибка, пишите - .delvk <айди вк>
+    not_number: ❗Введите цифровое айди!
+    not_have: ❗Пользователь не найден!
+    success: ✅ Вы успешно убрали пользователя
+  addvk:
+    usage: ❗Ошибка, пишите - .addvk <ник> <айди вк>
+    not_number: ❗Введите цифровое айди
+    already: ❗Данный пользователь уже добавлен!
+    success: ✅ Вы успешно добавили пользователя!
+  help:
+  - ''
+  - 'Помощь по командам:'
+  - ' .starts <ник> [DAY/WEEK/MONTH] - Посмотреть статистику'
+  - ' .addvk <ник> <айди вк> - Дать доступ к боту пользователю'
+  - ' .delvk <айди вк> - Убрать из бота пользователя'
+  - ' .alert <сообщение> - Отправить сообщение администрации на сервере'
+  - ' .kick <ник> - Очистить данные игрока с БД'
+  - ' .online - Список работающих в патруле'
+  - ''
+  stats:
+    usage: ❗Ошибка, пишите - .stats <ник> DAY/WEEK/MONTH
+    all:
+    - '👤 Сотрудник {$name}, статистика за всё время: '
+    - '⌚ Отыграно за всё время: {$played}'
+    - '⛔ Банов: {$bans}'
+    - '🔇 Мутов: {$mutes}'
+    - '✅ Разбанов: {$unbans}'
+    - '♻ Размутов: {$unmutes}'
+    - '❗ Киков: {$kicks}'
+    month:
+    - '👤 Сотрудник {$name}, статистика за месяц: '
+    - '⌚ Отыграно за месяц: {$played}'
+    - '⛔ Банов: {$bans}'
+    - '🔇 Мутов: {$mutes}'
+    - '✅ Разбанов: {$unbans}'
+    - '♻ Размутов: {$unmutes}'
+    - '❗ Киков: {$kicks}'
+    week:
+    - '👤 Сотрудник {$name}, статистика за неделю: '
+    - '⌚ Отыграно за неделю: {$played}'
+    - '⛔ Банов: {$bans}'
+    - '🔇 Мутов: {$mutes}'
+    - '✅ Разбанов: {$unbans}'
+    - '♻ Размутов: {$unmutes}'
+    - '❗ Киков: {$kicks}'
+    day:
+    - '👤 Сотрудник {$name}, статистика за день: '
+    - '⌚ Отыграно за день: {$played}'
+    - '⛔ Банов: {$bans}'
+    - '🔇 Мутов: {$mutes}'
+    - '✅ Разбанов: {$unbans}'
+    - '♻ Размутов: {$unmutes}'
+    - '❗ Киков: {$kicks}'
+deny-commands:
+- /god
+- /tempmute
+- /mute
+- /tempipmute
+- /tempmuteip
+- /muteip
+- /mutelist
+- /kick
+- /kickall
+- /tempban
+- /tempipban
+- /tempunban
+- /banip
+- /ban
+- /banlist
+- /tempunmute
+- /unban
+- /unbanip
+- /unmute
+- /unmuteip
+- /jail
+- /warn
+- /unwarn
+- /unjail
+- /fastpush
+- /fpush
+- /fmute
+- /fastmute
+- /check
+- /anycheck
+- /canydesk
+deny-command-message: '&6StaffWork &7» &cНет прав &8(/sw)'
+constants:
+  day: '192'
+  month: '7'
+  week: '28'

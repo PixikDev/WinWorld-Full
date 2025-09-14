@@ -1,0 +1,22 @@
+location: world_spawn:20.393:63.000:-26.519
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#FB6F08Премиум Афк зона'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fНаходитесь в данной афк зоне'
+    height: 0.3
+  - content: '&fи получите каждые &#FB6F0815 минут'
+    height: 0.3
+  - content: '&#FB6F08⬇ &fпо &#FB6F0860 &fрилликов! &#FB6F08⬇'
+    height: 0.3
+  - content: '&7Покупка на сайте - &#FB6F08www.WinWorld.pw'
+    height: 0.3
+  actions: {}

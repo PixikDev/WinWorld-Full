@@ -1,0 +1,102 @@
+Name: rune9
+Cooldown: 0
+Permission: greatkits.kits.rune9
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Шар
+        Посейдона 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"},{"italic":false,"color":"dark_purple","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"},{"italic":false,"color":"dark_purple","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"   +20%
+        к стойкости"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"   +25%
+        к здоровью плаванья"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"   +9.0
+        к здоровью"}],"text":""}'
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 9.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: cf35d874-a7e2-4b21-ac89-804505bf9bea
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.25
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 148bb3b2-aa90-4373-88fb-a3a11a8032ec
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 853d1a15-2c10-415b-b4de-8f8d908cef5b
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PPU7DMBzF/yCQSuAIHAAxuSQN6sCA6JetOiaNm8TZ+uEqTexSpQnCOQUn6NoLsDIycwUmOAE7Gdne0+/9hmcBWHAR5JVSj8XTaq2kBVaTtrIo13J3Bq1SvpRVIXcWABy14DScqUrCmzQEJXGKljFRC4PdpvMAKYaz7S3ehGb+gF2sGz66d8em+2/bKWdRRwmbpMnGr+Y6RGN7ouRo0l7o6bPQYSYykgrupR7vI8p9h/Wmtldjhw37hg0TTesceRojWvuGRaLtaZLTDNe0N8gZH2jBqU2jxslCTW+wIwLSXcXoDuAcjvGyOXLymX7t/Wt8+fpz9XH4fv8F+ANzSek3CgEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

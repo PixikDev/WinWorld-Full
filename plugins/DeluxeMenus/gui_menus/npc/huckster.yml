@@ -1,0 +1,818 @@
+menu_title: '§fꈁꀀꈂꍈꈂꀁ§0ꈃꄅ'
+size: 54
+items:
+  'цыганский_щит':
+    material: SHIELD
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 10
+    display_name: '&6Цыганский щит'
+    lore:
+      - '&7Шипы X'
+      - '&cПроклятье утраты'
+      - '&6Неразрушимый'
+      - ''
+      - '&fЦена: &699 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 99
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 99'
+      - '[console] xkit shield %player_name%'
+      - '[refresh]'
+  'лопата_песочника':
+    material: NETHERITE_SHOVEL
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 11
+    display_name: '&6&lЛопата &8Песочника'
+    lore:
+      - '&7Эффективность VII'
+      - '&7Прочность III'
+      - '&7Удача III'
+      - '&cПроклятье утраты'
+      - ''
+      - '&fЦена: &659 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 59
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 59'
+      - '[console] xkit lapata %player_name%'
+      - '[refresh]'
+  'везунчик':
+    material: NETHERITE_PICKAXE
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 12
+    display_name: '&5&lВезунчик'
+    lore:
+      - '&7Починка'
+      - '&7Удача V'
+      - '&7Прочность III'
+      - '&cПроклятье утраты'
+      - ''
+      - '&fЦена: &6149 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 149
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 149'
+      - '[console] xkit kirka %player_name%'
+      - '[refresh]'
+  'светлячок':
+    material: ENCHANTED_BOOK 
+    slot: 13
+    display_name: '&6Чародейская книга'
+    lore:
+      - '&7Светлячок (Подсвечивает игрока при ударе)'
+      - ''
+      - '&fЦена: &639 &rꐄ'
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 39
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 39'
+      - '[console] winenchant LIGHTNER_BOOK %player_name%'
+      - '[refresh]'
+  'арбалет_домера':
+    material: CROSSBOW 
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1  
+    slot: 14
+    display_name: '&6Арбалет Домера'
+    lore:
+      - '&7Починка'
+      - '&7Тройной выстрел'
+      - '&7Пронзающия стрела IV'
+      - '&7Сила V'
+      - '&7Быстрая перезарядка III'
+      - '&7Прочность III'
+      - '&cПроклятье утраты'
+      - ''
+      - '&fЦена: &6199 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 199
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 199'
+      - '[console] xkit ARBALET %player_name%'
+      - '[refresh]'
+  'паучее_чутьё':
+    material: POTION
+    nbt_int: CustomPotionColor:16711680
+    hide_effects: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1  
+    slot: 15
+    display_name: '&c&lПаучее Чутьё'
+    lore:
+      - '&9Скорость III (1:00)'
+      - '&9Спешка (0:15)'
+      - '&9Сила III (1:00)'
+      - '&9Огнестойкость (10:00)'
+      - '&cТошнота (0:40)'
+      - ''
+      - '&5При применении:'
+      - '&9+60% Скорость'
+      - '&9+10% Скорость атаки'
+      - '&9+9 Урон'
+      - ''
+      - '&fЦена: &6299 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 299
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 299'
+      - '[console] xkit pauk %player_name%'
+      - '[refresh]'
+  'клирик':
+    material: TIPPED_ARROW
+    amount: 2
+    hide_effects: true
+    slot: 16
+    display_name: '&f&lКлирик'
+    lore:
+      - '&9Очищает все эффекты с врага'
+      - ''
+      - '&fЦена: &6149 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 149
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 149'
+      - '[console] nitems CLEAR_ARROW %player_name%'
+      - '[console] nitems CLEAR_ARROW %player_name%'
+      - '[refresh]'
+  'бур':
+    material: ENCHANTED_BOOK 
+    slot: 19
+    display_name: '&6Чародейская книга'
+    lore:
+      - '&7Бур (Копает 3х3)'
+      - ''
+      - '&fЦена: &6599 &rꐄ'
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 599
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 599'
+      - '[console] winenchant DRILL_BOOK %player_name%'
+      - '[refresh]'
+  'секира':
+    material: NETHERITE_AXE
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 20
+    display_name: '&6&lСекира'
+    lore:
+      - '&7Эффективность X'
+      - '&7Прочность III'
+      - '&7Удача III'
+      - '&cПроклятье утраты'
+      - ''
+      - '&fЦена: &6119 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 119
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 119'
+      - '[console] xkit sekira %player_name%'
+      - '[refresh]'
+  'анти_полет':
+    material: FIREWORK_STAR
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 21
+    display_name: '&5Анти Полет'
+    lore:
+      - '&cПроклятие утраты'
+      - ''
+      - '&7Когда во второй руке:'
+      - '  &7Когда во второй руке'
+      - '  &7При нажатии SHIFT'
+      - '  &9Запрещает полеты в радиусе 16 блоков'
+      - ''
+      - '&fЦена: &6699 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 699
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 699'
+      - '[console] nitems ELYTRA %player_name%'
+      - '[refresh]'
+  'кирка_каменщика':
+    material: NETHERITE_PICKAXE
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 22
+    display_name: '&6Кирка Каменщика'
+    lore:
+      - '&7Эффективность X'
+      - '&7Прочность III'
+      - '&cПроклятье утраты'
+      - ''
+      - '&fЦена: &6149 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 149
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 149'
+      - '[console] xkit kamenjik %player_name%'
+      - '[refresh]'
+  'пушечка':
+    material: BOW
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 23
+    display_name: '&7&lПушечка'
+    lore:
+      - '&7Воспламенение'
+      - '&7Бесконечность'
+      - '&7Починка'
+      - '&7Сила V'
+      - '&7Откидывание V'
+      - '&7Прочность II'
+      - '&cПроклятье утраты'
+      - ''
+      - '&fЦена: &6259 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 259
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 259'
+      - '[console] xkit Pushechka %player_name%'
+      - '[refresh]'
+  'фростморн':
+    material: NETHERITE_SWORD
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 24
+    display_name: '&b&lФростморн'
+    lore:
+      - '&7Заговор Огня II'
+      - '&7Острота VI'
+      - '&7Прочность III'
+      - '&cПроклятье утраты'
+      - '&6Неразрушимый'
+      - ''
+      - '&fЦена: &61299 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 1299
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 1299'
+      - '[console] xkit mechok %player_name%'
+      - '[refresh]'
+  'секира_хаоса':
+    material: NETHERITE_AXE
+    model_data: 101
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 25
+    display_name: '&4&lСекира Хаоса'
+    lore:
+      - '&7Заговор огня II'
+      - '&7Острота VI'
+      - '&7Прочность III'
+      - '&cПроклятие утраты'
+      - ''
+      - '&7Когда в ведущей руке:'
+      - '&a13.5 Урон'
+      - '&a1 Скорость атаки'
+      - ''
+      - '&fЦена: &6299 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 299
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 299'
+      - '[console] xkit sekira_haosa %player_name%'
+      - '[refresh]'
+  'шар_огородника':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmMzI4Yzg3YjA2ODUwOWFjYTk4MzRlZmFjZTE5NzcwNWZlNWQ0ZjA4NzE3MzFiN2IyMWNkOTliOWZkZGMifX19
+    slot: 28
+    display_name: '&aШар огородника'
+    lore:
+      - '&cПроклятье утраты'
+      - '&7Удача III (На растения)'
+      - ''
+      - '&7Когда во второй руке'
+      - '&7При нажатии SHIFT:'
+      - '&9Выращивает растения вокруг вас'
+      - ''
+      - '&fЦена: &6249 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 249
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 249'
+      - '[console] xkit ogorodnik %player_name%'
+      - '[refresh]'
+  'зачарованное_золотое_яблоко':
+    material: ENCHANTED_GOLDEN_APPLE
+    slot: 29
+    display_name: '&6Зачарованное золотое яблоко'
+    lore:
+      - ''
+      - '&fЦена: &699 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 99
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно рилликов для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 99'
+      - '[console] give %player_name% enchanted_golden_apple 1'
+      - '[refresh]'
+  'фарм_меч':
+    material: NETHERITE_SWORD
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 30
+    display_name: '&6Фарм Меч'
+    lore:
+      - '&7Добыча V'
+      - '&7Прочность V'
+      - '&cПроклятье утраты'
+      - ''
+      - '&fЦена: &6249 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 249
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 249'
+      - '[console] xkit mech %player_name%'
+      - '[refresh]'
+  'шар_скорости_2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2ZTM0NjI4N2EyMWRiZmNhNWI1OGMxNDJkOGQ1NzEyYmRjODRmNWI3NWQ0MzE0ZWQyYTgzYjIyMmVmZmEifX19  
+    slot: 31
+    display_name: '&3&lШар Скорости 2'
+    lore:
+      - '&cПроклятье утраты'
+      - ''
+      - '&7Когда во второй руке:'
+      - '  &7+30% к скорости'
+      - ''
+      - '&fЦена: &6129 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 129
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 129'
+      - '[console] xkit newshar5 %player_name%'
+      - '[refresh]'
+  'комбинированая_печь':
+    material: FURNACE
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 32
+    display_name: '&5Комбинированая Печь'
+    lore:
+      - '&7Имеет &6100% &7шанс удвоить ресурс'
+      - '&7Работает на &630% &7быстрее'
+      - '&7Потребляет &cочень много &7топлива'
+      - ''
+      - '&fЦена: &6249 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 249
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 249'
+      - '[console] nfurnace %player_name% FURNACE COMBINATION'
+      - '[refresh]'
+  'свиток_опыта':
+    material: FLOWER_BANNER_PATTERN
+    hide_effects: true
+    slot: 33
+    display_name: '&eСвиток опыта'
+    lore:
+      - '&9Когда во второй руке:'
+      - '  &eСобирает в себя весь опыт'
+      - ''
+      - '&9Когда в основной руке:'
+      - '&9При нажатии ПКМ:'
+      - '  &eДает вам 5 опыта'
+      - ''
+      - '&fЦена: &6999 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 999
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 999'
+      - '[console] nitems EXP %player_name%'
+      - '[refresh]'
+  'шар_bunny':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNhMDNmN2U2Mzg1MTJjNzBhNDRjNDI5OTQyZTc4YzM2YTNkYWY5ZDBhNTMyOThhOWU4NjYyYzJiNjMyZTEyOSJ9fX0=
+    slot: 34
+    display_name: '&8&lШар BUNNY'
+    lore:
+      - '&cПроклятье утраты'
+      - '&7Когда во второй руке:'
+      - '  &8+3.9 броня'
+      - '  &8+21% к скорости атаки'
+      - ''
+      - '&fЦена: &6499 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 499
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 499'
+      - '[console] xkit ball_bunny %player_name%'
+      - '[refresh]'
+  'шар_силы_2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg0ZTkyNDg3YzY3NDk5OTViNzk3MzdiOGE5ZWI0YzQzOTU0Nzk3YTZkZDZjZDliNGVmY2UxN2NmNDc1ODQ2In19fQ==
+    slot: 37
+    display_name: '&4&lШар Силы 2'
+    lore:
+      - '&cПроклятье утраты'
+      - ''
+      - '&7Когда во второй руке:'
+      - '  &7+3.0 к урону'
+      - ''
+      - '&fЦена: &6149 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 149
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 149'
+      - '[console] xkit newshar3 %player_name%'
+      - '[refresh]'
+  'тотем_драконида':
+    material: TOTEM_OF_UNDYING
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1  
+    slot: 38
+    display_name: '&6Тотем Драконида'
+    lore:
+      - '&cПроклятье утраты'
+      - '&7Срабатывает, когда'
+      - '&7лежит в инвентаре'
+      - ''
+      - '&fЦена: &6149 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 149
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 149'
+      - '[console] nitems DRACONID_TOTEM %player_name%'
+      - '[refresh]'
+  'шар_стойкости_1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjExYWIzYTExMzJjOWQxZWY4MzVlYTgxZDk3MmVkOWI1Y2Q4ZGRmZjBhMDdjNTVhNzQ5YmNmY2Y4ZGY1In19fQ==
+    slot: 39
+    display_name: '&6&lШар Cтойкости 1'
+    lore:
+      - '&cПроклятье утраты'
+      - ''
+      - '&7Когда во второй руке:'
+      - '  &7+5.5 к броне'
+      - ''
+      - '&fЦена: &6169 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 169
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 169'
+      - '[console] xkit newshar1 %player_name%'
+      - '[refresh]'
+  'аура_богача':
+    material: GOLD_NUGGET
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1  
+    slot: 40
+    display_name: '&bАура Богача'
+    lore:
+      - '&cПроклятье утраты'
+      - '&7Умножает множитель добычи денег с мобов на &61.0'
+      - ''
+      - '&fЦена: &6639 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 639
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 639'
+      - '[console] nitems RICH_AURA %player_name%'
+      - '[refresh]'
+  'аура_твёрдости_брони':
+    material: CLAY_BALL
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1  
+    slot: 41
+    display_name: '&bАура Твёрдости Брони'
+    lore:
+      - '&cПроклятье утраты'
+      - '&7Уменьшает входящий урон от игрока'
+      - ''
+      - '&fЦена: &6699 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 699
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 699'
+      - '[console] sunaurs give %player_name% nodamage'
+      - '[refresh]'
+  'крылья_ангела':
+    material: ELYTRA
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1    
+    slot: 42
+    display_name: '&3&lКрылья Ангела'
+    lore:
+      - '&7Починка'
+      - '&7Шипы I'
+      - '&7Прочность V'
+      - '&cПроклятье утраты'
+      - ''
+      - '&fЦена: &61499 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 1499
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 1499'
+      - '[console] xkit elytra %player_name%'
+      - '[refresh]'
+  'тигринная_голова':
+    material: basehead-ewogICJ0aW1lc3RhbXAiIDogMTY0MDM0NTUwMTk5MSwKICAicHJvZmlsZUlkIiA6ICI2MmJiNjAyZjE0Nzk0NzZiYjlkMmQ0MWZiNDc0NDA1YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb2NpYWxpc21vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJjMTYyYzE2ZTAxNDMzYjNkYTY2NzRkNjQyYzNlYWI0YmU5ZTZkNzFlMjBhMzMyNTU2NGM0ZDAzYTgxMjYwNmEiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9   
+    slot: 43
+    display_name: '&6&lТигринная голова'
+    lore:
+      - '&cПроклятье утраты'
+      - '&7Когда во второй руке:'
+      - '  &6+2.5 к урону'
+      - '  &6+25% к скорости'
+      - '  &6+1 к здоровью'
+      - ''
+      - '&fЦена: &6599 &rꐄ'
+      - ''
+    click_requirement:
+      requirements:
+        has_rubles:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 599
+      deny_commands:
+        - '[message] &6Ромашки &7» &cНедостаточно ромашек для покупки'
+        - '[message] &6Ромашки &7» &fПополнить баланс можно на сайте - &6winworld.pw'
+    click_commands:
+      - '[message] &6Ромашки &7» &fУспешная покупка!'
+      - '[console] mobcoins remove %player_name% 599'
+      - '[console] xkit ball_tiger %player_name%'
+      - '[refresh]'
+  'случайный_предмет':
+    material: BARRIER
+    slots:
+      - 46
+      - 49
+      - 52
+    display_name: '&6Случайный предмет'
+  'информация':
+    material: CLOCK
+    model_data: 10001
+    slot: 4
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+      - ''
+      - '&8 &fВаш баланс: &6%mobcoinsplus_playerbalance% &rꐄ'
+      - ''
+      - '&7Получить ромашки можно'
+      - '&7Учавствуя в ивентах'

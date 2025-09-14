@@ -1,0 +1,32 @@
+location: world_spawn:-39.306:69.000:11.416
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fТоп дуэлянтов на сервере %winutils_grief%'
+    height: 0.5
+  - content: '&c#1 &f%ajlb_lb_duels_wins_1_alltime_name%  <#FFB000>%ajlb_lb_duels_wins_1_alltime_value%</#FF7200>'
+    height: 0.3
+  - content: '&c#2 &f%ajlb_lb_duels_wins_2_alltime_name%  <#FFB000>%ajlb_lb_duels_wins_2_alltime_value%</#FF7200>'
+    height: 0.3
+  - content: '&c#3 &f%ajlb_lb_duels_wins_3_alltime_name%  <#FFB000>%ajlb_lb_duels_wins_3_alltime_value%</#FF7200>'
+    height: 0.3
+  - content: '&c#4 &f%ajlb_lb_duels_wins_4_alltime_name%  <#FFB000>%ajlb_lb_duels_wins_4_alltime_value%</#FF7200>'
+    height: 0.3
+  - content: '&c#5 &f%ajlb_lb_duels_wins_5_alltime_name%  <#FFB000>%ajlb_lb_duels_wins_5_alltime_value%</#FF7200>'
+    height: 0.3
+  - content: '&c#6 &f%ajlb_lb_duels_wins_6_alltime_name%  <#FFB000>%ajlb_lb_duels_wins_6_alltime_value%</#FF7200>'
+    height: 0.3
+  - content: '&c#7 &f%ajlb_lb_duels_wins_7_alltime_name%  <#FFB000>%ajlb_lb_duels_wins_7_alltime_value%</#FF7200>'
+    height: 0.3
+  - content: '&c#8 &f%ajlb_lb_duels_wins_8_alltime_name%  <#FFB000>%ajlb_lb_duels_wins_8_alltime_value%</#FF7200>'
+    height: 0.3
+  - content: '&c#9 &f%ajlb_lb_duels_wins_9_alltime_name%  <#FFB000>%ajlb_lb_duels_wins_9_alltime_value%</#FF7200>'
+    height: 0.3
+  - content: '&c#10 &f%ajlb_lb_duels_wins_10_alltime_name%  <#FFB000>%ajlb_lb_duels_wins_10_alltime_value%</#FF7200>'
+    height: 0.3
+  actions: {}

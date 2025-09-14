@@ -1,0 +1,80 @@
+Name: newshar5
+Cooldown: 0
+Permission: nKits.kits.newshar5
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Шар
+        Скорости 2"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+        +30% к скорости"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 24b88ddf-6e2a-4a27-a863-bdd3866d224e
+          operation: 1
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PT1KDMBxGfzraqegxPEAoFqc7Hcu0YZogFAlk1z+pQJPKUHAaRm/TA/QC3sV9L2GW7t4379s8C8CCu/m2lfK1/tgUUlhgGapE3RRifwP9RhyathZ7CwAu+nCdLGQr4CS0j3iao3Xqy5XGrtnxHMkAl9Uj3iV6+YJdrIyfPrszPfr3HTYLNpSZ4+d8F7ZLlaCZE0kxjeyVevskMR7wmCBa4gc68DRhUcEVzSnDdjAhBzr2t8EktGnn6UxFZTCOlHEOZSEinYc4C3UWv3dZiTVRieLKKzapPQK4hUu8NhFXXz2R/P489Y731Xfjns8Afw0A6wIGAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

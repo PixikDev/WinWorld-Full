@@ -1,0 +1,1073 @@
+# 
+# Плагин был разработан командой разработчиков студии "MoonStudio" и является их гордостью.
+# По любым вопросам просьба клиентам незамедлительно обращаться в сообщения сообщества.
+# Vk: vk.com/moonstudio
+CASE-SENSITIVE-NAMES: false
+SPLIT-CASES: true
+HOLO-HEIGHT-Y: 1.7
+DEFAULT_HOLOGRAM:
+- ''
+HISTORY:
+  ENABLED: false
+  EMPTY_ITEM_ID_DEFAULT: AIR
+  FORMAT:
+    NAME: '&a&l{player}'
+    LORE:
+    - ''
+    - ' Дата: &6&l{date}'
+    - ' Время: &6&l{time}'
+    - ' Выигрыш: {prize}'
+    - ''
+GUI:
+  ROWS: 6
+  TITLE: '&7Кейсы'
+  CASES_ITEMS:
+    money:
+      ID: PLAYER_HEAD;Erbaev
+      SLOT: 30
+      NAME: '&a&lКейс с монетами'
+      LORE:
+      - ''
+      - '&fКоличество кейсов: &c%cases_money%'
+      - ''
+      - Нажмите, чтобы &6&lоткрыть&f кейс
+      - ''
+      - Покупка » &c&lMoonStudio.ru
+      - ''
+    daily:
+      ID: PLAYER_HEAD;xTopZ
+      SLOT: 31
+      NAME: '&a&lЕжедневный кейс'
+      LORE:
+      - 'До получения осталось: &b%free_time_daily%'
+      - ''
+      - Нажмите, чтобы &6&lоткрыть&f кейс
+      - ''
+      - Покупка » &c&lMoonStudio.ru
+      - ''
+  DEFAULT_ITEMS:
+    info:
+      SLOT: 4
+      ID: PAPER
+      NAME: '&6&lИнформация'
+      LORE:
+      - ''
+      - Покупка кейсов на сайте &c&lMoonStudio.ru
+      - Чтобы открыть кейс, нажмите по его предмету
+      - ''
+      AMOUNT: 1
+SPLIT-GUI:
+  donate:
+    ROWS: 6
+    TITLE: '&fꈁꀀꈂꍅꈂꀁ&r&0ꈃꄖ&r'
+    CASES_ITEMS:
+      donate:
+        ID: STRUCTURE_VOID
+        MODEL_DATA: 10000
+        SLOT: 22
+        NAME: '&6Открыть кейс'
+        LORE:
+        - '&7Количество кейсов: &e&l%cases_donate%'
+        - ''
+        - '&6&lДОНАТ НИЖЕ ИМЕЮЩЕГОСЯ НЕ ВЫДАЕТСЯ!'
+        - ''
+        - '&7Открыв этот кейс, вы &eгарантировано получите'
+        - '&7Одну из &eпривилегий &7на сервере. У нас'
+        - '&7Нет подкрутки, только &eчестный рандом'
+        - ''
+        - '&e&lВнимание! &r&7Шансы в кейсах увеличены.'
+        - '&7У вас есть &eвозможность &7получить крутую'
+        - '&7привилегию за сущие копейки!'
+        - ''
+        - '&fПокупка &7> &6WINWORLD.PW'
+    DEFAULT_ITEMS: {}
+  vsoilinichigo:
+    ROWS: 6
+    TITLE: '&fꈁꀀꈂꍅꈂꀁ&r&0ꈃꄖ&r'
+    CASES_ITEMS:
+      vsoilinichigo:
+        ID: STRUCTURE_VOID
+        MODEL_DATA: 10000
+        SLOT: 22
+        NAME: '&6Открыть кейс'
+        LORE:
+        - '&7Количество кейсов: &e&l%cases_vsoilinichigo%'
+        - ''
+        - '&6&lДОНАТ НИЖЕ ИМЕЮЩЕГОСЯ НЕ ВЫДАЕТСЯ!'
+        - ''
+        - '&7Открыв этот кейс, вы &eгарантировано получите'
+        - '&7Одну из &eпривилегий &7на сервере. У нас'
+        - '&7Нет подкрутки, только &eчестный рандом'
+        - ''
+        - '&e&lВнимание! &r&7Шансы в кейсах увеличены.'
+        - '&7У вас есть &eвозможность &7получить крутую'
+        - '&7привилегию за сущие копейки!'
+        - ''
+        - '&fПокупка &7> &6WINWORLD.PW'
+    DEFAULT_ITEMS: {}
+  sdonate:
+    ROWS: 6
+    TITLE: '&fꈁꀀꈂꍅꈂꀁ&r&0ꈃꄖ&r'
+    CASES_ITEMS:
+      sdonate:
+        ID: STRUCTURE_VOID
+        MODEL_DATA: 10000
+        SLOT: 22
+        NAME: '&6Открыть кейс'
+        LORE:
+        - '&7Количество кейсов: &e&l%cases_sdonate%'
+        - ''
+        - '&6&lДОНАТ НИЖЕ ИМЕЮЩЕГОСЯ НЕ ВЫДАЕТСЯ!'
+        - ''
+        - '&7Открыв этот кейс, вы &eгарантировано получите'
+        - '&7Одну из &eсупер привилегий &7на сервере. У нас'
+        - '&7Нет подкрутки, только &eчестный рандом'
+        - ''
+        - '&eВнимание! &7Шансы в кейсах увеличены.'
+        - '&7У вас есть возможность получить крутую'
+        - '&7привилегию за сущие копейки!'
+        - ''
+        - '&fПокупка &7> &6WINWORLD.PW'
+    DEFAULT_ITEMS: {}
+  easter2025:
+    ROWS: 6
+    TITLE: '&fꈁꀀꈂꍅꈂꀁ&r&0ꈃꄖ&r'
+    CASES_ITEMS:
+      easter2025:
+        ID: STRUCTURE_VOID
+        MODEL_DATA: 10000
+        SLOT: 22
+        NAME: '&6Открыть кейс'
+        LORE:
+        - '&7Количество кейсов: &e&l%cases_easter2025%'
+        - ''
+        - '&6&lВАЖНО: &r&eДОНАТ НИЖЕ ИМЕЮЩЕГОСЯ НЕ ВЫДАЁТСЯ!'
+        - ''
+        - '&7Это пасхальный кейс, с которого можно получить любой'
+        - '&7донат предмет, а также уникальный донат'
+        - '&f&lRABBIT &7на &e25 дней &7или &eнавсегда'
+        - ''
+        - '&e&lВНИМАНИЕ! &r&7Шансы в кейсах увеличены.'
+        - '&7У вас есть &eвозможность получить крутую'
+        - '&7привилегию за сущие копейки!'
+        - ''
+        - '&fПокупка &7> &6WINWORLD.PW'
+    DEFAULT_ITEMS: {}
+  money:
+    ROWS: 6
+    TITLE: '&fꈁꀀꈂꍅꈂꀁ&r&0ꈃꄖ&r'
+    CASES_ITEMS:
+      money:
+        ID: STRUCTURE_VOID
+        MODEL_DATA: 10000
+        SLOT: 22
+        NAME: '&6Открыть кейс'
+        LORE:
+        - '&7Количество кейсов: &e&l%cases_money%'
+        - ''
+        - '&7Открыв этот кейс, вы &eгарантировано получите '
+        - '&7Большое количество &eмонет&7 на сервере. У нас'
+        - '&7Нет подкрутки, только &eчестный рандом'
+        - ''
+        - '&e&lВнимание! &7Шансы в кейсах увеличены'
+        - '&7У вас есть &eвозможность &7получить много'
+        - '&7денег за сущие копейки!'
+        - ''
+        - '&fПокупка &7> &6WINWORLD.PW'
+    DEFAULT_ITEMS: {}
+  riliks:
+    ROWS: 6
+    TITLE: '&fꈁꀀꈂꍅꈂꀁ&r&0ꈃꄖ&r'
+    CASES_ITEMS:
+      riliks:
+        ID: STRUCTURE_VOID
+        MODEL_DATA: 10000
+        SLOT: 22
+        NAME: '&6Открыть кейс'
+        LORE:
+        - '&7Количество кейсов: &e&l%cases_riliks%'
+        - ''
+        - '&7Открыв этот кейс, вы &eгарантировано получите '
+        - '&7Большое количество &eрилликов&7 на сервере. У нас'
+        - '&7Нет подкрутки, только &eчестный рандом'
+        - ''
+        - '&e&lВнимание! &7Шансы в кейсах увеличены'
+        - '&7У вас есть &eвозможность &7получить большое'
+        - '&7кол-во рилликов за сущие копейки!'
+        - ''
+        - '&fПокупка &7> &6WINWORLD.PW'
+    DEFAULT_ITEMS: {}
+  ditems:
+    ROWS: 6
+    TITLE: '&fꈁꀀꈂꍅꈂꀁ&r&0ꈃꄖ&r'
+    CASES_ITEMS:
+      ditems:
+        ID: STRUCTURE_VOID
+        MODEL_DATA: 10000
+        SLOT: 22
+        NAME: '&6Открыть кейс'
+        LORE:
+        - '&7Количество кейсов: &e&l%cases_ditems%'
+        - ''
+        - '&7Открыв этот кейс, вы &eгарантировано получите '
+        - '&7Один из редких &eпредметов&7 на сервере. У нас'
+        - '&7Нет подкрутки, только &eчестный рандом'
+        - ''
+        - '&e&lВнимание! &7Шансы в кейсах увеличены'
+        - '&7У вас есть &eвозможность &7получить крутой'
+        - '&7предмет за сущие копейки!'
+        - ''
+        - '&fПокупка &7> &6WINWORLD.PW'
+    DEFAULT_ITEMS: {}
+  legendary:
+    ROWS: 6
+    TITLE: '&fꈁꀀꈂꍅꈂꀁ&r&0ꈃꄖ&r'
+    CASES_ITEMS:
+      legendary:
+        ID: STRUCTURE_VOID
+        MODEL_DATA: 10000
+        SLOT: 22
+        NAME: '&6Открыть кейс'
+        LORE:
+        - '&7Количество кейсов: &e&l%cases_legendary%'
+        - ''
+        - '&7Открыв этот кейс, вы &eгарантировано получите '
+        - '&7Одну из редких &eпривилегий&7 на сервере. У нас'
+        - '&7Нет подкрутки, только &eчестный рандом'
+        - ''
+        - '&e&lВнимание! &7Шансы в кейсах увеличены'
+        - '&7У вас есть &eвозможность &7получить крутую'
+        - '&7привилегию за сущие копейки!'
+        - ''
+        - '&fПокупка &7> &6WINWORLD.PW'
+    DEFAULT_ITEMS: {}
+  zhamshut:
+    ROWS: 6
+    TITLE: '&fꈁꀀꈂꍅꈂꀁ&r&0ꈃꄖ&r'
+    CASES_ITEMS:
+      zhamshut:
+        ID: STRUCTURE_VOID
+        MODEL_DATA: 10000
+        SLOT: 22
+        NAME: '&6Открыть кейс'
+        LORE:
+        - '&7Количество кейсов: &e&l%cases_zhamshut%'
+        - ''
+        - '&6&lДОНАТ НИЖЕ ИМЕЮЩЕГОСЯ НЕ ВЫДАЕТСЯ!'
+        - ''
+        - '&7Открыв этот кейс, вы &eгарантировано получите '
+        - '&7Большое количество &eпривелегий&7 на сервере. У нас'
+        - '&7Нет подкрутки, только &eчестный рандом'
+        - ''
+        - '&e&lВнимание! &7Шансы в кейсах увеличены'
+        - '&7У вас есть &eвозможность &7получить крутую'
+        - '&7привелегию за сущие копейки!'
+        - ''
+        - '&fПокупка &7> &6WINWORLD.PW'
+    DEFAULT_ITEMS: {}
+SPLIT-HOLOGRAM:
+  donate:
+  - '&7&k|||| &e&lКЕЙС С ДОНАТОМ &7&k||||'
+  legendary:
+  - '&7&k|||| &1&lЛЕГЕНДАРНЫЙ КЕЙС &7&k||||'
+  money:
+  - '&7&k|||| &b&lКЕЙС С ВАЛЮТОЙ &7&k||||'
+  vsoilinichigo:
+  - '&7&k|||| &d&lВСЕ ИЛИ НИЧЕГО &7&k||||'
+  riliks:
+  - '&7&k|||| &2&lКЕЙС С РИЛЛИКАМИ &7&k||||'
+  zhamshut:
+  - '&7&k|||| &d&lКЕЙС ДЖАМШУТА &7&k||||'
+  ditems:
+  - '&7&k|||| &6&lКЕЙС С ДОНАТ ВЕЩАМИ &7&k||||'
+  sdonate:
+  - '&7&k|||| &3&lСУПЕР ДОНАТНЫЙ КЕЙС &7&k||||'
+  easter2025:
+  - '&7&k|||| &e&lПАСХАЛЬНЫЙ КЕЙС &7&k||||'
+MESSAGES:
+  NO_PERMISSIONS: '&6Кейсы &7» &cУ вас недостаточно прав!'
+  HELP:
+  - '&6&lКейсы.&f Помощь |'
+  - ''
+  - Выдать кейсы игроку - &a&l/cases give [ник] [название_кейса] [количество]
+  - Установить кейсы игроку - &a&l/cases set [ник] [название_кейса] [количество]
+  - Отнять кейсы у игрока - &a&l/cases delete [ник] [название_кейса] [количество]
+  - Установить кейс - &a&l/cases setcase [направление, x или z] [название кейса, если
+    включен параметр SPLIT-CASES]
+  - Удалить последний установленный кейс - &a&l/cases delcase
+  - ''
+  NOT_NUMERIC: '&6Кейсы &7» &fВы неправильно ввели число'
+  COMMAND_GIVE_USE: '&6Кейсы &7» &fВы неправильно ввели команду, посмотрите ее использование
+    - &a&l/cases'
+  COMMAND_SET_USE: '&6Кейсы &7» &fВы неправильно ввели команду, посмотрите ее использование
+    - &a&l/cases'
+  COMMAND_DELETE_USE: '&6Кейсы &7» &fВы неправильно ввели команду, посмотрите ее использование
+    - &a&l/dc'
+  COMMAND_SETCASE_USE: '&6Кейсы &7» &fВы неправильно ввели команду, посмотрите ее
+    использование - &a&l/dc'
+  COMMAND_GIVE_SUCCESS: '&6Кейсы &7» &fВы выдали игроку &6{player}&f &6{amount} {case}&f
+    кейсов'
+  COMMAND_SET_SUCCESS: '&6Кейсы &7» &fВы установили игроку &6{player}&f &6{amount}
+    {case}&f кейсов'
+  COMMAND_DELETE_SUCCESS: '&6Кейсы &7» &fВы отняли у игрока &6{player}&f &6{amount}
+    {case}&f кейсов'
+  COMMAND_SETCASE_SUCCESS: '&6Кейсы &7» &fВы успешно установили кейс по направлению
+    вращения &c&l{direction}'
+  COMMAND_DELCASE_SUCCESS: '&6Кейсы &7» &fВы успешно удалили локацию последнего кейса'
+  COMMAND_DELCASE_NOT_FOUND: '&6Кейсы &7» &fНа данный момент не установлен ещё ни
+    один кейс'
+  CASE_NOT_LOADED: '&6Кейсы &7» &cНепредвиденная ошибка'
+  CASE_IN_OPEN: '&6Кейсы &7» &cЭтот кейс открывает кто-то другой'
+  NO_CASES: '&6Кейсы &7» &cУ вас нет ключей от этого кейса'
+  COMMAND_SETCASE_SUCESS: '&6Кейсы &7» &fВы успешно установили кейс по направлению
+    вращения &c&l{direction} для {case}'
+  CASE_IS_OPEN: '&6Кейсы &7» &cКейс уже открывают'
+  CASE_GET:
+  - '&6Кейсы &7» &fВы получили &6{0} &fкейсов типа &6{1}'
+CASES:
+  sdonate:
+    OPEN_MESSAGES: []
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.5
+      USE_FROSTLORD: false
+      ROTATE_TIME: 5
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 0
+    ITEMS:
+      dhelper:
+        ID: ORANGE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕠ
+        COMMANDS:
+        - console;lp user {player} parent add dhelper
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕠ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &cСУПЕР ДОНАТНЫЙ КЕЙС
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 10
+      rabbit:
+        ID: WHITE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕒ
+        COMMANDS:
+        - console;lp user {player} parent add rabbit
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕒ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &cСУПЕР ДОНАТНЫЙ КЕЙС
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 20
+      tiger:
+        ID: ORANGE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔶ
+        COMMANDS:
+        - console;lp user {player} parent add tiger
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꔶ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &cСУПЕР ДОНАТНЫЙ КЕЙС
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 30
+      dragon:
+        ID: MAGENTA_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔨ
+        COMMANDS:
+        - console;lp user {player} parent add dragon
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꔨ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &cСУПЕР ДОНАТНЫЙ КЕЙС
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 40
+  vsoilinichigo:
+    OPEN_MESSAGES: []
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.5
+      USE_FROSTLORD: false
+      ROTATE_TIME: 5
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 0
+    ITEMS:
+      dragon:
+        ID: MAGENTA_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔨ
+        COMMANDS:
+        - console;lp user {player} parent add dragon
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꔨ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aВСЕ ИЛИ НИЧЕГО
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 99
+      winner:
+        ID: ORANGE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕓ
+        COMMANDS:
+        - console;lp user {player} parent add winner
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕓ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aВСЕ ИЛИ НИЧЕГО
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 1
+  legendary:
+    OPEN_MESSAGES: []
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.5
+      USE_FROSTLORD: false
+      ROTATE_TIME: 5
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 0
+    ITEMS:
+      dhelper:
+        ID: ORANGE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕠ
+        COMMANDS:
+        - console;lp user {player} parent add dhelper
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕠ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &6ЛЕГЕНДАРНЫЙ КЕЙС
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 15
+      rabbit:
+        ID: WHITE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕒ
+        COMMANDS:
+        - console;lp user {player} parent add rabbit
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕒ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &6ЛЕГЕНДАРНЫЙ КЕЙС
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 25
+      bunny:
+        ID: GRAY_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕖ
+        COMMANDS:
+        - console;lp user {player} parent add bunny
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕖ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &6ЛЕГЕНДАРНЫЙ КЕЙС
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 35
+      hydra:
+        ID: GREEN_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕀ
+        COMMANDS:
+        - console;lp user {player} parent add hydra
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕀ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &6ЛЕГЕНДАРНЫЙ КЕЙС
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 25
+      winner:
+        ID: ORANGE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕓ
+        COMMANDS:
+        - console;lp user {player} parent add winner
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕓ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &6ЛЕГЕНДАРНЫЙ КЕЙС
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 0
+  donate:
+    OPEN_MESSAGES: []
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.5
+      USE_FROSTLORD: false
+      ROTATE_TIME: 5
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 0
+    ITEMS:
+      hero:
+        ID: BLUE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔄ
+        COMMANDS:
+        - console;lp user {player} parent add imperator
+        CHANCE: 1
+      titan:
+        ID: YELLOW_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔈ
+        COMMANDS:
+        - console;lp user {player} parent add imperator
+        CHANCE: 1
+      avenger:
+        ID: LIME_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔒ
+        COMMANDS:
+        - console;lp user {player} parent add imperator
+        CHANCE: 1
+      overlord:
+        ID: LIGHT_BLUE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔖ
+        COMMANDS:
+        - console;lp user {player} parent add imperator
+        CHANCE: 1
+      magister:
+        ID: ORANGE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔠ
+        COMMANDS:
+        - console;lp user {player} parent add imperator
+        CHANCE: 1
+      imperator:
+        ID: RED_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔤ
+        COMMANDS:
+        - console;lp user {player} parent add imperator
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꔤ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aДонат кейс
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 50
+      dragon:
+        ID: MAGENTA_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔨ
+        COMMANDS:
+        - console;lp user {player} parent add dragon
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꔨ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aДонат кейс
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 45
+  ditems:
+    OPEN_MESSAGES: []
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.5
+      USE_FROSTLORD: false
+      ROTATE_TIME: 5
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 0
+    ITEMS:
+      zdorovie2:
+        TYPE: COMMAND
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg2NjJiYTA3MDhlOGQ2MGQ1NjM2NWVjMmJjMDBmZjE3OTJmMTY2MzRmYzg0NWE4NDNhODRkZTA4MWVhNGYifX19
+        TITLE: '&d&lШар Здоровья 2'
+        COMMANDS:
+        - console;xkit newshar9 {player}
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &d&lШар Здоровья 2
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 12
+      ogorod:
+        TYPE: COMMAND
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmMzI4Yzg3YjA2ODUwOWFjYTk4MzRlZmFjZTE5NzcwNWZlNWQ0ZjA4NzE3MzFiN2IyMWNkOTliOWZkZGMifX19
+        TITLE: '&aШар огородника'
+        COMMANDS:
+        - console;xkit ogorodnik {player}
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &aШар огородника
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 12
+      kurka:
+        TYPE: COMMAND
+        ID: NETHERITE_PICKAXE
+        TITLE: '&b&lКирка Каменщика'
+        COMMANDS:
+        - console;xkit kamenjik {player}
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &b&lКирка Каменщика
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 12
+      lopata:
+        TYPE: COMMAND
+        ID: NETHERITE_SHOVEL
+        TITLE: '&b&lЛопата Песочника'
+        COMMANDS:
+        - console;xkit lapata {player}
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &b&lЛопата Песочника
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 12
+      mech:
+        TYPE: COMMAND
+        ID: NETHERITE_SWORD
+        TITLE: '&b&lФарм Меч'
+        COMMANDS:
+        - console;xkit mech {player}
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &b&lФарм Меч
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 12
+      sekira:
+        TYPE: COMMAND
+        ID: NETHERITE_AXE
+        TITLE: '&b&lСекира'
+        COMMANDS:
+        - console;xkit sekira {player}
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &b&lСекира
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 12
+      garrow:
+        TYPE: COMMAND
+        ID: TIPPED_ARROW
+        TITLE: '&fГравитационная стрела'
+        COMMANDS:
+        - console;xkit strela5 {player}
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &fГравитационная стрела
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 12
+      fasterthanwind:
+        TYPE: COMMAND
+        ID: GLASS_BOTTLE
+        TITLE: '&fБыстрее ветра'
+        COMMANDS:
+        - console;xkit potion2 {player}
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &aБыстрее ветра
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 12
+      totem:
+        TYPE: COMMAND
+        ID: TOTEM_OF_UNDYING
+        TITLE: '&6Тотем Драконида'
+        COMMANDS:
+        - console;nitems DRACONID_TOTEM {player}
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &6Тотем Драконида
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 12
+      hazard:
+        TYPE: COMMAND
+        ID: ENCHANTED_GOLDEN_APPLE
+        TITLE: '&dЗачарованное золотое яблоко'
+        COMMANDS:
+        - console;give {player} enchanted_golden_apple 3
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &dЗачарованное золотое
+          яблоко
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 12
+      skorka2:
+        TYPE: COMMAND
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2ZTM0NjI4N2EyMWRiZmNhNWI1OGMxNDJkOGQ1NzEyYmRjODRmNWI3NWQ0MzE0ZWQyYTgzYjIyMmVmZmEifX19
+        TITLE: '&3&lШар Скорости 2'
+        COMMANDS:
+        - console;xkit newshar5 {player}
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &3&lШар Скорости 2
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 12
+      stoika1:
+        TYPE: COMMAND
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjExYWIzYTExMzJjOWQxZWY4MzVlYTgxZDk3MmVkOWI1Y2Q4ZGRmZjBhMDdjNTVhNzQ5YmNmY2Y4ZGY1In19fQ==
+        TITLE: '&6&lШар Cтойкости 1'
+        COMMANDS:
+        - console;xkit newshar1 {player}
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &6&lШар Cтойкости 1
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с донат вещами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 4
+  riliks:
+    OPEN_MESSAGES: []
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.5
+      USE_FROSTLORD: false
+      ROTATE_TIME: 5
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 0
+    ITEMS:
+      '10':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&a&l10 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 10
+        CHANCE: 20
+      '30':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&a&l30 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 30
+        CHANCE: 20
+      '45':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&a&l45 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 45
+        CHANCE: 10
+      '60':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&6&l60 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 60
+        CHANCE: 10
+      '80':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&6&l80 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 80
+        CHANCE: 10
+      '100':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&6&l100 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 100
+        CHANCE: 10
+      '150':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&6&l150 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 150
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &6&l150 &fꐃ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с рилликами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 5
+      '300':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&c&l300 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 300
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &c&l300 &fꐃ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с рилликами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 5
+      '500':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&c&l500 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 500
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &c&l500 &fꐃ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с рилликами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 5
+      '1000':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&c&l1000 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 1000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &c&l1000 &fꐃ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с рилликами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 5
+      '3000':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&4&l3000 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 3000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &4&l3000 &fꐃ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с рилликами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 0
+      '6000':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&4&l6000 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 6000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &4&l6000 &fꐃ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с рилликами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 0
+      '15000':
+        TYPE: COMMAND
+        ID: GOLD_NUGGET
+        TITLE: '&4&l15000 &fꐃ'
+        COMMANDS:
+        - console;p give {player} 15000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &4&l15000 &fꐃ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с рилликами
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 0
+  money:
+    OPEN_MESSAGES: []
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.5
+      USE_FROSTLORD: false
+      ROTATE_TIME: 5
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 0
+    ITEMS:
+      '15':
+        TYPE: COMMAND
+        ID: GOLD_INGOT
+        TITLE: '&e&l15.000 &fꐂ'
+        COMMANDS:
+        - console;eco give {player} 15000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &e&l15.000 &fꐂ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с валютой
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 30
+      '25':
+        TYPE: COMMAND
+        ID: GOLD_INGOT
+        TITLE: '&a&l25.000 &fꐂ'
+        COMMANDS:
+        - console;eco give {player} 25000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &a&l25.000 &fꐂ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с валютой
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 20
+      '50':
+        TYPE: COMMAND
+        ID: GOLD_INGOT
+        TITLE: '&a&l50.000 &fꐂ'
+        COMMANDS:
+        - console;eco give {player} 50000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &a&l50.000 &fꐂ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с валютой
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 10
+      '75':
+        TYPE: COMMAND
+        ID: GOLD_INGOT
+        TITLE: '&a&l75.000 &fꐂ'
+        COMMANDS:
+        - console;eco give {player} 75000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &a&l75.000 &fꐂ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с валютой
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 10
+      '150':
+        TYPE: COMMAND
+        ID: GOLD_INGOT
+        TITLE: '&6&l150.000 &fꐂ'
+        COMMANDS:
+        - console;eco give {player} 150000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &6&l150.000 &fꐂ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с валютой
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 10
+      '250':
+        TYPE: COMMAND
+        ID: GOLD_INGOT
+        TITLE: '&c&l250.000 &fꐂ'
+        COMMANDS:
+        - console;eco give {player} 250000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &c&l250.000 &fꐂ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с валютой
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 10
+      '500':
+        TYPE: COMMAND
+        ID: GOLD_INGOT
+        TITLE: '&c&l500.000 &fꐂ'
+        COMMANDS:
+        - console;eco give {player} 500000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &c&l500.000 &fꐂ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с валютой
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 10
+      '1000':
+        TYPE: COMMAND
+        ID: GOLD_INGOT
+        TITLE: '&d&l1.000.000 &fꐂ'
+        COMMANDS:
+        - console;eco give {player} 1000000
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл &d&l1.000.000 &fꐂ
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс с валютой
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 0
+  zhamshut:
+    OPEN_MESSAGES: []
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.5
+      USE_FROSTLORD: false
+      ROTATE_TIME: 5
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 0
+    ITEMS:
+      dragon:
+        ID: MAGENTA_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔨ &e(30д)
+        COMMANDS:
+        - console;lp user {player} parent addtemp dragon 30d
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꔨ &e(30д)
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс джамшута
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 40
+      tiger:
+        ID: ORANGE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꔶ &e(30д)
+        COMMANDS:
+        - console;lp user {player} parent addtemp tiger 30d
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꔶ &e(30д)
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс джамшута
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 30
+      rabbit:
+        ID: WHITE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕒ &e(30д)
+        COMMANDS:
+        - console;lp user {player} parent addtemp rabbit 30d
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕒ &e(30д)
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс джамшута
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 10
+      bunny:
+        ID: GRAY_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕖ &e(30д)
+        COMMANDS:
+        - console;lp user {player} parent addtemp bunny 30d
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕖ &e(30д)
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс джамшута
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 15
+      hydra:
+        ID: GREEN_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕀ &e(30д)
+        COMMANDS:
+        - console;lp user {player} parent addtemp hydra 30d
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕀ &e(30д)
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс джамшута
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 2.5
+      cobra:
+        ID: LIME_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕈ &e(30д)
+        COMMANDS:
+        - console;lp user {player} parent addtemp cobra 30d
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕈ &e(30д)
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс джамшута
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 2.5
+      winner:
+        ID: ORANGE_SHULKER_BOX
+        TYPE: COMMAND
+        TITLE: ꕓ &e(30д)
+        COMMANDS:
+        - console;lp user {player} parent addtemp winner 30d
+        - bc; &x&F&C&8&F&0&0ꐁ
+        - bc; &x&F&C&8&F&0&0ꐁ &fИгрок &e{player} &fвыиграл ꕓ &e(30д)
+        - bc; &x&F&C&8&F&0&0ꐁ &fОткрыв &aКейс джамшута
+        - 'bc; &x&F&C&8&F&0&0ꐁ &fПокупка кейсов на сайте: &6WinWorld.pw'
+        - bc; &x&F&C&8&F&0&0ꐀ
+        CHANCE: 0
+BACKEND: mysql
+MYSQL:
+  HOST: 46.174.52.192
+  USER: u3_cbh3ybSpFX
+  PASSWORD: hJhs88gE8kjSF=7BcBC^w1Tn
+  DATABASE: s3_cases1234
+  PORT: 3306
+CASES_LOCATIONS:
+- world_spawn;28;62;-11;z;legendary
+- world_spawn;31;62;-11;z;sdonate
+- world_spawn;34;62;-12;z;donate
+- world_spawn;36;62;-14;z;riliks
+- world_spawn;38;62;-16;x;money
+- world_spawn;39;62;-19;x;ditems
+- world_spawn;32;61;18;x;zhamshut
+- world_spawn;39;62;-22;x;vsoilinichigo

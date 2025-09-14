@@ -1,0 +1,12 @@
+enabled: true
+webhook: "https://discord.com/api/webhooks/1390076053971537930/2NQcIROhjM8_hpI4-WkQcxowXQMKux19wotHeVw5zDZx85XjFTIKpULM1kpng8HjNeol"
+embed-title: "**Lightning Alert**"
+embed-color: "#00FFFF"
+violation-content:
+    - "**Игрок**: %player%"
+    - "**Причина вызова**: %check%"
+    - "**Violations**: %violations%"
+    - "**Версия**: %version%"
+    - "**Информация клиента**: %brand%"
+    - "**Пинг**: %ping%"
+    - "**ТПС**: %tps%"

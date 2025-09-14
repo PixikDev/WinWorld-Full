@@ -1,0 +1,80 @@
+Name: newshar3
+Cooldown: 0
+Permission: nKits.kits.newshar3
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Шар
+        Силы 2"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"+3.0
+        к урону"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: e65b1730-7fb6-47b6-9f56-254eb1a7c48d
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PQU6DQBiFf402LXoMDzBAwHTRROOYdkidKS1MO7NrYdpSBiQUTCF6G4/g1ru47yXEnbv3vvdtngFgwO0irbWela/bRCsDjC4VqqwSdRxAv1Knqi7V0QCAiz5c87WuFXypxkNytUfxytNRQ9yuBwukGTkU9yTnzeaJuCTr9smjO22G/1ynWi8dLWxvL3O/3mQcTe25VpO5GWXhG8M7JIO0oXhni1bYFKcOC3hC29R+aeOEjZ8duSRItH7LghD9cRHIVGJ5kFgndMwzYYUnatGM4shk2LdIbg63/mgEcAOXJO6OXL33FP/5fuh93hUflXs+A/wC8ybpDgoBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

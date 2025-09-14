@@ -1,0 +1,48 @@
+menu_title: '&fꈁꀀꈂꌔꈂꀁ&0ꈃꄈ'
+open_command: 
+- codes
+- kondr
+- domer
+- staso4ek
+- stas
+- staso4egtr
+- fudzuna
+size: 54
+items:
+  'arrow':
+    material: chest_minecart
+    amount: 1
+    slot: 21
+    display_name: '§x§F§B§9§2§0§8§lК§x§F§6§9§C§0§7§lо§x§F§2§A§6§0§7§lд§x§E§D§B§0§0§6§l §x§E§8§B§A§0§5§lс§x§E§4§C§4§0§4§lт§x§D§F§C§D§0§4§lа§x§D§B§D§7§0§3§lс§x§D§6§E§1§0§2§lо§x§D§1§E§B§0§1§lч§x§C§D§F§5§0§1§lк§x§C§8§F§F§0§0§lа'
+    lore:
+    - ''
+    - ' &7Нажмите, чтобы активировать'
+    - ' &7код стасочка'
+    - ''
+    left_click_commands:
+    - '[player] code staso4ek'
+  'arrow2':
+    material: chest_minecart
+    amount: 1
+    slot: 23
+    display_name: '§x§F§B§9§2§0§8§lК§x§F§6§9§D§0§7§lо§x§F§1§A§8§0§6§lд§x§E§C§B§3§0§6§l §x§E§7§B§E§0§5§lф§x§E§2§C§9§0§4§lу§x§D§C§D§3§0§3§lд§x§D§7§D§E§0§2§lз§x§D§2§E§9§0§2§lу§x§C§D§F§4§0§1§lн§x§C§8§F§F§0§0§lы'
+    lore:
+    - ''
+    - ' &7Нажмите, чтобы активировать'
+    - ' &7код фудзуны'
+    - ''
+    left_click_commands:
+    - '[player] code fudzuna'   
+  'arrow3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyZjI1NWRlOTU5OGQ1ZDJmOGViZmNmYzBlMTgzNTdhMzI4MWM1Y2JlMGEwMjZkYTMxZmE2YzRmMTQzN2M1In19fQ==
+        priority: 2
+        amount: 1
+        slot: 22
+        display_name: '&#FB7408&lБ&#FB7508&lе&#FB7607&lс&#FC7707&lп&#FC7806&lл&#FC7906&lа&#FC7A05&lт&#FD7B05&lн&#FD7C04&lы&#FD7E04&lе &#FE8003&lн&#FE8102&lа&#FE8202&lг&#FE8301&lр&#FF8401&lа&#FF8500&lд&#FF8600&lы'
+        lore:
+        - ''
+        - ' &7Нажмите, чтобы открыть'
+        - ' &7меню с бесплатными наградами'
+        - ''
+        left_click_commands:
+        - '[openguimenu] rewards' 

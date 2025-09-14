@@ -1,0 +1,61 @@
+Name: paveldurov4
+Cooldown: 0
+Permission: nKits.kits.paveldurov4
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: YELLOW_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: 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
+      blockMaterial: YELLOW_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,93 @@
+Name: vesna20252
+Cooldown: 0
+Permission: nKits.kits.vesna20252
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Голова
+        Цири"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 13957907-f3b3-4b46-ae39-19ca5e94071b
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: c4f0724e-6345-4156-911e-b02abee37c19
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: OFF_HAND
+          uuid: 2734f8f7-34c2-410f-842a-03fc7aac98aa
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.25
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 16add35b-36a9-4dec-bf81-e5d4c03fb3f7
+          operation: 1
+      internal: H4sIAAAAAAAA/02Py1LCMBhGfx1lsPoYPkApUoeFM16qkAxJbSmh6Y5LsJcEO6WFpqNv4yO49V3c8xJ26e47c87mMwAMuJpmlZSvxfsmkcIAo125KMpE7C6gW4q6rAqxMwDgpAvnbCErAd9CYzMKY3MdYrnSyG45mJrSRWl+i7ZML5+QjVTrxw/2RA//tYNyMR9I3sdxtPWqpWLmpO9LMfZ7KzXbRymOycjTNJBxNOc1t3hDFc3cEbFI8JKS5u1AnFlNA5a4Aa+J86yphbPIQZo4LKYK9XjDD1T5kjjeDU8fM57g4SY07wAu4RSt2yNnHx3Bfn/uO1/X+WdpH48Af7mmb+kKAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

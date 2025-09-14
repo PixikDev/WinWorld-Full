@@ -1,0 +1,28 @@
+goblin_3:
+  Type: VINDICATOR
+  Display: '&7Гоблин'
+  Health: 5000
+  Damage: 50
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    Persistent: false
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    KnockbackResistance: 0.15
+    MovementSpeed: 0.24
+    Collidable: true
+    Silent: false
+    FollowRange: 32
+    PreventSunburn: true
+  Skills:
+  - skill{s=CancelEventSkill;sync=true} @self ~onAttack
+  - model{mid=goblin_3;i=true;step=1;ride=true} @self ~onSpawn
+  - model{mid=goblin_3;i=true;step=1;ride=true} @self ~onLoad
+  - skill{s=goblin_3_attack;sync=true} @target ~onTimer:20
+  - skill{s=goblin_3_death} @self ~onDeath

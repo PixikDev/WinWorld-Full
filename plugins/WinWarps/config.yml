@@ -1,0 +1,11 @@
+menu-title: "&fꈁꀀꈂꌅꈂꀁ&0ꈃꄂ"
+confirm-title: "&fꈁꀀꈂꌅꈂꀁ&0ꈃꄂ"
+cant-setwarp: "&6Варпы&7 » &cНевозможно установить варп в чужом регионе!"
+warp-material: "CHEST"
+filler-name: "&6&lWinWorld.pw"
+back-material: "STRUCTURE_VOID"
+back-slot: 45
+back-name: "&6◄ Назад"
+back-modeldata: 10002
+upload-name: "&6Обновить список варпов"
+upload-modeldata: 10005

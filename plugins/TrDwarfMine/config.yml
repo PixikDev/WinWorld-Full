@@ -1,0 +1,46 @@
+# Длина волны
+wave-duration: 180 # секунды
+
+# Vault
+bank: 2000000
+gold-per-break: 250
+
+# сообщения
+desolated-message:
+  - "&6Шахта Дворфов &8» &6&lШахта дворфов уничтожена!"
+dwarfs-near: "&6Шахта Дворфов &8» &cСначала необходимо одолеть все волны дворфов!"
+
+# BossBar
+bar-title: "&9&lШахта Дворфов &8| &7Добудьте золото &6%gold% &8| &7Координаты &6%x%&f &6%z%"
+desolated-title: "&9&lШахта Дворфов &8| &9Шахта дворфов уничтожена!"
+remove-time: 30 # мигающий боссбар, длительность в сек
+
+# Команда спавна
+spawn-dwarfs: 
+  - "mm mobs spawn dwarf_2 10 world,%x%,%y%,%z%"
+  - "mm mobs spawn dwarf_1 10 world,%x%,%y%,%z%"
+
+# Region
+rgRadius: 250
+region:
+  allowFlags:
+    - "pvp"
+    - "potion-splash"
+    - "damage-animals"
+    - "mob-spawning"
+  denyFlags:
+    - "fire-spread"
+    - "fly"
+
+# RandomLoc
+xCords: 5000
+zCords: 5000
+worldName: "world"
+
+# Schematic
+schematicUp: 0 # Подьем схематики
+schematic: "plugins/TrDwarfMine/dwarf2.schem"
+
+# Время ивента (каждый час:минута)
+hour: 15
+minute: 30

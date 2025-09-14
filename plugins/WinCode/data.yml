@@ -1,0 +1,27 @@
+codes:
+  staso4ek:
+    usages: 1234567
+    cmds:
+    - cases give %name% riliks 1
+    - cases give %name% donate 2
+  fudzuna:
+    usages: 1234567
+    cmds:
+    - cases give %name% riliks 1
+    - cases give %name% donate 2
+  nicegg:
+    usages: 140
+    cmds:
+    - cases give %name% riliks 3
+    - cases give %name% donate 2
+    - cases give %name% money 2
+    - cases give %name% ditems 2
+    - p give %name% 300
+  infaprovaip:
+    usages: 144
+    cmds:
+    - cases give %name% riliks 3
+    - cases give %name% donate 2
+    - cases give %name% money 2
+    - cases give %name% ditems 2
+    - p give %name% 300

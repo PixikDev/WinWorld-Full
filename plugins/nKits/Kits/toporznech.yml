@@ -1,0 +1,75 @@
+Name: toporznech
+Cooldown: 0
+Permission: nKits.kits.toporznech
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"red","text":"Коса
+        Жнеца"}],"text":""}'
+      lore:
+      - '{"text":"§7Острота VI"}'
+      - '{"text":"§7Заговор огня II"}'
+      - '{"text":"§cПроклятье утраты"}'
+      - '{"text":"§4Легендарный предмет выкованный Богом Смерти"}'
+      custom-model-data: 100
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      - HIDE_POTION_EFFECTS
+      Unbreakable: true
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

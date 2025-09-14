@@ -1,0 +1,21 @@
+# Время каждого рестарта
+hour: 2
+minute: 30
+
+bossbar:
+  title: "&4&lВНИМАНИЕ! &fПерезагрузка сервера через &6&l%time%&f сек."
+  color: "RED"
+
+sound: "UI_BUTTON_CLICK"
+
+title:
+  title: "&4&lВНИМАНИЕ!"
+  subtitle: "&fПерезагрузка сервера через &6&l%time%&f сек."
+
+chat:
+  lastmessage: "&6&lWinWorld &8» &6Перезагрузка сервера..."
+  notify: "&6Авто Рестарт &8» &fПерезагрузка сервера через &6%time%&f сек."
+
+commands:
+  - "save-all"
+  - "restart"

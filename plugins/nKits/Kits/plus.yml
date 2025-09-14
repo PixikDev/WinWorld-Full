@@ -1,0 +1,99 @@
+Name: plus
+Cooldown: 864000
+Permission: greatkits.kits.plus
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: RED_SHULKER_BOX
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: RED_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/8WSy1KDQBBFm5cmqFFjnvonLrWycB331AQamGKYwaGxyr8XlRSWKzouWM/pO6dudwgQwuxJmbjYaZL08SqyKQQvhGUdAsCDA/5eGWopj76e5nsyFpOdjnOhqURN35wzAVcmsCilxtiKlB4rawhjkka74Kl3BX5LQfBsGk0dvelp/MnDJDoYU0D3q/NnYNUPZEYlqCNRVQqPuMvDPR7uD6tg3aeIt0ZEIk2lbovtWnD4LQQ8zzMefs7DJ6McwpQnGY4iecGTvGTfU4IV5VFNViZoO0+P73nF85yxy2z0waIopM5Ol7zmSd6MsvFbnuSch9/x8MWwCrZ9SoqCcrRRKpT617KWPNMVD1/z8M2wHpZ9isW6klb8uoUTOtjyLO8H4gCfXn3roKMHAAA=
+      blockMaterial: RED_SHULKER_BOX
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_CHEST
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

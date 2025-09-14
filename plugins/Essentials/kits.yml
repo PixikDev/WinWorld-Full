@@ -1,0 +1,90 @@
+kits:
+  vipe:
+    delay: 3000
+    items:
+    - ender_pearl 16
+    - netherite_sword 1 fire_aspect:2 sharpness:6 unbreaking:3 vanishing_curse:1
+    - crossbow 1 name:&6Арбалет_Домера mending:1 multishot:1 piercing:4 power:5 quick_charge:3
+      unbreaking:3 vanishing_curse:1
+    - golden_carrot 64
+    - golden_apple 64
+    - enchanted_golden_apple 10
+    - water_potion 7 name:&b&lЗелье_Викинга lore:&9Скорость_III_(1:00)|&9Сила_III_(1:00)|&9Огнестойкость_(7:30)|&cИссушение_(0:10)&c
+      vanishing_curse:1 itemflags:HIDE_POTION_EFFECTSsplash:false effect:increase_damage
+      power:2 duration:60 splash:false effect:speed power:2 duration:60 splash:false
+      effect:fire_resistance power:0 duration:450 splash:false effect:wither power:0
+      duration:10
+    - obsidian 64
+    - end_crystal 64
+    - long_slowness_tipped_arrow 64 lore:&cЗамедление_(0:30) itemflags:HIDE_POTION_EFFECTS
+    - totem_of_undying 1 name:&6&lТотем_драконида lore:&7Срабатывает,_когда|&7лежит_в_инвентаре
+      vanishing_curse:1
+    - totem_of_undying 1 name:&6&lТотем_драконида lore:&7Срабатывает,_когда|&7лежит_в_инвентаре
+      vanishing_curse:1
+    - experience_bottle 64
+    - experience_bottle 64
+    - experience_bottle 64
+    - experience_bottle 64
+    - ender_pearl 16
+    - chorus_fruit 64
+    - totem_of_undying 1 name:&6&lТотем_драконида lore:&7Срабатывает,_когда|&7лежит_в_инвентаре
+      vanishing_curse:1
+    - totem_of_undying 1 name:&6&lТотем_драконида lore:&7Срабатывает,_когда|&7лежит_в_инвентаре
+      vanishing_curse:1
+    - null 1 name:&c&lЗелье_Спонсора splash:true effect:speed power:1 duration:180
+      splash:true effect:increase_damage power:1 duration:180 splash:true effect:fire_resistance
+      power:0 duration:480
+    - null 1 name:&c&lЗелье_Спонсора splash:true effect:speed power:1 duration:180
+      splash:true effect:increase_damage power:1 duration:180 splash:true effect:fire_resistance
+      power:0 duration:480
+    - null 1 name:&c&lЗелье_Спонсора splash:true effect:speed power:1 duration:180
+      splash:true effect:increase_damage power:1 duration:180 splash:true effect:fire_resistance
+      power:0 duration:480
+    - null 1 name:&c&lЗелье_Спонсора splash:true effect:speed power:1 duration:180
+      splash:true effect:increase_damage power:1 duration:180 splash:true effect:fire_resistance
+      power:0 duration:480
+    - ender_pearl 16
+    - netherite_pickaxe 1 name:&6Кирка_Каменщика efficiency:10 unbreaking:3 vanishing_curse:1
+    - netherite_axe 1 efficiency:10 fire_aspect:2 mending:1 sharpness:5 unbreaking:3
+      vanishing_curse:1
+    - totem_of_undying 1 name:&6&lТотем_драконида lore:&7Срабатывает,_когда|&7лежит_в_инвентаре
+      vanishing_curse:1
+    - totem_of_undying 1 name:&6&lТотем_драконида lore:&7Срабатывает,_когда|&7лежит_в_инвентаре
+      vanishing_curse:1
+    - null 1 name:&c&lЗелье_Спонсора splash:true effect:speed power:1 duration:180
+      splash:true effect:increase_damage power:1 duration:180 splash:true effect:fire_resistance
+      power:0 duration:480
+    - null 1 name:&c&lЗелье_Спонсора splash:true effect:speed power:1 duration:180
+      splash:true effect:increase_damage power:1 duration:180 splash:true effect:fire_resistance
+      power:0 duration:480
+    - null 1 name:&c&lЗелье_Спонсора splash:true effect:speed power:1 duration:180
+      splash:true effect:increase_damage power:1 duration:180 splash:true effect:fire_resistance
+      power:0 duration:480
+    - null 1 name:&c&lЗелье_Спонсора splash:true effect:speed power:1 duration:180
+      splash:true effect:increase_damage power:1 duration:180 splash:true effect:fire_resistance
+      power:0 duration:480
+    - netherite_boots 1 depth_strider:3 feather_falling:4 mending:1 protection:4 unbreaking:3
+    - netherite_leggings 1 mending:1 protection:4 unbreaking:3
+    - netherite_chestplate 1 mending:1 protection:4 unbreaking:3
+    - netherite_helmet 1 aqua_affinity:3 mending:1 protection:4 respiration:3 unbreaking:3
+    - player_head 1 name:&f&lГолова_&6&lВиннера lore:&7Когда_во_второстепенной_руке:|&9+3_Урон|&9+10_Максимальное_здоровье|&9+20%_Скорости|&9+4_к_броне
+      vanishing_curse:1 itemflags:HIDE_ATTRIBUTES
+  pvp:
+    delay: 2
+    items:
+    - water_potion 1 name:&c&lЗелье_Бездны splash:false effect:increase_damage power:2
+      duration:45 splash:false effect:speed power:2 duration:45 splash:false effect:fire_resistance
+      power:2 duration:480 splash:false effect:poison power:0 duration:45
+    - netherite_sword 1 fire_aspect:2 looting:3 sharpness:5 unbreaking:3
+    - netherite_leggings 1 protection:4 unbreaking:3
+    - netherite_chestplate 1 protection:4 unbreaking:3
+    - netherite_helmet 1 aqua_affinity:1 protection:4 respiration:3 unbreaking:3
+    - netherite_boots 1 depth_strider:3 feather_falling:2 protection:4 unbreaking:3
+    - totem_of_undying 1
+    - totem_of_undying 1
+    - golden_apple 24
+    - golden_carrot 64
+    - enchanted_golden_apple 4
+    - water_potion 1 name:&c&lЗелье_Бездны splash:false effect:increase_damage power:2
+      duration:45 splash:false effect:speed power:2 duration:45 splash:false effect:fire_resistance
+      power:2 duration:480 splash:false effect:poison power:0 duration:45

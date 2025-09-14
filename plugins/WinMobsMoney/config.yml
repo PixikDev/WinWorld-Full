@@ -1,0 +1,203 @@
+# Права для плагина
+# wmm.boost - Разрешить игрокам получать деньги с мобов
+# wmm.boost. - Настройка бустеров для групп, после . указать группу из списка "boost"
+# Пример: wmm.boost.vip
+
+
+# Сообщение при убийстве моба
+message: '&6Охота &7» &fВы заработали &6&l%amount%'
+
+boost:
+  default: 1.0
+  magister: 1.5
+  imperator: 2.0
+  dragon: 3.0
+  bull: 3.0
+  tiger: 3.0
+  bunny: 3.0
+  rabbit: 3.0
+  dracula: 3.0
+  media: 3.0
+  mediaplus: 3.0
+  mediaadm: 3.0
+  hydra: 3.0
+  dhelper: 4.0
+  winner: 4.0
+  offhelper: 4.0
+  helper: 4.0
+  offsthelper: 4.0
+  sthelper: 4.0
+  offmlmoder: 4.0
+  mlmoder: 4.0
+  offmoder: 4.0
+  moder: 4.0
+  offmoderplus: 4.0
+  moderplus: 4.0
+  offstmoder: 4.0
+  stmoder: 4.0
+  offglmoder: 4.0
+  glmoder: 4.0
+  ghost: 5.0
+  aurora: 5.0
+  cobra: 5.0
+  sponsor: 6.0
+  sponsornemoder: 6.0
+  donadmin: 6.0
+  donadminnomoder: 6.0
+  mladmin: 6.0
+  mladminkp: 6.0
+  assistant: 6.0
+  offassistant: 6.0
+  curator: 6.0
+  developer: 6.0
+  coder: 6.0
+  admin: 6.0
+# Настройка имен для каждого моба для сообщений
+mobs-names:
+  creeper: крипера
+  skeleton: скелета
+  zombie: зомби
+  spider: паука
+  pig: свиньи
+  cow: коровы
+  elder_guardian: древнего стража
+  wither_skeleton: визер-скелета
+  stray: зимогора
+  husk: кадавра
+  zombie_villager: зомби-жителя
+  skeleton_horse: лошадь-скелета
+  zombie_horse: лошадь-зомби
+  armor_stand: стойка
+  donkey: осла
+  mule: мула
+  evoker: вызывателя
+  vex: досаждателя
+  vindicator: поборника
+  illusioner: иллюзонера
+  giant: гиганта
+  slime: слайма
+  ghast: гаста
+  zombified_piglin: Зомбифицироного пиглина
+  enderman: эндермена
+  cave_spider: пищерного паука
+  silverfish: чешуйницы
+  blaze: ифрита
+  magma_cube: магма-куба
+  ender_dragon: дракона
+  wither: визера
+  bat: летучей мыши
+  witch: ведьмы
+  endermite: эндермита
+  guardian: стража
+  shulker: шалкера
+  sheep: овцы
+  chicken: курицы
+  squid: спрута
+  wolf: волка
+  mushroom_cow: грибной коровы
+  snowman: снеговика
+  ocelot: оцелота
+  iron_golem: голема
+  horse: лошади
+  rabbit: кролика
+  polar_bear: полярного-медведя
+  llama: ламы
+  parrot: птицы
+  villager: жителя
+  turtle: черепахи
+  phantom: фантома
+  cod: трески
+  salmon: ласося
+  pufferfish: иглобрюха
+  tropical_fish: тропической-рыбы
+  drowned: утопленника
+  dolphin: дельфина
+  cat: кошки
+  panda: панды
+  pillager: разбойника
+  ravager: разорителя
+  trader_llama: ламы торговца
+  wandering_trader: сранствующего торговца
+  fox: лисы
+  bee: пчелы
+  hoglin: хоглина
+  piglin: пиглина
+  strider: лавомерки
+  zoglin: зоглина
+  piglin_brute: брутального пиглина
+  player: игрока
+
+# Настройка выдачи денег для каждого моба
+mobs:
+  creeper: 5
+  skeleton: 3
+  zombie: 2
+  spider: 3
+  pig: 2
+  cow: 3
+  elder_guardian: 4
+  wither_skeleton: 6
+  stray: 3
+  husk: 4
+  zombie_villager: 5
+  skeleton_horse: 6
+  zombie_horse: 4
+  armor_stand: 1
+  donkey: 3
+  mule: 4
+  evoker: 7
+  vex: 6
+  vindicator: 5
+  illusioner: 6
+  giant: 10
+  slime: 4
+  ghast: 10
+  zombified_piglin: 3
+  enderman: 6
+  cave_spider: 4
+  silverfish: 5
+  blaze: 8
+  magma_cube: 9
+  ender_dragon: 5000
+  wither: 11
+  bat: 1
+  witch: 4
+  endermite: 2
+  guardian: 5
+  shulker: 8
+  sheep: 3
+  chicken: 3
+  squid: 3
+  wolf: 5
+  mushroom_cow: 12
+  snowman: 2
+  ocelot: 15
+  iron_golem: 7
+  horse: 7
+  rabbit: 7
+  polar_bear: 9
+  llama: 6
+  parrot: 5
+  villager: 4
+  turtle: 7
+  phantom: 4
+  cod: 5
+  salmon: 3
+  pufferfish: 5
+  tropical_fish: 3
+  drowned: 2
+  dolphin: 10
+  cat: 3
+  panda: 13
+  pillager: 3
+  ravager: 2
+  trader_llama: 9
+  wandering_trader: 11
+  fox: 13
+  bee: 13
+  hoglin: 8
+  piglin: 5
+  strider: 7
+  zoglin: 4
+  piglin_brute: 9
+  player: 0

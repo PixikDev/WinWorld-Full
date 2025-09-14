@@ -1,0 +1,92 @@
+Name: sharfire
+Cooldown: 0
+Permission: nKits.kits.sharfire
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Шар
+        Огня"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        в руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Огнеупорность"}],"text":""}'
+      custom-model-data: 5003
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 3f61bd88-befc-4470-82a3-a1c5e0f73654
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: a9dbe633-d71b-4481-86f6-19c380c9aa5d
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: OFF_HAND
+          uuid: 2fbf5372-b6bf-474e-8788-617f441331f9
+          operation: 0
+      internal: H4sIAAAAAAAA/02PT06DQBxGfxptKnoMDwDWYrpoonEIHdKZsbQdCrsWpvJnBgkFdYjexiO49S7uewlZuntf3rd5BoABV8uilfKpftlnUhhg9FSJusnE4QKGjXhv2locDAA4GcI538pWwLfQnhltUjPZeDLW2O73amlKhvPqDpdc7x6xjVXvZw/2XE/+fcfNNhjLcOSlUblod4qb85Evxcy3YrV+DXNsEhS/hZ3MaB5aLOAFyXlGFE3JCt+wlWNFuV8w9KyJG6WRopIioqnLCxY4t73LmOtYBIUdReuOoETh0prsF9MpwCWc4qQPOfsYCP77cz/4uq4+G/t4BPgDZCO5egoBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

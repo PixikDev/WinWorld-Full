@@ -1,0 +1,194 @@
+menu_title: '§fꈁꀀꈂꌀꈂꀁ§0ꈃꄅ'
+open_command: shop
+register_command: true
+size: 54
+items:
+  'grief':
+    material: DIAMOND_SWORD
+    hide_attributes: true
+    model_data: 10100
+    slot: 12
+    display_name: '&6&lВсё для грифа'
+    lore:
+      - ''
+      - '&7Тут всё самое необходимое'
+      - '&7Для успешного грифа'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      - '[openguimenu] shop_grief'
+  'balls':
+    material: ENDER_EYE
+    model_data: 10104
+    slot: 13
+    display_name: '&6&lШары'
+    lore:
+      - ''
+      - '&7Хочешь быть сильнее в ПВП?'
+      - '&7Эффекты данных шаров'
+      - '&7тебе несомненно помогут'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      - '[openguimenu] shop_balls'
+  'spawners':
+    material: EGG
+    model_data: 10103
+    slot: 14
+    display_name: '&6&lСпавнеры'
+    lore:
+      - ''
+      - '&7Нужна фармилка с мобов?'
+      - '&7Спавнеры продаются'
+      - '&7здесь'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      - '[openguimenu] shop_spawners'
+  'pve':
+    material: WHEAT
+    model_data: 10101
+    slot: 20
+    display_name: '&6&lВсё для PVE'
+    lore:
+      - ''
+      - '&7Печки, зельеварки и шары'
+      - '&7Которые помогут вам с'
+      - '&7Развитием на сервере'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      - '[openguimenu] shop_furnace'
+  'weapon':
+    material: PAPER
+    model_data: 10102
+    slot: 21
+    display_name: '&6&lОружие и инструменты'
+    lore:
+      - ''
+      - '&7Здесь вы можете купить'
+      - '&7Уникальное оружие и инструменты'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      - '[openguimenu] shop_weapon'
+  'trident':
+    material: TRIDENT
+    model_data: 10108
+    hide_attributes: true
+    slot: 22
+    display_name: '&6&lТрезубцы'
+    lore:
+      - ''
+      - '&7Хочешь купить себе трезубец?'
+      - '&7Тут ты сможешь его себе купить'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      - '[openguimenu] shop_trident'
+  'mage':
+    material: BOOK
+    model_data: 10108
+    slot: 23
+    display_name: '&6&lТёмный маг'
+    lore:
+      - ''
+      - '&7Хочешь улучшить предмет на особое зачарование?'
+      - '&7Тут ты сможешь его себе купить'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      - '[openguimenu] shop_mage'
+  'aura':
+    material: CLAY_BALL
+    model_data: 10109
+    slot: 24
+    display_name: '&6&lАуры'
+    lore:
+      - ''
+      - '&7Хочешь купить себе ауры?'
+      - '&7Тут ты сможешь их себе купить'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      - '[openguimenu] shop_aura'
+  'ender':
+    material: END_PORTAL_FRAME
+    model_data: 10111
+    slot: 30
+    display_name: '&6&lПрокачка Эндерчеста'
+    lore:
+      - ''
+      - '&7Не хватает слотов в эндерчесте?'
+      - '&7Здесь можно прокачать кол-во'
+      - '&7строк в сундуке'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      #- '[player] nenderchest buy'
+      - '[message] &6Эндерчест &7» &cВременно недоступно!'
+      - '[message] &6Эндерчест &7» &cПриносим извинения за неудобства'
+  'potions':
+    material: GLASS_BOTTLE
+    hide_enchantments: true
+    enchantments:
+      - SILK_TOUCH;1
+    model_data: 10110
+    slot: 31
+    display_name: '&6&lДонат зелья'
+    lore:
+      - ''
+      - '&7Хочешь получить преимущество'
+      - '&7в PvP и PvE?'
+      - '&7Тут ты можешь купить самые полезные'
+      - '&7зелья и стрелы'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      - '[openguimenu] shop_potions'
+  'boosters':
+    material: GOLDEN_AXE
+    hide_attributes: true
+    model_data: 10106
+    slot: 32
+    display_name: '&6&lБустеры Работ'
+    lore:
+      - ''
+      - '&7Мало платят на работе?'
+      - '&7Данные бустеры умножат'
+      - '&7твою зарплату вдвое'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      - '[openguimenu] shop_boosters'
+  'kits':
+    material: SHULKER_SHELL
+    model_data: 10105
+    slot: 40
+    display_name: '&6&lКиты'
+    lore:
+      - ''
+      - '&7Здесь можно приобрести'
+      - '&7любой кит с сервера'
+      - ''
+      - '&eНажми, чтобы открыть'
+    click_commands:
+      - '[openguimenu] shop_kitsbuy'
+  'информация':
+    material: CLOCK
+    model_data: 10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+      - ''
+      - ' &fВаш баланс: &6%playerpoints_points_formatted% &fꐃ'
+      - ''
+      - '&7Пополнить баланс можно'
+      - '&7на сайте: &6winworld.pw'
+  'назад':
+    material: ARROW
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    click_commands:
+      - '[openguimenu] menu'

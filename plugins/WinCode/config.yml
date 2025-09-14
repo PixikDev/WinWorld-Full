@@ -1,0 +1,23 @@
+prefix: "&6Коды&7 » "
+messages:
+  success: "&aУспешное использование кода!"
+  limit: "&cЛимит использований исчерпан"
+  not-found: "&cКод не найден!"
+  empty: "&cВведите код! &f/code код"
+  incorrect-usage: "&cНеверное использование команды! /code [код]"
+  reload-cfg: "&aУспешная перезагрузка конфига"
+  reload-data: "&aУспешная перезагрузка базы данных"
+  reload-no-args: "&cИспользование команды /codereload <config>|<data>"
+  reload-no-perm: "&cУ вас нет прав!"
+
+use:
+  title: "&6WinWorld"
+  subtitle: "&aКод успешно активирован!"
+  sound: "ENTITY_PLAYER_LEVELUP"
+
+# Database
+host: 46.174.52.192
+port: 3306
+database: s3_codes1234
+username: u3_HqfsHcZPff
+password: lxO4tgxScCZz!AK8L^R^y7@w

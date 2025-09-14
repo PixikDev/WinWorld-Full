@@ -1,0 +1,34 @@
+name: "&c&lТАЙНЫЙ ТОРГОВЕЦ"
+spawn-range: 5000
+spawn-delay: 7200
+live-time: 1800
+min-players: 1
+menu-size: 54
+menu-name: "&fꈁꀀꈂꌅꈂꀁ&0ꈃꄠ"
+world: "world"
+maloigrokov-message: "&c&lТАЙНЫЙ ТОРГОВЕЦ &8» &fТорговец не пришёл, потому что на сервере &6{currentOnline} &fонлайна, для спавна нужно &6{needOnline} &fонлайна"
+spawn-message: "&c&lТАЙНЫЙ ТОРГОВЕЦ &8» &fПоявился тайный торговец: &6{x} {y} {z}"
+despawn-message: "&c&lТАЙНЫЙ ТОРГОВЕЦ &8» &fТорговец ушел с координат"
+limitMessage: "&6Продавец &7» &cДостигнут лимит покупки предметов"
+notEnoughMoney: "&6Продавец &7» &cНедостаточно средств"
+buyMessage: "&6Продавец &7» &aВы успешно купили предмет"
+skinName: "Notch"
+skinUrl: "https://i.ibb.co/0R5f6W67/98f026b371eeef62.png"
+decoration:
+  slots: {}
+  item: "ORANGE_STAINED_GLASS_PANE"
+
+back:
+  name: "&6Предыдущая страница"
+  lore:
+    - "&7Нажмите, чтобы перейти на"
+    - "&6предыдущую &7страницу"
+  slot: 45
+  modelData: 10002
+next:
+  name: "&6Следующая страница"
+  lore:
+    - "&7Нажмите, чтобы перейти на"
+    - "&6следующую &7страницу"
+  slot: 53
+  modelData: 10003

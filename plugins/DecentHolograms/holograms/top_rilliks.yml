@@ -1,0 +1,42 @@
+location: world_spawn:17.420:63.646:-9.992
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fТоп рилликов на сервере %winutils_grief%'
+    height: 0.5
+  - content: '&c#1 &f%ajlb_lb_playerpoints_points_1_alltime_name%  #FF7200%ajlb_lb_playerpoints_points_1_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: '&c#2 &f%ajlb_lb_playerpoints_points_2_alltime_name%  #FF7200%ajlb_lb_playerpoints_points_2_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: '&c#3 &f%ajlb_lb_playerpoints_points_3_alltime_name%  #FF7200%ajlb_lb_playerpoints_points_3_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: '&c#4 &f%ajlb_lb_playerpoints_points_4_alltime_name%  #FF7200%ajlb_lb_playerpoints_points_4_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: '&c#5 &f%ajlb_lb_playerpoints_points_5_alltime_name%  #FF7200%ajlb_lb_playerpoints_points_5_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: '&c#6 &f%ajlb_lb_playerpoints_points_6_alltime_name%  #FF7200%ajlb_lb_playerpoints_points_6_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: '&c#7 &f%ajlb_lb_playerpoints_points_7_alltime_name%  #FF7200%ajlb_lb_playerpoints_points_7_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: '&c#8 &f%ajlb_lb_playerpoints_points_8_alltime_name%  #FF7200%ajlb_lb_playerpoints_points_8_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: '&c#9 &f%ajlb_lb_playerpoints_points_9_alltime_name%  #FF7200%ajlb_lb_playerpoints_points_9_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: '&c#10 &f%ajlb_lb_playerpoints_points_10_alltime_name%  #FF7200%ajlb_lb_playerpoints_points_10_alltime_value%
+      &rꐃ'
+    height: 0.3
+  actions: {}

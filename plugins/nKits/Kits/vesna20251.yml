@@ -1,0 +1,93 @@
+Name: vesna20251
+Cooldown: 0
+Permission: nKits.kits.vesna20251
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Голова
+        Семи-Тарли"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 68c6b541-9f60-461b-ba5f-776a89669835
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 7a8ca008-aea7-4d06-b2d7-10525aff8bf4
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: c77fc290-6af1-485c-a4b8-da7d650c008f
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 02cd3701-97d6-44dd-81c6-5079d657e211
+          operation: 1
+      internal: H4sIAAAAAAAA/02PQU6DQBiFf402FT2GB5iGDKYLE5vSWCYdRuhAYXZtmYaBoRIKDRC9jUdw613c9xKydPdevvctngFgwMM6b7R+q94PSksDjCGVsqqVPN3BuJZt3VTyZADA1Rhuw61uJHzLjiARpSiJiN53jjV0vkaaOVn55BzDbjd3LKcY+HJmrbrpvy2utxusY5Ok4ug1uyJEK9PXculP9kVwZnaS036G3SJoGc/bmPtKZLqgNlGUUyx4olyb9i6PJ4KHSrwucNx7Ju3jdnBMtgkQzXQmMg+7fNExm6RsTqaHCD0D3MO1kwxHbj5GMvz9eRl9PZaftXW5APwBW9UOSQoBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

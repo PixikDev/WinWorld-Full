@@ -1,0 +1,106 @@
+Name: sharchaos
+Cooldown: 0
+Permission: nKits.kits.sharchaos
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Шар
+        Хаоса"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"В
+        радиусе 8 блоков"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Слабость
+        II (00:10)"}],"text":""}'
+      custom-model-data: 5007
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 11da1478-3d18-42df-9848-dbc35cac238d
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -10.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: ee8585ed-15d3-4d24-87ba-d015712d1ac4
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: OFF_HAND
+          uuid: 2d9faeab-e3f8-4f3d-b47b-bf6514314969
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 8fde4247-084c-4d80-88d1-f6436d719f3c
+          operation: 0
+      internal: H4sIAAAAAAAA/02PQU6DQBhGf40mlbp17xHAWkwXXRiH0CEdxlI6FHYtTIVhhjYtVIdDeAmvoHfwDMYbeAJ3snT3vrxv8wwAAy7nZSPl4367KSQ3wOhox/d1wQ8X0Kv5S93s+cEAgJMenLOVbDi8c+2ZyTI3s6UnU43tbodzU1Isdne4Ynr9gG2sOj+5t6d69O87rFfRUMYDL0+qWbNWzJwOAskngZWqxTEW2CQofY5bWfgitmjESiJYQZSfkxDf0NCxEhGUFD1p4iZ5onzpI6J9l5U0cm47V1DXsQiKWx8tWoIyhStrtJmNxwB9OMVZF3L29ds4/Tfy8/H6/SmurrcAf7C+l54KAQAA
+      PublicBukkitValues:
+        minecraft:chaos: CHAOS
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

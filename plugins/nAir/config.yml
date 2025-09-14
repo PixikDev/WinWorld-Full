@@ -1,0 +1,108 @@
+#                                                            #
+#                                                            #
+#                     Coded by n1zamu!                       #
+#                                                            #
+#                                                            #
+##############################################################
+
+spawnCooldown: 3600 # Задержка для спавна аирдропа!
+openCooldown: 300 # Задержка для открытия и выпадения ресурсов!
+deleteCooldown: 120 # Задержка для удаления аирдропа!
+waitingKill: 900 # Через сколько активируется аирдроп если не убит босс!
+
+#%xCord% - плэйсхолдер с X координатой аирдропа
+#%zCord% - плэйсхолдер с Z координатой аирдропа
+#%airType% - плэйсхолдер с редкостью аирдропа
+#%time% - плэйсхолдер со временем открытия
+
+dropItems: 20 # Количество ресурсов рандомно выбранных из всего лута
+xCords: 2000 # Радиус генерации аирдропа по Х
+zCords: 2000 # Радиус генерации аирдропа по Z
+
+schematicPath: "plugins/Schematics/schematic.schem" # Путь до файла схематики
+
+activateMaterial: "RESPAWN_ANCHOR" # На какой блок кликнуть для активации
+worldName: "world" #Мир спавна аирдропа
+
+glowItems: true # Подсветка айтемов
+
+# Харкатеристики боссов
+catBossName: "&6&lАдский тигр"
+zombieBossName: "&6&lКороль Зомби"
+spiderBossName: "&6&lПаукан"
+
+catBossHP: 666
+zombieBossHP: 666
+spiderBossHP: 666
+
+# Настройки голограм
+hologram:
+  airdropClosed: "%airType%&7 &cзакрыт" # Аирдроп неактивирован
+  killBoss: "&7Для открытия победите босса!" # Босс заспавнен
+  killedBoss: "&7Открытие через &e%time% &7сек" # Босс убит
+  openedAir: "&aАирДроп &7доступен" # Аирдроп открыт
+
+# Цвета и стили боссбаров
+tickingBarColor: YELLOW
+tickingBarStyle: SOLID
+
+spawnBarColor: RED
+spawnBarStyle: SOLID
+
+openBarColor: GREEN
+openBarStyle: SOLID
+
+bossBarColor: RED
+bossBarStyle: SOLID
+
+removeBoss: false
+activateAir: "&6АирДроп &7» &fИгрок &6%player% &fактивировал АирДроп!"
+spawnName: "%airType% §8| &cНе активирован §8| §bx: §7%xCord% §bz: &7%zCord%" # Сообщение при спавне аирдропа
+bossDontKilled: "%airType% §8| §cБосс не убит §8| §bx: §7%xCord% §bz: &7%zCord%" # Сообщение при спавне босса
+tickingName: "%airType% §8| §eОткрытие через §7%time% §eсек §8| §bx: §7%xCord% §bz: &7%zCord%" # Сообщение при времени до открытия
+openedName: "%airType% §8| §aОткрыт §8| §bx: §7%xCord% §bz: &7%zCord%" # Сообщение при открытом аирдропе
+airDrops:
+  legendaryName: "§6§lЛегендарный Аирдроп"
+  mythicName: "§c§lМифический Аирдроп"
+  epicName: "§d§lЭпический Аирдроп"
+  rareName: "§9§lРедкий Аирдроп"
+  commonName: "§a§lОбычный Аирдроп"
+
+  legendaryChance: 5
+  mythicChance: 10
+  epicChance: 15
+  rareChance: 30
+  commonChance: 40
+
+notification: # Оповещение игрока о спавне аирдропа
+
+  sound: true # Звук при оповещении игрока
+  soundType: "ENTITY_EXPERIENCE_ORB_PICKUP" # Тип звука при оповещении
+
+  message: true # В виде сообщения в чат
+  messageText:
+    - "&6АирДроп &7» &fПоявился %airType%"
+    - "&6АирДроп &7» &fНаграда за открытие:"
+    - "&6АирДроп &7» &cСкрыто..."
+    - "&6АирДроп &7» &cСкрыто..." 
+    - "&6АирДроп &7» &cСкрыто..."
+    - "&6АирДроп &7» &fИ ещё &616 &fнаград"  
+    - "&6АирДроп &7» &fКоординаты: &8[&6%xCord%, %zCord%&8]"   
+    - "&6АирДроп &7» &cЗа убийство босса ваш клан"
+    - "&6АирДроп &7» &cполучит клановые &bКоины &cи &bОпыт"
+
+  title: false # В виде сообщения на весь экран
+  titleName: "АирДроп блаблабла"
+  titleText: "Аирдроп: Координаты x: %xCord% z: %zCord%"
+
+region: # Включенные в регионе флаги
+  flags:
+    - 'pvp'
+    - 'damage-animals'
+    
+exp-at-BossKill: 50 # Опыт клану за убийство босса
+points-at-BossKill: 50 # Поинты клану за убийство босса
+
+need-bc: false # Надо ли отправлять broadcast о том, что клан убил босса
+broadcast-on-kill: "&6Кланы &7» &fКлан &6%clan_name% &fубил босса на аирдропе и получил награду!\n&6Кланы &7» &fКлан получил: &630 опыта &fи &630 коинов&f." # broadcast, работает если выше поставлено true    
+boss-kill-message: "&6АирДроп &7» &fИгрок &6%player%&f убил босса!"

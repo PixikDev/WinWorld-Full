@@ -1,0 +1,86 @@
+Name: golovajek
+Cooldown: 0
+Permission: nKits.kits.golovajek
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§5Голова джека"}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: HEAD
+          uuid: d925b6ed-cc34-4173-b27e-cd4c939f4539
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+          slot: HEAD
+          uuid: 7cc00647-6374-409e-aad3-ae9c039906d7
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: HEAD
+          uuid: bea5d201-6076-458d-b321-ae74e60b36e5
+          operation: 0
+      internal: H4sIAAAAAAAA/02PvVKDQBhFPzPJTEQfZiWCk8KCESHLZBcNBFi6JGyGn92YIZAAr2Hle/gYFlpbW9g7Yyul3T1zTnMVAAUuvaIW4qF82maCK6D0a8/LKuOHcxhXvKnqkh8UADgbwyhYiZrDK28dFEcpSiJHbFqs9+x7SLg439/gXdCu77COZe9nhj5vp/9arVqFmmATJ413j/VaBmg+WQg+W1xt5PLIcqMjPkGxn2bENBrXvm+oyVomlyo1yYl1jiR+khGVCtIFknZxSlR8im1LsjBOqW0Vbkiu3ZAh6hcayQvEPGe6jdAtwAUMcNIfGf5+DtLRl+U9f7wMv3/e3wD+AOBIHSQKAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

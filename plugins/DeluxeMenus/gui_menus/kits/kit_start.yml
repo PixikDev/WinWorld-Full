@@ -1,0 +1,129 @@
+menu_title: '&fꈁꀀꈂꍀꈂꀁ&0ꈃꄑ'
+open_command:
+- kit_start
+size: 54
+items: 
+  'arrow':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    left_click_commands:
+    - '[close]' 
+    - '[player] kits'
+    right_click_commands:
+    - '[close]' 
+    - '[player] kits'
+  'receive':
+    material: slime_block
+    slot: 53
+    display_name: '&a&lПолучить набор'
+    lore:
+    - '&f'
+    - '&fНажмите, чтобы &6получить'
+    - '&fданный набор'
+    - '&f'
+    - '&fЗадержка: &61 час'
+    - '&fДоступен: &6всем'
+    left_click_commands:
+    - '[close]' 
+    - '[player] kit start'
+    right_click_commands:
+    - '[close]' 
+    - '[player] kit start'
+  item-1:
+    amount: 1
+    material: 'leather_helmet'
+    rgb: '255,136,0'
+    slot: 2
+  item-2:
+    amount: 1
+    material: 'leather_chestplate'
+    rgb: '255,123,0'
+    enchantments:
+    - 'DURABILITY;1'
+    slot: 3
+  item-3:
+    amount: 1
+    material: 'leather_leggings'
+    rgb: '255,149,0'
+    slot: 4
+  item-4:
+    amount: 1
+    material: 'leather_boots'
+    rgb: '255,136,0'
+    enchantments:
+    - 'DURABILITY;1'
+    slot: 5
+  item-5:
+    amount: 1
+    material: 'shield'
+    slot: 6
+  item-6:
+    amount: 1
+    material: 'iron_sword'
+    slot: 9
+  item-7:
+    amount: 1
+    material: 'bow'
+    slot: 10
+  item-8:
+    amount: 1
+    material: 'stone_pickaxe'
+    slot: 11
+  item-9:
+    amount: 1
+    material: 'golden_axe'
+    slot: 12
+  item-10:
+    amount: 1
+    material: 'stone_shovel'
+    slot: 13
+  item-11:
+    amount: 1
+    material: 'golden_hoe'
+    slot: 14
+  item-12:
+    amount: 16
+    material: 'cooked_mutton'
+    slot: 15
+  item-13:
+    amount: 1
+    material: 'flint_and_steel'
+    slot: 16
+  item-14:
+    amount: 1
+    material: 'coal'
+    slot: 17
+  item-15:
+    amount: 32
+    material: 'oak_log'
+    slot: 18
+  item-16:
+    amount: 21
+    material: 'glass'
+    slot: 19
+  item-17:
+    amount: 20
+    material: 'wheat_seeds'
+    slot: 20
+  item-18:
+    amount: 1
+    material: 'fletching_table'
+    slot: 21
+  item-19:
+    amount: 2
+    material: 'furnace'
+    slot: 22
+  item-20:
+    amount: 1
+    material: 'cartography_table'
+    slot: 23
+  item-21:
+    amount: 3
+    material: 'gold_ingot'
+    slot: 24
+  item-22:
+    amount: 8
+    material: 'iron_ingot'
+    slot: 25

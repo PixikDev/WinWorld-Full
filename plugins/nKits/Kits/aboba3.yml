@@ -1,0 +1,61 @@
+Name: aboba3
+Cooldown: 0
+Permission: nKits.kits.aboba3
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: MAGENTA_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: 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
+      blockMaterial: MAGENTA_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,61 @@
+Name: djamshut34
+Cooldown: 0
+Permission: nKits.kits.djamshut34
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: YELLOW_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: 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
+      blockMaterial: YELLOW_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

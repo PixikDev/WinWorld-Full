@@ -1,0 +1,76 @@
+Name: newshar10
+Cooldown: 0
+Permission: nKits.kits.newshar10
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Шар
+        Шипов 2"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье 
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+        Шипы V"}],"text":""}'
+      enchants:
+        THORNS: 5
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/02PTU6DQBiGP402LXoMD8CPYLpoonFsO6QzCC1QZtfSqfzMIKFQIam38QhuvYv7XkKW7p4nz7t5FQAFbpd5I8Rr9b5PBVdA6ankVZ3ywwiGNW/rpuIHBQAuhnAdbETD4Zt3tsrWibpb2yLusNX7aqkKB2flAy6CbvuMLSz7Pn+yFt3439asN6EpIsNOWOE2WxmoC8MTfO5psfSPNPRVB0UtDT1JJTbYzJNEn+YU5RpBbuugWGcob2kmUjYjpoNoQnSW9J4QOc2i1csH1f17lmGNhJFBszcDF9p4704mADdwiXf9kavTgAe/P4+Dr7vys7bOZ4A/8r9cvQoBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

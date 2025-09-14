@@ -1,0 +1,14 @@
+#========================#
+#	 Command Aliases     #
+#========================#
+
+# Example Aliases:
+ext: eext
+buyer: nseller:buyer
+seller: nseller:buyer
+prefix: trtituls:prefix
+heal: essentials:heal
+god: essentials:god
+cc: clan chat
+bet: casino bet
+lobby: hub

@@ -1,0 +1,20 @@
+location: world_spawn:-20.300:67.000:0.493
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&lВнимание!'
+    height: 0.6
+  - content: '&aЧтобы посмотреть актуальные соц. сети '
+    height: 0.3
+  - content: '&aнашего сервера, напишите команду: &b/links'
+    height: 0.3
+  actions:
+    LEFT:
+    - COMMAND:/links
+    RIGHT:
+    - COMMAND:/links

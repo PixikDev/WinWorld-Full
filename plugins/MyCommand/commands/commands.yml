@@ -1,0 +1,386 @@
+# Вывод сообщения с ссылками на SimpleVoiceChat
+voice:
+  command: /voice
+  type: RUN_CONSOLE
+  runcmd:
+  - /tellraw $player ["",{"text":"WinWorld","color":"gold"},{"text":" »","color":"gray"},{"text":" \u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u043e\u0439 \u0447\u0430\u0442 \u043c\u043e\u0436\u043d\u043e \u0442\u0443\u0442:","color":"white"}]
+  - /tellraw $player ["",{"text":"WinWorld","color":"gold"},{"text":" »","color":"gray"},{"text":" "},{"text":"forge 1.16.5","underlined":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://modrinth.com/plugin/simple-voice-chat/versions?l=forge&g=1.16.5"},"hoverEvent":{"action":"show_text","contents":"&6\u041a\u043b\u0438\u043a\u043d\u0438"}},{"text":" | ","color":"white"},{"text":"fabric 1.16.5","underlined":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://modrinth.com/plugin/simple-voice-chat/versions?l=fabric&g=1.16.5"},"hoverEvent":{"action":"show_text","contents":"&6\u041a\u043b\u0438\u043a\u043d\u0438"}}]
+  - /tellraw $player ["",{"text":"WinWorld","color":"gold"},{"text":" » ","color":"gray"},{"text":"\u0414\u0440\u0443\u0433\u0438\u0435 \u0432\u0435\u0440\u0441\u0438\u0438 \u043c\u043e\u0436\u043d\u043e \u043d\u0430\u0439\u0442\u0438","color":"white"},{"text":" ","color":"gray"},{"text":"\u0442\u0443\u0442","underlined":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://modrinth.com/plugin/simple-voice-chat/versions"},"hoverEvent":{"action":"show_text","contents":"&6\u041a\u043b\u0438\u043a\u043d\u0438"}}]
+  register: true
+  permission-required: false
+bungeecord_example:
+  command: /hub
+  register: true
+  aliases:
+  - /lobby
+  - /lobi
+  - /loby
+  - /дщиин
+  - /рги
+  - /хаб
+  type: BUNGEE_TP
+  server_name: lobby
+  permission-required: false
+bet:
+  command: /bet
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - /casino bet       
+quest1:
+  command: /quest1
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - /quest open 1
+quest2:
+  command: /quest2
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - /quest open 2
+quest3:
+  command: /quest3
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - /quest open 3
+jumpboost:
+  command: /jumpboost
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - /effect give @p minecraft:jump_boost 1 3
+set0:
+  command: /set0
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - //set 0
+  - //replace gold_block air
+  - //set 0
+  - //replace gold_block air
+skipquest:
+  command: /skipquest
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - /quest skip
+grant:
+  command: /gr
+  type: RUN_CONSOLE
+  runcmd:
+  - '$Script$%if%%luckperms_has_permission_grant.give%==yes'
+  - '$text$ &c✕ Вы уже использовали эту возможность!'
+  - '$Script$%elseif%$arg1==$player'
+  - '$text$ &c✕ Нельзя выдать донат самому себе'
+  # remove_here
+  - '$Script$%elseif%$arg2==remove_here'
+  - 'lp user $arg1 parent remove here'
+  - '$text$ &c✔ &fВы успешно сняли &x&0&0&5&1&F&F&lH&x&0&0&5&7&F&F&lE&x&0&0&5&E&F&F&lR&x&0&0&6&4&F&F&lO &fигроку &e$arg1'
+  # remove_titan
+  - '$Script$%elseif%$arg2==remove_titan'
+  - 'lp user $arg1 parent remove titan'
+  - '$text$ &c✔ &fВы успешно сняли &x&F&F&E&2&0&0&lT&x&F&F&E&8&0&0&lI&x&F&F&E&D&0&0&lT&x&F&F&F&3&0&0&lA&x&F&F&F&8&0&0&lN &fигроку &e$arg1'
+  # remove_avenger
+  - '$Script$%elseif%$arg2==remove_avenger'
+  - 'lp user $arg1 parent remove avenger'
+  - '$text$ &c✔ &fВы успешно сняли &x&0&0&F&F&3&9&lA&x&0&0&F&F&4&7&lV&x&0&0&F&F&5&5&lE&x&0&0&F&F&6&3&lN&x&0&0&F&F&7&1&lG&x&0&0&F&F&7&F&lE&x&0&0&F&F&8&D&lR &fигроку &e$arg1'
+  # remove_overlord
+  - '$Script$%elseif%$arg2==remove_overlord'
+  - 'lp user $arg1 parent remove overlord'
+  - '$text$ &c✔ &fВы успешно сняли &x&0&0&A&E&F&F&lO&x&0&0&B&7&F&F&lV&x&0&0&B&F&F&F&lE&x&0&0&C&8&F&F&lR&x&0&0&D&0&F&F&lL&x&0&0&D&9&F&F&lO&x&0&0&E&1&F&F&lR&x&0&0&E&A&F&F&lD &fигроку &e$arg1'
+  # remove_magister
+  - '$Script$%elseif%$arg2==remove_magister'
+  - 'lp user $arg1 parent remove magister'
+  - '$text$ &c✔ &fВы успешно сняли &x&F&F&8&F&0&0&lM&x&F&F&9&7&0&0&lA&x&F&F&9&E&0&0&lG&x&F&F&A&6&0&0&lI&x&F&F&A&D&0&0&lS&x&F&F&B&5&0&0&lT&x&F&F&B&C&0&0&lE&x&F&F&C&4&0&0&lR &fигроку &e$arg1'
+  # remove_imperator
+  - '$Script$%elseif%$arg2==remove_imperator'
+  - 'lp user $arg1 parent remove imperator'
+  - '$text$ &c✔ &fВы успешно сняли &x&F&F&0&0&0&0&lI&x&F&F&0&8&0&0&lM&x&F&F&1&0&0&0&lP&x&F&F&1&7&0&0&lE&x&F&F&1&F&0&0&lR&x&F&F&2&7&0&0&lA&x&F&F&2&F&0&0&lT&x&F&F&3&6&0&0&lO&x&F&F&3&E&0&0&lR &fигроку &e$arg1'
+  # remove_dragon
+  - '$Script$%elseif%$arg2==remove_dragon'
+  - 'lp user $arg1 parent remove dragon'
+  - '$text$ &c✔ &fВы успешно сняли &x&D&B&0&0&F&F&lD&x&D&3&0&0&F&F&lR&x&C&B&0&0&F&F&lA&x&C&3&0&0&F&F&lG&x&B&B&0&0&F&F&lO&x&B&3&0&0&F&F&lN &fигроку &e$arg1'
+  # remove_bull
+  - '$Script$%elseif%$arg2==remove_bull'
+  - 'lp user $arg1 parent remove bull'
+  - '$text$ &c✔ &fВы успешно сняли &x&9&2&0&0&F&F&lB&x&9&A&0&0&F&F&lU&x&A&1&0&0&F&F&lL&x&A&9&0&0&F&F&lL &fигроку &e$arg1'
+  # remove_tiger
+  - '$Script$%elseif%$arg2==remove_tiger'
+  - 'lp user $arg1 parent remove tiger'
+  - '$text$ &c✔ &fВы успешно сняли &x&F&F&5&B&0&0&lT&x&F&F&6&6&0&0&lI&x&F&F&7&1&0&0&lG&x&F&F&7&B&0&0&lE&x&F&F&8&6&0&0&lR &fигроку &e$arg1'
+  # remove_bunny
+  - '$Script$%elseif%$arg2==remove_bunny'
+  - 'lp user $arg1 parent remove bunny'
+  - '$text$ &c✔ &fВы успешно сняли &x&1&6&1&6&1&6&lB&x&2&5&2&5&2&5&lU&x&3&5&3&5&3&5&lN&x&4&4&4&4&4&4&lN&x&5&3&5&3&5&3&lY &fигроку &e$arg1'
+  # remove_dracula
+  - '$Script$%elseif%$arg2==remove_dracula'
+  - 'lp user $arg1 parent remove dracula'
+  - '$text$ &c✔ &fВы успешно сняли &x&B&3&0&0&0&0&lD&x&A&8&0&0&0&0&lR&x&9&C&0&0&0&0&lA&x&9&1&0&0&0&0&lC&x&8&5&0&0&0&0&lU&x&7&A&0&0&0&0&lL&x&6&E&0&0&0&0&lA &fигроку &e$arg1'
+  # remove_rabbit
+  - '$Script$%elseif%$arg2==remove_rabbit'
+  - 'lp user $arg1 parent remove rabbit'
+  - '$text$ &c✔ &fВы успешно сняли &x&C&B&C&B&C&B&lR&x&D&5&D&5&D&5&lA&x&E&0&E&0&E&0&lB&x&E&A&E&A&E&A&lB&x&F&5&F&5&F&5&lI&x&F&F&F&F&F&F&lT &fигроку &e$arg1'
+  # remove_hydra
+  - '$Script$%elseif%$arg2==remove_hydra'
+  - 'lp user $arg1 parent remove hydra'
+  - '$text$ &c✔ &fВы успешно сняли &x&1&4&6&C&0&0&lH&x&0&F&7&7&0&4&lY&x&0&A&8&2&0&8&lD&x&0&5&8&D&0&C&lR&x&0&0&9&8&1&0&lA &fигроку &e$arg1'
+  # remove_cobra
+  - '$Script$%elseif%$arg2==remove_cobra'
+  - 'lp user $arg1 parent remove cobra'
+  - '$text$ &c✔ &fВы успешно сняли &x&1&D&F&F&1&D&lC&x&1&D&F&F&1&D&lO&x&3&9&F&F&3&9&lB&x&5&6&F&F&5&6&lR&x&7&2&F&F&7&2&lA &fигроку &e$arg1'
+  # remove_dhelper
+  - '$Script$%elseif%$arg2==remove_dhelper'
+  - 'lp user $arg1 parent remove dhelper'
+  - '$text$ &c✔ &fВы успешно сняли &e&lD.HELPER &fигроку &e$arg1'
+  # here
+  - '$Script$%elseif%$arg2==here'
+  - 'lp user $arg1 parent add here'
+  - '$text$ &c✔ &fВы успешно выдали &x&0&0&5&1&F&F&lH&x&0&0&5&7&F&F&lE&x&0&0&5&E&F&F&lR&x&0&0&6&4&F&F&lO &fигроку &e$arg1'
+  # titan
+  - '$Script$%elseif%$arg2==titan'
+  - 'lp user $arg1 parent add titan'
+  - '$text$ &c✔ &fВы успешно выдали &x&F&F&E&2&0&0&lT&x&F&F&E&8&0&0&lI&x&F&F&E&D&0&0&lT&x&F&F&F&3&0&0&lA&x&F&F&F&8&0&0&lN &fигроку &e$arg1'
+  # avenger
+  - '$Script$%elseif%$arg2==avenger'
+  - 'lp user $arg1 parent add avenger'
+  - '$text$ &c✔ &fВы успешно выдали &x&0&0&F&F&3&9&lA&x&0&0&F&F&4&7&lV&x&0&0&F&F&5&5&lE&x&0&0&F&F&6&3&lN&x&0&0&F&F&7&1&lG&x&0&0&F&F&7&F&lE&x&0&0&F&F&8&D&lR &fигроку &e$arg1'
+  # overlord
+  - '$Script$%elseif%$arg2==overlord'
+  - 'lp user $arg1 parent add overlord'
+  - '$text$ &c✔ &fВы успешно выдали &x&0&0&A&E&F&F&lO&x&0&0&B&7&F&F&lV&x&0&0&B&F&F&F&lE&x&0&0&C&8&F&F&lR&x&0&0&D&0&F&F&lL&x&0&0&D&9&F&F&lO&x&0&0&E&1&F&F&lR&x&0&0&E&A&F&F&lD &fигроку &e$arg1'
+  # magister
+  - '$Script$%elseif%$arg2==magister'
+  - 'lp user $arg1 parent add magister'
+  - '$text$ &c✔ &fВы успешно выдали &x&F&F&8&F&0&0&lM&x&F&F&9&7&0&0&lA&x&F&F&9&E&0&0&lG&x&F&F&A&6&0&0&lI&x&F&F&A&D&0&0&lS&x&F&F&B&5&0&0&lT&x&F&F&B&C&0&0&lE&x&F&F&C&4&0&0&lR &fигроку &e$arg1'
+  # imperator
+  - '$Script$%elseif%$arg2==imperator'
+  - 'lp user $arg1 parent add imperator'
+  - '$text$ &c✔ &fВы успешно выдали &x&F&F&0&0&0&0&lI&x&F&F&0&8&0&0&lM&x&F&F&1&0&0&0&lP&x&F&F&1&7&0&0&lE&x&F&F&1&F&0&0&lR&x&F&F&2&7&0&0&lA&x&F&F&2&F&0&0&lT&x&F&F&3&6&0&0&lO&x&F&F&3&E&0&0&lR &fигроку &e$arg1'
+  # dragon
+  - '$Script$%elseif%$arg2==dragon'
+  - 'lp user $arg1 parent add dragon'
+  - '$text$ &c✔ &fВы успешно выдали &x&D&B&0&0&F&F&lD&x&D&3&0&0&F&F&lR&x&C&B&0&0&F&F&lA&x&C&3&0&0&F&F&lG&x&B&B&0&0&F&F&lO&x&B&3&0&0&F&F&lN &fигроку &e$arg1'
+  # bull
+  - '$Script$%elseif%$arg2==bull'
+  - 'lp user $arg1 parent add bull'
+  - '$text$ &c✔ &fВы успешно выдали &x&9&2&0&0&F&F&lB&x&9&A&0&0&F&F&lU&x&A&1&0&0&F&F&lL&x&A&9&0&0&F&F&lL &fигроку &e$arg1'
+  # tiger
+  - '$Script$%elseif%$arg2==tiger'
+  - 'lp user $arg1 parent add tiger'
+  - '$text$ &c✔ &fВы успешно выдали &x&F&F&5&B&0&0&lT&x&F&F&6&6&0&0&lI&x&F&F&7&1&0&0&lG&x&F&F&7&B&0&0&lE&x&F&F&8&6&0&0&lR &fигроку &e$arg1'
+  # bunny
+  - '$Script$%elseif%$arg2==bunny'
+  - 'lp user $arg1 parent add bunny'
+  - '$text$ &c✔ &fВы успешно выдали &x&1&6&1&6&1&6&lB&x&2&5&2&5&2&5&lU&x&3&5&3&5&3&5&lN&x&4&4&4&4&4&4&lN&x&5&3&5&3&5&3&lY &fигроку &e$arg1'
+  # dracula
+  - '$Script$%elseif%$arg2==dracula'
+  - 'lp user $arg1 parent add dracula'
+  - '$text$ &c✔ &fВы успешно выдали &x&B&3&0&0&0&0&lD&x&A&8&0&0&0&0&lR&x&9&C&0&0&0&0&lA&x&9&1&0&0&0&0&lC&x&8&5&0&0&0&0&lU&x&7&A&0&0&0&0&lL&x&6&E&0&0&0&0&lA &fигроку &e$arg1'
+  # rabbit
+  - '$Script$%elseif%$arg2==rabbit'
+  - 'lp user $arg1 parent add rabbit'
+  - '$text$ &c✔ &fВы успешно выдали &x&C&B&C&B&C&B&lR&x&D&5&D&5&D&5&lA&x&E&0&E&0&E&0&lB&x&E&A&E&A&E&A&lB&x&F&5&F&5&F&5&lI&x&F&F&F&F&F&F&lT &fигроку &e$arg1'
+  # hydra
+  - '$Script$%elseif%$arg2==hydra'
+  - 'lp user $arg1 parent add hydra'
+  - '$text$ &c✔ &fВы успешно выдали &x&1&4&6&C&0&0&lH&x&0&F&7&7&0&4&lY&x&0&A&8&2&0&8&lD&x&0&5&8&D&0&C&lR&x&0&0&9&8&1&0&lA &fигроку &e$arg1'
+  # cobra
+  - '$Script$%elseif%$arg2==cobra'
+  - 'lp user $arg1 parent add cobra'
+  - '$text$ &c✔ &fВы успешно выдали &x&1&D&F&F&1&D&lC&x&1&D&F&F&1&D&lO&x&3&9&F&F&3&9&lB&x&5&6&F&F&5&6&lR&x&7&2&F&F&7&2&lA &fигроку &e$arg1'
+  # dhelper
+  - '$Script$%elseif%$arg2==dhelper'
+  - 'lp user $arg1 parent add dhelper'
+  - '$text$ &c✔ &fВы успешно выдали &e&lD.HELPER &fигроку &e$arg1'
+  # clear
+  - '$Script$%elseif%$arg2==clear'
+  - 'lp user $arg1 parent remove hero'
+  - 'lp user $arg1 parent remove titan'
+  - 'lp user $arg1 parent remove avenger'
+  - 'lp user $arg1 parent remove overlord'
+  - 'lp user $arg1 parent remove magister'
+  - 'lp user $arg1 parent remove imperator'
+  - 'lp user $arg1 parent remove dragon'
+  - 'lp user $arg1 parent remove bull'
+  - 'lp user $arg1 parent remove tiger'
+  - 'lp user $arg1 parent remove bunny'
+  - 'lp user $arg1 parent remove dracula'
+  - 'lp user $arg1 parent remove rabbit'
+  - 'lp user $arg1 parent remove hydra'
+  - 'lp user $arg1 parent remove cobra'
+  - 'lp user $arg1 parent remove dhelper'
+  - '$text$ &c✔ &fВы успешно сняли все донаты &fигроку &e$arg1'
+  permission-required: true
+  permission-node: stas.sosalsss
+  required_args: 2
+  register: true
+  error-message: '&7[&6&lWinWorld&7] &fИспользование: &7/gr <ник> <донат>'
+  tab_completer:
+    1:
+    - $player_list
+    2:
+    - clear
+    - remove_here
+    - remove_titan
+    - remove_avenger
+    - remove_overlord
+    - remove_magister
+    - remove_imperator
+    - remove_dragon
+    - remove_bull
+    - remove_tiger
+    - remove_bunny
+    - remove_dracula
+    - remove_rabbit
+    - remove_hydra
+    - remove_cobra
+    - remove_dhelper
+    - here
+    - titan
+    - avenger
+    - overlord
+    - magister
+    - imperator
+    - dragon
+    - bull
+    - tiger
+    - bunny
+    - dracula
+    - rabbit
+    - hydra
+    - cobra
+    - dhelper
+grantpiar:
+  command: /gryt
+  type: RUN_CONSOLE
+  runcmd:
+  - '$Script$%if%%luckperms_has_permission_grant.give%==yes'
+  - '$text$'
+  - '$text$ &c✕ Вы уже использовали эту возможность!'
+  - '$text$'
+  - '$Script$%elseif%$arg1==$player'
+  - '$text$'
+  - '$text$ &c✕ Нельзя выдать донат самому себе'
+  - '$text$'
+  # СНЯТИЕ
+  - '$Script$%elseif%$arg2==default'
+  - 'lp user $arg1 parent remove yt'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$text$'
+  - '$text$ &6✔ &fВы успешно выдали §7&lDEFAULT &fигроку &e$arg1'
+  - '$text$'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  # ВЫДАЧА1
+  - '$Script$%elseif%$arg2==yt'
+  - 'lp user $arg1 parent add yt'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  - '$text$'
+  - '$text$ &6✔ &fВы успешно выдали §e&l§c§lʏᴏᴜ§f§lᴛᴜʙᴇ &fигроку &e$arg1'
+  - '$text$'
+  - '$text$ &r                &6&m&l       &8&l&m[&6&l GR &8| &c&lSYSTEM &8&l&m]&6&m&l       &r&r'
+  permission-required: true
+  permission-node: gr.yt
+  required_args: 2
+  register: true
+  error-message: '&7[&6&lWinWorld&7] &fИспользование: &7/gryt <ник> <донат>'
+  tab_completer:
+    1:
+    - $player_list
+    2:
+    - default
+    - yt
+kp:
+  command: /kp
+  type: RUN_CONSOLE
+  runcmd:
+  - '$Script$%if%%luckperms_has_permission_kp.give%==yes'
+  - '$text$ &c✕ Вы уже использовали эту возможность!'
+  - '$Script$%elseif%$arg1==$player'
+  - '$text$ &c✕ Нельзя выдать донат самому себе'
+  # offhelper
+  - '$Script$%elseif%$arg2==offhelper'
+  - 'lp user $arg1 parent add offhelper'
+  - '$text$ &c✔ &fВы успешно выдали ꔉ &fигроку &e$arg1'
+  # offsthelper
+  - '$Script$%elseif%$arg2==offsthelper'
+  - 'lp user $arg1 parent add offsthelper'
+  - '$text$ &c✔ &fВы успешно выдали ꕡ &fигроку &e$arg1'
+  # offmlmoder
+  - '$Script$%elseif%$arg2==offmlmoder'
+  - 'lp user $arg1 parent add offmlmoder'
+  - '$text$ &c✔ &fВы успешно выдали ꔓ &fигроку &e$arg1'
+  # offmoder
+  - '$Script$%elseif%$arg2==offmoder'
+  - 'lp user $arg1 parent add offmoder'
+  - '$text$ &c✔ &fВы успешно выдали ꔗ &fигроку &e$arg1'
+  # offmoderplus
+  - '$Script$%elseif%$arg2==offmoderplus'
+  - 'lp user $arg1 parent add offmoderplus'
+  - '$text$ &c✔ &fВы успешно выдали ꔡ &fигроку &e$arg1'
+  # offstmoder
+  - '$Script$%elseif%$arg2==offstmoder'
+  - 'lp user $arg1 parent add offstmoder'
+  - '$text$ &c✔ &fВы успешно выдали ꔥ &fигроку &e$arg1'
+  # remove_offhelper
+  - '$Script$%elseif%$arg2==remove_offhelper'
+  - 'lp user $arg1 parent remove offhelper'
+  - '$text$ &c✔ &fВы успешно сняли ꔉ &fигроку &e$arg1'
+  # remove_offsthelper
+  - '$Script$%elseif%$arg2==remove_offsthelper'
+  - 'lp user $arg1 parent remove offsthelper'
+  - '$text$ &c✔ &fВы успешно сняли ꕡ &fигроку &e$arg1'
+  # remove_offmlmoder
+  - '$Script$%elseif%$arg2==remove_offmlmoder'
+  - 'lp user $arg1 parent remove offmlmoder'
+  - '$text$ &c✔ &fВы успешно сняли ꔓ &fигроку &e$arg1'
+  # remove_offmoder
+  - '$Script$%elseif%$arg2==remove_offmoder'
+  - 'lp user $arg1 parent remove offmoder'
+  - '$text$ &c✔ &fВы успешно сняли ꔗ &fигроку &e$arg1'
+  # remove_offmoderplus
+  - '$Script$%elseif%$arg2==remove_offmoderplus'
+  - 'lp user $arg1 parent remove offmoderplus'
+  - '$text$ &c✔ &fВы успешно сняли ꔡ &fигроку &e$arg1'
+  # remove_offstmoder
+  - '$Script$%elseif%$arg2==remove_offstmoder'
+  - 'lp user $arg1 parent remove offstmoder'
+  - '$text$ &c✔ &fВы успешно сняли ꔥ &fигроку &e$arg1'
+  # clear
+  - '$Script$%elseif%$arg2==clear'
+  - 'lp user $arg1 parent remove offhelper'
+  - 'lp user $arg1 parent remove offsthelper'
+  - 'lp user $arg1 parent remove offmlmoder'
+  - 'lp user $arg1 parent remove offmoder'
+  - 'lp user $arg1 parent remove offmoderplus'
+  - 'lp user $arg1 parent remove offstmoder'
+  - 'lp user $arg1 parent remove helper'
+  - 'lp user $arg1 parent remove sthelper'
+  - 'lp user $arg1 parent remove mlmoder'
+  - 'lp user $arg1 parent remove moder'
+  - 'lp user $arg1 parent remove moderplus'
+  - 'lp user $arg1 parent remove stmoder'
+  - '$text$ &c✔ &fВы успешно сняли &fигрока &e$arg1'
+  permission-required: true
+  permission-node: kp.give
+  required_args: 2
+  register: true
+  error-message: '&7[&6&lWinWorld&7] &fИспользование: &7/kp (Ник) (Должность)'
+  tab_completer:
+    1:
+    - $player_list
+    2:
+    - clear
+    - offhelper
+    - remove_offhelper
+    - offsthelper
+    - remove_offsthelper
+    - offmlmoder
+    - remove_offmlmoder
+    - offmoder
+    - remove_offmoder
+    - offmoderplus
+    - remove_offmoderplus
+    - offstmoder
+    - remove_offstmoder    

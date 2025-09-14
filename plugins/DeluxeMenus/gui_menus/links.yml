@@ -1,0 +1,136 @@
+menu_title: '           &8×  &dСОЦ.СЕТИ  &8×'
+open_command: 
+- links
+- social
+size: 53
+items:
+  'vk':
+    material: NAUTILUS_SHELL
+    slot: 29
+    display_name: '    &f&l〻 &6&l&nВконтакте &f&l〻'
+    lore:
+      - ''
+      - '     &6✎ Нажмите, &fчтобы'
+      - '&f  получить ссылку на вк'
+      - ''
+    left_click_commands:
+    - '[message] '
+    - '[message] &f⚔ &6&l&nВконтакте &f&l〻  &fvk.com/winworldvk'
+    - '[message] '
+    - '[sound] BLOCK_NOTE_BLOCK_BANJO'
+    - '[close] '
+    right_click_commands:
+    - '[message] '
+    - '[message] &f⚔ &6&l&nВконтакте &f&l〻  &fvk.com/winworldvk'
+    - '[message] '
+    - '[sound] BLOCK_NOTE_BLOCK_BANJO'
+    - '[close] '
+  'discord':
+    material: CAKE
+    slot: 22
+    display_name: '         &f&l〻 &6&lДискорд &f&l〻'
+    lore:
+      - ''
+      - '        &6✎ Нажмите, &fчтобы'
+      - '&f  получить ссылку на дискорд'
+      - ''
+    left_click_commands:
+    - '[message] '
+    - '[message] &f⚔ &6&l&nДискорд&f&l 〻  &fdiscord.gg/winworld'
+    - '[message] '
+    - '[sound] BLOCK_NOTE_BLOCK_BANJO'
+    - '[close] '
+    right_click_commands:
+    - '[message] '
+    - '[message] &f⚔ &6&l&nДискорд&f&l 〻  &fdiscord.gg/winworld'
+    - '[message] '
+    - '[sound] BLOCK_NOTE_BLOCK_BANJO'
+    - '[close] '
+  'telegram':
+    material: NAUTILUS_SHELL
+    slot: 33
+    display_name: '         &f&l〻 &6&l&nТелеграм &f&l〻'
+    lore:
+      - ''
+      - '        &6✎ Нажмите, &fчтобы'
+      - '&f  получить ссылку на телеграм'
+      - ''
+    left_click_commands:
+    - '[message] '
+    - '[message] &f⚔ &6&l&nТелеграм &f&l〻  &ft.me/WinWorldTG'
+    - '[message] '
+    - '[sound] BLOCK_NOTE_BLOCK_BANJO'
+    - '[close] '
+    right_click_commands:
+    - '[message] '
+    - '[message] &f⚔ &6&l&nТелеграм &f&l〻  &ft.me/WinWorldTG'
+    - '[message] '
+    - '[sound] BLOCK_NOTE_BLOCK_BANJO'
+    - '[close] '
+  'orange':
+    material: PURPLE_STAINED_GLASS_PANE
+    data: 15
+    display_name: '&6&l<3'
+    hide_enchantments: true
+    slots:
+    - 0
+    - 9
+    - 46
+    - 7
+    - 53
+    - 44
+  'WHITE':
+    material: WHITE_STAINED_GLASS_PANE
+    data: 15
+    display_name: '&6&l<3'
+    hide_enchantments: true
+    slots:
+    - 1
+    - 8
+    - 17
+    - 36
+    - 45
+    - 52
+  'TIKVA':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhjNmI0ZmFhMzU0MTYyZjMzNDc2ZTZkMzQ1NDk2ZGFhM2ZmYzc2MDFiZGU3MjRmY2Q0OTcwODA3YjFmNzk1YyJ9fX0=
+    data: 15
+    display_name: '&6&l<3'
+    hide_enchantments: true
+    slots:
+    - 10
+    - 37
+  'TIKVA1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhjNmI0ZmFhMzU0MTYyZjMzNDc2ZTZkMzQ1NDk2ZGFhM2ZmYzc2MDFiZGU3MjRmY2Q0OTcwODA3YjFmNzk1YyJ9fX0=
+    data: 15
+    display_name: '&6&l<3'
+    hide_enchantments: true
+    slots:
+    - 43
+    - 16
+  'CHAIN':
+    material: CHAIN
+    data: 15
+    display_name: '&6&l<3'
+    hide_enchantments: true
+    slots:
+    - 4
+    - 13
+  'BOOK':
+    material: WRITABLE_BOOK
+    data: 15
+    display_name: '&f'
+    lore:
+      - '                &6Не пропустите вайп, &fкоды и конкурсы !'
+      - '&f         Хотите быть в курсе всех новостей и событий?'
+      - '&fТогда подписывайтесь на наши страницы в социальных сетях!'
+      - ''
+    left_click_commands:
+    - '[message] '
+    right_click_commands:
+    - '[message] '
+    hide_enchantments: true
+    slots:
+    - 40
+
+
+

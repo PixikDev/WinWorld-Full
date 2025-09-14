@@ -1,0 +1,85 @@
+Name: new1
+Cooldown: 0
+Permission: nKits.kits.new1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§5§lГолова Джотаро"}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 20.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: HAND
+          uuid: 5af0ac7f-f5ce-4180-b57d-a4ed2d4225ad
+          operation: 0
+        GENERIC_ATTACK_KNOCKBACK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 20.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_knockback]
+          slot: HAND
+          uuid: 7cfcd63e-4243-4566-8488-830f7afe45df
+          operation: 0
+        GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 10.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.luck]
+          slot: HAND
+          uuid: 1ea21912-7d46-4086-8b77-d6fe61663209
+          operation: 0
+      internal: H4sIAAAAAAAA/02PTU7CQBiGP40SrB7DAww21LAw0Tgi09CvCENpZwftkP7MYFNa4jR6G4/g1ruw5xJ26e5587ybxwKw4GZRNErNqvdtpqQFVkelrOpM7q+gX8uPuqnk3gKAsz5cBmvVSPiRxiUiTEkSuio2zOk2XxDls7y8Z7vAbJ6Zw3TnJ0/O1Iz+fYf1ejVUke2mYvfWbHRApvZcycl8EOvlweeJxtexErRoBXU1rkSBlBmPvwywjYmXR3bnDFLP9mmQIh8rj0c20ugOOWtFjpnQWPg8IkiFQr00mLmjbUgeAK7hnCVdyMVnTwbH38fe9235VTunE8Aft3W7/goBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,28 @@
+CancelEventSkill:
+    Skills:
+      - CancelEvent
+
+dwarf_1_attack:
+  Cooldown: 2
+  Conditions:
+    - incombat true
+    - offgcd
+  TargetConditions:
+    - distance{d=0to3} true
+  Skills:
+    - setspeed{s=0;type=WALKING} @self
+    - delay 5
+    - state{s=attack} @self
+    - delay 10
+    - damage{a=32} @target
+    - delay 15
+    - setspeed{s=1;type=WALKING} @self
+    - delay 15
+
+dwarf_1_death:
+  Skills:
+    - setai{ai=false} @self
+    - state{s=death} @self
+    - setspeed{s=0;type=WALKING} @self
+
+

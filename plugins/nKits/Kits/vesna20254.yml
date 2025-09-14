@@ -1,0 +1,86 @@
+Name: vesna20254
+Cooldown: 0
+Permission: nKits.kits.vesna20254
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Голова
+        Гарри-Поттера"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 3e028aec-0197-41f2-b007-0f78dccde3e6
+          operation: 0
+        GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.luck]
+          slot: OFF_HAND
+          uuid: a479ee79-acc5-4843-995d-8beadfce1a22
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: e371960a-2928-4726-949c-e838836434b7
+          operation: 1
+      internal: H4sIAAAAAAAA/02PT06DQBxGfxptKnoMDwBUMF2YWIXSIR2wZUqZ2fXPNFOYqYSCQqO36RHc9i7uewlZuntf3rd5GoAGd1FWSflWvG+2kmugtZTzotzy/Q10S16XVcH3GgBcdOE6XsiKww9vfJ0lQl8nvlw1yG43iXQZojR/RLu4Wb4iG6nWjwb2uOn/+1rlYm5J2vMF202qpYr1cW8q+WhqrNTsI5gzETr0gA+DOiATK3SGaaDchnlMYMdPGXlJAyIyamITe/SBkswKnGHGFP7EjlCU0Bp7bk1N12DpzGrZYJHf3yT6E8AtXKJ1G3L11eHx7+m5c7zPv0v7fAb4Ax+26TcKAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

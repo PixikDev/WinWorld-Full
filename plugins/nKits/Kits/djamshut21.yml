@@ -1,0 +1,61 @@
+Name: djamshut21
+Cooldown: 0
+Permission: nKits.kits.djamshut21
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LIME_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+1Xy27TQBSdvNrElNL3C4SC1/2C7OhjUQlaVCo2CFkTe+KMMp4xM+NCVFVC2fIVIBaIVSgNqoD2GyZ/xORhO0qiqjWgSqhZxaNz55575t7jsQGAAaY3CLNr21RiWT+AbgHkdiTyhAEAuJ8C2eeESZACuU0WUJnKgzR2wCMPU2RzWJElgj1kCQn1gmO5BAph+ZAi0I9MDUUW40hE7SqkshPGiIOoBX2fRIHpxCkzBshI6GaAsY98iPkmE1LXkiqAqe1eSg9R2a0v29t7Od4bvg6gBSsVTLUaaZAhh0Tv24MtxDCfM4lsiRntY7J9zGKM4Uj4mMMBUGZ0o4CWOYI1TN0IkwETW9CDLgKd35AMa3EoRbKKOJbIqiLiIRnWn02sXC5UboDAGNXSV5fj8kqHi3s4rji7ioT0CZQRzYnEBU4m7cZ84pSFnqYGmHSw0GXU8yC7Cz0EPh2Z6K3k0Cy9PDLLOqdZkjxA6yaWkGDbLFUgEfoxoA7ipLN7tCQkxzUtEGeBW41WWbkSCFvrFANtRhg3S2anJHPdlDqhflIf1UW7oVrqV1Gdtt+ppvqhLtS5OlOnqmkev4qA5nEBZJ8wjvKdUwdfRhn38/wLyhzWByh/6PL8qprtRvu9OtH/W+3GerHL/Nsob/D5Brn+1NJ+V2ftRlGdFLWq55pvS51ryZu6itYQUwPMPQvKmtJGUKth+QKSAIk8WIk7zOHQZhQ7ltRT5oHprf3Hm3u7O1vWwd7B9tNxE9rv0tV4j0NIsajq4bPsgAsUOdsl/tLNZrGKpSWq68iwo43Es3AnjCz2IpfiyHFDN5U40d1rvwIGfLuCObKg8LWh9WVK991sdoAAY3LQynqA+RggqpD7FAnRh+T+3PtXx9mjeMO4E9Y9nVixe9c7mpnEiWZv/fDWD/8rP5wLQ3KXjKnGs+iGNp94ehbCyJkR20Kdg7N8BDkJ0Ys3fJ97ME4JglxXB4mQ5FJiMZbHu3zmShd9B/myanVaW8s2ZOMDJ1hBsEPc0h1O4lLT1/gi+NuGX9Zvnki8lWv1w2piqdeu3uMA/AYf8eI4Vg4AAA==
+      blockMaterial: LIME_SHULKER_BOX
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,91 @@
+Name: ball_bunny
+Cooldown: 0
+Permission: nKits.kits.ball_bunny
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Шар
+        BUNNY"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Огнестойкость"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+        +3.9 к броне"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+        +21% к скорости"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.9
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 9302046b-6691-459d-b758-4bec94d77181
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.21
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 0a06b6ec-b860-4016-8fa1-283ebaf5c8c1
+          operation: 1
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PP1LCQBxGf4rMYLT0GBbhT+IwjoUSBzZDNgILycbCCWFxEzaBIRvHTWFj44Gw9BjeAisvYOjs3jfvNZ8GoMH5ZFUI8bBdL2PBNNAq2rCtjFl+Cg3JXmWxZbkGAEcNqM9CUTDYMWXrgc/1hW+LSCGz2mSiCxclmyuUzdS8h0yUVn5waw5V919ryNAzBG3bPMhGxTyd6cP2WLDBuBml0xe3j7lj4RS3pi2nfG46xE5wecexNU6whQyXjFRAog4tnRYleEU9agRW5YmjXMK56007OKGKlnaME6dq75U7sbtLX78BOINjtKiOnPx8Xn79vvX9j+/e437/voMaXITsiWURDzOZskxeb+J8FR5O16Cei7XMDwx/2HqBAzEBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

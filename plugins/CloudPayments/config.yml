@@ -1,0 +1,16 @@
+##################################################################
+#                         CloudPayments                          #
+##################################################################
+#
+# Commands:
+#   /cloudpayments - админ-команды (/cpayments /cpay /clouddonate /cdonate)
+# Permissions:
+#   cloudpayments.command.cloudpayments - доступ к /cloudpayments
+#
+debug: false # Отображение операций в консоли
+
+shopId: '55' # Идентификатор магазина из панели CloudDonate
+shopKey: 'b40c62d64f037d6ae321b429' # Уникальный ключ магазина из панели CloudDonate
+serverId: '22' # Идентификатор сервер из панели CloudDonate
+
+requestDelay: 5 # Период обновления данных (Лучше не трогайте)
